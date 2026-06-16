@@ -1,16 +1,44 @@
-# React + Vite
+# Medjet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal spiritual companion app for Android. Built with React, Vite, and Capacitor.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Home** — At-a-glance dashboard showing the current moon phase and illumination, moon sign, sun sign, planetary day, and a countdown to the next lunar event. Also surfaces recent activity across all sections.
 
-## React Compiler
+**Journal** — Three tabbed sections:
+- *Journal* — freeform entries
+- *Deities* — deity profiles and notes
+- *Spells* — spell and ritual records
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Tarot** — Draw and log tarot readings with multiple spread options. Each reading is saved with the cards drawn and any notes.
 
-## Expanding the ESLint configuration
+**Guide** — Reference material covering astrology, alchemy, crystals, herbs, mushrooms, and recipes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+All data is stored locally on-device via `localStorage`.
+
+## Stack
+
+- React 19 + React Router 7
+- Vite 8
+- Capacitor 8 (Android)
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+To build and sync to Android:
+
+```bash
+npm run build
+npx cap sync android
+```
+
+Then open `android/` in Android Studio to run on a device or emulator.
+
+## CI
+
+Pushes to `master` that touch app source files automatically build a debug APK via GitHub Actions and attach it to a versioned GitHub Release.
