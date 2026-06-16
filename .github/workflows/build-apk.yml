@@ -25,13 +25,22 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Bump version tag
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
         id: tag_version
         uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           default_bump: patch
           fetch_all_tags: true
+
+      - name: Resolve version
+        id: version
+        run: |
+          if [ "${{ github.ref_type }}" = "tag" ]; then
+            echo "tag=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+          else
+            echo "tag=${{ steps.tag_version.outputs.new_tag }}" >> $GITHUB_OUTPUT
+          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -74,19 +83,19 @@ jobs:
         run: ./gradlew assembleDebug --no-daemon
 
       - name: Rename debug APK
-        if: steps.tag_version.outputs.new_tag != ''
-        run: mv android/app/build/outputs/apk/debug/app-debug.apk android/app/build/outputs/apk/debug/medjet-${{ steps.tag_version.outputs.new_tag }}.apk
+        if: steps.version.outputs.tag != ''
+        run: mv android/app/build/outputs/apk/debug/app-debug.apk android/app/build/outputs/apk/debug/medjet-${{ steps.version.outputs.tag }}.apk
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: medjet-${{ github.run_number }}
-          path: android/app/build/outputs/apk/debug/${{ steps.tag_version.outputs.new_tag != '' && format('medjet-{0}.apk', steps.tag_version.outputs.new_tag) || 'app-debug.apk' }}
+          path: android/app/build/outputs/apk/debug/${{ steps.version.outputs.tag != '' && format('medjet-{0}.apk', steps.version.outputs.tag) || 'app-debug.apk' }}
           retention-days: 30
 
       - name: Package with Release
-        if: steps.tag_version.outputs.new_tag != ''
+        if: steps.version.outputs.tag != ''
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.tag_version.outputs.new_tag }}
-          files: android/app/build/outputs/apk/debug/medjet-${{ steps.tag_version.outputs.new_tag }}.apk
+          tag_name: ${{ steps.version.outputs.tag }}
+          files: android/app/build/outputs/apk/debug/medjet-${{ steps.version.outputs.tag }}.apk
