@@ -1,0 +1,194 @@
+{
+  "signs": [
+    {
+      "name": "Aries",
+      "symbol": "♈",
+      "element": "Fire",
+      "modality": "Cardinal",
+      "ruler": "Mars",
+      "dates": "Mar 21 – Apr 19",
+      "keywords": ["courage", "initiative", "passion", "independence", "action"]
+    },
+    {
+      "name": "Taurus",
+      "symbol": "♉",
+      "element": "Earth",
+      "modality": "Fixed",
+      "ruler": "Venus",
+      "dates": "Apr 20 – May 20",
+      "keywords": ["stability", "sensuality", "patience", "abundance", "persistence"]
+    },
+    {
+      "name": "Gemini",
+      "symbol": "♊",
+      "element": "Air",
+      "modality": "Mutable",
+      "ruler": "Mercury",
+      "dates": "May 21 – Jun 20",
+      "keywords": ["curiosity", "communication", "duality", "adaptability", "wit"]
+    },
+    {
+      "name": "Cancer",
+      "symbol": "♋",
+      "element": "Water",
+      "modality": "Cardinal",
+      "ruler": "Moon",
+      "dates": "Jun 21 – Jul 22",
+      "keywords": ["intuition", "nurturing", "emotion", "memory", "home"]
+    },
+    {
+      "name": "Leo",
+      "symbol": "♌",
+      "element": "Fire",
+      "modality": "Fixed",
+      "ruler": "Sun",
+      "dates": "Jul 23 – Aug 22",
+      "keywords": ["creativity", "confidence", "generosity", "leadership", "warmth"]
+    },
+    {
+      "name": "Virgo",
+      "symbol": "♍",
+      "element": "Earth",
+      "modality": "Mutable",
+      "ruler": "Mercury",
+      "dates": "Aug 23 – Sep 22",
+      "keywords": ["analysis", "service", "healing", "precision", "discernment"]
+    },
+    {
+      "name": "Libra",
+      "symbol": "♎",
+      "element": "Air",
+      "modality": "Cardinal",
+      "ruler": "Venus",
+      "dates": "Sep 23 – Oct 22",
+      "keywords": ["balance", "harmony", "justice", "beauty", "diplomacy"]
+    },
+    {
+      "name": "Scorpio",
+      "symbol": "♏",
+      "element": "Water",
+      "modality": "Fixed",
+      "ruler": "Mars / Pluto",
+      "dates": "Oct 23 – Nov 21",
+      "keywords": ["transformation", "depth", "power", "secrets", "rebirth"]
+    },
+    {
+      "name": "Sagittarius",
+      "symbol": "♐",
+      "element": "Fire",
+      "modality": "Mutable",
+      "ruler": "Jupiter",
+      "dates": "Nov 22 – Dec 21",
+      "keywords": ["freedom", "wisdom", "adventure", "truth", "philosophy"]
+    },
+    {
+      "name": "Capricorn",
+      "symbol": "♑",
+      "element": "Earth",
+      "modality": "Cardinal",
+      "ruler": "Saturn",
+      "dates": "Dec 22 – Jan 19",
+      "keywords": ["ambition", "discipline", "structure", "mastery", "responsibility"]
+    },
+    {
+      "name": "Aquarius",
+      "symbol": "♒",
+      "element": "Air",
+      "modality": "Fixed",
+      "ruler": "Saturn / Uranus",
+      "dates": "Jan 20 – Feb 18",
+      "keywords": ["innovation", "community", "rebellion", "vision", "humanity"]
+    },
+    {
+      "name": "Pisces",
+      "symbol": "♓",
+      "element": "Water",
+      "modality": "Mutable",
+      "ruler": "Jupiter / Neptune",
+      "dates": "Feb 19 – Mar 20",
+      "keywords": ["intuition", "compassion", "dreams", "transcendence", "empathy"]
+    }
+  ],
+  "planets": [
+    {
+      "name": "Sun",
+      "symbol": "☉",
+      "day": "Sunday",
+      "rules": "Leo",
+      "metal": "Gold",
+      "keywords": ["identity", "vitality", "purpose", "ego", "consciousness", "willpower"]
+    },
+    {
+      "name": "Moon",
+      "symbol": "☽",
+      "day": "Monday",
+      "rules": "Cancer",
+      "metal": "Silver",
+      "keywords": ["intuition", "emotion", "cycles", "memory", "the subconscious", "instinct"]
+    },
+    {
+      "name": "Mercury",
+      "symbol": "☿",
+      "day": "Wednesday",
+      "rules": "Gemini / Virgo",
+      "metal": "Mercury",
+      "keywords": ["communication", "intellect", "travel", "trade", "trickery", "language"]
+    },
+    {
+      "name": "Venus",
+      "symbol": "♀",
+      "day": "Friday",
+      "rules": "Taurus / Libra",
+      "metal": "Copper",
+      "keywords": ["love", "beauty", "desire", "art", "abundance", "pleasure", "harmony"]
+    },
+    {
+      "name": "Mars",
+      "symbol": "♂",
+      "day": "Tuesday",
+      "rules": "Aries / Scorpio",
+      "metal": "Iron",
+      "keywords": ["will", "courage", "conflict", "passion", "drive", "action", "war"]
+    },
+    {
+      "name": "Jupiter",
+      "symbol": "♃",
+      "day": "Thursday",
+      "rules": "Sagittarius / Pisces",
+      "metal": "Tin",
+      "keywords": ["expansion", "wisdom", "luck", "abundance", "philosophy", "growth"]
+    },
+    {
+      "name": "Saturn",
+      "symbol": "♄",
+      "day": "Saturday",
+      "rules": "Capricorn / Aquarius",
+      "metal": "Lead",
+      "keywords": ["time", "limits", "karma", "discipline", "structure", "shadow"]
+    },
+    {
+      "name": "Uranus",
+      "symbol": "♅",
+      "day": "—",
+      "rules": "Aquarius",
+      "metal": "—",
+      "keywords": ["disruption", "innovation", "freedom", "awakening", "the unexpected", "rebellion"]
+    },
+    {
+      "name": "Neptune",
+      "symbol": "♆",
+      "day": "—",
+      "rules": "Pisces",
+      "metal": "—",
+      "keywords": ["dreams", "illusion", "mysticism", "dissolution", "the collective", "transcendence"]
+    },
+    {
+      "name": "Pluto",
+      "symbol": "♇",
+      "day": "—",
+      "rules": "Scorpio",
+      "metal": "—",
+      "keywords": ["transformation", "death and rebirth", "power", "shadow", "the underworld", "obsession"]
+    }
+  ]
+}

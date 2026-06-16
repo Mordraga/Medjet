@@ -1,0 +1,151 @@
+{
+  "elements": [
+    {
+      "name": "Fire",
+      "symbol": "▲",
+      "qualities": ["hot", "dry"],
+      "direction": "South",
+      "season": "Summer",
+      "spirit": "Salamander",
+      "tarot": "Wands",
+      "keywords": ["will", "transformation", "passion", "destruction", "creation", "courage"]
+    },
+    {
+      "name": "Water",
+      "symbol": "▽",
+      "qualities": ["cold", "wet"],
+      "direction": "West",
+      "season": "Autumn",
+      "spirit": "Undine",
+      "tarot": "Cups",
+      "keywords": ["intuition", "emotion", "flow", "healing", "the unconscious", "love"]
+    },
+    {
+      "name": "Air",
+      "symbol": "△",
+      "qualities": ["hot", "wet"],
+      "direction": "East",
+      "season": "Spring",
+      "spirit": "Sylph",
+      "tarot": "Swords",
+      "keywords": ["intellect", "communication", "movement", "change", "truth", "clarity"]
+    },
+    {
+      "name": "Earth",
+      "symbol": "▽̄",
+      "qualities": ["cold", "dry"],
+      "direction": "North",
+      "season": "Winter",
+      "spirit": "Gnome",
+      "tarot": "Pentacles",
+      "keywords": ["stability", "abundance", "patience", "the body", "growth", "manifestation"]
+    }
+  ],
+  "metals": [
+    {
+      "name": "Gold",
+      "planet": "Sun",
+      "symbol": "☉",
+      "keywords": ["consciousness", "perfection", "vitality", "royalty", "immortality", "the Self"]
+    },
+    {
+      "name": "Silver",
+      "planet": "Moon",
+      "symbol": "☽",
+      "keywords": ["reflection", "intuition", "purity", "the feminine", "cycles", "the unconscious"]
+    },
+    {
+      "name": "Mercury",
+      "planet": "Mercury",
+      "symbol": "☿",
+      "keywords": ["transformation", "duality", "the messenger", "fluidity", "communication", "mind"]
+    },
+    {
+      "name": "Copper",
+      "planet": "Venus",
+      "symbol": "♀",
+      "keywords": ["love", "beauty", "conductivity", "harmony", "the heart", "desire"]
+    },
+    {
+      "name": "Iron",
+      "planet": "Mars",
+      "symbol": "♂",
+      "keywords": ["strength", "will", "conflict", "the forge", "action", "discipline"]
+    },
+    {
+      "name": "Tin",
+      "planet": "Jupiter",
+      "symbol": "♃",
+      "keywords": ["expansion", "wisdom", "abundance", "philosophy", "generosity", "growth"]
+    },
+    {
+      "name": "Lead",
+      "planet": "Saturn",
+      "symbol": "♄",
+      "keywords": ["time", "limitation", "the prima materia", "shadow work", "death", "purification"]
+    }
+  ],
+  "stages": [
+    {
+      "name": "Nigredo",
+      "subtitle": "The Blackening",
+      "description": "Putrefaction and dissolution. The dark night of the soul — the ego is burned away, the shadow surfaces, and the old self must die. The necessary beginning of all transformation.",
+      "keywords": ["shadow", "dissolution", "death", "darkness", "prima materia"]
+    },
+    {
+      "name": "Albedo",
+      "subtitle": "The Whitening",
+      "description": "Purification and reflection. The lunar phase of the Great Work — what remains after Nigredo is washed clean. A state of clarity, stillness, and inner quiet before integration.",
+      "keywords": ["purification", "reflection", "the moon", "clarity", "washing"]
+    },
+    {
+      "name": "Citrinitas",
+      "subtitle": "The Yellowing",
+      "description": "The dawning solar consciousness. The yellow sunrise after the white moon — awareness begins to integrate the shadow self. Often merged with Rubedo in later traditions.",
+      "keywords": ["awakening", "dawn", "integration", "solar consciousness", "transition"]
+    },
+    {
+      "name": "Rubedo",
+      "subtitle": "The Reddening",
+      "description": "Completion and embodiment. The philosopher's stone is achieved — the Red King and White Queen are united, spirit and matter reconciled. Full integration of all opposites.",
+      "keywords": ["completion", "the stone", "wholeness", "incarnation", "the Red King"]
+    }
+  ],
+  "operations": [
+    {
+      "name": "Calcination",
+      "description": "Burning to ash. The ego and fixed beliefs are reduced to their most basic form through intense heat — a fierce confrontation with what we cannot let go of.",
+      "keywords": ["fire", "ego dissolution", "breaking down", "heat", "ash"]
+    },
+    {
+      "name": "Dissolution",
+      "description": "Dissolving the ash in water. The rigid structures broken in Calcination are now submerged — emotional release, letting the unconscious surface without control.",
+      "keywords": ["water", "emotion", "release", "yielding", "the unconscious"]
+    },
+    {
+      "name": "Separation",
+      "description": "Filtering and sorting. After dissolution, what is essential rises and what is impure sinks. The practice of discernment — keeping only what serves the Work.",
+      "keywords": ["discernment", "filtering", "clarity", "choice", "purification"]
+    },
+    {
+      "name": "Conjunction",
+      "description": "Uniting opposites. The solar and lunar, masculine and feminine, conscious and unconscious are joined in the sacred marriage — the creation of something wholly new.",
+      "keywords": ["union", "sacred marriage", "balance", "integration", "wholeness"]
+    },
+    {
+      "name": "Fermentation",
+      "description": "Death and new life. The conjunction must rot before it can rise again — spiritual inspiration emerges from decay, like yeast transforming grain into wine.",
+      "keywords": ["decay", "rebirth", "spirit", "inspiration", "new life"]
+    },
+    {
+      "name": "Distillation",
+      "description": "Refinement through repetition. The fermented substance is heated and the vapor collected — cyclic purification that removes all remaining impurities from the essence.",
+      "keywords": ["repetition", "refinement", "purifying", "essence", "cycle"]
+    },
+    {
+      "name": "Coagulation",
+      "description": "Spirit made matter. The purified essence solidifies into permanent form — the philosopher's stone is precipitated, incorruptible, the culmination of the entire Work.",
+      "keywords": ["manifestation", "solidification", "the stone", "permanence", "embodiment"]
+    }
+  ]
+}

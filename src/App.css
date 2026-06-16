@@ -1,0 +1,1552 @@
+/* ============================================================
+   Mobile-first — base styles target phones (< 768px).
+   Desktop enhancements live in min-width media queries.
+   ============================================================ */
+
+/* ----- Top header ----- */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding: 0 16px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 10;
+}
+
+.app-brand {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.app-header-nav {
+  display: none;
+}
+
+/* ----- Bottom tab bar ----- */
+.app-tabs {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: calc(56px + env(safe-area-inset-bottom));
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  z-index: 10;
+}
+
+.tab-link {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.15s;
+  /* ensure minimum touch target */
+  min-height: 44px;
+}
+
+.tab-link:active {
+  background: var(--accent-bg);
+}
+
+.tab-link.active {
+  color: var(--accent);
+}
+
+/* ----- Page ----- */
+.page {
+  padding: 20px 16px;
+  /* clear fixed bottom nav + safe area */
+  padding-bottom: calc(56px + env(safe-area-inset-bottom) + 20px);
+  text-align: left;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.page-header h2 {
+  margin: 0;
+}
+
+/* ----- Cards ----- */
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: var(--text-h);
+}
+
+.card-body {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text);
+  white-space: pre-wrap;
+  margin-bottom: 12px;
+}
+
+.card-meta {
+  font-size: 12px;
+  color: var(--text);
+  opacity: 0.5;
+  margin-bottom: 12px;
+}
+
+.card-field {
+  margin-bottom: 10px;
+}
+
+.card-field-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text);
+  opacity: 0.55;
+  margin-bottom: 3px;
+}
+
+.card-field-value {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+/* ----- Buttons ----- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  height: 44px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.15s, color 0.15s, border-color 0.15s, opacity 0.15s;
+  font-family: var(--sans);
+  /* prevent text selection on tap */
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.btn-primary:active {
+  opacity: 0.8;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.btn-ghost:active {
+  background: var(--accent-bg);
+  color: var(--accent);
+  border-color: var(--accent-border);
+}
+
+.btn-danger {
+  background: transparent;
+  color: #e53e3e;
+  border-color: transparent;
+}
+
+.btn-danger:active {
+  background: rgba(229, 62, 62, 0.08);
+}
+
+/* ----- Forms ----- */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.field label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text);
+  opacity: 0.7;
+}
+
+.field input,
+.field textarea {
+  /* 16px minimum prevents iOS auto-zoom on focus */
+  font-size: 16px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text-h);
+  font-family: var(--sans);
+  transition: border-color 0.15s, box-shadow 0.15s;
+  width: 100%;
+  box-sizing: border-box;
+  /* remove iOS inner shadow */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: var(--accent-border);
+  box-shadow: 0 0 0 3px var(--accent-bg);
+}
+
+.field textarea {
+  resize: none;
+  min-height: 120px;
+  line-height: 1.55;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+/* ----- Empty state ----- */
+.empty-state {
+  text-align: center;
+  padding: 60px 24px;
+  color: var(--text);
+  opacity: 0.45;
+  font-size: 15px;
+}
+
+/* ============================================================
+   Tablet and up (768px+)
+   ============================================================ */
+@media (min-width: 768px) {
+  .app-header {
+    justify-content: space-between;
+    height: 56px;
+    padding: 0 32px;
+  }
+
+  /* Show top nav, hide bottom tabs */
+  .app-header-nav {
+    display: flex;
+    gap: 4px;
+  }
+
+  .app-header-nav .tab-link {
+    height: 36px;
+    padding: 0 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    min-height: unset;
+  }
+
+  .app-header-nav .tab-link.active {
+    background: var(--accent-bg);
+    outline: 1px solid var(--accent-border);
+  }
+
+  .app-tabs {
+    display: none;
+  }
+
+  .page {
+    padding: 32px;
+    max-width: 680px;
+    margin: 0 auto;
+    /* no longer needs to clear fixed bottom nav */
+    padding-bottom: 32px;
+  }
+
+  .card {
+    padding: 20px;
+    transition: box-shadow 0.2s;
+  }
+
+  .card:hover {
+    box-shadow: var(--shadow);
+  }
+
+  .btn-primary:hover {
+    opacity: 0.85;
+  }
+
+  .btn-ghost:hover {
+    background: var(--accent-bg);
+    color: var(--accent);
+    border-color: var(--accent-border);
+  }
+
+  .btn-danger:hover {
+    background: rgba(229, 62, 62, 0.08);
+    border-color: rgba(229, 62, 62, 0.25);
+  }
+
+  .field input,
+  .field textarea {
+    font-size: 14px;
+  }
+}
+
+/* ============================================================
+   Tarot
+   ============================================================ */
+
+/* Spread selector */
+.tarot-spread-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.tarot-spread-btn {
+  width: 100%;
+  justify-content: space-between;
+  height: auto;
+  padding: 14px 16px;
+}
+
+.tarot-spread-btn-label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tarot-spread-btn-count {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* Active reading header */
+.tarot-reading-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tarot-reading-header h2 {
+  margin: 0;
+}
+
+/* ReadingScreen — image grid */
+.tarot-spread-grid {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.tarot-card-img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  transition: transform 0.35s ease;
+}
+
+.tarot-card-img--reversed {
+  transform: rotate(180deg);
+}
+
+/* ReadingCardEntry — text info list */
+.reading-card-entries {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.reading-card-entry {
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reading-card-entry + .reading-card-entry {
+  border-top: 1px solid var(--border);
+}
+
+.reading-card-entry-header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.tarot-card-position {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text);
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+.tarot-card-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.tarot-reversed-indicator {
+  color: var(--accent);
+  opacity: 0.75;
+}
+
+.tarot-card-meta {
+  font-size: 11px;
+  color: var(--text);
+  opacity: 0.45;
+  margin: 0;
+}
+
+/* Keyword pills */
+.tarot-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tarot-keyword {
+  font-size: 11px;
+  padding: 2px 7px;
+  border-radius: 99px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
+
+.tarot-keywords--reversed .tarot-keyword {
+  background: var(--code-bg);
+  color: var(--text);
+  border-color: var(--border);
+  opacity: 0.65;
+}
+
+/* Yes / No / Maybe badge (single card only) */
+.yesno-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 3px 10px;
+  border-radius: 99px;
+  margin-bottom: 6px;
+}
+
+.yesno-badge--yes {
+  background: rgba(34, 197, 94, 0.12);
+  color: #16a34a;
+  border: 1px solid rgba(34, 197, 94, 0.35);
+}
+
+.yesno-badge--no {
+  background: rgba(239, 68, 68, 0.10);
+  color: #dc2626;
+  border: 1px solid rgba(239, 68, 68, 0.30);
+}
+
+.yesno-badge--maybe {
+  background: rgba(234, 179, 8, 0.12);
+  color: #b45309;
+  border: 1px solid rgba(234, 179, 8, 0.40);
+}
+
+/* Tarot reading history */
+.tarot-history-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 8px 0 12px;
+}
+
+.tarot-history-card-row {
+  font-size: 13px;
+  color: var(--text);
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+}
+
+.tarot-history-card-row .position {
+  font-weight: 600;
+  color: var(--text-h);
+  min-width: 100px;
+  flex-shrink: 0;
+}
+
+.tarot-history-reversal {
+  opacity: 0.45;
+}
+
+/* ============================================================
+   Home — at a glance
+   ============================================================ */
+
+.glance-header {
+  margin-bottom: 16px;
+}
+
+.glance-date {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 6px;
+}
+
+.glance-weekday {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-h);
+  line-height: 1.1;
+}
+
+.glance-datestr {
+  font-size: 13px;
+  color: var(--text);
+  opacity: 0.55;
+}
+
+.glance-planetary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text);
+  opacity: 0.65;
+}
+
+.glance-planet-symbol {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+/* Moon card */
+.glance-moon-card {
+  margin-bottom: 10px;
+}
+
+.glance-moon-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.glance-moon-emoji {
+  font-size: 48px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.glance-moon-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.glance-moon-phase {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+.glance-moon-detail {
+  font-size: 13px;
+  color: var(--text);
+  opacity: 0.65;
+}
+
+.glance-next-event {
+  font-size: 13px;
+  color: var(--accent);
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Sun sign row */
+.glance-sun-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text);
+  opacity: 0.7;
+  margin-bottom: 24px;
+  padding-left: 2px;
+}
+
+.glance-sun-symbol {
+  font-size: 15px;
+}
+
+/* Section label */
+.glance-section-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--text);
+  opacity: 0.4;
+  margin-bottom: 8px;
+}
+
+/* ============================================================
+   Home — recent activity
+   ============================================================ */
+
+.recent-list {
+  padding: 0;
+  overflow: hidden;
+}
+
+.recent-entry {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.recent-entry:last-child {
+  border-bottom: none;
+}
+
+.source-badge {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 7px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.source-badge--journal {
+  background: var(--accent-bg);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
+
+.source-badge--deity {
+  background: rgba(217, 119, 6, 0.1);
+  color: #d97706;
+  border: 1px solid rgba(217, 119, 6, 0.35);
+}
+
+.source-badge--tarot {
+  background: rgba(8, 145, 178, 0.1);
+  color: #0891b2;
+  border: 1px solid rgba(8, 145, 178, 0.35);
+}
+
+.source-badge--spell {
+  background: rgba(139, 92, 246, 0.1);
+  color: #7c3aed;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.recent-entry-title {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-h);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.recent-entry-time {
+  font-size: 11px;
+  color: var(--text);
+  opacity: 0.45;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   Log
+   ============================================================ */
+
+.log-section {
+  margin-bottom: 32px;
+}
+
+.log-section-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 4px;
+}
+
+.log-section-title--journal { color: var(--accent); }
+.log-section-title--deity   { color: #d97706; }
+.log-section-title--tarot   { color: #0891b2; }
+
+.log-entry-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  gap: 12px;
+}
+
+.log-entry-row:last-child {
+  border-bottom: none;
+}
+
+.log-entry-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-h);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.log-entry-time {
+  font-size: 11px;
+  color: var(--text);
+  opacity: 0.45;
+  flex-shrink: 0;
+}
+
+.log-empty {
+  font-size: 13px;
+  color: var(--text);
+  opacity: 0.4;
+  padding: 12px 0;
+  margin: 0;
+}
+
+/* ============================================================
+   Field Guide
+   ============================================================ */
+
+.guide-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.guide-category-select {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: var(--sans);
+  color: var(--text-h);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 9px 12px;
+  height: 44px;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.guide-category-select:focus {
+  outline: none;
+  border-color: var(--accent-border);
+  box-shadow: 0 0 0 3px var(--accent-bg);
+}
+
+.guide-search {
+  font-size: 16px;
+  font-family: var(--sans);
+  color: var(--text-h);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 9px 12px;
+  height: 44px;
+  flex: 1;
+  min-width: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+}
+
+.guide-search:focus {
+  outline: none;
+  border-color: var(--accent-border);
+  box-shadow: 0 0 0 3px var(--accent-bg);
+}
+
+/* Nav bar */
+.guide-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.guide-nav-btn {
+  font-size: 28px;
+  line-height: 1;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-h);
+  cursor: pointer;
+  font-family: var(--sans);
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s;
+}
+
+.guide-nav-btn:active {
+  background: var(--accent-bg);
+  color: var(--accent);
+  border-color: var(--accent-border);
+}
+
+.guide-nav-counter {
+  font-size: 13px;
+  color: var(--text);
+  opacity: 0.5;
+}
+
+/* Locks the page to the viewport — no outer scroll in track mode */
+.page--locked {
+  height: calc(100dvh - 48px - 56px - env(safe-area-inset-bottom));
+  padding-bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.guide-track-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* Full-screen reference card */
+.guide-full-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+  /* prevent text selection during swipe */
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.guide-full-card-body {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 4px;
+}
+
+.guide-type-chip {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  opacity: 0.7;
+}
+
+.guide-type-chip--restricted {
+  color: #dc2626;
+  opacity: 1;
+}
+
+.guide-gate-btn {
+  flex: 1;
+  height: 48px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--sans);
+  cursor: pointer;
+  background: rgba(239, 68, 68, 0.08);
+  color: #dc2626;
+  border: 1px solid rgba(239, 68, 68, 0.30);
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.15s;
+}
+
+.guide-gate-btn:active {
+  opacity: 0.75;
+}
+
+.guide-full-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.guide-full-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-h);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.guide-full-meta {
+  font-size: 13px;
+  color: var(--text);
+  opacity: 0.55;
+  margin: 0;
+}
+
+.guide-full-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text);
+  margin: 0;
+  flex: 1;
+}
+
+/* Shared keyword tags */
+.guide-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.guide-keyword {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 99px;
+  background: var(--code-bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+/* Safety warning */
+.guide-safety {
+  font-size: 12px;
+  color: #b45309;
+  background: rgba(234, 179, 8, 0.08);
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  border-radius: 6px;
+  padding: 8px 12px;
+  line-height: 1.5;
+  margin-top: auto;
+}
+
+/* Shared ref-list card pieces */
+.guide-card {
+  margin-bottom: 10px;
+  scroll-margin-top: 68px;
+}
+
+.guide-card-title-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.guide-card-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.guide-card-dates {
+  font-size: 12px;
+  color: var(--text);
+  opacity: 0.45;
+  flex-shrink: 0;
+}
+
+.guide-card-meta {
+  font-size: 12px;
+  color: var(--text);
+  opacity: 0.55;
+  margin: 0;
+}
+
+.guide-card-desc {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--text);
+  margin: 0;
+}
+
+.guide-section-heading {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--accent);
+  margin: 0 0 8px;
+}
+
+/* Status row — three big buttons at the bottom of a tracking card */
+.guide-status-row {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.guide-status-row-btn {
+  flex: 1;
+  height: 48px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--sans);
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  opacity: 0.35;
+  transition: opacity 0.15s, background 0.15s, border-color 0.15s, color 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.guide-status-row-btn--want.active {
+  background: rgba(239, 68, 68, 0.10);
+  color: #dc2626;
+  border-color: rgba(239, 68, 68, 0.35);
+  opacity: 1;
+}
+
+.guide-status-row-btn--refill.active {
+  background: rgba(234, 179, 8, 0.12);
+  color: #b45309;
+  border-color: rgba(234, 179, 8, 0.45);
+  opacity: 1;
+}
+
+.guide-status-row-btn--have.active {
+  background: rgba(34, 197, 94, 0.12);
+  color: #16a34a;
+  border-color: rgba(34, 197, 94, 0.40);
+  opacity: 1;
+}
+
+.guide-status-row-btn:not(.active):active {
+  opacity: 0.7;
+}
+
+/* ---- Tablet and up ---- */
+@media (min-width: 768px) {
+  .tarot-spread-options {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .tarot-spread-btn {
+    width: auto;
+    flex: 1 1 calc(50% - 6px);
+  }
+
+  .tarot-spread-grid {
+    gap: 12px;
+  }
+}
+
+/* ============================================================
+   Journal — section tabs (Journal / Deities / Spells)
+   ============================================================ */
+
+.journal-section-tabs {
+  display: flex;
+  gap: 6px;
+  padding: 0 16px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0;
+}
+
+.journal-section-tab {
+  flex: 1;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.journal-section-tab.active {
+  background: var(--accent-bg);
+  color: var(--accent);
+  border-color: var(--accent-border);
+  font-weight: 600;
+}
+
+/* ============================================================
+   Spells
+   ============================================================ */
+
+.spell-card {
+  margin-bottom: 12px;
+}
+
+.spell-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.spell-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.spell-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-h);
+  margin: 0;
+}
+
+.spell-time {
+  font-size: 11px;
+  color: var(--text);
+  opacity: 0.45;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+.spell-type-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.spell-type-badge--spell   { background: rgba(139,92,246,0.13); color: #7c3aed; border: 1px solid rgba(139,92,246,0.3); }
+.spell-type-badge--ritual  { background: rgba(217,119,6,0.12);  color: #b45309; border: 1px solid rgba(217,119,6,0.3);  }
+.spell-type-badge--charm   { background: rgba(236,72,153,0.12); color: #be185d; border: 1px solid rgba(236,72,153,0.3); }
+.spell-type-badge--sigil   { background: rgba(8,145,178,0.12);  color: #0e7490; border: 1px solid rgba(8,145,178,0.3);  }
+.spell-type-badge--rite    { background: rgba(185,28,28,0.12);  color: #991b1b; border: 1px solid rgba(185,28,28,0.3);  }
+.spell-type-badge--prayer  { background: rgba(120,113,108,0.12); color: #57534e; border: 1px solid rgba(120,113,108,0.3); }
+
+.spell-method {
+  white-space: pre-wrap;
+}
+
+.spell-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.spell-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text);
+  opacity: 0.55;
+  margin-top: 6px;
+}
+
+.spell-input,
+.spell-select {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--input-bg, var(--surface));
+  color: var(--text-h);
+  box-sizing: border-box;
+}
+
+.spell-textarea {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--input-bg, var(--surface));
+  color: var(--text-h);
+  resize: vertical;
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   Herb Modal (full-screen overlay — same locked-page pattern as track cards)
+   ============================================================ */
+
+.herb-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: calc(env(safe-area-inset-bottom));
+}
+
+.herb-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 48px;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.herb-modal-title {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text);
+  opacity: 0.5;
+}
+
+.herb-modal-close {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: var(--text);
+  opacity: 0.55;
+  cursor: pointer;
+  padding: 6px 8px;
+  line-height: 1;
+  border-radius: 6px;
+}
+
+.herb-modal-close:active {
+  opacity: 1;
+  background: var(--border);
+}
+
+.herb-modal-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 16px 8px;
+}
+
+/* ============================================================
+   Recipes
+   ============================================================ */
+
+.recipe-card {
+  margin-bottom: 12px;
+}
+
+.recipe-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.recipe-category-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 2px 8px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.recipe-intention {
+  font-size: 12px;
+  color: var(--text);
+  opacity: 0.55;
+  font-style: italic;
+}
+
+.recipe-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-h);
+  margin: 0 0 8px;
+}
+
+.recipe-desc {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.55;
+  margin: 0 0 14px;
+  opacity: 0.85;
+}
+
+.recipe-section-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text);
+  opacity: 0.45;
+  margin: 14px 0 6px;
+}
+
+.recipe-ingredient-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recipe-ingredient {
+  padding: 5px 0;
+  font-size: 14px;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+  line-height: 1.4;
+}
+
+.recipe-ingredient:last-child {
+  border-bottom: none;
+}
+
+.recipe-herb-link {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--accent);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--accent-border);
+  cursor: pointer;
+}
+
+.recipe-herb-link:active {
+  opacity: 0.7;
+}
+
+.recipe-ingredient-amount {
+  color: var(--text);
+  opacity: 0.6;
+}
+
+.recipe-steps {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.recipe-step {
+  padding: 4px 0;
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.recipe-notes {
+  font-size: 13px;
+  color: var(--text);
+  opacity: 0.6;
+  font-style: italic;
+  margin: 14px 0 0;
+  line-height: 1.5;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+/* ============================================================
+   Refill Toast
+   ============================================================ */
+
+.refill-toast-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 400;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  animation: toast-fade 0.15s ease;
+}
+
+@keyframes toast-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.refill-toast {
+  width: 100%;
+  max-width: 420px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  animation: toast-pop 0.18s ease;
+}
+
+@keyframes toast-pop {
+  from { transform: scale(0.94); opacity: 0; }
+  to   { transform: scale(1);    opacity: 1; }
+}
+
+.refill-toast-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.refill-toast-msg {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.refill-toast-sub {
+  font-size: 13px;
+  color: var(--text);
+  opacity: 0.55;
+}
+
+.refill-seller-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.refill-seller-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 14px;
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.refill-seller-row:active {
+  opacity: 0.75;
+}
+
+.refill-seller-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.refill-seller-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.refill-seller-note {
+  font-size: 12px;
+  color: var(--text);
+  opacity: 0.7;
+}
+
+.refill-seller-region {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text);
+  opacity: 0.5;
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.refill-toast-btn {
+  width: 100%;
+  padding: 11px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  text-align: center;
+}
+
+.refill-toast-btn--cancel {
+  background: none;
+  color: var(--text);
+}

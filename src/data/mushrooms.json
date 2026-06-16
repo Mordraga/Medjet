@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Reishi",
+    "latin": "Ganoderma lucidum",
+    "element": "Fire / Earth",
+    "planet": "Jupiter",
+    "magical_uses": ["immortality", "vitality", "wisdom", "protection", "spiritual ascension", "longevity"],
+    "description": "Called Lingzhi — the 'mushroom of immortality' — in Taoist tradition, where it was reserved for emperors and immortals. Burned as incense in temples and used in longevity workings for thousands of years.",
+    "safety": null,
+    "restricted": false
+  },
+  {
+    "name": "Lion's Mane",
+    "latin": "Hericium erinaceus",
+    "element": "Air",
+    "planet": "Mercury",
+    "magical_uses": ["clarity", "focus", "memory", "creativity", "communication", "neural healing"],
+    "description": "A mushroom of the mind — used by Buddhist monks to enhance meditation and focus. Associated with the enhancement of the faculties of thought, communication, and inner clarity.",
+    "safety": null,
+    "restricted": false
+  },
+  {
+    "name": "Chaga",
+    "latin": "Inonotus obliquus",
+    "element": "Earth",
+    "planet": "Saturn",
+    "magical_uses": ["protection", "strength", "endurance", "shadow work", "grounding", "resilience"],
+    "description": "A parasitic fungus grown on birch trees, revered in Siberian shamanic tradition as a spirit of the forest. Associated with Saturn — slow, enduring, protective power drawn from deep roots.",
+    "safety": null,
+    "restricted": false
+  },
+  {
+    "name": "Turkey Tail",
+    "latin": "Trametes versicolor",
+    "element": "Earth / Water",
+    "planet": "Moon",
+    "magical_uses": ["healing", "adaptation", "forest connection", "immune strength", "cycles", "renewal"],
+    "description": "One of the most widespread medicinal fungi in the world, growing on fallen wood as a symbol of transformation and new life from decay. Used in healing workings and rites of renewal.",
+    "safety": null,
+    "restricted": false
+  },
+  {
+    "name": "Cordyceps",
+    "latin": "Cordyceps sinensis",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["vitality", "stamina", "will", "energy", "endurance", "warrior magic"],
+    "description": "A parasitic fungus of fierce vitality — it overtakes its host and emerges transformed. Used in Tibetan folk medicine as a tonic of supreme endurance, associated with martial will and physical power.",
+    "safety": null,
+    "restricted": false
+  },
+  {
+    "name": "Shiitake",
+    "latin": "Lentinula edodes",
+    "element": "Earth",
+    "planet": "Jupiter",
+    "magical_uses": ["longevity", "prosperity", "nourishment", "grounding", "abundance"],
+    "description": "Cultivated in East Asian tradition as a symbol of longevity and earthly abundance. Used in prosperity workings and as a sacred offering in ancestor rites.",
+    "safety": null,
+    "restricted": false
+  },
+  {
+    "name": "Oyster Mushroom",
+    "latin": "Pleurotus ostreatus",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["growth", "adaptability", "gentleness", "healing", "new beginnings"],
+    "description": "A gentle and forgiving mushroom that grows in seemingly inhospitable conditions — a symbol of adaptability and finding nourishment where others see only decay. Used in workings of gentle healing and new growth.",
+    "safety": null,
+    "restricted": false
+  },
+  {
+    "name": "Fly Agaric",
+    "latin": "Amanita muscaria",
+    "element": "Fire",
+    "planet": "Jupiter",
+    "magical_uses": ["visionary states", "Otherworld contact", "warrior trance", "Soma", "shamanic journey", "fairy lore"],
+    "description": "Perhaps the world's most symbolically charged mushroom — linked to Norse berserker warriors, Siberian shamans, the Vedic Soma, and European fairy lore. Its red-and-white cap is the archetypal 'magic mushroom' of Western imagination. Used in shamanic cultures to journey between worlds and commune with spirits.",
+    "safety": "Toxic when raw — contains ibotenic acid and muscimol. Causes intoxication, delirium, and in high doses serious harm. Legal in most US states but controlled in the UK, Australia, and elsewhere. This entry is for spiritual and historical reference only.",
+    "restricted": true
+  },
+  {
+    "name": "Psilocybe",
+    "latin": "Psilocybe spp.",
+    "element": "Water",
+    "planet": "Moon / Neptune",
+    "magical_uses": ["visionary states", "ego dissolution", "sacred rites", "healing", "divination", "ancestral contact"],
+    "description": "Used for millennia in Mesoamerican spiritual practice — the Mazatec curandera María Sabina called them 'children' and used them in all-night healing veladas. The teonanácatl ('flesh of the gods') of Aztec tradition. Now the focus of clinical research into spiritual experience and healing of the psyche.",
+    "safety": "Schedule I in the US and most countries. Decriminalized in several US cities and states; legal for religious use in limited contexts. Possession and use carry serious legal risk in most jurisdictions. This entry documents historical and spiritual significance only.",
+    "restricted": true
+  },
+  {
+    "name": "San Pedro",
+    "latin": "Echinopsis pachanoi",
+    "element": "Water / Fire",
+    "planet": "Moon / Mars",
+    "magical_uses": ["healing", "vision", "cleansing", "Pachamama connection", "divination", "protection"],
+    "description": "A towering columnar cactus of the Andes — also not a mushroom — used in Andean healing ceremonies (curanderismo) for over 3,000 years. Called huachuma by traditional practitioners. The curandero uses it in all-night mesa ceremonies for healing, cleansing, and connection to Pachamama (Earth Mother) and the spirit world.",
+    "safety": "The cactus itself is legal to grow in most countries as an ornamental plant. Extracted mescaline is Schedule I in the US. Ceremonial preparation carries legal risk depending on jurisdiction. This entry is for spiritual, historical, and cultural reference only.",
+    "restricted": true
+  },
+  {
+    "name": "Salvia Divinorum",
+    "latin": "Salvia divinorum",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["divination", "spirit communication", "the divine feminine", "visionary states", "short-form journey"],
+    "description": "The 'diviner's sage' — used by the Mazatec people of Oaxaca for healing and divination. Unlike most visionary plants it produces an intensely brief experience. Traditional use involves chewing fresh leaves in darkness and silence, supervised by a curandera, to communicate with a spirit known as the Shepherdess.",
+    "safety": "Legal in many US states but controlled in others (varies significantly by jurisdiction). Not federally scheduled in the US as of the last update to this data. Legal status changes frequently — verify locally. This entry is for historical and spiritual reference only.",
+    "restricted": true
+  }
+]
