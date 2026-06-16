@@ -1,0 +1,880 @@
+[
+  {
+    "name": "Angelica",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["protection", "exorcism", "healing", "visions"],
+    "description": "A powerful guardian herb burned or carried for protection against malevolent forces. Sprinkle the root around the home to ward off negativity.",
+    "safety": "Avoid during pregnancy. Photosensitizing."
+  },
+  {
+    "name": "Basil",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["love", "prosperity", "protection", "success", "exorcism"],
+    "description": "A staple of prosperity and love magic, basil is placed in cash registers or wallets to attract money and carried to bring harmony in relationships.",
+    "safety": null
+  },
+  {
+    "name": "Bay Laurel",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["protection", "psychic power", "success", "purification", "prophecy"],
+    "description": "The laurel of ancient oracles. Write wishes on bay leaves and burn them to send desires to the divine. Used widely for prophetic dreams.",
+    "safety": null
+  },
+  {
+    "name": "Calendula",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["protection", "psychic power", "dreams", "legal matters", "consecration"],
+    "description": "Strewn beneath the bed to bring prophetic dreams or placed in garlands for protection. Known to strengthen psychic sight when placed around candles.",
+    "safety": null
+  },
+  {
+    "name": "Catnip",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["love", "beauty", "happiness", "familiar magic", "friendship"],
+    "description": "Used in love sachets and to attract a familiar spirit. Catnip is also grown near the home to draw good luck and foster joyful energy.",
+    "safety": null
+  },
+  {
+    "name": "Cedar",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["protection", "purification", "prosperity", "healing", "longevity"],
+    "description": "A sacred tree of strength and purification burned to cleanse spaces and offer prayers. Cedar chips are placed in chests to protect valuables.",
+    "safety": null
+  },
+  {
+    "name": "Chamomile",
+    "element": "Water",
+    "planet": "Sun",
+    "magical_uses": ["calm", "luck", "prosperity", "love", "sleep", "purification"],
+    "description": "Wash hands in chamomile tea before gambling or games of chance to attract luck. A cup before bed invites restful sleep and pleasant dreams.",
+    "safety": null
+  },
+  {
+    "name": "Cinnamon",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["prosperity", "love", "success", "healing", "power", "spirituality"],
+    "description": "One of the most potent magical spices for raising the vibration of a working. Burned as incense to attract money and accelerate any spell.",
+    "safety": "Cinnamon bark oil is a strong irritant. Use with care on skin."
+  },
+  {
+    "name": "Clove",
+    "element": "Fire",
+    "planet": "Jupiter",
+    "magical_uses": ["protection", "love", "exorcism", "memory", "prosperity"],
+    "description": "Burned to stop others from speaking ill of you and carried as a charm for friendship. Whole cloves are added to sachets to drive out hostile forces.",
+    "safety": null
+  },
+  {
+    "name": "Dandelion",
+    "element": "Air",
+    "planet": "Jupiter",
+    "magical_uses": ["divination", "wishes", "spirit work", "healing", "psychic power"],
+    "description": "Blowing dandelion seeds carries wishes and messages to the spirit world. A tea of the root drunk before divination is said to enhance the gift of sight.",
+    "safety": null
+  },
+  {
+    "name": "Dragon's Blood",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["protection", "power", "banishing", "love", "amplification"],
+    "description": "A resin from the Dracaena palm that amplifies the power of any working it is added to. Burned alone for protection or combined with other resins to increase their potency.",
+    "safety": "Highly flammable. Use caution on charcoal."
+  },
+  {
+    "name": "Elder",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["protection", "healing", "transition", "banishing", "prosperity"],
+    "description": "The Elder Mother is a spirit who must be asked permission before harvesting. Used in rites of transition, healing, and warding off evil.",
+    "safety": "Raw berries, bark, leaves and roots are toxic. Use only ripe cooked berries or dried flowers."
+  },
+  {
+    "name": "Frankincense",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["purification", "protection", "spirituality", "meditation", "consecration"],
+    "description": "A resin burned since antiquity to sanctify sacred space, drive away negativity, and lift consciousness toward the divine. Excellent for consecrating tools.",
+    "safety": null
+  },
+  {
+    "name": "Ginger",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["love", "success", "power", "healing", "money"],
+    "description": "A fiery root that speeds up and sharpens any spell it is added to. Carried to attract adventure and adventure in love, or used in money workings.",
+    "safety": null
+  },
+  {
+    "name": "Hawthorn",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["protection", "love", "fertility", "fairy contact", "cleansing"],
+    "description": "A threshold tree — a gateway between worlds and a home for the fae. Berries are used in love charms and branches hung over doors for protection.",
+    "safety": "Seeds contain cyanogenic compounds; do not eat. Has significant heart-medicine interactions."
+  },
+  {
+    "name": "Hyssop",
+    "element": "Fire",
+    "planet": "Jupiter",
+    "magical_uses": ["purification", "protection", "forgiveness", "consecration", "healing"],
+    "description": "One of the most ancient purifying herbs. Sprinkle hyssop-infused water through a space or over a person to cleanse guilt, grief, and spiritual contamination.",
+    "safety": "Avoid in pregnancy and epilepsy. Essential oil is toxic."
+  },
+  {
+    "name": "Juniper",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["protection", "purification", "love", "exorcism", "healing"],
+    "description": "Burned to drive out negative entities and disease. Juniper berries are strung and hung as protective charms or added to sachets for love.",
+    "safety": "Avoid therapeutic use in pregnancy and kidney disease. Berries are safe culinary use."
+  },
+  {
+    "name": "Lavender",
+    "element": "Air",
+    "planet": "Mercury",
+    "magical_uses": ["calm", "love", "sleep", "purification", "healing", "psychic power"],
+    "description": "Among the most versatile magical herbs in any tradition. Used to invite peaceful sleep, soothe anxiety, attract love, and purify the aura.",
+    "safety": null
+  },
+  {
+    "name": "Lemon Balm",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["love", "healing", "success", "psychic ability", "calm"],
+    "description": "A gentle herb of the Moon that uplifts the spirit and soothes grief. Used in healing magic and spells for new love, and to enhance lunar workings.",
+    "safety": null
+  },
+  {
+    "name": "Mint",
+    "element": "Fire",
+    "planet": "Mercury",
+    "magical_uses": ["purification", "healing", "love", "psychic ability", "prosperity", "travel"],
+    "description": "Placed in the wallet to draw money or rubbed on cash before spending. Mint tea is consumed to open psychic channels and freshen spiritual energy.",
+    "safety": null
+  },
+  {
+    "name": "Mugwort",
+    "element": "Earth",
+    "planet": "Moon",
+    "magical_uses": ["dreams", "divination", "astral travel", "psychic power", "protection"],
+    "description": "The witch's herb par excellence — placed under the pillow for vivid dreams, burned before scrying, and carried to strengthen all psychic work.",
+    "safety": "Avoid during pregnancy. May cause allergic reactions in those sensitive to ragweed."
+  },
+  {
+    "name": "Myrrh",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["purification", "healing", "protection", "spirituality", "meditation"],
+    "description": "A sacred resin burned for consecration, healing, and contacting the ancestors. Often combined with frankincense to create a deeply purifying incense.",
+    "safety": "Avoid in pregnancy. Do not use medicinally with blood thinners."
+  },
+  {
+    "name": "Nettle",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["protection", "healing", "exorcism", "courage", "hex breaking"],
+    "description": "A fierce protective herb — scattered about a space to drive out unwanted spirits or stuffed in a poppet to turn back a hex.",
+    "safety": "Wear gloves when handling fresh plant. Cook or dry thoroughly before consuming."
+  },
+  {
+    "name": "Patchouli",
+    "element": "Earth",
+    "planet": "Saturn",
+    "magical_uses": ["money", "fertility", "love", "growth", "grounding", "lust"],
+    "description": "A deeply earthy scent that anchors workings in the physical plane. Used in money drawing, fertility magic, and to ground spiritual energy into tangible results.",
+    "safety": null
+  },
+  {
+    "name": "Rose",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["love", "healing", "divination", "luck", "protection", "psychic power"],
+    "description": "The supreme flower of Venus — petals are scattered in love baths, rosehips carried for luck, and rosewater used to consecrate tools and altars.",
+    "safety": null
+  },
+  {
+    "name": "Rosemary",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["memory", "protection", "purification", "love", "healing", "fidelity"],
+    "description": "Where rosemary grows, the woman rules the house — it is placed under pillows for memory, burned for purification, and used in healing sachets.",
+    "safety": null
+  },
+  {
+    "name": "Rue",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["protection", "banishing", "hex breaking", "mental clarity", "exorcism"],
+    "description": "A sharp and fierce protective herb — worn as a charm against the evil eye or added to purification baths to remove psychic attacks and curses.",
+    "safety": "Photosensitizing — avoid sun after skin contact. Toxic in large doses. Avoid in pregnancy."
+  },
+  {
+    "name": "Sage",
+    "element": "Air",
+    "planet": "Jupiter",
+    "magical_uses": ["purification", "wisdom", "healing", "protection", "longevity"],
+    "description": "Burned to cleanse a space of stagnant or negative energy before ritual work. Also used in wisdom spells and to promote clear thinking.",
+    "safety": "White sage is an over-harvested plant. Consider growing your own or using ethically sourced alternatives."
+  },
+  {
+    "name": "Sandalwood",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["protection", "purification", "healing", "spirituality", "meditation", "wishes"],
+    "description": "A sacred wood burned to aid meditation, raise vibrations, and carry wishes to the spirit world. One of the most universal sacred scents.",
+    "safety": "True sandalwood is endangered — use sustainably sourced material."
+  },
+  {
+    "name": "St. John's Wort",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["protection", "strength", "love", "divination", "banishing"],
+    "description": "Hung above doors and windows at midsummer to ward away evil spirits and harmful magic. A solar herb for courage and clarity.",
+    "safety": "Significant drug interactions — can reduce effectiveness of many medications including contraceptives. Photosensitizing."
+  },
+  {
+    "name": "Sweetgrass",
+    "element": "Air",
+    "planet": "Venus",
+    "magical_uses": ["spirit calling", "purification", "kindness", "peace", "attraction"],
+    "description": "Braided and burned to invite benevolent spirits and ancestors. Unlike sage it attracts positive energy rather than driving out negative energy.",
+    "safety": null
+  },
+  {
+    "name": "Thyme",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["purification", "courage", "psychic ability", "healing", "love", "sleep"],
+    "description": "Worn by warriors for courage and burned by healers for purification — thyme placed under the pillow brings restful sleep and visions of a future lover.",
+    "safety": null
+  },
+  {
+    "name": "Valerian",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["love", "sleep", "protection", "purification", "harmony"],
+    "description": "Called 'all-heal' by the ancients — used in love sachets and placed in the home to prevent discord. A powerful herb for deep sleep and peace.",
+    "safety": "May cause drowsiness. Avoid with sedative medications."
+  },
+  {
+    "name": "Vervain",
+    "element": "Earth",
+    "planet": "Venus",
+    "magical_uses": ["protection", "purification", "love", "healing", "sleep", "inspiration"],
+    "description": "A sacred herb of the druids and the Romans — gathered at midsummer and used to consecrate altars, anoint tools, and bless the space of working.",
+    "safety": "Avoid in pregnancy."
+  },
+  {
+    "name": "Wormwood",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["psychic power", "protection", "divination", "spirit contact", "binding"],
+    "description": "Burned to summon spirits and enhance scrying. Wormwood is placed in sachets to protect travelers and carried to call upon the spirits of the dead.",
+    "safety": "Toxic in large amounts — use only in small quantities for incense. Avoid in pregnancy. Contains thujone."
+  },
+  {
+    "name": "Yarrow",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["courage", "love", "psychic ability", "healing", "divination", "hex breaking"],
+    "description": "The ancient wound-herb of Achilles — held in the hand to banish fear, used in divination (classic I Ching), and carried in the wedding bouquet for love.",
+    "safety": "May cause allergic reactions in those sensitive to aster family plants."
+  },
+  {
+    "name": "Belladonna",
+    "latin": "Atropa belladonna",
+    "element": "Water",
+    "planet": "Saturn",
+    "magical_uses": ["trance", "visions", "underworld", "hex work", "death magic", "flying ointment", "banishing"],
+    "description": "Named for Atropos — she of the three Fates who cuts the thread of life. One of the central herbs of the European witchcraft tradition, used in flying ointments to induce visionary trance states. Renaissance women used diluted preparations to dilate the pupils; bella donna means 'beautiful woman.'",
+    "safety": "Safe for spell jars, sachets, and altar work. Do not ingest — all parts are toxic. Avoid prolonged skin contact with bruised plant matter or sap; gloves recommended when handling fresh material. Do not burn indoors. Keep away from children and animals.",
+    "restricted": true
+  },
+  {
+    "name": "Hemlock",
+    "latin": "Conium maculatum",
+    "element": "Water",
+    "planet": "Saturn",
+    "magical_uses": ["binding", "cursing", "death rites", "underworld", "banishing", "hex work"],
+    "description": "The poison of Socrates — used in Greek executions and deeply embedded in the darker currents of European folk magic. Associated with binding, endings, and the authority of Saturn over all living things. Not to be confused with the hemlock tree, which is unrelated.",
+    "safety": "Safe for spell jars and sealed workings. Do not ingest under any circumstances — causes progressive paralysis and respiratory failure. Wash hands after handling; avoid touching eyes or mouth. Easily confused with wild carrot and parsley — identification must be certain before harvesting wild.",
+    "restricted": true
+  },
+  {
+    "name": "Henbane",
+    "latin": "Hyoscyamus niger",
+    "element": "Water",
+    "planet": "Saturn",
+    "magical_uses": ["trance", "flight", "underworld journeys", "divination", "weather working", "flying ointment"],
+    "description": "A classic herb of the witch's garden — used alongside belladonna and datura in the legendary flying ointments of European witchcraft. The smoke was inhaled for oracular trance. Associated with Hecate, the underworld, and the crossing of boundaries between worlds.",
+    "safety": "Safe for spell jars, sachets, and altar work. Do not ingest — causes delirium and potentially fatal respiratory depression. Wear gloves when handling significant quantities of fresh plant material. Historically many deaths from accidental consumption; keep well away from children and animals.",
+    "restricted": true
+  },
+  {
+    "name": "Datura",
+    "latin": "Datura stramonium / D. inoxia",
+    "element": "Fire / Water",
+    "planet": "Saturn / Moon",
+    "magical_uses": ["trance", "visions", "shapeshifting", "Otherworld", "brujería", "dream magic", "hex breaking"],
+    "description": "Called toloache in Mexican tradition and used in brujería, curanderismo, and the vision rites of numerous Indigenous peoples of the Americas. Among the most dangerous psychoactive plants on Earth — the line between a visionary dose and a lethal one is extremely thin. Associated with the dark moon, shapeshifting, and deep Otherworld travel.",
+    "safety": "Safe for spell jars and sealed workings; do not burn. Do not ingest under any circumstances — alkaloid levels vary wildly between individual plants and deaths are common even among experienced users. Wash hands thoroughly after handling. This entry is for spiritual and historical reference only.",
+    "restricted": true
+  },
+  {
+    "name": "Mandrake",
+    "latin": "Mandragora officinarum",
+    "element": "Earth / Fire",
+    "planet": "Saturn / Mercury",
+    "magical_uses": ["love", "fertility", "prosperity", "protection", "hex work", "poppet magic", "familiar spirit"],
+    "description": "Perhaps the single most celebrated magical plant in the Western tradition. Its forked root resembles a human figure — it was harvested at midnight with elaborate ritual, said to scream on uprooting. Used as a familiar spirit, a poppet base, and in some of the most powerful love and protection workings in European folk magic.",
+    "safety": "Safe for poppet work, spell jars, and altar use. Do not ingest — all parts contain tropane alkaloids. The berries are appealing but toxic. Avoid prolonged bare-skin contact with fresh root. Note: American mayapple (Podophyllum) is often sold as 'mandrake' and is a different plant entirely.",
+    "restricted": true
+  },
+  {
+    "name": "Wolfsbane",
+    "latin": "Aconitum napellus",
+    "element": "Water",
+    "planet": "Saturn / Mars",
+    "magical_uses": ["protection against shapeshifters", "werewolf lore", "banishing", "cursing", "the hunt", "Hecate"],
+    "description": "One of the most potent poisons in the European flora — used by hunters to tip arrows and deeply embedded in the lore of werewolves and shapeshifters. Associated with Hecate, who was said to have created it from the saliva of Cerberus. Used in protective and binding workings against those who work in animal forms.",
+    "safety": "Safe for spell jars and sealed workings. Always wear gloves — aconitine absorbs through skin and is one of the most potent natural toxins known. Wash immediately after any contact. Do not burn or ingest. No antidote exists for poisoning. Widely considered the most dangerous plant in the British Isles.",
+    "restricted": true
+  },
+  {
+    "name": "Foxglove",
+    "latin": "Digitalis purpurea",
+    "element": "Water",
+    "planet": "Venus / Saturn",
+    "magical_uses": ["fairy magic", "glamour", "invisibility", "protection", "fairy contact", "healing"],
+    "description": "The 'folk's glove' — fairy folk's glove. One of the most powerful fairy plants in British and Celtic tradition, associated with the Otherworld and the hidden folk. Worn or carried to attract fairy contact and to see through glamours. The spotted interior of the flowers is said to be fairy fingerprints.",
+    "safety": "Safe for spell work and altar use. Do not ingest — cardiac glycosides cause fatal arrhythmia. Wash hands after handling. The leaves closely resemble comfrey; do not confuse when wildcrafting. Toxic to animals — keep clear of pets.",
+    "restricted": true
+  },
+  {
+    "name": "Peyote",
+    "latin": "Lophophora williamsii",
+    "element": "Fire / Earth",
+    "planet": "Sun",
+    "magical_uses": ["vision quest", "ancestor communion", "healing", "purification", "sacred ceremony", "divine communion"],
+    "description": "A small spineless cactus sacred to dozens of Indigenous peoples of Mexico and the American Southwest for at least 5,000 years. The sacrament of the Native American Church. The Huichol (Wixáritari) make annual pilgrimages hundreds of miles to harvest it in the sacred land of Wirikuta. It is a living deity to those traditions, not merely a plant.",
+    "safety": "Schedule I in the US except for enrolled members of federally recognized tribes using it in bona fide religious ceremony. Critically endangered due to overharvesting. Approaching this plant with anything less than profound respect for its living traditions is a serious ethical failure. This entry is for historical and spiritual reference only.",
+    "restricted": true
+  },
+  {
+    "name": "Agrimony",
+    "element": "Air",
+    "planet": "Jupiter",
+    "magical_uses": ["protection", "sleep", "hex reversal", "banishing nightmares", "warding"],
+    "description": "A protective herb carried to guard against poisons and ill spirits. Placed under the pillow to bring nightmare-free sleep; used in witch bottles to return hexes to their sender.",
+    "safety": null
+  },
+  {
+    "name": "Alder",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["transition", "resurrection", "fairy lore", "weather working", "the Otherworld"],
+    "description": "A threshold tree of the water's edge — between worlds. In Celtic tradition the alder is sacred to Bran, used in rites of transition, truth-telling, and weather working.",
+    "safety": null
+  },
+  {
+    "name": "Ash",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["protection", "healing", "sea magic", "divination", "the World Tree"],
+    "description": "Yggdrasil — the World Tree of Norse tradition — is an ash. Burned in Yule logs, carved into runic staves, and used to bless newborns across Northern European tradition.",
+    "safety": null
+  },
+  {
+    "name": "Benzoin",
+    "element": "Air",
+    "planet": "Sun",
+    "magical_uses": ["purification", "prosperity", "astral work", "offering", "clarity"],
+    "description": "A resin burned in Southeast Asian and Western traditions for purification and to uplift consciousness. Combined with frankincense it creates a powerful clarifying incense for meditation and astral work.",
+    "safety": null
+  },
+  {
+    "name": "Birch",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["new beginnings", "purification", "protection", "birth magic", "Imbolc"],
+    "description": "The Lady of the Woods — the first tree to leaf in spring. Birch bundles swept spaces clean before ritual; birch bark was used for spirit writing and Imbolc working.",
+    "safety": null
+  },
+  {
+    "name": "Black Cohosh",
+    "element": "Fire",
+    "planet": "Pluto",
+    "magical_uses": ["courage", "protection", "hex breaking", "spirit contact", "strength"],
+    "description": "A North American woodland plant used by Indigenous nations in ceremony. Magically associated with drawing courage and breaking hexes; the dark root is carried as a protection charm.",
+    "safety": "Avoid in pregnancy and with liver conditions. Not for ingestion."
+  },
+  {
+    "name": "Blackthorn",
+    "element": "Earth",
+    "planet": "Saturn",
+    "magical_uses": ["protection", "cursing", "dark magic", "Otherworld", "banishing", "fate"],
+    "description": "The dark twin of the hawthorn — a tree of the waning year and the harsh face of fate. The thorns were used in binding, cursing, and protective workings in Celtic tradition; the sloes ripen only after the first frost.",
+    "safety": null
+  },
+  {
+    "name": "Borage",
+    "element": "Air",
+    "planet": "Jupiter",
+    "magical_uses": ["courage", "psychic power", "joy", "clarity", "optimism"],
+    "description": "Its old name is herb of gladness — floated in ritual drinks and carried to inspire courage before difficult endeavors. A Jupiterian herb that expands the spirit and clears the mind for true seeing.",
+    "safety": null
+  },
+  {
+    "name": "Burdock",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["protection", "cleansing", "warding", "uncrossing", "healing"],
+    "description": "The clinging bur root carries symbolic cleansing power — dragged around a property to gather and remove negativity. Added to uncrossing baths and protective sachets.",
+    "safety": null
+  },
+  {
+    "name": "Camphor",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["purification", "divination", "dreams", "space clearing", "protection"],
+    "description": "A powerfully cooling and clarifying scent burned to clear the mind before divination and purify ritual space. Camphor placed in a room creates a strong barrier against negative entities.",
+    "safety": "Do not ingest camphor oil — toxic. Use in ventilated spaces only."
+  },
+  {
+    "name": "Cardamom",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["love", "lust", "clarity", "warmth", "attraction"],
+    "description": "An aromatic spice burned and carried for love magic across the Middle East and South Asia — used to warm the heart and draw romantic attraction into sachets and offerings.",
+    "safety": null
+  },
+  {
+    "name": "Copal",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["purification", "Aztec offerings", "solar work", "space clearing", "spirit contact"],
+    "description": "The sacred resin of Mesoamerica — burned continuously in Aztec and Maya temples as an offering to the sun and burned at Día de los Muertos altars to guide ancestors home.",
+    "safety": null
+  },
+  {
+    "name": "Cypress",
+    "element": "Earth",
+    "planet": "Saturn",
+    "magical_uses": ["death rites", "mourning", "longevity", "underworld", "transition", "protection"],
+    "description": "The mourning tree of the Mediterranean — planted in cemeteries from Greece to Persia as a marker of the threshold between worlds. Burned to ease grief and guide the passage of the dead.",
+    "safety": null
+  },
+  {
+    "name": "Damiana",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["love", "lust", "psychic power", "visions", "passion"],
+    "description": "A Mexican herb burned and smoked in love and lust workings for centuries. Mildly entheogenic — small amounts induce mild euphoria and heighten psychic sensitivity for divination.",
+    "safety": "Legal in most countries. May interact with diabetes medications. Use in moderation."
+  },
+  {
+    "name": "Dill",
+    "element": "Fire",
+    "planet": "Mercury",
+    "magical_uses": ["protection", "luck", "love", "money", "anti-hex"],
+    "description": "Hung above doors in the Middle Ages to guard against witchcraft and ill-wishing. Seeds carried in sachets bring luck; fresh dill placed in the bath is said to make one irresistible.",
+    "safety": null
+  },
+  {
+    "name": "Eucalyptus",
+    "element": "Air",
+    "planet": "Moon",
+    "magical_uses": ["healing", "purification", "clarity", "protection", "breath magic"],
+    "description": "A powerful Australian cleansing plant — branches hung in showers create healing steam; burned to clear confusion and bring healing energies into a space.",
+    "safety": "Eucalyptus oil is toxic if ingested. Keep away from cats and small animals."
+  },
+  {
+    "name": "Fern",
+    "element": "Earth",
+    "planet": "Mercury",
+    "magical_uses": ["luck", "rain magic", "invisibility", "wealth", "fairy lore"],
+    "description": "Fern seed — the invisible seed of a plant with no visible seeds — was said in European folk magic to confer invisibility on midsummer's eve. Grown near the home to draw luck.",
+    "safety": null
+  },
+  {
+    "name": "Fig",
+    "element": "Fire",
+    "planet": "Jupiter",
+    "magical_uses": ["divination", "fertility", "wisdom", "abundance", "enlightenment"],
+    "description": "Sacred to Dionysus and to the Buddha (enlightened beneath a fig tree). Figs represent abundance, wisdom, and the sweetness of divine revelation across Mediterranean and Asian traditions.",
+    "safety": null
+  },
+  {
+    "name": "Galangal",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["protection", "luck", "hex breaking", "legal matters", "court case magic"],
+    "description": "A fiery Asian root used in Hoodoo court case magic — carried in a red flannel bag when facing legal troubles. Also called Low John the Conqueror; burned for protection and good fortune.",
+    "safety": null
+  },
+  {
+    "name": "Garlic",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["protection", "exorcism", "anti-hex", "warding", "strength"],
+    "description": "One of the most universally protective plants across all cultures — hung above doorways in Eastern Europe to ward off vampires and the evil eye; buried at crossroads to avert ill spirits.",
+    "safety": null
+  },
+  {
+    "name": "Heather",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["luck", "fairy contact", "rain working", "beauty", "romance", "protection"],
+    "description": "White heather is the luckiest plant in Scottish tradition, said to grow only where fairies have trod. Carried for luck and to attract romance; burned in fairy contact workings on hillsides.",
+    "safety": null
+  },
+  {
+    "name": "Holly",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["protection", "luck", "dream magic", "Yule", "winter magic", "warding"],
+    "description": "The sacred winter tree of the Celts — the Holly King rules the waning year. Hung at Yule for luck and protection, and placed near the bed for prophetic dreams of the new year.",
+    "safety": "Holly berries are toxic — keep away from children and animals."
+  },
+  {
+    "name": "Honeysuckle",
+    "element": "Earth",
+    "planet": "Jupiter",
+    "magical_uses": ["money", "psychic power", "protection", "memory", "happiness"],
+    "description": "Crushed and rubbed on the forehead to heighten psychic ability. Twined around green candles to draw money; placed in sachets to keep out negative influences and preserve happy memories.",
+    "safety": null
+  },
+  {
+    "name": "Horehound",
+    "element": "Air",
+    "planet": "Mercury",
+    "magical_uses": ["protection", "healing", "mental clarity", "exorcism", "counter-magic"],
+    "description": "An ancient herb of Hecate used to counter psychic attack and break enchantments. One of the oldest recorded magical and medicinal herbs — found dried in Egyptian tombs over 3,000 years old.",
+    "safety": null
+  },
+  {
+    "name": "Iris",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["love", "purification", "wisdom", "divination", "the rainbow bridge"],
+    "description": "Orris root — dried iris rhizome — is a classic fixative of love perfumery and a powerful tool for love divination. Named for the goddess of the rainbow who bridges worlds; used in sachets to attract love.",
+    "safety": null
+  },
+  {
+    "name": "Ivy",
+    "element": "Water",
+    "planet": "Saturn",
+    "magical_uses": ["binding", "protection", "healing", "Otherworld", "persistence", "fidelity"],
+    "description": "Sacred to Dionysus and associated with the inescapable creeping quality of Saturn. Carried by brides for fidelity; used in binding spells and to mark the sacred boundary of a working space.",
+    "safety": "Berries are toxic. Sap may cause skin irritation."
+  },
+  {
+    "name": "Jasmine",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["love", "money", "prophetic dreams", "sensuality", "spiritual love"],
+    "description": "An intensely feminine lunar scent used across Asia in love and spiritual workings. Jasmine flowers placed on the altar attract spiritual love; added to dream pillows for prophetic visions.",
+    "safety": null
+  },
+  {
+    "name": "Lotus",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["spiritual awakening", "purity", "divine connection", "meditation", "enlightenment"],
+    "description": "The supreme sacred flower of Egypt, India, and Buddhist tradition — rising pure from muddy water, it symbolizes the soul's awakening and divine protection. Used in workings of elevation and spiritual connection.",
+    "safety": null
+  },
+  {
+    "name": "Meadowsweet",
+    "element": "Air",
+    "planet": "Jupiter",
+    "magical_uses": ["love", "peace", "happiness", "divination", "Beltane"],
+    "description": "One of the three most sacred herbs of the Druids alongside vervain and water mint. Strewn on floors for joy; used in love divination at midsummer. Its scent lightens the heaviest heart.",
+    "safety": null
+  },
+  {
+    "name": "Mistletoe",
+    "element": "Air",
+    "planet": "Sun",
+    "magical_uses": ["protection", "fertility", "love", "healing", "Druid sacred", "luck"],
+    "description": "The most sacred plant of the Druids — cut with a golden sickle, never allowed to touch the earth. Hung for Yule luck, carried against poisoning, and used in fertility rites. The plant that killed Baldur.",
+    "safety": "Berries are toxic. Do not ingest."
+  },
+  {
+    "name": "Motherwort",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["female mysteries", "protection", "counter-magic", "courage", "mother magic"],
+    "description": "The herb of the mother — used in workings of female empowerment, protection of children, and countering magic directed at the family. Carried to bring inner strength and calm the anxious heart.",
+    "safety": "Avoid in pregnancy and with heart medications. Uterine stimulant."
+  },
+  {
+    "name": "Mullein",
+    "element": "Fire",
+    "planet": "Saturn",
+    "magical_uses": ["courage", "divination", "protection", "banishing", "hedge-riding", "spirit calling"],
+    "description": "The torchplant — its flower stalks were dipped in tallow and lit in ancient rites. Used in scrying and hedge-riding; the dried leaves are smoked in divination practices across multiple traditions.",
+    "safety": null
+  },
+  {
+    "name": "Myrtle",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["love", "marriage", "fertility", "youth", "prosperity", "peace"],
+    "description": "Sacred to Aphrodite — worn by brides since antiquity and used in workings of love and marriage. Myrtle carried in the wedding bouquet ensures fidelity; grown near the home it brings lasting peace.",
+    "safety": null
+  },
+  {
+    "name": "Nutmeg",
+    "element": "Fire",
+    "planet": "Jupiter",
+    "magical_uses": ["luck", "money", "fidelity", "health", "psychic power", "travel"],
+    "description": "Whole nutmegs carried in the pocket bring luck in gambling; half a nutmeg worn as a pendant attracts a faithful lover. Used in travel sachets and added to prosperity workings to multiply results.",
+    "safety": "Toxic in large amounts — use culinary quantities for magical work, never medicinal doses."
+  },
+  {
+    "name": "Oak",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["strength", "protection", "wisdom", "healing", "money", "Druid sacred"],
+    "description": "The king of the forest and the sacred tree of the Druids, Jupiter, Thor, and Zeus alike. Acorns are carried for long life and fertility; oak bark burned for strength and endurance in any working.",
+    "safety": null
+  },
+  {
+    "name": "Orange Peel",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["love", "luck", "money", "joy", "solar work", "happiness"],
+    "description": "Dried orange peel added to love sachets and prosperity workings, or burned to bring solar energy and joy into the home. Combined with cinnamon for powerful money-drawing magic.",
+    "safety": null
+  },
+  {
+    "name": "Peony",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["protection", "healing", "exorcism", "luck", "fairy warding"],
+    "description": "A peony root kept in the home wards against evil spirits and the evil eye. Chinese tradition considers the peony the king of flowers, associated with high honor, nobility, and good fortune.",
+    "safety": null
+  },
+  {
+    "name": "Black Pepper",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["protection", "banishing", "exorcism", "binding", "warding"],
+    "description": "A fierce protective spice — sprinkled in doorways to ward off unwanted visitors and thrown at the heels of someone who has wronged you to send them away permanently.",
+    "safety": null
+  },
+  {
+    "name": "Pine",
+    "element": "Air",
+    "planet": "Mars",
+    "magical_uses": ["healing", "protection", "purification", "money", "longevity"],
+    "description": "Pine resin and needles burned to purify and protect. Associated with longevity in Asian traditions and resilience in Celtic lore. Pine cones are ancient fertility charms and symbols of regeneration.",
+    "safety": null
+  },
+  {
+    "name": "Pomegranate",
+    "element": "Fire",
+    "planet": "Pluto",
+    "magical_uses": ["divination", "fertility", "underworld work", "wishes", "death and rebirth"],
+    "description": "The fruit of Persephone — eating six seeds bound her to the underworld for half the year. Used in workings of death and rebirth, ancestor communication, and fertility. Count the seeds for divination.",
+    "safety": null
+  },
+  {
+    "name": "Poppy",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["sleep", "dreams", "fertility", "love", "money", "memory of the dead", "Otherworld"],
+    "description": "Sacred to Hypnos and Demeter — a flower of forgetting and of the harvest. Poppy seeds are added to sleep sachets and scattered to confuse those who wish you harm. Red poppies honor the war dead; white poppies honor all ancestors.",
+    "safety": "Opium poppy (Papaver somniferum) is legal to grow ornamentally in most US states. Extracting opium is federally illegal."
+  },
+  {
+    "name": "Red Clover",
+    "element": "Air",
+    "planet": "Mercury",
+    "magical_uses": ["luck", "love", "protection", "fidelity", "money"],
+    "description": "Four-leaf clovers are the supreme luck charm of European folk tradition. Three-leaf clovers were sacred to the Celts as symbols of the threefold goddess. Used in love sachets and carried to ensure fidelity.",
+    "safety": null
+  },
+  {
+    "name": "Rowan",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["protection", "psychic power", "healing", "fairy warding", "divination"],
+    "description": "The strongest protective tree in Celtic and Norse tradition — rowan crosses bound with red thread ward witchcraft and ill spirits. Rowan berries are sacred to Brighid and used in workings of foresight.",
+    "safety": "Raw berries are mildly toxic. Cook before consuming."
+  },
+  {
+    "name": "Saffron",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["love", "healing", "happiness", "psychic power", "wind raising"],
+    "description": "The most valuable spice in the world — sacred to Hecate, Apollo, and the divine feminine across cultures. Burned to raise the wind, used in love potions, and worn to strengthen psychic sight.",
+    "safety": "Very large quantities are toxic. Use culinary amounts in magical work."
+  },
+  {
+    "name": "Solomon's Seal",
+    "element": "Water",
+    "planet": "Saturn",
+    "magical_uses": ["wisdom", "protection", "binding", "cleansing", "sealing workings"],
+    "description": "The root used to seal and bind magical workings — carried for protection or used to consecrate ritual tools. King Solomon's seal and signature are said to be written in the root's markings.",
+    "safety": "Berries are mildly toxic. Do not confuse with false Solomon's Seal when wildcrafting."
+  },
+  {
+    "name": "Star Anise",
+    "element": "Air",
+    "planet": "Jupiter",
+    "magical_uses": ["luck", "psychic power", "purification", "truth", "protection"],
+    "description": "The eight-pointed pods are burned before divination to sharpen psychic sight. Hung in the four directions to purify a space; carried as luck charms in Asian and Hoodoo traditions alike.",
+    "safety": null
+  },
+  {
+    "name": "Tobacco",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["spirit offerings", "ancestor work", "purification", "sacred ceremony", "prayer"],
+    "description": "The most sacred plant to many Indigenous peoples of the Americas — offered at altars, carried as prayer bundles, and used to open communication with ancestors and spirits. In many traditions, offering tobacco is the proper way to ask something of the earth, an elder, or a spirit.",
+    "safety": "Deeply sacred to Indigenous traditions — approach with respect. Not for casual use."
+  },
+  {
+    "name": "Turmeric",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["purification", "prosperity", "strength", "solar work", "blessing"],
+    "description": "A sacred golden spice used in Hindu ritual — smeared on the body before ceremony and offered to the deities. In folk magic it is used to attract wealth and strengthen all solar workings.",
+    "safety": null
+  },
+  {
+    "name": "Vetiver",
+    "element": "Earth",
+    "planet": "Venus",
+    "magical_uses": ["love", "luck", "money", "hex breaking", "grounding", "anti-theft"],
+    "description": "A deeply earthy grass root used in Hoodoo and New Orleans tradition for luck in money and love. Added to mojo bags and floor washes to draw prosperity and protect against theft and misfortune.",
+    "safety": null
+  },
+  {
+    "name": "Violet",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["love", "luck", "protection", "wishes", "healing", "fairies"],
+    "description": "Combined with lavender in a potent love sachet. Violets are fairy flowers — planted in the garden to invite fairy presence and tucked into charm bags to grant wishes and bring gentle healing.",
+    "safety": null
+  },
+  {
+    "name": "White Willow",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["healing", "love", "moon magic", "protection", "grief work", "divination"],
+    "description": "A tree of the Moon and deep water — associated with Hecate, Cerridwen, and all moon goddesses. Willow wands serve lunar workings; the bark is placed in sachets for healing rites and grief work.",
+    "safety": null
+  },
+  {
+    "name": "Witch Hazel",
+    "element": "Fire",
+    "planet": "Sun",
+    "magical_uses": ["protection", "healing", "divination", "warding", "clarity"],
+    "description": "The classic dowsing rod of American folk magic — forked witch hazel branches were used to find water and buried treasure. Burned to reveal hidden things and protect against spirits that steal energy.",
+    "safety": null
+  },
+  {
+    "name": "Wood Betony",
+    "element": "Earth",
+    "planet": "Jupiter",
+    "magical_uses": ["protection", "purification", "warding", "healing", "nightmares"],
+    "description": "An ancient protective herb — the Romans counted its virtues against 47 diseases. Planted in churchyards to protect the dead; scattered around the home to create a barrier against negative spirits.",
+    "safety": null
+  },
+  {
+    "name": "Ylang Ylang",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["love", "peace", "confidence", "attraction", "sensuality"],
+    "description": "The tropical flower of seduction — in Philippine tradition scattered on the beds of newlyweds. Used in love oil blends and beauty magic; the intensely sweet scent calms anxiety and invites sensual connection.",
+    "safety": null
+  },
+  {
+    "name": "Coltsfoot",
+    "element": "Water",
+    "planet": "Venus",
+    "magical_uses": ["visions", "love", "peace", "tranquility", "psychic opening"],
+    "description": "One of the earliest herbs to bloom in spring — burned in divination workings to open psychic channels and used in love sachets. A traditional lung herb of healers; the hoof-shaped leaf gives the plant its name.",
+    "safety": "Contains pyrrolizidine alkaloids — toxic to the liver in large doses. For spell jars and sachets only. Do not ingest or smoke regularly."
+  },
+  {
+    "name": "Blue Lotus",
+    "latin": "Nymphaea caerulea",
+    "element": "Water",
+    "planet": "Moon",
+    "magical_uses": ["visions", "Ancient Egyptian rites", "lucid dreaming", "divine love", "trance"],
+    "description": "The sacred flower of ancient Egypt — depicted in countless tomb paintings as an offering to the gods. Associated with Ra, Osiris, and Nefertem the god of the blue lotus. Consumed in ritual wine for divine communion and to induce visionary states.",
+    "safety": "Safe for spell jars, sachets, and altar work. Legal in the US though used as a mild psychoactive entheogen. Do not combine with depressants, SSRIs, or MAOIs.",
+    "restricted": true
+  },
+  {
+    "name": "Kava Kava",
+    "latin": "Piper methysticum",
+    "element": "Water",
+    "planet": "Saturn",
+    "magical_uses": ["peace", "spirit contact", "trance", "binding", "ancestor communion"],
+    "description": "The ceremonial drink of the Pacific Islands — kava ceremonies mark every important occasion in Fiji, Tonga, and Vanuatu. The root is pounded to extract a mildly psychoactive drink that induces calm, social connection, and at high doses mild visionary states.",
+    "safety": "Safe for spell jars and altar work. Legal in the US. May cause liver damage with heavy or chronic use. Avoid with alcohol and liver medications. Approach the sacred use of kava with respect for the cultures it comes from.",
+    "restricted": true
+  },
+  {
+    "name": "Pennyroyal",
+    "latin": "Mentha pulegium",
+    "element": "Fire",
+    "planet": "Venus",
+    "magical_uses": ["protection", "female mysteries", "hex protection", "safe travel", "clarity"],
+    "description": "A fierce little mint with a long history in female magic — used to protect against hostile spirits, clear the mind, and mark rites of passage. Hung in the home to drive away fleas and spirits alike.",
+    "safety": "Safe for closed spell jars and sachets. A powerful uterine stimulant — do not ingest; causes miscarriage and liver failure in even moderate doses. Pennyroyal essential oil has killed adults. Keep sealed and away from pregnant practitioners.",
+    "restricted": true
+  },
+  {
+    "name": "Tansy",
+    "latin": "Tanacetum vulgare",
+    "element": "Earth",
+    "planet": "Venus",
+    "magical_uses": ["immortality magic", "purification", "warding", "longevity", "death rites"],
+    "description": "An ancient herb of immortality — rubbed on the body of the dead in medieval tradition to preserve them and ward off insects. Used in burial rites, immortality workings, and as a bitter Passover herb in some traditions.",
+    "safety": "Safe for closed spell jars and sealed altar work. Do not ingest — tansy oil is highly toxic, causing convulsions and liver damage. Contains thujone. Strong uterine stimulant; keep away from pregnant practitioners.",
+    "restricted": true
+  },
+  {
+    "name": "Bloodroot",
+    "latin": "Sanguinaria canadensis",
+    "element": "Fire",
+    "planet": "Mars",
+    "magical_uses": ["protection", "love", "hex breaking", "cleansing", "uncrossing"],
+    "description": "A North American woodland plant whose root bleeds vivid red-orange sap — used in Hoodoo tradition as a powerful love-drawing and uncrossing herb. The dried root is carried in a red flannel mojo bag or placed under the doorstep to bring love and ward hexes.",
+    "safety": "Safe for spell jars, sealed sachets, and mojo bags. Do not ingest — toxic, causing vomiting and at high doses serious systemic harm. Avoid prolonged skin contact with fresh root sap.",
+    "restricted": true
+  },
+  {
+    "name": "White Bryony",
+    "latin": "Bryonia dioica",
+    "element": "Water",
+    "planet": "Mars",
+    "magical_uses": ["prosperity", "weather working", "poppet magic", "hex work", "binding"],
+    "description": "The English mandrake — its forked root was used as a mandrake substitute in British folk magic and shaped into poppets. Associated with prosperity workings, weather magic, and binding spells.",
+    "safety": "Safe for sealed poppet work and spell jars. Do not ingest — extremely toxic; as few as 40 berries have caused adult deaths. Wear gloves when handling the root. Do not burn.",
+    "restricted": true
+  },
+  {
+    "name": "Iboga",
+    "latin": "Tabernanthe iboga",
+    "element": "Fire",
+    "planet": "Saturn",
+    "magical_uses": ["initiation", "vision quest", "ancestor contact", "death and rebirth", "Bwiti ceremony"],
+    "description": "The sacrament of the Bwiti people of Gabon and Cameroon — consumed in massive initiatory doses over multi-day ceremonies to contact ancestors and undergo death-and-rebirth transformation. One of the most psychologically powerful visionary plants known, a true initiation sacrament in the deepest sense.",
+    "safety": "Schedule I in the US and controlled in many countries. Legal in some countries for religious use. Iboga ceremonies carry real physical risk including cardiac events. This entry is for spiritual and cultural reference only.",
+    "restricted": true
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Sleep Sachet",
+    "category": "sachet",
+    "intention": "sleep & dreams",
+    "description": "A gentle sachet for restful sleep and vivid, protected dreams. Place under the pillow or hang near the bed.",
+    "ingredients": [
+      { "herb": "Lavender",   "amount": "2 tbsp dried flowers" },
+      { "herb": "Chamomile",  "amount": "1 tbsp dried flowers" },
+      { "herb": "Valerian",   "amount": "1 tsp dried root" },
+      { "herb": "Mugwort",    "amount": "1 tsp dried leaf" },
+      { "item": "Small muslin bag", "amount": "1" }
+    ],
+    "steps": [
+      "Grind or crumble the dried herbs lightly to release their scent.",
+      "Combine all herbs in the muslin bag.",
+      "Hold the sachet between your palms and visualize deep, unbroken sleep. Set your intention clearly.",
+      "Place under your pillow before bed."
+    ],
+    "notes": "Replace monthly or when the scent fades. Mugwort intensifies dreaming — reduce or omit if dreams become too vivid."
+  },
+  {
+    "name": "Protection Jar",
+    "category": "spell jar",
+    "intention": "warding & protection",
+    "description": "A defensive jar that creates a barrier against ill intent, hexes, and unwanted spiritual intrusion. Seal with black wax and place near your front entrance.",
+    "ingredients": [
+      { "herb": "Rosemary",     "amount": "1 tbsp dried" },
+      { "herb": "Black Pepper", "amount": "1 tsp whole peppercorns" },
+      { "herb": "Sage",         "amount": "1 tbsp dried" },
+      { "herb": "Nettle",       "amount": "1 tbsp dried" },
+      { "herb": "Rue",          "amount": "1 tsp dried" },
+      { "item": "Small glass jar with lid", "amount": "1" },
+      { "item": "Black chime candle",       "amount": "1" },
+      { "item": "Sea salt",                 "amount": "1 tbsp" }
+    ],
+    "steps": [
+      "Layer the salt into the bottom of the jar to create a cleansing base.",
+      "Add the herbs one at a time, focusing on their protective properties as you place each one.",
+      "Seal the jar tightly.",
+      "Drip black wax over the lid to seal your intention.",
+      "Hold the jar and state your protective intention clearly aloud or in your mind.",
+      "Place near your front door, on a windowsill, or bury near the property boundary."
+    ],
+    "notes": "Shake the jar when you feel your home needs a boost. Replace yearly or if the jar breaks."
+  },
+  {
+    "name": "Money Drawing Sachet",
+    "category": "sachet",
+    "intention": "prosperity & abundance",
+    "description": "A classic prosperity sachet carried in the wallet or purse to attract financial opportunity and draw money toward you.",
+    "ingredients": [
+      { "herb": "Basil",     "amount": "1 tbsp dried" },
+      { "herb": "Cinnamon",  "amount": "1 tsp ground or 1 stick, crumbled" },
+      { "herb": "Mint",      "amount": "1 tbsp dried" },
+      { "herb": "Patchouli", "amount": "1 tsp dried leaf" },
+      { "herb": "Nutmeg",    "amount": "pinch of ground" },
+      { "item": "Green flannel or muslin bag", "amount": "1" },
+      { "item": "Small lodestone or pyrite chip", "amount": "1 (optional)" }
+    ],
+    "steps": [
+      "On a Thursday (Jupiter's day) or during a waxing or full moon, combine the herbs.",
+      "Hold the lodestone or pyrite in your hands and charge it with your intention to attract abundance.",
+      "Place all ingredients in the green bag.",
+      "Tie the bag closed with three knots, sealing your intention with each knot.",
+      "Carry in your wallet, purse, or cash drawer."
+    ],
+    "notes": "Feed the sachet with a drop of basil essential oil or fresh mint once a month to keep it active."
+  },
+  {
+    "name": "Dream Pillow",
+    "category": "pillow",
+    "intention": "dreaming & prophecy",
+    "description": "A pillow insert or sachet stuffed with herbs that encourage vivid, prophetic, and lucid dreams. Especially powerful at the new and full moon.",
+    "ingredients": [
+      { "herb": "Mugwort",    "amount": "1/4 cup dried leaf" },
+      { "herb": "Lavender",   "amount": "2 tbsp dried flowers" },
+      { "herb": "Rose",       "amount": "2 tbsp dried petals" },
+      { "herb": "Chamomile",  "amount": "1 tbsp dried flowers" },
+      { "herb": "Yarrow",     "amount": "1 tsp dried" },
+      { "item": "Small cloth pillowcase or large sachet", "amount": "1" }
+    ],
+    "steps": [
+      "Combine all herbs and fill the pillow or sachet loosely (don't pack too tight).",
+      "Sew or tie shut.",
+      "Place inside your pillowcase beneath your regular pillow.",
+      "Before sleep, press the pillow to your face and breathe in the scent while stating your intention to remember your dreams."
+    ],
+    "notes": "Keep a journal by the bed. Mugwort can be potent — reduce the amount if dreams become overwhelming or disturbing."
+  },
+  {
+    "name": "Purification Bath",
+    "category": "bath",
+    "intention": "cleansing & purification",
+    "description": "A spiritual cleansing bath to wash away negativity, psychic residue, spiritual contamination, or the aftermath of intense magical work.",
+    "ingredients": [
+      { "herb": "Hyssop",    "amount": "2 tbsp dried" },
+      { "herb": "Rosemary",  "amount": "2 tbsp dried" },
+      { "herb": "Lavender",  "amount": "2 tbsp dried flowers" },
+      { "herb": "Lemon Balm","amount": "1 tbsp dried" },
+      { "item": "Sea salt or pink Himalayan salt", "amount": "1/2 cup" },
+      { "item": "White candle",                    "amount": "1" },
+      { "item": "Muslin bag or tea infuser",        "amount": "1" }
+    ],
+    "steps": [
+      "Place all dried herbs in the muslin bag.",
+      "Run a warm bath and hang or float the herb bag in the water while the bath fills.",
+      "Add the salt to the bath and stir clockwise while visualizing all negativity dissolving.",
+      "Light the white candle.",
+      "Enter the bath and soak for at least 15 minutes, allowing the water to draw away what no longer serves you.",
+      "Drain the bath while still seated, visualizing the unwanted energy draining away with the water."
+    ],
+    "notes": "Air dry if possible rather than toweling off immediately. Perform at the full or waning moon for releasing, or as needed after heavy magical work or difficult experiences."
+  },
+  {
+    "name": "Hex-Breaking Jar",
+    "category": "spell jar",
+    "intention": "hex breaking & uncrossing",
+    "description": "A jar working to break hexes, remove crossed conditions, and return negative energy to its source. Uses the fierce, reversing energy of Mars-ruled plants.",
+    "ingredients": [
+      { "herb": "Rue",          "amount": "1 tbsp dried" },
+      { "herb": "Nettle",       "amount": "1 tbsp dried" },
+      { "herb": "Yarrow",       "amount": "1 tbsp dried" },
+      { "herb": "Black Pepper", "amount": "1 tsp whole peppercorns" },
+      { "herb": "Wormwood",     "amount": "1 tsp dried" },
+      { "item": "Small mirror shard or reflective piece", "amount": "1 (optional)" },
+      { "item": "Small glass jar",  "amount": "1" },
+      { "item": "Black or red wax", "amount": "for sealing" }
+    ],
+    "steps": [
+      "Working on a waning moon, preferably on a Saturday (Saturn) or Tuesday (Mars), combine the herbs.",
+      "If using a mirror shard, place it in the jar with the reflective side facing out through the glass — to reflect workings back.",
+      "Fill the jar with the herbs and seal tightly.",
+      "Seal with black wax while stating: 'What has been sent returns. This working is broken.'",
+      "Bury the jar away from your property, or place it on your altar and shake it three times when you feel the crossed condition active."
+    ],
+    "notes": "Wash hands thoroughly after handling wormwood and rue. Dispose of the jar away from your home once you feel the working has cleared."
+  },
+  {
+    "name": "Love Oil Blend",
+    "category": "oil",
+    "intention": "love & attraction",
+    "description": "A Venus-ruled anointing oil for love work — worn on the body, used to dress candles, or added to sachets to draw romantic love and strengthen connection.",
+    "ingredients": [
+      { "herb": "Rose",        "amount": "1 tbsp dried petals" },
+      { "herb": "Jasmine",     "amount": "1 tsp dried flowers" },
+      { "herb": "Ylang Ylang", "amount": "5 drops essential oil" },
+      { "herb": "Cardamom",    "amount": "1/2 tsp crushed seed" },
+      { "herb": "Lavender",    "amount": "3 drops essential oil" },
+      { "item": "Carrier oil (sweet almond, jojoba, or fractionated coconut)", "amount": "2 oz" },
+      { "item": "Small dark glass bottle", "amount": "1" }
+    ],
+    "steps": [
+      "On a Friday (Venus's day) during a waxing moon, combine the dried herbs in the bottle.",
+      "Pour the carrier oil over them.",
+      "Add the essential oils.",
+      "Cap the bottle and roll it gently between your palms to blend, focusing on your intention.",
+      "Let the oil infuse for at least one full lunar cycle (28 days) before using.",
+      "Strain out the dried herbs before use if desired, or leave them in."
+    ],
+    "notes": "Anoint pulse points (wrists, throat, heart) before going out or before love work. Use to dress a pink or red candle for attraction spells."
+  },
+  {
+    "name": "Ancestor Offering Blend",
+    "category": "incense",
+    "intention": "ancestor work & spirit contact",
+    "description": "A loose incense blend burned on charcoal to honor ancestors, open communication with the beloved dead, and create sacred space for spirit work.",
+    "ingredients": [
+      { "herb": "Myrrh",        "amount": "1 tbsp resin" },
+      { "herb": "Frankincense", "amount": "1 tbsp resin" },
+      { "herb": "Wormwood",     "amount": "1 tsp dried" },
+      { "herb": "Mugwort",      "amount": "1 tsp dried" },
+      { "herb": "Sweetgrass",   "amount": "1/2 tsp dried or a small braid" },
+      { "item": "Loose charcoal disc",        "amount": "1" },
+      { "item": "Fireproof incense burner",   "amount": "1" },
+      { "item": "A photo or memento of your ancestor (optional)", "amount": "—" }
+    ],
+    "steps": [
+      "Set up your ancestor altar or working space. Place photos, mementos, or offerings of food and water if you have them.",
+      "Light the charcoal disc and allow it to fully catch (it will spark and glow orange).",
+      "Combine the herbs and resins.",
+      "Place a small amount of the blend on the glowing charcoal.",
+      "As the smoke rises, speak to your ancestors — invite them to join you, share news, ask for guidance, or simply offer gratitude.",
+      "Allow the incense to burn through naturally."
+    ],
+    "notes": "Burn in a well-ventilated space. Wormwood smoke can be potent — use small amounts. This blend can be used at Samhain, Días de los Muertos, or any time you wish to connect with the beloved dead."
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Amethyst",
+    "element": "Air / Water",
+    "planet": "Jupiter",
+    "chakra": "Crown",
+    "magical_uses": ["protection", "psychic ability", "calm", "sobriety", "wisdom", "spiritual growth"],
+    "description": "A stone of spiritual protection and purification — calms the mind, heightens intuition, and creates a shield against psychic manipulation.",
+    "safety": null
+  },
+  {
+    "name": "Aquamarine",
+    "element": "Water",
+    "planet": "Moon / Neptune",
+    "chakra": "Throat",
+    "magical_uses": ["courage", "communication", "intuition", "cleansing", "sea magic", "truth"],
+    "description": "A stone of the sea carried by sailors for protection. It clears the mind, strengthens communication, and connects the practitioner to water spirits and the deep unconscious.",
+    "safety": null
+  },
+  {
+    "name": "Black Obsidian",
+    "element": "Fire / Earth",
+    "planet": "Saturn / Pluto",
+    "chakra": "Root",
+    "magical_uses": ["truth", "protection", "shadow work", "grounding", "banishing", "scrying"],
+    "description": "Volcanic glass that cuts through illusion mercilessly. Used in scrying mirrors, shadow work, and for severing energetic cords. It does not soften its revelations.",
+    "safety": null
+  },
+  {
+    "name": "Black Tourmaline",
+    "element": "Earth",
+    "planet": "Saturn",
+    "chakra": "Root",
+    "magical_uses": ["protection", "grounding", "deflecting negativity", "purification", "shielding"],
+    "description": "One of the strongest protective stones — placed at the four corners of a home or carried to create an impenetrable energetic shield against psychic attack.",
+    "safety": null
+  },
+  {
+    "name": "Carnelian",
+    "element": "Fire",
+    "planet": "Sun / Mars",
+    "chakra": "Sacral",
+    "magical_uses": ["motivation", "courage", "creativity", "passion", "action", "vitality"],
+    "description": "A stone of fire that dispels apathy and ignites the will to create. Carried by warriors and artists alike for courage, confidence, and the drive to act.",
+    "safety": null
+  },
+  {
+    "name": "Citrine",
+    "element": "Fire",
+    "planet": "Sun",
+    "chakra": "Solar Plexus",
+    "magical_uses": ["abundance", "joy", "confidence", "creativity", "manifestation", "success"],
+    "description": "The merchant's stone — placed in the cash register or wallet to attract abundance. Unlike most crystals it does not absorb negative energy but dissipates it.",
+    "safety": "Natural citrine is rare; most commercial citrine is heat-treated amethyst. Both work effectively."
+  },
+  {
+    "name": "Clear Quartz",
+    "element": "All elements",
+    "planet": "Sun",
+    "chakra": "Crown",
+    "magical_uses": ["amplification", "clarity", "programmable", "healing", "all-purpose", "charging"],
+    "description": "The master crystal — amplifies the energy of any stone or intention placed near it. Can be programmed for any purpose and substituted for any other crystal.",
+    "safety": null
+  },
+  {
+    "name": "Fluorite",
+    "element": "Air / Water",
+    "planet": "Mercury",
+    "chakra": "Third Eye",
+    "magical_uses": ["mental clarity", "focus", "study", "order", "protection from manipulation", "decision making"],
+    "description": "Brings structure to chaotic thought and cuts through confusion and manipulation. Excellent for students and for protecting the mind during psychic work.",
+    "safety": null
+  },
+  {
+    "name": "Garnet",
+    "element": "Fire",
+    "planet": "Mars",
+    "chakra": "Root",
+    "magical_uses": ["passion", "commitment", "grounding", "protection", "regeneration", "love"],
+    "description": "A stone of commitment and primal vitality — worn to attract loyal love, to sustain the practitioner through long spiritual work, and to regenerate depleted energy.",
+    "safety": null
+  },
+  {
+    "name": "Hematite",
+    "element": "Earth / Fire",
+    "planet": "Saturn / Mars",
+    "chakra": "Root",
+    "magical_uses": ["grounding", "protection", "strength", "focus", "courage", "iron magic"],
+    "description": "Dense and grounding, hematite anchors scattered energy back to the body. Used to strengthen physical and energetic boundaries and to boost willpower.",
+    "safety": null
+  },
+  {
+    "name": "Jade",
+    "element": "Earth / Water",
+    "planet": "Venus / Neptune",
+    "chakra": "Heart",
+    "magical_uses": ["luck", "prosperity", "love", "longevity", "wisdom", "harmony"],
+    "description": "Sacred throughout East Asian traditions for its connection to virtue and good fortune. Worn to attract luck, protect the wearer, and bring harmonious relationships.",
+    "safety": null
+  },
+  {
+    "name": "Labradorite",
+    "element": "Water / Air",
+    "planet": "Uranus",
+    "chakra": "Third Eye",
+    "magical_uses": ["magic", "transformation", "psychic ability", "aura protection", "mystery", "synchronicity"],
+    "description": "The stone of magic — it reveals what is hidden, protects the aura from energy leaks, and opens the practitioner to the full spectrum of synchronicity and mystery.",
+    "safety": null
+  },
+  {
+    "name": "Lapis Lazuli",
+    "element": "Air / Water",
+    "planet": "Jupiter",
+    "chakra": "Third Eye",
+    "magical_uses": ["wisdom", "truth", "psychic ability", "past lives", "communication", "royalty"],
+    "description": "A royal stone used by priests and pharaohs to commune with the divine. It stimulates higher wisdom, unveils truth, and opens the inner eye for visionary work.",
+    "safety": null
+  },
+  {
+    "name": "Lepidolite",
+    "element": "Water / Air",
+    "planet": "Jupiter / Neptune",
+    "chakra": "Crown",
+    "magical_uses": ["transition", "calm", "emotional healing", "anxiety", "sleep", "spiritual evolution"],
+    "description": "A stone of transition and peace — accompanies the practitioner through major life changes and dissolves anxiety without sedating awareness.",
+    "safety": null
+  },
+  {
+    "name": "Malachite",
+    "element": "Earth / Water",
+    "planet": "Venus",
+    "chakra": "Heart",
+    "magical_uses": ["transformation", "protection", "abundance", "emotional healing", "fertility", "travel"],
+    "description": "An intense amplifier of emotions and intentions — it draws out what is ready to be released and transforms stuck energy. Protective especially during travel.",
+    "safety": "Toxic when powdered or wet. Never make elixirs with raw malachite. Tumbled stones are safe to handle."
+  },
+  {
+    "name": "Moonstone",
+    "element": "Water",
+    "planet": "Moon",
+    "chakra": "Crown",
+    "magical_uses": ["intuition", "cycles", "feminine energy", "new beginnings", "dream work", "travel"],
+    "description": "The stone of the Moon, attuned to cycles, tides, and feminine mysteries. Worn for psychic protection during travel and to honour the turning of the wheel.",
+    "safety": null
+  },
+  {
+    "name": "Pyrite",
+    "element": "Earth / Fire",
+    "planet": "Sun / Mars",
+    "chakra": "Solar Plexus",
+    "magical_uses": ["abundance", "willpower", "shielding", "manifestation", "confidence", "prosperity"],
+    "description": "Fool's Gold — but no fool's stone. It shields against environmental and emotional pollution, ignites willpower, and strongly supports manifestation of physical goals.",
+    "safety": null
+  },
+  {
+    "name": "Rhodonite",
+    "element": "Earth / Fire",
+    "planet": "Venus / Mars",
+    "chakra": "Heart",
+    "magical_uses": ["forgiveness", "healing old wounds", "compassion", "balance", "love in action"],
+    "description": "Bridges the heart and the will — for those doing the difficult work of forgiving without forgetting, and translating compassion into concrete, grounded action.",
+    "safety": null
+  },
+  {
+    "name": "Rose Quartz",
+    "element": "Water",
+    "planet": "Venus",
+    "chakra": "Heart",
+    "magical_uses": ["unconditional love", "self-love", "compassion", "heartbreak healing", "beauty", "harmony"],
+    "description": "The stone of universal love — placed on the heart chakra in healing work, worn to attract love, and given as a gift of genuine care and compassion.",
+    "safety": null
+  },
+  {
+    "name": "Selenite",
+    "element": "Air",
+    "planet": "Moon",
+    "chakra": "Crown",
+    "magical_uses": ["cleansing", "clarity", "higher planes", "charging crystals", "divine connection", "peace"],
+    "description": "A high-vibration crystal of pure light — used to cleanse other crystals (without needing cleansing itself), open the crown chakra, and establish clear channel to higher guidance.",
+    "safety": "Water soluble — do not submerge or cleanse with water."
+  },
+  {
+    "name": "Smoky Quartz",
+    "element": "Earth",
+    "planet": "Saturn",
+    "chakra": "Root",
+    "magical_uses": ["grounding", "transmuting negativity", "protection", "calm", "practicality", "acceptance"],
+    "description": "Transmutes negative energy into neutral Earth energy rather than simply deflecting it. Excellent for anyone doing shadow work or navigating grief and depression.",
+    "safety": null
+  },
+  {
+    "name": "Sodalite",
+    "element": "Water / Air",
+    "planet": "Moon / Saturn",
+    "chakra": "Third Eye",
+    "magical_uses": ["logic", "truth", "calmness", "self-trust", "communication", "shadow integration"],
+    "description": "Balances rational thought with intuition and is particularly useful for those who distrust their own inner voice. Encourages calm, honest communication.",
+    "safety": null
+  },
+  {
+    "name": "Tiger's Eye",
+    "element": "Fire / Earth",
+    "planet": "Sun",
+    "chakra": "Solar Plexus",
+    "magical_uses": ["courage", "clarity", "protection", "grounding", "confidence", "discernment"],
+    "description": "A stone of grounded courage — it helps the practitioner see through illusion and deception, act from a place of integrity, and remain centered under pressure.",
+    "safety": null
+  },
+  {
+    "name": "Turquoise",
+    "element": "Air / Water",
+    "planet": "Venus / Neptune",
+    "chakra": "Throat",
+    "magical_uses": ["protection", "communication", "healing", "travel", "luck", "spiritual attunement"],
+    "description": "One of the oldest protective talismans — worn by warriors, shamans, and rulers alike. Guards against harm, opens honest communication, and attunes the spirit.",
+    "safety": "Avoid contact with oils, perfumes, and water as it is porous and can be damaged."
+  }
+]
