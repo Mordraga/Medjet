@@ -5012,5 +5012,470 @@
     "historic_data": "Rod is mentioned in several Eastern Orthodox Christian homilies against paganism (12th–13th century CE) warning Slavic Christians against making offerings to Rod and the Rozhanitsy, indicating the persistence of his cult well into the Christianisation period. He is considered by some scholars to be an earlier, supreme creator deity predating the Kievan Rus pantheon.",
     "wikipedia": "https://en.wikipedia.org/wiki/Rod_(Slavic_religion)",
     "practice": "open"
+  },
+  {
+    "name": "God the Father",
+    "epithets": [
+      "Yahweh",
+      "El Shaddai",
+      "Lord of Hosts",
+      "The Almighty",
+      "The Most High"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Western Christian",
+    "period": "c. 100 CE – present",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "creation",
+      "sovereignty",
+      "law",
+      "judgment",
+      "protection",
+      "covenant",
+      "all things"
+    ],
+    "symbols": [
+      "triangle",
+      "all-seeing eye",
+      "rays of light",
+      "crown",
+      "shepherd's crook"
+    ],
+    "associations": {
+      "element": "Fire",
+      "planet": "Sun"
+    },
+    "description": "The Father is the first person of the Christian Trinity — omnipotent creator, sovereign judge, and keeper of covenant. In Hoodoo, folk Catholicism, and syncretic traditions He is addressed directly through psalm magic, prayer petitions, and scripture work as the ultimate source of divine authority. Many practitioners invoke Him regardless of their primary tradition.",
+    "historic_data": "Synthesised from Hebrew Yahweh/Elohim and Greek Theos, formalized through the Nicene Creed (325 CE). Central to Western Christian, Jewish, and Islamic theology. Psalm work in Hoodoo draws heavily on the Books of Psalms and Numbers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/God_in_Christianity",
+    "practice": "open"
+  },
+  {
+    "name": "Jesus Christ",
+    "epithets": [
+      "The Christ",
+      "Son of God",
+      "Lamb of God",
+      "The Good Shepherd",
+      "Light of the World"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Western Christian",
+    "period": "c. 30 CE – present",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "healing",
+      "resurrection",
+      "love",
+      "miracles",
+      "protection",
+      "redemption",
+      "forgiveness"
+    ],
+    "symbols": [
+      "cross",
+      "sacred heart",
+      "fish (ichthys)",
+      "lamb",
+      "crown of thorns",
+      "white light"
+    ],
+    "associations": {
+      "element": "Water",
+      "planet": "Sun"
+    },
+    "description": "In Christian folk magic and Hoodoo, Jesus is an active and accessible ally for healing, protection, and miraculous intervention. Psalms and Gospel verses are used as spoken charms, written on petition papers, and recited over candles. He is called upon across traditions far beyond mainstream Christianity — his compassionate accessibility and miracle-working reputation make him one of the most broadly invoked figures in folk magic worldwide.",
+    "historic_data": "Historical figure Yeshua of Nazareth, c. 4 BCE – 30 CE. Hoodoo and African American folk magic has incorporated Jesus explicitly since its origins in the antebellum South, blending with West African spiritual traditions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jesus",
+    "practice": "open"
+  },
+  {
+    "name": "The Holy Spirit",
+    "epithets": [
+      "Paraclete",
+      "Comforter",
+      "Breath of God",
+      "Spirit of Truth",
+      "Divine Fire"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Western Christian",
+    "period": "c. 100 CE – present",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "inspiration",
+      "prophecy",
+      "wisdom",
+      "healing",
+      "transformation",
+      "presence",
+      "gifts of the spirit"
+    ],
+    "symbols": [
+      "dove",
+      "tongues of flame",
+      "wind",
+      "oil",
+      "rushing water"
+    ],
+    "associations": {
+      "element": "Air",
+      "planet": "Mercury"
+    },
+    "description": "The Holy Spirit is the third person of the Trinity — the living breath of God that moves through practitioners as inspiration, prophetic gift, and spiritual awakening. In charismatic and folk traditions the Spirit manifests as ecstatic experience, healing power, and discernment. Many practitioners work with the Holy Spirit directly for creative inspiration, divinatory clarity, and conscious connection to the divine.",
+    "historic_data": "Central to Pentecostal and charismatic Christianity from the early 20th century. Referenced throughout the New Testament and depicted in Acts 2 as the Pentecost descent of fire and wind.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Holy_Spirit_in_Christianity",
+    "practice": "open"
+  },
+  {
+    "name": "Mary",
+    "epithets": [
+      "Mother of God",
+      "Queen of Heaven",
+      "Stella Maris",
+      "Theotokos",
+      "Our Lady"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Western Christian / Folk Catholic",
+    "period": "c. 300 CE – present",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "love",
+      "protection",
+      "motherhood",
+      "compassion",
+      "healing",
+      "intercession",
+      "the sea",
+      "grief",
+      "the moon"
+    ],
+    "symbols": [
+      "blue mantle",
+      "roses",
+      "crescent moon underfoot",
+      "stars",
+      "rosary",
+      "white lily"
+    ],
+    "associations": {
+      "element": "Water",
+      "planet": "Moon"
+    },
+    "description": "Mary is the most widely venerated figure in folk Catholicism and syncretic magic — appearing under countless names (Our Lady of Guadalupe, Our Lady of Charity, Stella Maris) and identified with older goddess figures by many practitioners. She intercedes for the sick, the sorrowful, and those who call on her with devotion. Her cosmic imagery — clothed with the sun, moon at her feet, crowned with stars — resonates deeply with goddess-working traditions.",
+    "historic_data": "Marian devotion grew significantly from the 4th century. Apparitions at Guadalupe (1531), Lourdes (1858), and Fátima (1917) drove major expansions of her cult. Syncretised with Isis, Yemoja, and Oshun in various folk traditions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mary,_mother_of_Jesus",
+    "practice": "open"
+  },
+  {
+    "name": "Archangel Michael",
+    "epithets": [
+      "Prince of the Heavenly Host",
+      "Dragon-Slayer",
+      "He Who is Like God",
+      "Defender of the Faith"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Western Christian / Angelic",
+    "period": "c. 200 BCE – present",
+    "type": "spirit",
+    "prominence": "major",
+    "domain": [
+      "protection",
+      "justice",
+      "war",
+      "banishing evil",
+      "strength",
+      "psychopomp",
+      "the sun"
+    ],
+    "symbols": [
+      "flaming sword",
+      "shield",
+      "scales",
+      "blue flame",
+      "armor",
+      "dragon underfoot"
+    ],
+    "associations": {
+      "element": "Fire",
+      "planet": "Sun"
+    },
+    "description": "Michael is the warrior archangel who commands the heavenly host and battles forces of darkness. In folk magic, candle work, and spiritual protection he is one of the most invoked angelic figures — called on for protection, clearing negative energy, justice in impossible situations, and safe passage of the dead. He bridges military force and spiritual authority.",
+    "historic_data": "Referenced in Daniel 10–12, Revelation 12, and 1 Enoch. His feast day Michaelmas (29 September) was a major medieval festival. Venerated in Catholic, Orthodox, Islamic, and Jewish traditions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_(archangel)",
+    "practice": "open"
+  },
+  {
+    "name": "Archangel Gabriel",
+    "epithets": [
+      "Messenger of God",
+      "Strength of God",
+      "Herald of Heaven",
+      "Angel of the Annunciation"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Western Christian / Angelic",
+    "period": "c. 200 BCE – present",
+    "type": "spirit",
+    "prominence": "major",
+    "domain": [
+      "communication",
+      "prophecy",
+      "revelation",
+      "dreams",
+      "creativity",
+      "the moon",
+      "annunciation"
+    ],
+    "symbols": [
+      "lily",
+      "trumpet",
+      "scroll",
+      "crescent moon",
+      "white robes"
+    ],
+    "associations": {
+      "element": "Water",
+      "planet": "Moon"
+    },
+    "description": "Gabriel is the divine messenger who carries the word of God between realms — delivering prophecy to Daniel, announcing the birth of Jesus to Mary, and in Islamic tradition dictating the Quran to Muhammad. In magical practice Gabriel governs communication, prophetic dreams, creative inspiration, and the psychic arts. He is widely invoked in moon work, divination, and any practice requiring clear divine communication.",
+    "historic_data": "Appears in Daniel 8–9, Luke 1, and the Quran. Named as the ruling angel of the Moon in Hermetic and Kabbalistic angelology. Feast day shared with Michael and Raphael on 29 September.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gabriel",
+    "practice": "open"
+  },
+  {
+    "name": "Archangel Raphael",
+    "epithets": [
+      "God Heals",
+      "Companion of Travelers",
+      "Divine Physician",
+      "Angel of Healing"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Western Christian / Angelic",
+    "period": "c. 200 BCE – present",
+    "type": "spirit",
+    "prominence": "major",
+    "domain": [
+      "healing",
+      "travel",
+      "guidance",
+      "medicine",
+      "companionship",
+      "protection of journeys"
+    ],
+    "symbols": [
+      "staff",
+      "fish",
+      "apothecary jar",
+      "green light",
+      "caduceus-like rod"
+    ],
+    "associations": {
+      "element": "Air",
+      "planet": "Mercury"
+    },
+    "description": "Raphael is the healing archangel who walks with travellers and heals the sick in body and spirit. In the Book of Tobit he appears as a human companion for years before revealing his angelic nature. In magical practice he governs all healing work, safe travel, the health of breath and eyes, and the restoration of what is broken — a gentle, deeply personable divine presence.",
+    "historic_data": "Named in the Book of Tobit and 1 Enoch. Associated with Mercury/Hermes in Hermetic tradition. One of only three archangels venerated as saints in the Roman Catholic Church.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Raphael_(archangel)",
+    "practice": "open"
+  },
+  {
+    "name": "Archangel Uriel",
+    "epithets": [
+      "Light of God",
+      "Fire of God",
+      "Regent of the Earth",
+      "Angel of Repentance"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Western Christian / Angelic",
+    "period": "c. 200 BCE – present",
+    "type": "spirit",
+    "prominence": "major",
+    "domain": [
+      "wisdom",
+      "earth",
+      "alchemy",
+      "prophecy",
+      "repentance",
+      "the natural world",
+      "cosmic fire",
+      "hidden knowledge"
+    ],
+    "symbols": [
+      "flame",
+      "scroll",
+      "sun disc",
+      "open book",
+      "lightning"
+    ],
+    "associations": {
+      "element": "Earth",
+      "planet": "Saturn"
+    },
+    "description": "Uriel is the archangel of divine fire and wisdom who guards the gates of Eden and governs the forces of nature. He appears in 2 Esdras and 1 Enoch as an interpreter of visions and guide through cosmic mysteries. In ceremonial and Hermetic magic he is the regent of the northern/earth quarter and a patron of alchemical transformation, gnosis, and hidden knowledge.",
+    "historic_data": "Referenced in 2 Esdras and 1 Enoch. Prominent in the Hermetic Order of the Golden Dawn ritual system. Not officially venerated as a saint in the Roman Catholic Church — his cult was suppressed in 745 CE at the Council of Rome.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Uriel",
+    "practice": "open"
+  },
+  {
+    "name": "Saint Cyprian of Antioch",
+    "epithets": [
+      "Patron of Sorcerers",
+      "The Magician-Saint",
+      "Witches' Confessor",
+      "The Black Bishop"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Christian Folk Magic",
+    "period": "c. 400 CE – present",
+    "type": "ancestor",
+    "prominence": "major",
+    "domain": [
+      "magic",
+      "sorcery",
+      "protection from spirits",
+      "the occult arts",
+      "conversion",
+      "grimoires"
+    ],
+    "symbols": [
+      "bishop's vestments",
+      "book of spells",
+      "serpent",
+      "skull",
+      "wand"
+    ],
+    "associations": {
+      "element": "Earth",
+      "planet": "Saturn"
+    },
+    "description": "Saint Cyprian of Antioch is, according to legend, a powerful sorcerer who converted to Christianity after his magic failed against a Christian virgin named Justina. He is uniquely positioned as a holy figure who bridges Christian devotion and magical tradition — a saint approached by sorcerers, witches, and occultists across cultures. An entire grimoire tradition (the Cypriana) is attributed to him.",
+    "historic_data": "Likely legendary rather than historical, first attested in 4th-century hagiographies. Feast day 26 September. The Book of Saint Cyprian is one of the most widely circulated folk magic grimoires, with major living traditions in Portugal, Brazil, and Scandinavia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cyprian_of_Antioch",
+    "practice": "open"
+  },
+  {
+    "name": "Saint Expedite",
+    "epithets": [
+      "He Who Acts Today",
+      "Patron of Urgent Causes",
+      "Saint of the Desperate Hour",
+      "Sant' Expedito"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Christian Folk Magic",
+    "period": "c. 1800 CE – present",
+    "type": "ancestor",
+    "prominence": "minor",
+    "domain": [
+      "urgency",
+      "speed",
+      "emergencies",
+      "overcoming procrastination",
+      "quick resolutions",
+      "luck"
+    ],
+    "symbols": [
+      "cross reading HODIE (today)",
+      "raven underfoot crying CRAS (tomorrow)",
+      "Roman centurion armor",
+      "red candle"
+    ],
+    "associations": {
+      "element": "Fire",
+      "planet": "Mercury"
+    },
+    "description": "Saint Expedite is invoked when there is no time to wait — for urgent petitions, fast resolution of crises, quick money, and the defeat of procrastination and delay. He is one of the most beloved figures in New Orleans Voodoo, Hoodoo, and Latin American folk magic. Offerings of pound cake, red candles, and hot sauce are traditional; you thank him publicly when he delivers.",
+    "historic_data": "Possibly legendary. Tradition holds that his statue arrived at a New Orleans convent in a crate labeled 'expedite.' Feast day 19 April. Extremely popular in New Orleans, Latin America, and the Philippines.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saint_Expeditus",
+    "practice": "open"
+  },
+  {
+    "name": "Santa Muerte",
+    "epithets": [
+      "Holy Death",
+      "The Skinny Lady",
+      "Most Holy Death",
+      "Our Lady of the Shadows",
+      "Niña Santa"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Mexican Folk Catholic",
+    "period": "c. 1900 CE – present",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "death",
+      "healing",
+      "love",
+      "justice",
+      "protection",
+      "the marginalized",
+      "safe passage of souls"
+    ],
+    "symbols": [
+      "scythe",
+      "globe",
+      "scales",
+      "owl",
+      "hourglass",
+      "colored robes (white for healing, red for love, black for protection)"
+    ],
+    "associations": {
+      "element": "Earth",
+      "planet": "Saturn"
+    },
+    "description": "Santa Muerte is a syncretic Mexican folk deity fusing Aztec death goddess imagery with Catholic iconography. She is fiercely protective of those society marginalizes — sex workers, LGBTQ+ people, the incarcerated, the poor — and responds quickly to those who honor her. Her color-coded aspects each serve different needs: white for healing and purification, red for love and passion, black for protection and justice, gold for money and abundance.",
+    "historic_data": "Modern public devotion emerged in Mexico City in 2001, though folk roots trace to colonial-era syncretism. She is deeply venerated across Mexican society — by the poor, LGBTQ+ communities, prisoners, and those in dangerous work, including narco-traffickers and cartel members who regard her as a protector outside the reach of official religion. Her association with criminal culture reflects her nature as a deity of the marginalized and those who operate outside the law, not an endorsement of those activities. Tens of millions of devotees worldwide. The Catholic Church has formally condemned her veneration.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Santa_Muerte",
+    "practice": "open"
+  },
+  {
+    "name": "Lucifer",
+    "epithets": [
+      "The Morning Star",
+      "Light-Bearer",
+      "Son of the Dawn",
+      "The Bright and Shining One"
+    ],
+    "pantheon": "Abrahamic",
+    "culture": "Western Christian / Esoteric",
+    "period": "c. 400 CE – present",
+    "type": "spirit",
+    "prominence": "major",
+    "domain": [
+      "light",
+      "knowledge",
+      "illumination",
+      "liberation",
+      "gnosis",
+      "the morning star",
+      "pride"
+    ],
+    "symbols": [
+      "morning star (Venus)",
+      "torch",
+      "peacock",
+      "serpent",
+      "black flame",
+      "light"
+    ],
+    "associations": {
+      "element": "Air",
+      "planet": "Venus"
+    },
+    "description": "Lucifer as the Morning Star — the planet Venus at dawn — predates Christian demonology as a symbol of light-bringing and illumination. Many practitioners draw a deliberate distinction between the Lucifer of Promethean liberation (light-bringer, patron of gnosis and self-knowledge) and the theological Satan. In Luciferian and some Left Hand Path traditions he is approached as a patron of enlightenment and sovereignty of self. Clarity of intention about which aspect you are working with is essential.",
+    "historic_data": "Isaiah 14:12 ('How you have fallen from heaven, morning star, son of the dawn') was applied to a fallen angel by the Latin Vulgate's translation of the Hebrew word helel. The conflation of Lucifer with Satan developed gradually through Christian theology, consolidated by John Milton's Paradise Lost (1667).",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lucifer",
+    "practice": "open"
   }
 ]

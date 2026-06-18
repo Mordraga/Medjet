@@ -617,6 +617,7 @@ function RecipesSection({ onHerbClick }) {
 const PRACTICE_NOTES = {
   Yoruba: 'Traditional Orisha worship through Candomblé, Santería/Lucumí, and Ifá requires initiation into a lineage tradition. These are living practices of West African and African diaspora communities — approach with respect for that lineage.',
   Nahuatl: 'Traditional Aztec/Mexica ceremonies and spiritual practices are tied to Indigenous Mesoamerican communities. Many Native practitioners consider core ritual elements and sacred knowledge closed to outside participation.',
+  Abrahamic: 'These figures appear widely in folk magic, Hoodoo, and syncretic traditions. Hoodoo in particular is rooted in African American history and culture — approach those practices with awareness of their origins.',
 }
 
 // ── Entity Guide Card ─────────────────────────────────────────────────────────
