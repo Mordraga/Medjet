@@ -622,9 +622,14 @@ function EntityGuideCard({ entity, workingWith, onToggle }) {
           <h3 className="entity-guide-name">{entity.name}</h3>
           <div className="entity-guide-meta-row">
             <span className="entity-pantheon-badge">{entity.pantheon}</span>
-            <span className="entity-type-chip entity-type-chip--{entity.type}">{entity.type}</span>
+            <span className="entity-type-chip">{entity.type}</span>
             {entity.prominence === 'major' && (
               <span className="entity-prominence-chip">Major</span>
+            )}
+            {entity.practice && (
+              <span className={`entity-practice-badge entity-practice-badge--${entity.practice}`}>
+                {entity.practice === 'open' ? 'Open' : 'Closed'}
+              </span>
             )}
           </div>
         </div>
@@ -675,6 +680,7 @@ function EntityGuideCard({ entity, workingWith, onToggle }) {
 
 function EntitySection({ entities, isWorkingWith, onToggle }) {
   const [filterWorkingWith, setFilterWorkingWith] = useState(false)
+  const [filterPractice,    setFilterPractice]    = useState(null)
   const [filterType,        setFilterType]        = useState(null)
   const [filterProminence,  setFilterProminence]  = useState(null)
   const [filterPantheon,    setFilterPantheon]    = useState(null)
@@ -686,11 +692,12 @@ function EntitySection({ entities, isWorkingWith, onToggle }) {
 
   const filtered = useMemo(() => entities.filter(e => {
     if (filterWorkingWith && !isWorkingWith(e.name)) return false
+    if (filterPractice   && e.practice   !== filterPractice)   return false
     if (filterType       && e.type       !== filterType)       return false
     if (filterProminence && e.prominence !== filterProminence) return false
     if (filterPantheon   && e.pantheon   !== filterPantheon)   return false
     return true
-  }), [entities, filterWorkingWith, filterType, filterProminence, filterPantheon, isWorkingWith])
+  }), [entities, filterWorkingWith, filterPractice, filterType, filterProminence, filterPantheon, isWorkingWith])
 
   return (
     <div className="entity-section">
@@ -703,6 +710,11 @@ function EntitySection({ entities, isWorkingWith, onToggle }) {
         </button>
       </div>
 
+      <FilterPills
+        options={['open', 'closed']}
+        active={filterPractice}
+        onChange={setFilterPractice}
+      />
       <FilterPills
         options={['deity', 'spirit', 'mythological', 'ancestor']}
         active={filterType}

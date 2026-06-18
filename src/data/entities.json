@@ -31,7 +31,8 @@
     },
     "description": "Anubis guards the threshold between the living and the dead, weighing hearts against the feather of Ma'at. One of the oldest deities in the Egyptian pantheon, he is patron of embalmers and guide of souls through the Duat. He is both fierce protector and compassionate psychopomp.",
     "historic_data": "Worshipped from the Predynastic period. Cult centre at Cynopolis. Extensively referenced in the Pyramid Texts (c. 2400 BCE) and the Book of the Dead.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Anubis"
+    "wikipedia": "https://en.wikipedia.org/wiki/Anubis",
+    "practice": "open"
   },
   {
     "name": "Ra",
@@ -67,7 +68,8 @@
     },
     "description": "Ra is the supreme solar deity who sails across the sky in his solar barque by day and journeys through the underworld at night, doing battle with Apophis to be reborn at dawn. As Ra-Horakhty he merges with Horus of the Horizon, embodying the full arc of the sun. All pharaohs were considered his earthly sons.",
     "historic_data": "Cult centre at Heliopolis. Ra-worship rose to dominance during the Fifth Dynasty (c. 2494–2345 BCE). Syncretised with Amun as Amun-Ra during the New Kingdom.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ra"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ra",
+    "practice": "open"
   },
   {
     "name": "Isis",
@@ -106,7 +108,8 @@
     },
     "description": "Isis is the supreme magician of the Egyptian pantheon, who gathered the scattered pieces of her husband Osiris and breathed life back into him long enough to conceive Horus. Her wings shelter the dead; her magic heals the sick. She outlasted most Egyptian gods, her worship spreading across the Roman world and surviving into late antiquity.",
     "historic_data": "Cult centre at Philae in Upper Egypt. Her mysteries were celebrated throughout the Roman Empire. The Pyramid Texts (c. 2400 BCE) are among her earliest attestations.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Isis"
+    "wikipedia": "https://en.wikipedia.org/wiki/Isis",
+    "practice": "open"
   },
   {
     "name": "Osiris",
@@ -143,7 +146,8 @@
     },
     "description": "Osiris embodies the mystery of death and resurrection. Slain and dismembered by his brother Set, he was reassembled and resurrected by Isis, becoming ruler of the Duat and judge of the dead. His green skin marks him as a god of vegetation and cyclical renewal — he is the grain that dies and rises again.",
     "historic_data": "Cult centre at Abydos, a major pilgrimage site throughout Egyptian history. Referenced from the Fifth Dynasty onwards in the Pyramid Texts. His myth was extensively recorded in Plutarch's De Iside et Osiride.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Osiris"
+    "wikipedia": "https://en.wikipedia.org/wiki/Osiris",
+    "practice": "open"
   },
   {
     "name": "Horus",
@@ -179,7 +183,8 @@
     },
     "description": "Horus is the falcon-headed sky god whose right eye is the sun and left eye the moon. As the divine child of Osiris and Isis he avenges his father against Set, establishing the rightful cosmic order. Every pharaoh was considered a living Horus, and on death became Osiris.",
     "historic_data": "One of Egypt's oldest attested deities; falcon-headed kings appear in Predynastic rock art. Multiple forms existed — Horus the Elder, Horus of Edfu, Harpocrates. Major cult centre at Edfu.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Horus"
+    "wikipedia": "https://en.wikipedia.org/wiki/Horus",
+    "practice": "open"
   },
   {
     "name": "Thoth",
@@ -219,7 +224,8 @@
     },
     "description": "Thoth is the divine scribe who records the weighing of souls in the Hall of Two Truths and invented writing, language, mathematics, and magic. He is the tongue of Ra, the heart of the cosmos, and the arbiter of cosmic balance. In Hermetic tradition he was identified as Hermes Trismegistus, the legendary author of occult wisdom.",
     "historic_data": "Cult centre at Hermopolis Magna (Khmun). Referenced in the Pyramid Texts. Hermetic literature attributed to him was composed from roughly the 2nd century CE onwards.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Thoth"
+    "wikipedia": "https://en.wikipedia.org/wiki/Thoth",
+    "practice": "open"
   },
   {
     "name": "Bastet",
@@ -257,7 +263,8 @@
     },
     "description": "Bastet is the cat goddess who protects the home and family from disease and malevolent spirits. Originally a fierce lioness solar deity (Eye of Ra), she softened over time into the gentle domestic cat — playful, loving, but still dangerous when her household is threatened. She is patron of women, children, and those who seek joy.",
     "historic_data": "Cult centre at Bubastis in the Nile Delta. During the Late Period her festival was one of the most popular in Egypt, drawing enormous crowds. Herodotus described the celebrations in his Histories.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bastet"
+    "wikipedia": "https://en.wikipedia.org/wiki/Bastet",
+    "practice": "open"
   },
   {
     "name": "Sekhmet",
@@ -295,7 +302,8 @@
     },
     "description": "Sekhmet is the wrathful aspect of divine feminine power — a lioness-headed goddess who embodies the scorching heat of the desert sun. She was sent by Ra to punish humanity for their rebellion and nearly destroyed all life before being tricked into stopping. She is at once the bringer of plague and its cure, patron of surgeons and physicians.",
     "historic_data": "Major cult centre at Memphis where thousands of her statues filled the temple of Mut at Karnak. Priests performed 365 rituals per year, one for each day, to appease her.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sekhmet"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sekhmet",
+    "practice": "open"
   },
   {
     "name": "Hathor",
@@ -336,7 +344,8 @@
     },
     "description": "Hathor is the great mother goddess of love, beauty, and joy who embodies the pleasure principle in its fullest cosmic sense. She greets the dead in the west with music and nourishment, and blesses the living with abundance and celebration. As a celestial cow she is the sky itself, the Milky Way her body arching over the earth.",
     "historic_data": "One of Egypt's oldest deities, attested from the Early Dynastic period. Cult centre at Dendera. She was the patron goddess of miners at Serabit el-Khadim in Sinai.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hathor"
+    "wikipedia": "https://en.wikipedia.org/wiki/Hathor",
+    "practice": "open"
   },
   {
     "name": "Set",
@@ -375,7 +384,8 @@
     },
     "description": "Set is the lord of chaos, the red desert, and foreign lands — a force of disruption that is nonetheless essential to cosmic balance. He kills Osiris and contests with Horus for eighty years, yet also stands on the prow of Ra's solar barque each night, driving his spear into Apophis to protect the sun. He is not evil; he is necessary.",
     "historic_data": "One of Egypt's oldest attested deities. Cult centre at Ombos and Avaris. Pharaohs of the 19th Dynasty (including Seti I and Ramesses II) bore his name with pride.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Set_(deity)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Set_(deity)",
+    "practice": "open"
   },
   {
     "name": "Nephthys",
@@ -412,7 +422,8 @@
     },
     "description": "Nephthys is the hidden twin of Isis — where Isis is the visible world and light, Nephthys is the invisible and the darkness. She mourns the dead alongside her sister and helps mummify and protect the deceased. Though wife of Set, she aided Osiris and Isis, embodying the loyalty that persists even across great cosmic oppositions.",
     "historic_data": "Referenced throughout the Pyramid Texts. She and Isis appear on the four corners of every sarcophagus as protective presences. No major independent cult centre is known — she was primarily venerated alongside Isis.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Nephthys"
+    "wikipedia": "https://en.wikipedia.org/wiki/Nephthys",
+    "practice": "open"
   },
   {
     "name": "Nut",
@@ -448,7 +459,8 @@
     },
     "description": "Nut is the sky itself — her body arching from horizon to horizon, swallowing the sun at dusk and rebirthing it each dawn. She is mother of Ra, Osiris, Isis, Set, and Nephthys. The dead were said to be reborn through her body; coffin lids often depicted her arching over the deceased in protective embrace.",
     "historic_data": "Referenced in the Pyramid Texts. Her image decorating the interior of tomb ceilings and sarcophagi lids is one of the most common in Egyptian funerary art.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Nut_(goddess)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Nut_(goddess)",
+    "practice": "open"
   },
   {
     "name": "Geb",
@@ -483,7 +495,8 @@
     },
     "description": "Geb is the earth god — his body is the land of Egypt, his laughter is earthquakes, and vegetation grows from his ribs. He lies beneath Nut the sky, separated at the beginning of time by their father Shu. As the source of agricultural fertility he is a benevolent presence; as the foundation of all things he is unshakeable.",
     "historic_data": "Referenced in the Pyramid Texts. The Heliopolitan Ennead places him as son of Shu and Tefnut, consort of Nut, and father of Osiris, Isis, Set, and Nephthys.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Geb"
+    "wikipedia": "https://en.wikipedia.org/wiki/Geb",
+    "practice": "open"
   },
   {
     "name": "Ptah",
@@ -518,7 +531,8 @@
     },
     "description": "Ptah created the universe through thought and the spoken word — he conceived all things in his heart and brought them into being by naming them. He is the supreme craftsman, patron of all artisans and builders, and one of Egypt's most ancient creator gods. In his Memphite theology, creation itself is an act of consciousness.",
     "historic_data": "Cult centre at Memphis. One of Egypt's oldest deities, attested from the First Dynasty. Greeks identified him with Hephaestus. The Shabaka Stone (c. 710 BCE) records the Memphite theology.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ptah"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ptah",
+    "practice": "open"
   },
   {
     "name": "Sobek",
@@ -554,7 +568,8 @@
     },
     "description": "Sobek is the crocodile god of the Nile — simultaneously feared and venerated, embodying both the destructive and life-giving power of Egypt's great river. He is primal and ancient, a god who sides with no faction and answers to no cosmic order except his own hunger. He is petitioned for military strength, healing, and protection from the Nile's dangers.",
     "historic_data": "Cult centres at Kom Ombo and Krokodilopolis in the Faiyum. Sacred crocodiles were kept and mummified. He rose to particular prominence during the 12th and 13th Dynasties.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sobek"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sobek",
+    "practice": "open"
   },
   {
     "name": "Ma'at",
@@ -590,7 +605,8 @@
     },
     "description": "Ma'at is not simply a goddess but the principle that holds reality together — truth, justice, cosmic balance, and moral order personified. At death, the heart is weighed against her feather; only those who lived in alignment with Ma'at may pass. Pharaohs were obliged to enact Ma'at on earth; every priest and official served in her name.",
     "historic_data": "Referenced throughout Egyptian literature from the Old Kingdom onward. Every temple ritual was understood as an offering of Ma'at to Ra. Her feather is one of the most recognisable Egyptian symbols.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Maat"
+    "wikipedia": "https://en.wikipedia.org/wiki/Maat",
+    "practice": "open"
   },
   {
     "name": "Neith",
@@ -626,7 +642,8 @@
     },
     "description": "Neith is one of Egypt's most ancient deities — a primordial goddess who existed before creation, weaving the fabric of the cosmos on her loom every day and unravelling it each night. She is simultaneously a war goddess who crosses the battlefield and a weaving mother who births all existence. Her depth and antiquity gave her an authority that outlasted many later deities.",
     "historic_data": "Attested from the First Dynasty. Cult centre at Sais in the Nile Delta. The Late Period saw a major revival of her worship. Plato's Timaeus associates her with Athena.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Neith"
+    "wikipedia": "https://en.wikipedia.org/wiki/Neith",
+    "practice": "open"
   },
   {
     "name": "Khnum",
@@ -660,7 +677,8 @@
     },
     "description": "Khnum is the ram-headed creator who shapes each human body and its ka (spiritual double) on his potter's wheel before birth. He controls the first cataract of the Nile at Elephantine, releasing the floodwaters that fertilise Egypt each year. He is an intimate creator deity — one who personally fashions each person who enters the world.",
     "historic_data": "Cult centre at Elephantine (modern Aswan). Referenced from the Old Kingdom onward. The Famine Stela records a myth of Imhotep seeking his intervention during a seven-year drought.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Khnum"
+    "wikipedia": "https://en.wikipedia.org/wiki/Khnum",
+    "practice": "open"
   },
   {
     "name": "Khonsu",
@@ -696,7 +714,8 @@
     },
     "description": "Khonsu is the moon god who traverses the night sky, marking the passage of time and governing the rhythms of fertility. He is a healer and protector, especially of travellers by night. In the Theban triad he is the divine child of Amun and Mut — young, vigorous, and luminous as the full moon.",
     "historic_data": "Major cult centre at Karnak in Thebes, where a large temple complex was built for him during the New Kingdom. The Bentresh Stela records his fame as a healer reaching foreign lands.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Khonsu"
+    "wikipedia": "https://en.wikipedia.org/wiki/Khonsu",
+    "practice": "open"
   },
   {
     "name": "Nefertum",
@@ -729,7 +748,8 @@
     },
     "description": "Nefertum is the god of the blue lotus and the first perfume, who arose from the primordial waters at the moment of creation. He is the lotus blossom from which Ra first emerged — pristine, beautiful, and powerfully scented. He is a deity of healing aromatics and the sacred use of scent in ritual.",
     "historic_data": "Associated with Memphis as the son of Ptah and Sekhmet. Attested from the New Kingdom. His image — a young man with a lotus headdress — appears frequently in tomb paintings and amulets.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Nefertum"
+    "wikipedia": "https://en.wikipedia.org/wiki/Nefertum",
+    "practice": "open"
   },
   {
     "name": "Hecate",
@@ -767,7 +787,8 @@
     },
     "description": "Hecate presides over magic, witchcraft, and the liminal spaces between worlds. She appears at crossroads at midnight, accompanied by howling dogs and the souls of the restless dead. As torchbearer she illuminates what is hidden; as key-holder she opens all locked doors — both literal and metaphorical.",
     "historic_data": "Pre-Olympian origins, possibly Thracian or Anatolian. Major cult centre at Lagina in Caria. Extensively referenced in the Greek Magical Papyri and the Chaldean Oracles.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hecate"
+    "wikipedia": "https://en.wikipedia.org/wiki/Hecate",
+    "practice": "open"
   },
   {
     "name": "Zeus",
@@ -806,7 +827,8 @@
     },
     "description": "Zeus is the sovereign of Olympus, wielder of the thunderbolt, and upholder of cosmic order, justice, and divine law. He governs oaths, hospitality, and the moral fabric binding gods and mortals alike. Working with Zeus means engaging with authority, righteous power, and the force that maintains universal order.",
     "historic_data": "Central deity in Hesiod's Theogony and the Homeric epics. His most famous oracle and sanctuary was at Dodona, and the Panhellenic sanctuary at Olympia hosted the Olympic Games in his honor.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Zeus"
+    "wikipedia": "https://en.wikipedia.org/wiki/Zeus",
+    "practice": "open"
   },
   {
     "name": "Hera",
@@ -846,7 +868,8 @@
     },
     "description": "Hera is the Queen of Olympus, guardian of sacred marriage, female sovereignty, and the bonds of legitimate union. She embodies the power and dignity of the married woman, and her wrath when those bonds are violated is legendary and unrelenting. Practitioners working with her invoke queenship, commitment, and the fierce protection of what is rightfully one's own.",
     "historic_data": "One of the most widely worshipped deities in the Greek world, with major sanctuaries at Argos, Samos, and Paestum. Her cult at Argos is among the most ancient attested in Greece.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hera"
+    "wikipedia": "https://en.wikipedia.org/wiki/Hera",
+    "practice": "open"
   },
   {
     "name": "Poseidon",
@@ -882,7 +905,8 @@
     },
     "description": "Poseidon rules the seas, the depths of the earth, and the untameable forces of nature — earthquakes, floods, and violent storms. He is a deity of immense and often capricious power, equally capable of granting safe passage or sending ships to their doom. Those who work with him engage with the raw, ungovernable forces of nature and the power that lies beneath the surface.",
     "historic_data": "Attested in Linear B tablets at Pylos as a major recipient of offerings, suggesting he predates the Olympian pantheon in importance. His most famous sanctuary was at Sounion, and the Isthmian Games were held in his honor.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Poseidon"
+    "wikipedia": "https://en.wikipedia.org/wiki/Poseidon",
+    "practice": "open"
   },
   {
     "name": "Demeter",
@@ -920,7 +944,8 @@
     },
     "description": "Demeter is the great mother of the grain, whose grief at the abduction of her daughter Persephone brought winter to the world. She governs the cycles of planting and harvest, and through the Eleusinian Mysteries offered initiates a profound vision of death, renewal, and the afterlife. Working with Demeter connects practitioners to the deep rhythms of the earth, loss, and regeneration.",
     "historic_data": "The Eleusinian Mysteries, held at Eleusis near Athens, were among the most important religious rites in the ancient world and ran for over a thousand years. She is referenced in the Homeric Hymn to Demeter and throughout Hesiod.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Demeter"
+    "wikipedia": "https://en.wikipedia.org/wiki/Demeter",
+    "practice": "open"
   },
   {
     "name": "Athena",
@@ -958,7 +983,8 @@
     },
     "description": "Athena is the virgin goddess of wisdom, strategic warfare, and the arts of civilization — born fully armored from the head of Zeus. She is a deity of reasoned action rather than passion, favoring the tactician over the brute, the craftsperson over the warrior of blind fury. Practitioners working with her invoke clarity of mind, mastery of a craft, and the power to solve complex problems.",
     "historic_data": "The Parthenon on the Athenian Acropolis was her principal sanctuary. She is extensively described in the Iliad and Odyssey as Odysseus's divine patron, and the Panathenaic festival was the most important civic-religious event in Athens.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Athena"
+    "wikipedia": "https://en.wikipedia.org/wiki/Athena",
+    "practice": "open"
   },
   {
     "name": "Apollo",
@@ -998,7 +1024,8 @@
     },
     "description": "Apollo is the radiant god of light, reason, and prophecy — the embodiment of Hellenic ideals of beauty, order, and intellectual excellence. He both sends and heals plague, speaks truth through oracles, and inspires poetry and music. Working with Apollo means seeking clarity, truth, artistic mastery, and the discipline of the healer.",
     "historic_data": "His oracle at Delphi was the most important prophetic shrine in the ancient Greek world, consulted by city-states and kings for centuries. He features prominently in the Homeric Hymns and is central to the Iliad, Odyssey, and Oresteia.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Apollo"
+    "wikipedia": "https://en.wikipedia.org/wiki/Apollo",
+    "practice": "open"
   },
   {
     "name": "Artemis",
@@ -1037,7 +1064,8 @@
     },
     "description": "Artemis is the fierce virgin goddess of the hunt and the wild, roaming the forests with her band of nymphs and hunting companions. She is the protector of young girls and women in labor, but is equally capable of bringing sudden death to those who offend her or violate her sacred spaces. Working with Artemis invokes independence, the power of the untamed, and protection of the vulnerable.",
     "historic_data": "Her great temple at Ephesus was one of the Seven Wonders of the Ancient World. She features widely in Greek mythology including the Iliad, the Calydonian Boar hunt cycle, and the Homeric Hymn to Artemis.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Artemis"
+    "wikipedia": "https://en.wikipedia.org/wiki/Artemis",
+    "practice": "open"
   },
   {
     "name": "Hermes",
@@ -1077,7 +1105,8 @@
     },
     "description": "Hermes is the swift messenger of the gods, the divine trickster, and the guide of souls between the living and the dead — a deity who moves freely across all boundaries and borders. He governs communication, commerce, cunning, and the magic of language, and is the patron of travelers, thieves, and magicians alike. The Hermetic magical tradition bears his name, and working with him opens doors across every threshold.",
     "historic_data": "Herms (stone pillars topped with his bust) were erected throughout Greece at crossroads and boundaries. He appears throughout the Homeric epics and the Homeric Hymn to Hermes, and is a central figure in the Greek Magical Papyri.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hermes"
+    "wikipedia": "https://en.wikipedia.org/wiki/Hermes",
+    "practice": "open"
   },
   {
     "name": "Aphrodite",
@@ -1116,7 +1145,8 @@
     },
     "description": "Aphrodite is the irresistible goddess of love, beauty, and desire, whose power moves both gods and mortals and cannot be refused. She has two aspects: Urania, the heavenly love that inspires spiritual longing, and Pandemos, earthly and sensual desire. Working with her brings magnetism, creative passion, and the ability to attract what the heart truly desires.",
     "historic_data": "Major cult centres included Paphos on Cyprus, where she was said to have first emerged from the sea, and Corinth where sacred prostitution was practiced in her honor. She features prominently in the Iliad and the Homeric Hymn to Aphrodite.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Aphrodite"
+    "wikipedia": "https://en.wikipedia.org/wiki/Aphrodite",
+    "practice": "open"
   },
   {
     "name": "Ares",
@@ -1153,7 +1183,8 @@
     },
     "description": "Ares is the god of war in its most primal and brutal form — the bloodlust of battle, the chaos of slaughter, and the raw courage required to face death. Unlike Athena's strategic warfare, Ares embodies the overwhelming force and violence of combat itself, feared even by the other Olympians. Working with Ares calls upon raw martial power, physical strength, and the will to fight without hesitation.",
     "historic_data": "Ares was less widely worshipped in mainland Greece than other Olympians, but had important sanctuaries in Sparta and Thrace. The Areopagus hill in Athens, the ancient court of homicide, was named after him.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ares"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ares",
+    "practice": "open"
   },
   {
     "name": "Hephaestus",
@@ -1189,7 +1220,8 @@
     },
     "description": "Hephaestus is the divine craftsman, the lame fire-god who forges the weapons of the gods and the most wondrous magical artifacts in all of myth. Despite his physical imperfection he holds immense creative power — he built the palaces of Olympus, forged Achilles' divine armor, and created the first woman, Pandora. Working with Hephaestus honors mastery through perseverance, the alchemy of transformation through heat and skill.",
     "historic_data": "He was worshipped most prominently on the volcanic island of Lemnos, which was considered sacred to him, and had an important cult in Athens at the Hephaisteion temple. He features throughout the Iliad and Hesiod's Works and Days.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hephaestus"
+    "wikipedia": "https://en.wikipedia.org/wiki/Hephaestus",
+    "practice": "open"
   },
   {
     "name": "Dionysus",
@@ -1227,7 +1259,8 @@
     },
     "description": "Dionysus is the god of wine, ritual ecstasy, and the dissolution of ordinary consciousness — a deity who frees initiates from the boundaries of the self and connects them to something larger and wilder. Born twice (once from his mortal mother Semele, then sewn into Zeus's thigh), he is a god of paradox: civilized and savage, joyous and terrifying. His Mysteries promised liberation from fate and a blessed afterlife, making him one of the most spiritually complex figures in the Greek world.",
     "historic_data": "Dionysian Mysteries were practiced across the Greek world and are described in Euripides' Bacchae. The theatre itself grew from his festivals, the Dionysia. Orphic texts place him at the center of a sophisticated mystery theology.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Dionysus"
+    "wikipedia": "https://en.wikipedia.org/wiki/Dionysus",
+    "practice": "open"
   },
   {
     "name": "Persephone",
@@ -1266,7 +1299,8 @@
     },
     "description": "Persephone is both the joyful goddess of spring — Kore, the maiden — and the awesome Queen of the Dead who rules beside Hades in the realm below. Her annual descent and return to the upper world gives the earth its seasons, and her dual nature makes her a goddess of profound transition and transformation. Working with her bridges the world of the living and the dead, and she is invoked in mystery rites for initiation and safe passage through the underworld.",
     "historic_data": "The Homeric Hymn to Demeter is the primary mythological source for her myth. She was a central figure in the Eleusinian Mysteries and in Orphic tradition, where she was queen of the underworld presiding over the fate of souls.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Persephone"
+    "wikipedia": "https://en.wikipedia.org/wiki/Persephone",
+    "practice": "open"
   },
   {
     "name": "Hades",
@@ -1305,7 +1339,8 @@
     },
     "description": "Hades is the implacable lord of the dead, the final destination of all mortal souls, and the keeper of the earth's hidden wealth of metals and precious stones. He is not a god of evil but of inevitability — stern, just, and unyielding, he holds dominion over everything that passes from the living world. Working with Hades requires courage and honesty; he respects those who do not flinch from mortality or the truth of endings.",
     "historic_data": "Unlike most Greek deities, Hades had very few temples or public cults due to the fear of attracting his attention. He is extensively portrayed in the Homeric epics and in the Orphic texts as a sovereign ruler of the dead.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hades"
+    "wikipedia": "https://en.wikipedia.org/wiki/Hades",
+    "practice": "open"
   },
   {
     "name": "Nyx",
@@ -1342,7 +1377,8 @@
     },
     "description": "Nyx is one of the most ancient and primordial deities — the goddess of Night itself, born from Chaos at the very beginning of existence. Even Zeus feared her, and she dwelt in a cave at the edge of the cosmos where Night and Day passed each other at the threshold. She is the mother of Sleep, Death, Fate, Dreams, and Discord — working with Nyx means entering the primordial dark where all things originate.",
     "historic_data": "Nyx appears in Hesiod's Theogony as one of the earliest beings. In the Orphic Theogonies she holds an even more exalted position as a prophetic figure consulted by Zeus himself. She was not widely worshipped in public cult but was significant in mystery traditions.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Nyx"
+    "wikipedia": "https://en.wikipedia.org/wiki/Nyx",
+    "practice": "open"
   },
   {
     "name": "Selene",
@@ -1379,7 +1415,8 @@
     },
     "description": "Selene is the goddess of the moon herself, driving her silver chariot across the night sky and illuminating the world below. She is distinct from Artemis and Hecate though all three share lunar associations; Selene represents the moon as a cosmic body — its light, its cycles, and its power over time. Practitioners working with her invoke lunar magic, cyclical rhythms, and the mystery of the night-lit world.",
     "historic_data": "The Homeric Hymn to Selene describes her beauty and her love affair with the mortal Endymion, whom she caused to sleep eternally so she could visit him. She was invoked extensively in the Greek Magical Papyri and appears in Hesiod's Theogony.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Selene"
+    "wikipedia": "https://en.wikipedia.org/wiki/Selene",
+    "practice": "open"
   },
   {
     "name": "Prometheus",
@@ -1415,7 +1452,8 @@
     },
     "description": "Prometheus is the Titan who stole fire from the gods and gave it to humanity, an act of immense love and defiance that earned him eternal punishment — chained to a rock where an eagle ate his liver each day, only for it to regrow. He represents the spirit of sacred transgression for the good of others, the price of bringing illumination into the world. Working with him calls upon courage in the face of consequences, intellectual fire, and the willingness to sacrifice comfort for truth.",
     "historic_data": "The myth is told by Hesiod in the Theogony and Works and Days, and Aeschylus's Prometheus Bound dramatizes his punishment. He had a cult and torch race festival at Athens known as the Prometheia.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Prometheus"
+    "wikipedia": "https://en.wikipedia.org/wiki/Prometheus",
+    "practice": "open"
   },
   {
     "name": "Jupiter",
@@ -1452,7 +1490,8 @@
     },
     "description": "Jupiter Optimus Maximus — Greatest and Best — was the supreme deity of the Roman state, the king of heaven whose thunderbolt confirmed the will of fate and whose authority legitimized Roman power over all peoples. He is a deity of sovereignty, oaths, and the bonds that hold civilization together, more civic and legalistic in character than his Greek counterpart Zeus. Working with Jupiter calls upon imperial authority, righteous power, and the divine sanction that underpins law and governance.",
     "historic_data": "The Capitoline Triad — Jupiter, Juno, and Minerva — was the center of Roman state religion, and his temple on the Capitoline Hill was the most sacred site in Rome. Triumphing generals offered their crowns to his statue, and his festivals the Vinalia and Feriae Latinae were among Rome's most important public rites.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Jupiter_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Jupiter_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Juno",
@@ -1490,7 +1529,8 @@
     },
     "description": "Juno is the Queen of the Roman gods, guardian of women through every stage of life — from marriage to childbirth — and one of the three deities of the Capitoline Triad who protected the Roman state itself. As Juno Moneta she was protector of finances (the Roman mint stood beside her temple), as Juno Lucina she aided women in childbirth, and as Juno Sospita she was a warrior goddess who defended Rome. Working with her brings queenly authority, protection of the household, and the fierce power of a deity who takes oaths and covenants seriously.",
     "historic_data": "Her principal temple stood on the Capitoline Hill alongside Jupiter and Minerva, and the month of June is named in her honor. She is a central figure in Virgil's Aeneid, where she opposes the founding of Rome and must ultimately yield to Jupiter's decree.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Juno_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Juno_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Minerva",
@@ -1529,7 +1569,8 @@
     },
     "description": "Minerva was the Roman goddess of wisdom, crafts, and medicine, syncretized with the Greek Athena but with a distinctive Roman character as patron of artisans, poets, schoolteachers, and physicians. As part of the Capitoline Triad she bore a civic and martial aspect, but her deeper identity was that of practical intelligence brought to bear on craft and healing. Working with Minerva invokes intellectual excellence, skilled craftsmanship, and the application of wisdom to practical problems.",
     "historic_data": "Her festival the Quinquatrus (March 19–23) was celebrated by artisans, students, and physicians across the Roman world. She had temples on the Capitoline Hill and on the Aventine, and a major sanctuary at Praeneste.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Minerva"
+    "wikipedia": "https://en.wikipedia.org/wiki/Minerva",
+    "practice": "open"
   },
   {
     "name": "Neptune",
@@ -1565,7 +1606,8 @@
     },
     "description": "Neptune was the Roman god of freshwater and the sea, invoked by sailors seeking safe passage and by those seeking to harness the power of water in all its forms. While syncretized with the Greek Poseidon, Neptune had an older Italic identity as a deity of inland waters before Rome became a maritime power. Working with him calls upon the power of the deep, the force of flowing water, and the mastery of what cannot be fully controlled.",
     "historic_data": "His festival, the Neptunalia, was celebrated on July 23rd and involved the construction of boughs and huts, possibly connected to water sources during summer drought. His oldest temple in Rome stood in the Campus Martius.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Neptune_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Neptune_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Venus",
@@ -1604,7 +1646,8 @@
     },
     "description": "Venus was more than the Roman goddess of love — she was the divine ancestor of the Roman people through her son Aeneas, making her a goddess of national identity and destiny as much as desire. Julius Caesar and Augustus both claimed descent from her, and as Venus Genetrix she was mother of the Roman race itself. Working with Venus brings love, beauty, and abundance, but also the deeper power of desire as a cosmic and creative force.",
     "historic_data": "Julius Caesar dedicated the Temple of Venus Genetrix in the Forum of Caesar in 46 BCE. Lucretius's De Rerum Natura opens with a magnificent invocation of Venus as the animating force of all life. Venus Verticordia (Turner of Hearts) was invoked to turn women's hearts toward virtue.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Venus_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Venus_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Mars",
@@ -1642,7 +1685,8 @@
     },
     "description": "Mars was the second most important deity in the Roman pantheon, second only to Jupiter, and held a more honored and complex position than his Greek counterpart Ares. As father of Romulus and Remus and divine protector of Rome, he represented not merely war but the righteous martial power that defends civilization and drives it forward. Working with Mars invokes disciplined strength, the courage to defend what one loves, and the martial virtues of the soldier.",
     "historic_data": "March, the month of his major festivals (the Salii rituals and Equirria), is named after him. The Campus Martius (Field of Mars) in Rome was the site of military training, elections, and his worship. He is central to Virgil's Aeneid and Roman national mythology.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mars_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mars_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Mercury",
@@ -1679,7 +1723,8 @@
     },
     "description": "Mercury was the swift Roman deity of commerce, communication, and the movement of goods and souls — a deity whose domain was the liminal, the in-between, and the transactional. He guided souls to the underworld as psychopomp, protected merchants and travelers, and presided over every form of exchange and eloquent speech. In the Western magical tradition, Mercury became one of the most important planetary intelligences, lending his name to Hermetic philosophy.",
     "historic_data": "Mercury's oldest temple in Rome was dedicated in 495 BCE on the Aventine Hill; his festival the Mercuralia was celebrated on May 15th by merchants. He was widely worshipped in Roman Gaul and Britain, where the Romans identified him with indigenous Celtic deities.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mercury_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mercury_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Diana",
@@ -1717,7 +1762,8 @@
     },
     "description": "Diana was a central and beloved Roman deity — goddess of the moon, the hunt, and the untamed wilderness, but also the protector of women and children in childbirth. As Diana Trivia she presided over crossroads and liminal spaces, bringing her into close functional alignment with Hecate in later syncretism. Working with Diana invokes the power of the wild moon, independence, the protection of the vulnerable, and the fierce freedom of the huntress.",
     "historic_data": "Her most famous sanctuary was the Temple of Diana at Lake Nemi (the 'Mirror of Diana') in the Alban Hills, where an unusual ritual kingship was maintained. Horace and Catullus both wrote hymns to her, and the Lex Sacra of her Aventine temple in Rome is one of the earliest Latin inscriptions.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Diana_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Diana_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Janus",
@@ -1756,7 +1802,8 @@
     },
     "description": "Janus is a uniquely Roman deity with no Greek equivalent — the two-faced god of doorways, transitions, and all beginnings, one face looking forward to the future and one backward to the past. He was invoked at the start of every religious ceremony and every significant undertaking, and January bears his name as the gateway month of the year. Working with Janus opens passages, facilitates transitions, and brings the ability to see both what was and what may be.",
     "historic_data": "The Ianus Geminus, a gateway in the Roman Forum, was opened during times of war and closed during peace — a rare occasion in Roman history. January is named for him, and he was invoked first in every Roman sacrifice, even before Jupiter, as the deity of beginnings.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Janus"
+    "wikipedia": "https://en.wikipedia.org/wiki/Janus",
+    "practice": "open"
   },
   {
     "name": "Saturn",
@@ -1792,7 +1839,8 @@
     },
     "description": "Saturn was the ancient Roman god of the harvest and time, identified with the mythical Golden Age when he ruled over a world of peace, abundance, and equality before Jupiter overthrew him. The Saturnalia festival in his honor was Rome's greatest celebration — a week of feasting and social inversion where slaves were served by their masters. Working with Saturn touches the deep themes of time, dissolution, cycles of civilization, and the hidden abundance beneath austerity.",
     "historic_data": "Saturn's temple in the Roman Forum housed the Roman treasury (aerarium) and is one of the oldest religious structures in the city. The Saturnalia, celebrated in December, was the most popular festival in the Roman calendar and influenced later Christmas traditions.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Saturn_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Saturn_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Vulcan",
@@ -1828,7 +1876,8 @@
     },
     "description": "Vulcan is the Roman god of destructive fire and the volcanic forge, a deity who must be propitiated lest his flames consume the city, and honored to receive the divine craftsmanship that fire makes possible. More than his Greek counterpart Hephaestus, Vulcan retained a darker, more threatening character — fire as danger as much as gift. Working with Vulcan means engaging with transformative and potentially destructive power that must be handled with respect.",
     "historic_data": "His oldest sanctuary, the Volcanal, stood in the Roman Forum and predated the Republic. His festival the Volcanalia (August 23) involved throwing live fish into his fires. He was given a temple outside the sacred boundary of Rome, the pomerium, possibly because his fire was considered too dangerous to bring within the city.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Vulcan_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Vulcan_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Bacchus",
@@ -1866,7 +1915,8 @@
     },
     "description": "Bacchus is the Roman god of wine and liberation, syncretized with the Greek Dionysus but also identified with the older Italian deity Liber Pater — the Free Father — who presided over fertility and male virility. His mystery cult, the Bacchanalia, was so popular and politically unsettling that the Roman Senate attempted to suppress it in 186 BCE by decree, suggesting the genuine spiritual power it held. Working with Bacchus dissolves boundaries, liberates repressed energies, and invites contact with the ecstatic foundations of life.",
     "historic_data": "The Senate's attempted suppression of the Bacchanalia in 186 BCE is documented by Livy. The Villa of the Mysteries at Pompeii contains extraordinary frescoes depicting what are believed to be Bacchic initiation rites. He was ultimately fully integrated into Roman state religion.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bacchus"
+    "wikipedia": "https://en.wikipedia.org/wiki/Bacchus",
+    "practice": "open"
   },
   {
     "name": "Odin",
@@ -1907,7 +1957,8 @@
     },
     "description": "Odin is the relentless seeker of wisdom who sacrificed his eye at Mimir's well and hung nine days on the World Tree to receive the runes. He sends his ravens Huginn and Muninn across the world to gather knowledge and chooses the slain for Valhalla. He is a deity of poetry, magic, war, and death in equal measure.",
     "historic_data": "Referenced throughout the Prose Edda and Poetic Edda. Major blót centre at Uppsala in Sweden. Identified with Wotan in Germanic tradition.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Odin"
+    "wikipedia": "https://en.wikipedia.org/wiki/Odin",
+    "practice": "open"
   },
   {
     "name": "Thor",
@@ -1947,7 +1998,8 @@
     },
     "description": "Thor is the mighty red-bearded son of Odin and the most beloved of the Norse gods among ordinary people — a protector of Midgard who uses his hammer Mjolnir to slay the giants and monsters that threaten the world. Unlike the remote and scheming Odin, Thor is direct, loyal, and fiercely protective of both gods and humans alike. Working with Thor calls upon raw strength, steadfast protection, and the courage to face what threatens the people and places one loves.",
     "historic_data": "Thursday (Thor's day) is named after him, reflecting his widespread veneration throughout the Germanic world. The Prose and Poetic Edda contain numerous myths about Thor's battles against the Jötnar. Hammer amulets (Mjolnir pendants) have been found across Scandinavia in Viking-Age burials.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Thor"
+    "wikipedia": "https://en.wikipedia.org/wiki/Thor",
+    "practice": "open"
   },
   {
     "name": "Freyja",
@@ -1986,7 +2038,8 @@
     },
     "description": "Freyja is the preeminent goddess of the Norse world — a Vanir deity of love, beauty, gold, and sex, but equally a warrior who selects half the battle-slain for her hall Fólkvangr while Odin takes the other half. She taught Odin the practice of seiðr, the most powerful form of Norse magic involving trance, prophecy, and fate-working. Working with Freyja is working with the full spectrum of feminine power: desire and sovereignty, grief and war, magic and fierce independence.",
     "historic_data": "She is extensively described in the Prose Edda, the Poetic Edda, and various Eddic poems including the Völuspá. Adam of Bremen recorded that she was worshipped alongside Odin and Thor at the great temple at Uppsala in Sweden.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Freyja"
+    "wikipedia": "https://en.wikipedia.org/wiki/Freyja",
+    "practice": "open"
   },
   {
     "name": "Frigg",
@@ -2025,7 +2078,8 @@
     },
     "description": "Frigg is the Queen of Asgard, wife of Odin, and a goddess who knows the fate of all beings though she rarely speaks of what she knows — her silence is an expression of power, not ignorance. She is the supreme deity of the domestic arts, marriage, and maternal love, and her grief at the death of her son Baldr is one of the most moving episodes in Norse mythology. Working with Frigg invokes the wisdom of the guardian who sees all and chooses her words carefully, the keeper of home, marriage, and sacred obligations.",
     "historic_data": "Friday (Frigg's day) is named for her in Germanic languages. She appears in the Prose Edda and Poetic Edda and is frequently considered a possible cognate of Freyja in earlier proto-Germanic religion. Her hall Fensalir (Marsh Halls) is referenced in the Völuspá.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Frigg"
+    "wikipedia": "https://en.wikipedia.org/wiki/Frigg",
+    "practice": "open"
   },
   {
     "name": "Loki",
@@ -2061,7 +2115,8 @@
     },
     "description": "Loki is the most complex figure in Norse mythology — a shape-shifting trickster deity of ambiguous nature who is at times the gods' indispensable ally and at other times their deadliest enemy. He is the father of Hel, Fenrir, and the World Serpent Jörmungandr, and his machinations ultimately trigger Ragnarök. Working with Loki means engaging with unpredictable, transformative chaos energy that breaks stagnant patterns but cannot be controlled — he is a deity who demands respect and honesty about one's own shadow.",
     "historic_data": "Loki is extensively portrayed in the Prose Edda and Poetic Edda. There is no clear evidence of a public cult dedicated to Loki; he exists primarily in mythological narrative rather than worship, though modern practitioners have developed devotional practices.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Loki"
+    "wikipedia": "https://en.wikipedia.org/wiki/Loki",
+    "practice": "open"
   },
   {
     "name": "Tyr",
@@ -2098,7 +2153,8 @@
     },
     "description": "Tyr is the ancient Norse god of justice, law, and honorable war — a deity who willingly sacrificed his hand so that the wolf Fenrir could be bound, demonstrating the principle that justice may require personal sacrifice. As one of the oldest Germanic sky deities (cognate with the Greek Zeus as Tiwaz/Dyaus), he predates Odin's rise to prominence. Working with Tyr invokes the moral courage to do what is right regardless of cost, the sanctity of oaths, and victory through honorable conduct.",
     "historic_data": "Tuesday (Tyr's day) is named for him in Germanic languages, reflecting his ancient importance. He appears in the Prose Edda's account of the binding of Fenrir and in the runic tradition, where the Tiwaz rune bears his name. His roots in the Proto-Indo-European sky father deity Dyaus connect him to Zeus and Jupiter.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tyr"
+    "wikipedia": "https://en.wikipedia.org/wiki/Tyr",
+    "practice": "open"
   },
   {
     "name": "Baldr",
@@ -2135,7 +2191,8 @@
     },
     "description": "Baldr is the most beautiful and beloved of the Norse gods — radiant, pure, and gentle — whose death by a sprig of mistletoe through Loki's machinations plunges all of creation into grief and signals the beginning of the end before Ragnarök. He is a god of light and goodness that cannot survive in the present age of the world, but who will return after its renewal. Working with Baldr touches themes of beauty, innocence, grief for what has been lost, and the hope of resurrection.",
     "historic_data": "The myth of Baldr's death is central to the Prose Edda (Gylfaginning) and the Poetic Edda's Völuspá. The historian Saxo Grammaticus recorded a different, more martial version of his myth in the Gesta Danorum. His ship funeral on Hringhorni is one of the most elaborate mythological funerals in Norse literature.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Baldr"
+    "wikipedia": "https://en.wikipedia.org/wiki/Baldr",
+    "practice": "open"
   },
   {
     "name": "Hel",
@@ -2170,7 +2227,8 @@
     },
     "description": "Hel is the daughter of Loki and the giantess Angrboða, ruler of the realm of the dead for those who die of illness, old age, or any cause other than battle — the vast majority of the dead. Her appearance reflects her domain: one half living and warm, one half corpse-pale and cold, embodying the threshold between life and death. Working with Hel requires acceptance of mortality, comfort with endings, and the willingness to face the parts of existence that other deities prefer to ignore.",
     "historic_data": "Hel's realm and character are described in the Prose Edda, particularly in the account of Hermóðr's ride to retrieve Baldr after his death. The word 'hell' in English derives from her name via Proto-Germanic, suggesting her concept was widely known across the Germanic world.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hel_(being)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Hel_(being)",
+    "practice": "open"
   },
   {
     "name": "Skaði",
@@ -2207,7 +2265,8 @@
     },
     "description": "Skaði is the fierce jötunn-goddess of the winter mountains, skiing, and the hunt — a deity who came to Asgard to demand compensation for her father Þjazi's death and negotiated her terms as an equal to the gods. She is a deity of autonomy and the wild independence of the mountains, who ultimately left her divine husband Njörðr because she could not bear to live by the sea. Working with Skaði invokes fierce independence, the power of winter and high places, and the dignity to know what one requires.",
     "historic_data": "Skaði appears in the Prose Edda and the Skáldskaparmál, where her story of demanding atonement from the Æsir is told in detail. Place names in Norway and Sweden suggest genuine historical worship. She is one of the few jötnar who is fully integrated into the divine society of Asgard.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Skaði"
+    "wikipedia": "https://en.wikipedia.org/wiki/Skaði",
+    "practice": "open"
   },
   {
     "name": "Freyr",
@@ -2243,7 +2302,8 @@
     },
     "description": "Freyr is the most prominent of the Vanir gods, a deity of sunshine, fair weather, and the fertility of the land whose goodwill was essential for successful harvests and peaceful seasons. He gave away his magical self-guiding sword for love of the giantess Gerðr — a sacrifice that will cost him at Ragnarök, where he must fight without it. Working with Freyr brings prosperity, abundance, virility, and the warmth of the returning sun after winter.",
     "historic_data": "Adam of Bremen described a prominent statue of Freyr at the Uppsala temple with a large phallus, indicating a strong fertility cult. His worship was central in Sweden, and the Swedish royal dynasty the Ynglings claimed descent from him. The Poem Skírnismál tells of his courtship of Gerðr.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Freyr"
+    "wikipedia": "https://en.wikipedia.org/wiki/Freyr",
+    "practice": "open"
   },
   {
     "name": "Iðunn",
@@ -2276,7 +2336,8 @@
     },
     "description": "Iðunn is the keeper of the golden apples that grant the gods their immortality — without her apples, the Æsir age and weaken, making her one of the most quietly essential figures in Asgard. Her abduction by the giant Þjazi and rescue by Loki forms one of the key myths about the fragility of divine immortality and the precious nature of renewal. Working with Iðunn invokes rejuvenation, the magic of renewal, and the sacred power that preserves vitality against time.",
     "historic_data": "The primary source for Iðunn's myth is the Prose Edda's Skáldskaparmál, which recounts her abduction by the giant Þjazi. The skald Þjóðólfr of Hvinir also referenced her myth in the 9th-century poem Haustlöng. Her role as keeper of divine rejuvenation suggests very ancient origins.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Iðunn"
+    "wikipedia": "https://en.wikipedia.org/wiki/Iðunn",
+    "practice": "open"
   },
   {
     "name": "Heimdall",
@@ -2312,7 +2373,8 @@
     },
     "description": "Heimdall is the tireless watchman of the gods, standing guard at the Bifrost rainbow bridge with senses so keen he can hear grass growing and see for hundreds of miles in any direction. He sleeps less than a bird, and when Ragnarök comes it will be his horn Gjallarhorn whose blast summons the gods to their final battle. Working with Heimdall invokes vigilance, clarity of perception, steadfast guardianship, and the sacred duty of the sentinel.",
     "historic_data": "Heimdall appears in the Prose Edda and the Poetic Edda, and the Eddic poem Rígsþula attributes to him the creation of the three classes of Norse society — slaves, farmers, and nobles — under the pseudonym Rígr. His unusual birth from nine mothers remains one of the most enigmatic details in Norse mythology.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Heimdall"
+    "wikipedia": "https://en.wikipedia.org/wiki/Heimdall",
+    "practice": "open"
   },
   {
     "name": "Njörðr",
@@ -2348,7 +2410,8 @@
     },
     "description": "Njörðr is the Vanir god of the sea, winds, and coastal wealth — a deity whose favor was essential for the prosperity of fishing communities and sailors throughout Scandinavia. He briefly married the mountain goddess Skaði, but their natures were incompatible: she could not bear the crying of seagulls, he could not bear the howling of wolves in the mountains, and they parted. Working with Njörðr brings abundance from the sea, favorable winds, safe voyages, and the wealth that flows from honest work on the water.",
     "historic_data": "Njörðr is named alongside Odin and Freyr as one of the three primary gods worshipped at the Uppsala temple according to Adam of Bremen. He appears throughout the Prose and Poetic Edda and is referenced in place names across Norway and Sweden, indicating widespread historical veneration.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Njörðr"
+    "wikipedia": "https://en.wikipedia.org/wiki/Njörðr",
+    "practice": "open"
   },
   {
     "name": "Sif",
@@ -2386,7 +2449,8 @@
     },
     "description": "Sif is the golden-haired goddess of the grain and harvests, wife of Thor, whose famous tresses of actual gold were crafted by the dwarves after Loki sheared off her original hair as a prank. Her golden hair is understood as a symbol of ripe grain, connecting her to the fertility of the earth and the abundance of the harvest. Working with Sif invokes the sanctity of the home, fidelity, the golden bounty of the harvest, and the quiet power of those who sustain others.",
     "historic_data": "Sif appears in the Prose Edda, primarily in the myth of Loki's cutting of her hair and its replacement by the dwarves of Níðavellir. The 9th-century Eddic poem Haustlöng also references her. Her role as Thor's wife and her golden-hair connection to grain suggests she may have had a more prominent worship in earlier Norse religious practice than surviving sources indicate.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sif"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sif",
+    "practice": "open"
   },
   {
     "name": "Lakshmi",
@@ -2422,7 +2486,8 @@
     },
     "description": "Lakshmi embodies prosperity in all its forms — material abundance, spiritual wealth, beauty, and grace. She emerged from the churning of the cosmic ocean (Samudra Manthan) and chose Vishnu as her eternal consort, dwelling in his heart. Practitioners working with her should cultivate inner cleanliness and gratitude, as she withdraws from spaces of negligence and ingratitude.",
     "historic_data": "Referenced in the Rigveda (c. 1000 BCE) as Shri, she receives extensive treatment in the Vishnu Purana and the Shri Sukta hymn. Her image appears on ancient Mauryan coins and she is the central deity of the Diwali festival.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lakshmi"
+    "wikipedia": "https://en.wikipedia.org/wiki/Lakshmi",
+    "practice": "open"
   },
   {
     "name": "Ganesha",
@@ -2460,7 +2525,8 @@
     },
     "description": "Ganesha is the elephant-headed son of Shiva and Parvati, universally invoked at the start of any ritual, journey, creative work, or business venture to clear the path of obstacles. His broken tusk, used to write the Mahabharata, signals his willingness to sacrifice for the sake of knowledge and devotion. Working with Ganesha requires patience and a playful humility — he responds warmly to offerings of sweets, especially modak, and to genuine intent.",
     "historic_data": "Ganesha worship is attested from roughly the 4th–5th century CE, with the Ganapatya sect dedicating themselves entirely to him. The Mudgala Purana and Ganesha Purana detail his mythology, and his image is ubiquitous in temples, homes, and vehicles throughout South and Southeast Asia.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ganesha"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ganesha",
+    "practice": "open"
   },
   {
     "name": "Shiva",
@@ -2501,7 +2567,8 @@
     },
     "description": "Shiva is one of the supreme beings of the Hindu Trimurti, embodying the principle of dissolution that makes renewal and transformation possible. As Nataraja, his cosmic dance simultaneously destroys and recreates the universe, and as Mahadeva the great ascetic he dwells in the cremation grounds, beyond social convention. Practitioners approach him through yogic discipline, ash, cannabis (in some traditions), and the Panchakshara mantra (Om Namah Shivaya), understanding that what he destroys must be released, not mourned.",
     "historic_data": "Proto-Shiva figures are proposed in Indus Valley seals (c. 2500 BCE), and he emerges clearly in the Rigveda as Rudra. The Shaiva Agamas, Shiva Purana, and Linga Purana form his core textual canon; major pilgrimage sites include the twelve Jyotirlinga shrines across India.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Shiva"
+    "wikipedia": "https://en.wikipedia.org/wiki/Shiva",
+    "practice": "open"
   },
   {
     "name": "Parvati",
@@ -2539,7 +2606,8 @@
     },
     "description": "Parvati is the benevolent, nurturing face of the great Goddess Shakti and the devoted wife of Shiva, whose meditation she won through her own fierce austerities. She is the gentle force that domesticates the ascetic god, representing the integration of wild spiritual power into loving, sustaining relationship. Practitioners working with her find her approachable in matters of devotion, patience, domestic harmony, and the steadfast pursuit of spiritual goals.",
     "historic_data": "Parvati appears prominently in the Shiva Purana, Skanda Purana, and Devi-Bhagavata Purana, likely consolidated as a distinct goddess from around the 4th–5th century CE. Major temples include those at Kanchi (Kamakshi) and Madurai (Meenakshi), where she is worshipped as the primary deity.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Parvati"
+    "wikipedia": "https://en.wikipedia.org/wiki/Parvati",
+    "practice": "open"
   },
   {
     "name": "Durga",
@@ -2576,7 +2644,8 @@
     },
     "description": "Durga is the warrior aspect of the supreme Goddess, born from the combined divine energies of the male gods when no male deity could defeat the buffalo-demon Mahishasura. Riding her lion with 8 to 18 arms bearing divine weapons, she represents the concentrated force of sacred feminine power acting in defense of cosmic order. Those who call on her should bring genuine need and courage — she protects fiercely but expects practitioners to also take action and face their demons directly.",
     "historic_data": "The Devi Mahatmya (c. 400–600 CE), embedded in the Markandeya Purana, is her primary scriptural source and is still recited in full during Navaratri. The festival of Durga Puja, especially elaborate in Bengal, celebrates her nine-day battle with Mahishasura.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Durga"
+    "wikipedia": "https://en.wikipedia.org/wiki/Durga",
+    "practice": "open"
   },
   {
     "name": "Kali",
@@ -2613,7 +2682,8 @@
     },
     "description": "Kali is the most ferocious manifestation of the goddess Shakti, standing on Shiva's prone body as the embodiment of time devouring all things and the liberating terror of facing absolute truth. Her fierce appearance — black skin, wild hair, garland of skulls, blood-dripping tongue — is not horror but the face of ultimate reality stripped of comforting illusion. Practitioners in Tantric and Shakta traditions revere her as the most direct path to liberation, approaching her in cremation-ground meditations, offering red flowers, and working through fear rather than around it.",
     "historic_data": "Kali appears in the Devi Mahatmya (c. 400–600 CE) and is extensively treated in the Mahanirvana Tantra and various Shakta Tantras. The Kalighat temple in Kolkata and Dakshineswar Kali Temple are primary pilgrimage sites; she is associated especially with Bengal and Tantric traditions.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kali"
+    "wikipedia": "https://en.wikipedia.org/wiki/Kali",
+    "practice": "open"
   },
   {
     "name": "Saraswati",
@@ -2653,7 +2723,8 @@
     },
     "description": "Saraswati is the goddess of all that flows — rivers, speech, music, knowledge, and creative thought — and the consort of Brahma, from whose mouth she is said to have emerged. Dressed in pure white, she rides a swan (symbol of discriminative wisdom) and holds the veena, a sacred text, and a lotus, embodying the unity of art, science, and spiritual knowledge. Students, musicians, writers, and scholars invoke her at the festival of Vasant Panchami, placing their instruments and books before her image.",
     "historic_data": "Among the oldest attested Hindu deities, Saraswati is hymned in the Rigveda (c. 1000 BCE) as a great sacred river and as Vac, the goddess of speech. The Saraswati Purana and Devi-Bhagavata Purana elaborate her mythology; Vasant Panchami in late January or February is her primary annual festival.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Saraswati"
+    "wikipedia": "https://en.wikipedia.org/wiki/Saraswati",
+    "practice": "open"
   },
   {
     "name": "Vishnu",
@@ -2691,7 +2762,8 @@
     },
     "description": "Vishnu is the preserver of the cosmos and the sustainer of dharma within the Hindu Trimurti, resting on the cosmic serpent Shesha in the primordial ocean between cycles of creation. When dharma is threatened, he descends in one of his ten principal avatars — including Rama, Krishna, and the Buddha — to restore cosmic balance. Working with Vishnu invites protection, patience, and a long view; he acts through embodied compassion and skillful means rather than sudden force.",
     "historic_data": "Vishnu is mentioned in the Rigveda (c. 1000 BCE) and grows to supreme status in the Vaishnava tradition articulated in the Vishnu Purana, Bhagavata Purana, and the Bhagavad Gita. Major pilgrimage sites include Tirupati (Venkateswara) in Andhra Pradesh, one of the most-visited temples in the world.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Vishnu"
+    "wikipedia": "https://en.wikipedia.org/wiki/Vishnu",
+    "practice": "open"
   },
   {
     "name": "Hanuman",
@@ -2730,7 +2802,8 @@
     },
     "description": "Hanuman is the divine monkey and devotee of Rama whose entire being is an expression of selfless service, unstoppable strength, and the power of bhakti devotion. Son of the wind god Vayu, he can fly, change size at will, and his body is said to be as hard as a thunderbolt — no obstacle or demon can withstand him when he acts in service of the divine. Practitioners invoke him for physical protection, courage, overcoming fear, and dissolving black magic; the Hanuman Chalisa is among the most widely recited prayers in the world.",
     "historic_data": "Hanuman appears in the Valmiki Ramayana (c. 400 BCE–400 CE) and is elaborated in the Ananda Ramayana and regional retellings. The Hanuman Chalisa composed by Tulsidas in the 16th century is his most popular devotional text; Tuesday is his sacred day and he is worshipped across India.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hanuman"
+    "wikipedia": "https://en.wikipedia.org/wiki/Hanuman",
+    "practice": "open"
   },
   {
     "name": "Indra",
@@ -2767,7 +2840,8 @@
     },
     "description": "Indra is the king of the Vedic gods and the mightiest warrior of the heavens, whose thunderbolt vajra slew the cosmic dragon Vritra to release the primordial waters and allow creation to flow. He presides over the celestial realm of Svarga and commands the devas, representing the triumphant solar warrior archetype of the Vedic age. Though his prominence diminished in the Puranic period as Vishnu and Shiva rose, he remains significant as the lord of rain, a crucial deity for agricultural civilizations, and in Buddhist and Jain cosmology as Shakra.",
     "historic_data": "Indra is the most hymned deity in the Rigveda (c. 1700–1100 BCE), with over 250 hymns addressed to him. His prominence waned in the post-Vedic period, but he remains a figure in the Mahabharata, Ramayana, and as Shakra in Buddhist Pali Canon texts.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Indra"
+    "wikipedia": "https://en.wikipedia.org/wiki/Indra",
+    "practice": "open"
   },
   {
     "name": "Yama",
@@ -2803,7 +2877,8 @@
     },
     "description": "Yama is the god of death and the lord of cosmic justice, the first mortal to die and thus the one who blazes the path to the afterlife as its impartial ruler. He weighs each soul's deeds without favor, enforcing the law of karma — his epithet Dharmaraja (King of Dharma) makes clear that death in Hindu cosmology is ultimately an ethical reckoning, not mere oblivion. Practitioners invoke him in rites for the ancestors, in contemplation of mortality, and in workings that require absolute fairness or binding truth.",
     "historic_data": "Yama is described in the Rigveda (c. 1500 BCE) and elaborated in the Katha Upanishad, where he instructs Nachiketa on the nature of death and liberation. The Garuda Purana details his realm and the journey of the dead, and he remains a central figure in Hindu funerary rites.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Yama"
+    "wikipedia": "https://en.wikipedia.org/wiki/Yama",
+    "practice": "open"
   },
   {
     "name": "Surya",
@@ -2839,7 +2914,8 @@
     },
     "description": "Surya is the solar deity who rides a blazing chariot drawn by seven horses across the sky, representing the seven colors of light or the seven days of the week, illuminating the world and burning away darkness and disease. He is the cosmic eye of truth — nothing can be hidden from his gaze — and in Vedic astrology the Sun (Surya) governs the soul, vitality, ego, and one's relationship with authority and the father. Practitioners perform the Surya Namaskar (sun salutations) and recite the Aditya Hridayam for vitality, eye health, and the cultivation of solar willpower.",
     "historic_data": "Surya is hymned in the Rigveda and the Gayatri Mantra is addressed to his light as the solar deity Savitr. The Konark Sun Temple in Odisha (13th century CE) and the Modhera Sun Temple in Gujarat (11th century CE) are his major architectural monuments.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Surya"
+    "wikipedia": "https://en.wikipedia.org/wiki/Surya",
+    "practice": "open"
   },
   {
     "name": "Agni",
@@ -2876,7 +2952,8 @@
     },
     "description": "Agni is the sacred fire at the center of all Vedic ritual, the divine priest who carries offerings from mortals to the gods and brings the gods' blessings back in turn — he is the original mediator between worlds. Present in every hearth, lightning bolt, and digestive fire within living bodies, he embodies transformation: all that burns is purified, reshaped, and transmitted to another plane. Any practitioner performing fire puja, homa, or Vedic ceremony is working directly with Agni, and tending any flame with intentionality is a form of his worship.",
     "historic_data": "Agni is the second most hymned deity in the Rigveda after Indra, with approximately 200 dedicated hymns. He is the deity invoked at the opening of virtually every Vedic ritual, and the homa (fire sacrifice) has remained an unbroken tradition across Vedic, Hindu, and Tantric contexts from the Vedic period to the present.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Agni"
+    "wikipedia": "https://en.wikipedia.org/wiki/Agni",
+    "practice": "open"
   },
   {
     "name": "Quetzalcoatl",
@@ -2915,7 +2992,8 @@
     },
     "description": "Quetzalcoatl, the Feathered Serpent, is one of the most ancient and central deities of Mesoamerica, embodying the union of the earthly serpent and the heavenly quetzal bird — the integration of matter and spirit. In his aspect as Ehecatl he is the wind that sweeps the way clean before Tlaloc's rain, and as the Morning Star Venus he governs the cycle of death and rebirth that structures the Aztec calendar. The Aztec priestly class identified closely with him as patron of learning, arts, and esoteric knowledge; working with him requires study, craft, and a willingness to move between worlds.",
     "historic_data": "The feathered serpent appears at Teotihuacan from approximately 200 CE and is attested across Mesoamerica through the Classic and Postclassic periods. In Aztec tradition he is detailed in the Florentine Codex (compiled by Sahagún, 16th century CE) and the Histoyre du Mechique; the Quetzalcoatl temple at Teotihuacan remains his primary archaeological monument.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Quetzalcoatl"
+    "wikipedia": "https://en.wikipedia.org/wiki/Quetzalcoatl",
+    "practice": "closed"
   },
   {
     "name": "Tlaloc",
@@ -2953,7 +3031,8 @@
     },
     "description": "Tlaloc is among the oldest and most important deities of the Mesoamerican world, the great rain god who dwells in mountains and sends the life-giving water that makes agriculture possible — but who also demands the heaviest sacrifices, particularly of children, whose tears were believed to summon rain. His paradise Tlalocan receives those who die by water-related deaths: drowning, lightning, and flood. Approaching him requires acknowledgment of water's dual nature as giver of life and agent of destruction, and profound respect for the natural world's sovereignty over human survival.",
     "historic_data": "Tlaloc worship is attested at Teotihuacan from approximately 200 CE and he shared the dual shrine atop Templo Mayor in Tenochtitlan with Huitzilopochtli, reflecting his equal status in the Aztec state religion. Child sacrifice (tlacaxipehualiztli) to Tlaloc during the dry season is documented extensively in the Florentine Codex and confirmed by archaeological finds at Templo Mayor.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tlaloc"
+    "wikipedia": "https://en.wikipedia.org/wiki/Tlaloc",
+    "practice": "closed"
   },
   {
     "name": "Huitzilopochtli",
@@ -2990,7 +3069,8 @@
     },
     "description": "Huitzilopochtli is the supreme tribal deity of the Mexica Aztec people, the solar war god born fully armed from his mother Coatlicue after she was impregnated by a ball of hummingbird feathers, and who immediately slew his sister Coyolxauhqui and four hundred brothers who sought to destroy him. He must be fed with human blood — specifically hearts torn from sacrificial victims — to fuel his daily journey across the sky and prevent the sun from dying; the entire Aztec sacrificial system was cosmologically justified by this necessity. He represents the fierce, demanding aspect of solar power, and the Aztec state understood itself as his chosen people, charged with feeding the sun through conquest.",
     "historic_data": "Huitzilopochtli is described in the Florentine Codex and the Leyenda de los Soles as the patron deity of the Mexica from the time of their migration to the Valley of Mexico (c. 1300 CE). He shared the main shrine at Templo Mayor in Tenochtitlan with Tlaloc; the Coyolxauhqui Stone discovered at Templo Mayor in 1978 depicts his mythological defeat of his sister.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Huitzilopochtli"
+    "wikipedia": "https://en.wikipedia.org/wiki/Huitzilopochtli",
+    "practice": "closed"
   },
   {
     "name": "Coatlicue",
@@ -3025,7 +3105,8 @@
     },
     "description": "Coatlicue is the great earth mother of the Aztec pantheon, a figure of terrifying and fertile power who both gives birth to the gods and receives the dead back into her body — she embodies the earth as the dual principle of generation and consumption. Her famous monumental statue (now in the National Museum of Anthropology in Mexico City) shows a headless figure of two serpents facing each other, a necklace of hands and hearts, and a skirt of writhing snakes, making her one of the most powerful images of sacred dread in any world tradition. She is not a deity to be approached lightly; working with her means confronting the full cycle of birth, death, and transformation without flinching.",
     "historic_data": "Coatlicue is described in the Florentine Codex and the Historia General de las Cosas de Nueva España by Fray Bernardino de Sahagún. Her monumental basalt statue (approximately 2.5 meters tall, c. 1500 CE) was unearthed at the Plaza Mayor in Mexico City in 1790 and is now the centerpiece of the Aztec collection at the Museo Nacional de Antropología.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Coatlicue"
+    "wikipedia": "https://en.wikipedia.org/wiki/Coatlicue",
+    "practice": "closed"
   },
   {
     "name": "Tezcatlipoca",
@@ -3062,7 +3143,8 @@
     },
     "description": "Tezcatlipoca is the omniscient lord of the night sky and the obsidian smoking mirror in which all human deeds and desires are revealed — he sees everything and tests everyone, presenting mortals with their deepest temptations to see whether they will be broken or transformed. He is the eternal rival of Quetzalcoatl; their conflict drives the succession of cosmic ages (Suns) in Aztec cosmology. Sorcerers and warriors invoked him, and practitioners working with him must be prepared for radical honesty about their own shadow, as his mirror shows the truth without mercy.",
     "historic_data": "Tezcatlipoca is described extensively in the Florentine Codex, the Leyenda de los Soles, and the Histoyre du Mechique. He was worshipped throughout Mesoamerica from at least the Classic period (c. 600 CE), and his most important Aztec festival was Toxcatl, during which a chosen impersonator lived for a year as the god before being sacrificed.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tezcatlipoca"
+    "wikipedia": "https://en.wikipedia.org/wiki/Tezcatlipoca",
+    "practice": "closed"
   },
   {
     "name": "Xochiquetzal",
@@ -3100,7 +3182,8 @@
     },
     "description": "Xochiquetzal is the radiant goddess of beauty, desire, and artistic creation — the divine embodiment of female sexual power, pleasure, and the transformative force of beauty itself. She dwells in the uppermost heaven Tamoanchan surrounded by flowers and music, and she is the patron of weavers, embroiderers, artisans, and sex workers alike, representing sacred creativity in all its sensuous forms. Working with her invites an embrace of pleasure, beauty, and creative expression as genuinely spiritual practices, and she reminds practitioners that joy and aesthetic refinement are not frivolous but essential to the sacred.",
     "historic_data": "Xochiquetzal is described in the Florentine Codex and various pre-Columbian codices including the Codex Borbonicus. Her festival, Ochpaniztli, fell in the Aztec month associated with the harvest, and she was especially venerated by craftswomen; the city of Teotihuacan shows evidence of widespread female artisan worship associated with her.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Xochiquetzal"
+    "wikipedia": "https://en.wikipedia.org/wiki/Xochiquetzal",
+    "practice": "closed"
   },
   {
     "name": "Mictlantecuhtli",
@@ -3139,7 +3222,8 @@
     },
     "description": "Mictlantecuhtli rules Mictlan, the nine-level underworld of the Aztecs, where most ordinary souls — those who died neither in battle nor in childbirth nor by water — spend four years journeying toward final dissolution. He is depicted as a skeletal figure with a skull head, liver-spotted body, and surrounded by owls, bats, and spiders — creatures of the night and decay — and he demands offerings and correct funerary rites to allow the dead to complete their journey. Practitioners working with the dead, performing ancestor veneration, or undertaking deep shadow work may encounter his domain, and the Day of the Dead (Día de los Muertos) preserves a living connection to his cult.",
     "historic_data": "Mictlantecuhtli is described in the Florentine Codex and his cult is attested across Postclassic Mesoamerica. A striking life-size ceramic statue of him was discovered at Templo Mayor in Tenochtitlan (c. 1480 CE) and is housed in the Museo del Templo Mayor in Mexico City.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mictlantecuhtli"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mictlantecuhtli",
+    "practice": "closed"
   },
   {
     "name": "Chalchiuhtlicue",
@@ -3176,7 +3260,8 @@
     },
     "description": "Chalchiuhtlicue, She of the Jade Skirt, is the goddess of all flowing surface waters — rivers, streams, lakes, and the sea — and the divine protector of newborns, children, and those undergoing transitions. She presided over the fourth cosmic age (the Fourth Sun) in Aztec cosmology, which ended in a great flood, and she remains a guardian of the vulnerable and the new. Midwives invoked her during birth, new mothers bathed infants in her honor, and any water-based purification or healing working may draw on her compassionate, nurturing energy.",
     "historic_data": "Chalchiuhtlicue is described in the Florentine Codex and represented extensively in pre-Columbian manuscripts including the Codex Borgia. She was the consort of Tlaloc and appears prominently at Teotihuacan; a colossal stone sculpture of her from the site (now at the National Museum of Anthropology) is one of the largest surviving pre-Columbian sculptures.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Chalchiuhtlicue"
+    "wikipedia": "https://en.wikipedia.org/wiki/Chalchiuhtlicue",
+    "practice": "closed"
   },
   {
     "name": "Xipe Totec",
@@ -3213,7 +3298,8 @@
     },
     "description": "Xipe Totec, Our Lord the Flayed One, is the god of seasonal renewal and agricultural rebirth, whose central symbol is the wearing of a flayed human skin — representing the earth shedding its old surface to reveal new growth beneath, just as a seed must shed its outer casing to sprout. Priests in his festival Tlacaxipehualiztli wore the skins of sacrificed victims for twenty days, enacting the cosmic mystery of death as the precondition for new life. He governs the uncomfortable but necessary process of shedding the old self, healing skin diseases, and the painful emergence of new abundance.",
     "historic_data": "Xipe Totec is attested across Mesoamerica from at least the Early Classic period and is described in the Florentine Codex. His major festival Tlacaxipehualiztli (Flaying of Men) was held in the second Aztec month and involved gladiatorial sacrifice; his cult was particularly strong among the Zapotec, Toltec, and Aztec peoples.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Xipe_Totec"
+    "wikipedia": "https://en.wikipedia.org/wiki/Xipe_Totec",
+    "practice": "closed"
   },
   {
     "name": "Amaterasu",
@@ -3249,7 +3335,8 @@
     },
     "description": "Amaterasu-Ōmikami is the supreme kami of the sun and the ruler of the celestial plain Takamagahara (the High Plain of Heaven), from whom the Japanese imperial lineage claims descent. Her best-known myth describes her retreat into the Ama-no-Iwato cave, plunging the world into darkness until the other gods enticed her out with ritual, music, and laughter — a story often interpreted as a solar eclipse or the triumph of community and joy over isolation and despair. The Ise Grand Shrine (Ise Jingū) in Mie Prefecture, one of the most sacred sites in Japan, houses her primary symbol, the sacred mirror Yata no Kagami.",
     "historic_data": "Amaterasu is described in the Kojiki (712 CE) and Nihon Shoki (720 CE), the foundational texts of Japanese mythology. The Ise Grand Shrine has been her principal shrine since at least the 4th–5th century CE and is ritually rebuilt every twenty years in a ceremony called Shikinen Sengu.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Amaterasu"
+    "wikipedia": "https://en.wikipedia.org/wiki/Amaterasu",
+    "practice": "open"
   },
   {
     "name": "Tsukuyomi-no-Mikoto",
@@ -3283,7 +3370,8 @@
     },
     "description": "Tsukuyomi-no-Mikoto is the kami of the moon, born alongside Amaterasu and Susanoo from the purification rites of Izanagi when he washed his face after returning from the underworld. He killed the food goddess Ukemochi for the manner in which she produced food (from her body), and in response Amaterasu declared she would never look upon him again — which the Kojiki uses to explain the separation of day and night. Tsukuyomi is a deity of cycles, quiet contemplation, and the uncomfortable truths that emerge in darkness; he governs the measured rhythm of time and the esoteric knowledge kept in shadow.",
     "historic_data": "Tsukuyomi is described in both the Kojiki (712 CE) and the Nihon Shoki (720 CE), though he receives notably less mythological development than his siblings. His worship is relatively sparse in the historical Shinto record, with the Tsukuyomi Shrine at Ise Jingū being one of his few dedicated sanctuaries.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tsukuyomi-no-Mikoto"
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsukuyomi-no-Mikoto",
+    "practice": "open"
   },
   {
     "name": "Susanoo-no-Mikoto",
@@ -3319,7 +3407,8 @@
     },
     "description": "Susanoo-no-Mikoto is the tempestuous kami of storms and the sea, banished from the heavens by Amaterasu for his disruptive behavior before he descended to earth and became the heroic slayer of the eight-headed serpent Yamata no Orochi — from whose tail he drew the sacred sword Kusanagi-no-Tsurugi, one of Japan's three imperial treasures. After his heroic deeds he composed what is considered Japan's first waka poem, revealing a complexity that encompasses both raw destructive force and refined creative sensibility. Practitioners find in him a patron of honest confrontation with chaos, authentic creativity that emerges from struggle, and the protection of travelers by sea.",
     "historic_data": "Susanoo is extensively described in the Kojiki (712 CE) and Nihon Shoki (720 CE). He is the ancestor of many kami in Japanese mythology and is enshrined at Yasaka Shrine in Kyoto (founded c. 656 CE), which hosts the Gion Matsuri, one of Japan's three great festivals.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Susanoo-no-Mikoto"
+    "wikipedia": "https://en.wikipedia.org/wiki/Susanoo-no-Mikoto",
+    "practice": "open"
   },
   {
     "name": "Inari Ōkami",
@@ -3357,7 +3446,8 @@
     },
     "description": "Inari Ōkami is one of the most widely venerated kami in Japan, a multivalent deity of rice, agriculture, foxes, and all forms of worldly prosperity including business, craft, and industry. Inari is understood as male, female, or androgynous depending on regional tradition, and his/her fox messengers (kitsune) are the white foxes found at every Inari shrine, acting as intermediaries between the human and divine. The characteristic tunnel of bright red torii gates (senbon torii) leading to Inari shrines creates a liminal passageway between worlds, and merchants, farmers, artisans, and practitioners seeking material success all fall under Inari's expansive patronage.",
     "historic_data": "Inari worship is attested from 711 CE at Fushimi Inari Taisha in Kyoto, which remains the head shrine of approximately 32,000 Inari shrines across Japan. Inari is mentioned in the Nihon Shoki (720 CE) and is associated with the Ukanomitama deity of food and sustenance.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Inari_%C5%8Ckami"
+    "wikipedia": "https://en.wikipedia.org/wiki/Inari_%C5%8Ckami",
+    "practice": "open"
   },
   {
     "name": "Izanagi-no-Mikoto",
@@ -3391,7 +3481,8 @@
     },
     "description": "Izanagi is the male half of the divine couple who created the Japanese islands and gave birth to most of the great kami, stirring the primordial ocean with the jeweled spear Amenonuboko until islands coalesced from the brine. After his wife Izanami died giving birth to the fire god Kagutsuchi, Izanagi descended to Yomi (the underworld) to retrieve her but was horrified by her rotting form and fled, sealing the entrance with a boulder — from the purification bath he took afterward, Amaterasu, Tsukuyomi, and Susanoo were born. His story encodes one of the most primal spiritual teachings: that the living world is constituted by the act of turning away from death and performing radical, joyful purification (misogi).",
     "historic_data": "Izanagi is described in detail in the Kojiki (712 CE) and Nihon Shoki (720 CE) as the progenitor of the Japanese islands and most major kami. Awaji Island in the Seto Inland Sea is traditionally identified as the first island created; the Izanagi Jingū shrine on Awaji is his primary sanctuary.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Izanagi"
+    "wikipedia": "https://en.wikipedia.org/wiki/Izanagi",
+    "practice": "open"
   },
   {
     "name": "Izanami-no-Mikoto",
@@ -3427,7 +3518,8 @@
     },
     "description": "Izanami-no-Mikoto is the great mother and creator goddess who, together with Izanagi, shaped the Japanese islands and birthed the kami — but who died in the agony of giving birth to the fire deity Kagutsuchi, becoming the queen of Yomi, the Japanese realm of the dead. When Izanagi fled Yomi in horror at her decomposed state, she swore to kill a thousand of his people each day; he countered that he would then create fifteen hundred new lives, establishing the eternal balance of death and birth. She governs the deep, uncomfortable mysteries of mortality, the transformative power of death, and the sacrificial aspect of motherhood; she also reminds practitioners that even the divine must contend with irreversible loss.",
     "historic_data": "Izanami is described in the Kojiki (712 CE) and Nihon Shoki (720 CE). She is enshrined at Izanami Jinja in Higashiyama, and her death from giving birth to fire is an etiological myth for the origins of volcanoes and the presence of death in the world.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Izanami"
+    "wikipedia": "https://en.wikipedia.org/wiki/Izanami",
+    "practice": "open"
   },
   {
     "name": "Raijin",
@@ -3461,7 +3553,8 @@
     },
     "description": "Raijin is the fearsome kami of thunder and lightning, typically depicted as a red or blue demon-like figure encircled by a ring of taiko drums which he beats to create the sound of thunder. He works in close partnership with the wind god Fujin; together they appear in dramatic paired images at the gates of many Buddhist-influenced shrines and temples, including the famous gate at Sanjūsangen-dō in Kyoto. Despite his ferocious appearance, Raijin's storms bring the rain that grows the rice — his terror is inseparable from his gift, and farmers have always understood that the divine force that frightens is the same one that feeds.",
     "historic_data": "Raijin appears in the Nihon Shoki (720 CE) and became a major iconographic subject in Japanese Buddhist-influenced art from the Heian period (794–1185 CE) onward. The famous folding screen depicting Raijin and Fujin by Tawaraya Sōtatsu (early 17th century CE, Kennin-ji temple, Kyoto) is among the greatest masterpieces of Japanese painting.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Raijin"
+    "wikipedia": "https://en.wikipedia.org/wiki/Raijin",
+    "practice": "open"
   },
   {
     "name": "Benzaiten",
@@ -3499,7 +3592,8 @@
     },
     "description": "Benzaiten is the only female deity among the Seven Lucky Gods (Shichifukujin) and the Japanese form of the Hindu goddess Saraswati, governing all things that flow — water, music, time, speech, and fortune. She is typically depicted holding a biwa (lute) and is accompanied by a white serpent, an auspicious symbol in Japan, and she is enshrined on islands and near water across the country. Musicians, writers, actors, and those seeking eloquence, love, or financial luck invoke her; the pairing of artistic refinement with material fortune makes her one of the most versatile and widely beloved of Japanese deities.",
     "historic_data": "Benzaiten entered Japan from India via China during the Nara period (710–794 CE) through Buddhist transmission, identified with the goddess Saraswati. Major shrines include Enoshima (Kanagawa), Chikubushima (Lake Biwa), and Itsukushima (Miyajima) — together considered the three great Benzaiten shrines of Japan.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Benzaiten"
+    "wikipedia": "https://en.wikipedia.org/wiki/Benzaiten",
+    "practice": "open"
   },
   {
     "name": "Fujin",
@@ -3534,7 +3628,8 @@
     },
     "description": "Fujin is the kami of wind and one of the oldest deities in the Japanese pantheon, traditionally depicted as a green oni-like figure in tattered garments carrying an enormous bag full of winds on his shoulders. He and Raijin are inseparable companions and guardians, their paired images flanking temple gates across Japan to ward away evil and protect the sacred space. Fujin governs breath, the invisible forces that carry things between worlds, and the purifying power of fresh air; practitioners invoke him for travel, the clearing of stagnant energy, and communication across distances.",
     "historic_data": "Fujin appears in the Kojiki (712 CE) as one of the first kami born after the creation of the world. His iconography in Japan was heavily influenced by the Greco-Buddhist wind god Boreas transmitted through the Gandhara artistic tradition; the paired Fujin-Raijin screen by Tawaraya Sōtatsu (early 17th century CE) is the canonical depiction.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Fujin"
+    "wikipedia": "https://en.wikipedia.org/wiki/Fujin",
+    "practice": "open"
   },
   {
     "name": "Brigid",
@@ -3570,7 +3665,8 @@
     },
     "description": "Brigid is a triple goddess of fire — the flame of inspiration for the poet, the forge fire of the smith, and the hearth fire of the healer. One of the Tuatha Dé Danann (Irish tradition), her festival Imbolc marks the first stirring of spring. She was so beloved she was absorbed into Christianity as Saint Brigid of Kildare, and practitioners working with her find her especially receptive to creative endeavors and healing work.",
     "historic_data": "Referenced in Cath Maige Tuired and other Irish mythological texts. Her eternal flame was kept at Kildare by a rotating group of nineteen priestesses, with feast day of 1 February syncretised with Saint Brigid.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Brigid"
+    "wikipedia": "https://en.wikipedia.org/wiki/Brigid",
+    "practice": "open"
   },
   {
     "name": "The Dagda",
@@ -3606,7 +3702,8 @@
     },
     "description": "The Dagda is the chief father deity of the Irish Tuatha Dé Danann, a god of primal abundance and masterful magic whose cauldron (Undry) leaves no one unsatisfied and whose club slays with one end and resurrects with the other. His harp Uaithne controls the seasons and compels sleep, waking, and weeping. Practitioners working with him find him approachable and earthy — a deity who commands immense power with rustic humor.",
     "historic_data": "Prominent in the Irish mythological cycle, particularly Cath Maige Tuired, where he serves as chief of the Tuatha Dé Danann against the Fomorians. He is depicted as a figure of both cosmic power and deliberate buffoonery in medieval Irish manuscripts.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Dagda"
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dagda",
+    "practice": "open"
   },
   {
     "name": "The Morrigan",
@@ -3644,7 +3741,8 @@
     },
     "description": "The Morrigan is a complex triple goddess of the Irish tradition, often comprising Badb, Macha, and Nemain (or Anu), who presides over fate, sovereignty, and the outcome of battles. She appears as a crow or raven on the battlefield and as a washerwoman at the ford, foretelling doom to those whose bloody armor she cleans. Working with her demands honesty and courage — she tests those who seek her, and her favor often comes in the form of necessary, difficult transformation.",
     "historic_data": "Extensively documented in the Ulster Cycle, particularly in Táin Bó Cúailnge, and in Cath Maige Tuired. She appears as a direct antagonist and challenger to Cú Chulainn, and as a figure of sovereignty who offers kingship through sexual union.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Morrígan"
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Morrígan",
+    "practice": "open"
   },
   {
     "name": "Cernunnos",
@@ -3680,7 +3778,8 @@
     },
     "description": "Cernunnos is a Gaulish deity of the wild and liminal spaces, depicted seated in a cross-legged posture wearing stag antlers and holding a torque, surrounded by animals. He embodies the untamed fertility of nature and the wealth of the earth, straddling the boundary between the human world and the otherworld. Practitioners working with him are drawn to animal communication, nature mysticism, and work with liminal states such as trance and journeywork.",
     "historic_data": "His name appears on the Pillar of the Boatmen (1st century CE, Paris) and he is depicted on the Gundestrup Cauldron (c. 100 BCE). No written mythology survives from the Gaulish tradition, so his character is reconstructed largely from iconography.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cernunnos"
+    "wikipedia": "https://en.wikipedia.org/wiki/Cernunnos",
+    "practice": "open"
   },
   {
     "name": "Lugh",
@@ -3719,7 +3818,8 @@
     },
     "description": "Lugh is a supreme solar deity of the Irish tradition and one of the greatest of the Tuatha Dé Danann, known as Samhildánach — master of all arts — because he excels at every skill simultaneously. The harvest festival Lughnasadh (1 August) is named for him and commemorates his foster mother Tailtiu. Practitioners find him ideal for work involving mastery, skill development, oaths, and the illumination of complex problems.",
     "historic_data": "Featured prominently in Cath Maige Tuired, where he leads the Tuatha Dé Danann against the Fomorians, killing his own grandfather Balor of the Evil Eye. The festival Lughnasadh is described in multiple Irish texts as a commemoration established by Lugh himself.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lugh"
+    "wikipedia": "https://en.wikipedia.org/wiki/Lugh",
+    "practice": "open"
   },
   {
     "name": "Danu",
@@ -3751,7 +3851,8 @@
     },
     "description": "Danu is the primordial mother goddess of the Irish tradition, giving her name to the Tuatha Dé Danann — the divine tribe of the goddess Danu — although she is rarely mentioned by name in surviving texts. She represents the generative power of rivers, earth, and primal creation from which all the Irish gods spring. Practitioners working with her engage with ancestral lineage, the flow of creative and spiritual inheritance, and the fertile ground of all beginning.",
     "historic_data": "Danu is inferred primarily from the tribal name Tuatha Dé Danann in the Irish mythological cycle; she is not named as an active character in surviving medieval Irish manuscripts, making her reconstruction somewhat speculative.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Danu_(Irish_goddess)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Danu_(Irish_goddess)",
+    "practice": "open"
   },
   {
     "name": "Manannán mac Lir",
@@ -3789,7 +3890,8 @@
     },
     "description": "Manannán mac Lir is the Irish and Manx god of the sea and lord of the otherworld, a consummate shapeshifter and trickster who guards and guides souls to Tír na nÓg, the Land of Youth. He possesses a crane bag holding the treasures of the gods and a cloak that creates impenetrable mist. Practitioners working with him are drawn to liminal magic, work with the dead, shapeshifting, and navigation through mysteries — he is a guide who tests as much as he leads.",
     "historic_data": "Appears in the Voyage of Bran, in Irish mythological cycle texts, and in the Mabinogion as Manawyddan fab Llŷr in Welsh tradition. He is the tutelary deity of the Isle of Man (Ellan Vannin in Manx), which is named for him.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Manannán_mac_Lir"
+    "wikipedia": "https://en.wikipedia.org/wiki/Manannán_mac_Lir",
+    "practice": "open"
   },
   {
     "name": "Rhiannon",
@@ -3825,7 +3927,8 @@
     },
     "description": "Rhiannon is a Welsh otherworldly queen from the Mabinogion who rides a white horse no rider can overtake, embodying divine sovereignty and the endurance of the falsely accused. Her three magical birds can wake the dead and lull the living to sleep, marking her as a psychopomp and keeper of transitions. Practitioners working with her find her a powerful ally in situations of injustice, grief, and the long patience required to outlast false accusation.",
     "historic_data": "Her story appears in the First Branch and Third Branch of the Mabinogion (compiled c. 1100–1200 CE from earlier oral traditions). Scholars connect her to the Gaulish horse goddess Epona and the Irish Macha through shared iconography and narrative patterns.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Rhiannon"
+    "wikipedia": "https://en.wikipedia.org/wiki/Rhiannon",
+    "practice": "open"
   },
   {
     "name": "The Cailleach",
@@ -3864,7 +3967,8 @@
     },
     "description": "The Cailleach (Scottish Gaelic and Irish tradition) is the divine hag of winter, a primordial earth goddess who shapes the landscape by dropping stones from her apron and striking the ground with her staff to freeze it. She rules from Samhain to Beltane, and her contest with spring determines the length of winter each year. Practitioners working with her engage with the wisdom of age and endings, the stripping-away necessary before renewal, and the raw power of untamed nature.",
     "historic_data": "Recorded extensively in Scottish and Irish folklore; her main cult center is Beinn na Caillich in Scotland. She is associated with Ben Nevis and many geological features in Scotland and Ireland attributed to her mythological actions.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cailleach"
+    "wikipedia": "https://en.wikipedia.org/wiki/Cailleach",
+    "practice": "open"
   },
   {
     "name": "Cerridwen",
@@ -3902,7 +4006,8 @@
     },
     "description": "Cerridwen is a Welsh enchantress and goddess who brews the cauldron of Awen — divine inspiration and poetic knowledge — for a year and a day to give the gift of wisdom to her son Afagddu. When her servant Gwion Bach accidentally receives the gift instead, she pursues him through a series of shapeshifting transformations, ultimately swallowing and rebirthing him as the bard Taliesin. Practitioners working with her engage with the transformative fires of the creative process, poetic initiation, and the willingness to undergo radical personal change.",
     "historic_data": "Her story is recorded primarily in the Tale of Taliesin from the Mabinogion tradition (compiled c. 1100–1300 CE). She is associated with Lake Bala (Llyn Tegid) in Wales, and the cauldron of Awen became a key symbol in later Welsh bardic tradition.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ceridwen"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ceridwen",
+    "practice": "open"
   },
   {
     "name": "Arawn",
@@ -3938,7 +4043,8 @@
     },
     "description": "Arawn is the Welsh king of Annwn, the otherworld, who hunts with a pack of white hounds with red ears — the Cŵn Annwn — whose baying signals death or transition. He is depicted in the Mabinogion as a figure of cunning and justice who forges an unusual friendship with the mortal Pwyll after a territorial dispute. Practitioners working with him navigate work with the dead, psychopomp traditions, and the deep rest and renewal that only the underworld can provide.",
     "historic_data": "His primary appearance is in the First Branch of the Mabinogion, where he exchanges places with Pwyll, king of Dyfed, for a year. He also appears in the poem Preiddeu Annwfn (The Spoils of Annwfn), attributed to Taliesin, describing a raid on his realm.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Arawn"
+    "wikipedia": "https://en.wikipedia.org/wiki/Arawn",
+    "practice": "open"
   },
   {
     "name": "Eshu",
@@ -3978,7 +4084,8 @@
     },
     "description": "Eshu (also known as Elegba or Legba in diaspora traditions such as Vodou, and Eleggua in Santería/Lucumí) is the divine trickster and gatekeeper who must be propitiated before all other orishas, as he controls the roads and communication between realms. He is a deity of pure potential at the crossroads — neither good nor evil, but the force that opens or closes all paths. Practitioners must honor him first in any ceremony; he rewards playfulness and honesty and punishes those who ignore protocol.",
     "historic_data": "Central to Yoruba religious practice in West Africa and throughout the African diaspora. Eshu/Elegba is among the first orishas invoked in Ifá divination, and his worship is documented across Nigeria, Benin, Brazil (Candomblé), Cuba (Santería), and Haiti (Vodou).",
-    "wikipedia": "https://en.wikipedia.org/wiki/Eshu"
+    "wikipedia": "https://en.wikipedia.org/wiki/Eshu",
+    "practice": "closed"
   },
   {
     "name": "Ogun",
@@ -4017,7 +4124,8 @@
     },
     "description": "Ogun is the Yoruba orisha of iron and all who work with metal — hunters, soldiers, surgeons, drivers, and mechanics — representing the raw, focused power that cuts through obstacles. He is simultaneously the force of war and healing surgery, embodying the paradox that the same blade that kills can save. In diaspora traditions (known as Ogún in Santería and Candomblé), he is venerated by those who work with metal tools and by those seeking justice or the strength to overcome entrenched opposition.",
     "historic_data": "One of the oldest orishas in the Yoruba pantheon, with active cult worship in Nigeria and Benin. His primary shrine is at Ire-Ekiti in Nigeria; courts in West Africa and diaspora communities historically administered oaths sworn on iron in his name.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ogun"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ogun",
+    "practice": "closed"
   },
   {
     "name": "Oshun",
@@ -4059,7 +4167,8 @@
     },
     "description": "Oshun is the Yoruba orisha of sweet water, love, and abundance, embodying the irresistible sweetness of life and the healing power of fresh water. She is both the tender mother and the seductive lover, a diplomat who saved the world from destruction by using beauty and honey where force had failed. Known as Oxum in Candomblé and Ochún in Santería/Lucumí, practitioners approach her with honey offerings and yellow cloth, and she is especially petitioned for love, fertility, money, and healing.",
     "historic_data": "Her primary sacred river is the Osun River in Osogbo, Nigeria, where the Osun-Osogbo Sacred Grove (a UNESCO World Heritage Site) remains an active center of her worship. She is one of the most widely venerated orishas across the Yoruba diaspora.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Oshun"
+    "wikipedia": "https://en.wikipedia.org/wiki/Oshun",
+    "practice": "closed"
   },
   {
     "name": "Yemoja",
@@ -4098,7 +4207,8 @@
     },
     "description": "Yemoja is the great mother orisha of water in Yoruba tradition, whose name means 'Mother whose children are like fish' — innumerable and dependent on her for life. Originally a river goddess in Ogun State, Nigeria, in diaspora traditions she became strongly associated with the ocean, reflecting the Middle Passage experience of enslaved Africans. Known as Iemanjá in Candomblé and Yemayá in Santería, she is the universal mother of comfort, protection, and deep emotional healing.",
     "historic_data": "Her original sacred river is the Ogun River in Nigeria. The largest festivals in her honor take place on Copacabana Beach in Brazil on February 2nd, where millions of devotees send offerings out to sea, and in Salvador da Bahia throughout the year.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Yemoja"
+    "wikipedia": "https://en.wikipedia.org/wiki/Yemoja",
+    "practice": "closed"
   },
   {
     "name": "Shango",
@@ -4137,7 +4247,8 @@
     },
     "description": "Shango is the orisha of thunder and lightning, a deified king of the historical Oyo Empire whose dramatic life — marked by absolute power, violent passions, and a tragic end — made him a divine force of both royal authority and primal storm energy. He strikes down the unjust with his thunderbolts and is associated with intense, transformative power. Known as Xangô in Candomblé and Changó in Santería, he is one of the most popular orishas in the diaspora and is approached for strength, justice, and the courage to act decisively.",
     "historic_data": "Shango is both a historical figure — the fourth Alaafin (king) of the Oyo Empire (c. 14th–17th century CE) — and a deified orisha. His worship spread throughout West Africa with the expansion of the Oyo Empire and was carried to the Americas via the slave trade.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Shango"
+    "wikipedia": "https://en.wikipedia.org/wiki/Shango",
+    "practice": "closed"
   },
   {
     "name": "Obatala",
@@ -4176,7 +4287,8 @@
     },
     "description": "Obatala is the orisha of creation and purity, the divine sculptor who molds human bodies in the womb before Olorun (the supreme deity) breathes life into them. He is the father of cool and calm, associated with white cloth, clear thinking, and the highest moral standards — his devotees abstain from alcohol, as he is said to create disabled or deformed persons when he sculpts drunk. Practitioners work with him for clarity of mind, physical healing, resolution of disputes, and spiritual purification.",
     "historic_data": "One of the most ancient and widely venerated orishas, with a primary cult center at Ifé (Ile-Ife), Nigeria, the sacred city of Yoruba creation. His festival Olojo is celebrated at Ile-Ife and he is given precedence in many Ifá ceremonies as the arbiter of justice among the orishas.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Obatala"
+    "wikipedia": "https://en.wikipedia.org/wiki/Obatala",
+    "practice": "closed"
   },
   {
     "name": "Oya",
@@ -4215,7 +4327,8 @@
     },
     "description": "Oya is the fierce warrior orisha of wind, storms, and transformation, the guardian of the cemetery gates who ushers souls through death and into the next world. She is the embodiment of sudden, radical change — the hurricane and the marketplace — and she clears away the old to make way for the new with her copper machete. Known as Iansã in Candomblé and Oyá in Santería, she is approached by those facing major life transitions, those working with the dead, and those who need the strength to break destructive patterns.",
     "historic_data": "Associated with the Niger River (Oya is an older name for the Niger) and widely venerated across Nigeria and Benin. She is frequently paired with Shango in Yoruba mythology as his favorite wife and co-warrior; her worship is central to Egungun masquerade traditions concerning the ancestors.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Oya"
+    "wikipedia": "https://en.wikipedia.org/wiki/Oya",
+    "practice": "closed"
   },
   {
     "name": "Orunmila",
@@ -4251,7 +4364,8 @@
     },
     "description": "Orunmila is the orisha of wisdom and the custodian of the Ifá divination system, a vast corpus of oral scripture that forms the philosophical and spiritual foundation of Yoruba religion. He was present at creation and witnessed the destiny assigned to every soul, making him the supreme oracle and guide in understanding one's life path. Practitioners approach him through the Ifá system, working with trained Babalawo (Ifá priests) who use the opele chain and palm nuts to access his wisdom for guidance on major life decisions.",
     "historic_data": "The Ifá literary corpus, of which Orunmila is the divine patron, was inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity in 2008. The primary center of Ifá practice is Ile-Ife, Nigeria, the spiritual heartland of the Yoruba people.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Orunmila"
+    "wikipedia": "https://en.wikipedia.org/wiki/Orunmila",
+    "practice": "closed"
   },
   {
     "name": "Ochosi",
@@ -4288,7 +4402,8 @@
     },
     "description": "Ochosi is the divine hunter orisha, the tracker and scout whose unerring arrow never misses its mark, representing the relentless pursuit of truth and justice. He is one of the warrior orishas (Los Guerreros) alongside Eshu and Ogun, and his domain extends from the literal forest hunt to the corridors of law, courts, and incarceration. In Santería/Lucumí he is particularly petitioned by those involved in legal matters or those who have family members imprisoned.",
     "historic_data": "Ochosi's worship is found throughout Yorubaland and is especially prominent in the diaspora traditions of Santería (Cuba) and Candomblé (Brazil, as Oxóssi). He is considered one of the foundational warrior orishas received first by initiates in the Lukumí tradition.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ochosi"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ochosi",
+    "practice": "closed"
   },
   {
     "name": "Inanna",
@@ -4327,7 +4442,8 @@
     },
     "description": "Inanna is the supreme goddess of ancient Sumer — the Sumerian form of the Akkadian Ishtar — embodying the full spectrum of desire, power, and transformation in a single terrifying and magnificent deity. Her Descent into the Underworld, one of the oldest surviving mythological narratives, describes her deliberate journey through the seven gates of the underworld to challenge her sister Ereshkigal, losing an attribute at each gate and being hung as a corpse, before resurrection and return. Practitioners working with her are invited into the full intensity of life — love, war, beauty, and the willingness to descend into darkness and return transformed.",
     "historic_data": "Among the most extensively documented deities of the ancient world, with temples at Uruk (her primary cult center, c. 4000 BCE), Nippur, and Akkad. The Hymn to Inanna by the high priestess Enheduanna (c. 2300 BCE) is among the earliest attributed literary works in history.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Inanna"
+    "wikipedia": "https://en.wikipedia.org/wiki/Inanna",
+    "practice": "open"
   },
   {
     "name": "Enlil",
@@ -4363,7 +4479,8 @@
     },
     "description": "Enlil is the Sumerian god of wind and storms, the second deity in the supreme triad with An (sky) and Enki (water), and the divine authority who grants kingship to mortal rulers and decreees the fate of civilizations. He is a deity of both creative and destructive force — his breath animates life and his storms destroy it — and it was Enlil who decreed the great flood to destroy humanity in the Atrahasis Epic. Practitioners encounter him as a force of cosmic authority and the inexorable movement of fate; his decrees cannot be reversed.",
     "historic_data": "His primary temple, the E-kur (House of the Mountain), was at Nippur, the religious center of Sumer. Enlil appears in the Atrahasis Epic, the Epic of Gilgamesh, and Enuma Elish, and his prominence slowly diminished as Marduk rose to supremacy in Babylonian theology.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Enlil"
+    "wikipedia": "https://en.wikipedia.org/wiki/Enlil",
+    "practice": "open"
   },
   {
     "name": "Enki",
@@ -4400,7 +4517,8 @@
     },
     "description": "Enki (known as Ea in Akkadian) is the Sumerian god of the primordial subterranean freshwater ocean (the Abzu), wisdom, and the magical arts — a trickster deity who frequently intervenes to save humanity from the decrees of other gods, warning Utnapishtim of the flood and thwarting Enlil's destructive plans. He is the patron of scribes, craftspeople, and exorcists, holding the Mes — the sacred tablets that encode all civilization. Practitioners working with Enki/Ea find him the most approachable of the Mesopotamian great gods, the cleverest problem-solver, and the source of esoteric and healing knowledge.",
     "historic_data": "His primary temple, the Abzu (E-abzu), was at Eridu, one of the oldest Sumerian cities. He is central to the Atrahasis Epic, the Eridu Genesis (flood myth), and numerous incantation and healing texts from the Old Babylonian period onward.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Enki"
+    "wikipedia": "https://en.wikipedia.org/wiki/Enki",
+    "practice": "open"
   },
   {
     "name": "Nanna",
@@ -4436,7 +4554,8 @@
     },
     "description": "Nanna (known as Sin in Akkadian) is the Sumerian moon god, whose monthly cycle governed the Mesopotamian calendar, the counting of time, and the rhythm of agricultural life. He sails across the sky in a luminous boat, and his waxing and waning determines omens and divination. Practitioners find him a deity of subtle, cyclical wisdom — presiding over the measurement of time, the secrets revealed in darkness, and the oracular power that comes from careful observation of natural rhythms.",
     "historic_data": "His primary temple, the Ekishnugal ziggurat, was at Ur (modern Tell el-Muqayyar, Iraq), where the high priestess of Nanna held one of the most important religious offices in Mesopotamia. Enheduanna, daughter of Sargon of Akkad (c. 2300 BCE), served as high priestess at Ur.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sin_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Sin_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Utu",
@@ -4472,7 +4591,8 @@
     },
     "description": "Utu (Shamash in Akkadian) is the Sumerian sun god and divine judge of all morality, whose all-seeing rays expose every lie and hidden deed. He rises each morning through the Mountain of the East, traverses the sky judging the living and the dead, and descends at night into the underworld to illuminate the realm of the dead. It is Shamash who appears on the stele of Hammurabi presenting the law code to the king, and practitioners work with him for truth-seeking, legal matters, and the clarity needed to see any situation as it truly is.",
     "historic_data": "His twin temples were at Sippar and Larsa (both in modern Iraq), the primary cult centers of Shamash worship in the Old Babylonian period. The Stele of Hammurabi (c. 1754 BCE) depicts Shamash presenting the law code, and extensive hymns to Shamash survive from the Old Babylonian through Neo-Assyrian periods.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Utu"
+    "wikipedia": "https://en.wikipedia.org/wiki/Utu",
+    "practice": "open"
   },
   {
     "name": "Ninhursag",
@@ -4508,7 +4628,8 @@
     },
     "description": "Ninhursag (also known as Ninmah, Mami, or Aruru) is one of the supreme Sumerian mother goddesses, the divine womb who shapes and births both gods and humans and who nurtures all living things on the sacred mountain. In the myth Enki and Ninhursag, she heals the wounds inflicted by Enki's transgressions, creating a deity for each part of his ailing body, including Ninti — 'Lady of the Rib' — a figure with notable parallels to later Abrahamic creation stories. Practitioners approach her for fertility, the healing of physical illness, childbirth, and the deep earth wisdom of the body.",
     "historic_data": "One of the oldest and most widely attested Mesopotamian deities, with temple records from Girsu, Adab, and Kish. Her name changes across texts and periods — she is also Ninmah (Great Lady) and Mami, the birth goddess who shaped humanity from clay in the Atrahasis Epic.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ninhursag"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ninhursag",
+    "practice": "open"
   },
   {
     "name": "Ereshkigal",
@@ -4542,7 +4663,8 @@
     },
     "description": "Ereshkigal is the absolute ruler of Irkalla, the Sumerian land of the dead — a realm of dust and darkness from which no one returns, governed by iron-willed necessity rather than cruelty. Her story in The Descent of Inanna reveals her as a figure of profound grief and hunger, the shadow counterpart to her sister Inanna, embodying the inexorable suffering that is the price of mortality. Practitioners working with her encounter the deepest shadow work — she governs what cannot be escaped, what must be felt fully, and the strange power that comes from absolute sovereignty over the irreversible.",
     "historic_data": "Her myth is most fully developed in the Sumerian text Inanna's Descent to the Underworld (c. 1750 BCE) and the Akkadian Descent of Ishtar. She also appears in the myth of Nergal and Ereshkigal, where the war god descends and becomes her consort.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ereshkigal"
+    "wikipedia": "https://en.wikipedia.org/wiki/Ereshkigal",
+    "practice": "open"
   },
   {
     "name": "Marduk",
@@ -4578,7 +4700,8 @@
     },
     "description": "Marduk is the supreme deity of the Babylonian pantheon, who rose to cosmic dominance by slaying the primordial chaos dragon Tiamat and fashioning the heavens and earth from her body in the Enuma Elish, the Babylonian creation epic. He accumulated the powers (Mes) and names of other Mesopotamian deities until he held fifty names, each representing a domain of divine authority. Practitioners working with Marduk engage with themes of ordering chaos, establishing civilization from disorder, and the wielding of accumulated wisdom and power.",
     "historic_data": "His primary temple, the Esagila with its great ziggurat Etemenanki (likely the Tower of Babel), was at Babylon (modern Iraq). The Enuma Elish, the Babylonian creation epic celebrating his rise to supremacy, was recited annually at the Akitu New Year festival.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Marduk"
+    "wikipedia": "https://en.wikipedia.org/wiki/Marduk",
+    "practice": "open"
   },
   {
     "name": "Nergal",
@@ -4613,7 +4736,8 @@
     },
     "description": "Nergal is the Mesopotamian god of death, pestilence, and the scorching, killing heat of the midsummer sun — a deity of both the battlefield and the plague that follows it. Also identified with Erra, a god of violent, irrational destruction, he descends to the underworld and takes Ereshkigal as his consort after refusing to honor her properly among the gods, becoming co-ruler of Irkalla. Practitioners encounter him at the intersection of war magic, protection against disease, and work with the dead; he is both destroyer and, as Ereshkigal's consort, keeper of the underworld's order.",
     "historic_data": "His primary cult center was at Cuthah (Kutha) in Babylonia, and he is extensively attested in Akkadian and Babylonian texts from the 3rd millennium BCE onward. The myth of Nergal and Ereshkigal survives in both a short Amarna version (14th century BCE) and a longer Neo-Assyrian version.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Nergal"
+    "wikipedia": "https://en.wikipedia.org/wiki/Nergal",
+    "practice": "open"
   },
   {
     "name": "Perun",
@@ -4653,7 +4777,8 @@
     },
     "description": "Perun is the supreme god of the pre-Christian Slavic pantheon, the thunderer who battles the underworld serpent Veles in an eternal cosmic conflict that mirrors the struggle between order and chaos, sky and earth, dry and wet. His domain encompasses not only storm and war but also the law, oaths, and the justice administered by rulers — the oak tree sacred to him was a focal point for public assemblies and oath-taking. Practitioners working with him find a fierce warrior god who protects against evil, enforces oaths with lightning, and drives away the forces of stagnation and corruption.",
     "historic_data": "According to the Primary Chronicle (Rus' chronicle, c. 1113 CE), Prince Vladimir of Kiev erected an idol of Perun in 980 CE, and he was worshipped as the chief deity of the Kievan Rus. Cognate deities include Lithuanian Perkūnas and Latvian Pērkons, reflecting a shared Proto-Indo-European thunder deity.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Perun"
+    "wikipedia": "https://en.wikipedia.org/wiki/Perun",
+    "practice": "open"
   },
   {
     "name": "Veles",
@@ -4693,7 +4818,8 @@
     },
     "description": "Veles is the great Slavic deity of the underworld, wealth, and magic — the chthonic counterpart to the sky god Perun, with whom he engages in cyclical cosmic battle as the serpentine force of the earth below against the thunderous force of the sky above. He is patron of cattle (and thus wealth), shepherds, merchants, and the arts, and he governs the realm of the dead as well as the earthly abundance that comes from fertile soil. Practitioners working with Veles navigate shadow work, ancestral communication, the magic of the unseen world, and the accumulation of genuine material and spiritual wealth.",
     "historic_data": "Attested in the Primary Chronicle and in the names of numerous oath formulas from the Kievan Rus period, where oaths were sworn 'by Perun and Veles.' Cognate figures include the Lithuanian Velnias and the Vedic Varuna, reflecting proto-Indo-European origins.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Veles_(god)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Veles_(god)",
+    "practice": "open"
   },
   {
     "name": "Mokosh",
@@ -4731,7 +4857,8 @@
     },
     "description": "Mokosh is the only female deity explicitly named in the Slavic pantheon of the Primary Chronicle, a great mother goddess of the moist earth who spins the threads of fate and governs the domestic arts of weaving and wool-working. She is the living earth itself — wet, fertile, and sustaining — and also a guardian of women's work and women's lives, from spinning to childbirth. Practitioners working with her find her ideal for work with fate and destiny, domestic protection, fertility, and the deep feminine wisdom encoded in the craft traditions.",
     "historic_data": "Named in Prince Vladimir's pantheon in the Primary Chronicle (980 CE), she is the only female deity in that list. Survivals of her cult persist into Slavic folk traditions as Mokosh-like figures, and her name is etymologically related to the Slavic root for moisture (mokryj), connecting her to the moist, fertile earth.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mokosh"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mokosh",
+    "practice": "open"
   },
   {
     "name": "Marzanna",
@@ -4768,7 +4895,8 @@
     },
     "description": "Marzanna (also known as Morena, Morana, or Mara depending on the Slavic tradition) is the goddess of winter, death, and disease — a powerful deity whose annual drowning in effigy at the spring equinox is one of the most widely preserved pre-Christian folk rituals in Slavic cultures. She embodies the cold, barren phase of the year and the grip of death and nightmares, and she must be symbolically defeated and drowned so that life can return. Practitioners working with her engage with the shadow of winter consciousness, the acceptance of endings, and the cathartic release of that which must die.",
     "historic_data": "The drowning and burning of a straw effigy called Marzanna (or Morena) to mark the end of winter is attested across Poland, Czech Republic, Slovakia, and other Slavic countries, persisting from pre-Christian times into modern folk practice. She is considered one of the most reliably reconstructed figures of Slavic mythology despite sparse medieval textual evidence.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Marzanna"
+    "wikipedia": "https://en.wikipedia.org/wiki/Marzanna",
+    "practice": "open"
   },
   {
     "name": "Svarog",
@@ -4804,7 +4932,8 @@
     },
     "description": "Svarog is the Slavic god of celestial fire and the divine blacksmith, a sky deity who forged the world and whose son Svarožič (Dazbog, the solar deity) carries his fire across the sky each day. He is credited in medieval chronicles with establishing the laws of marriage and smithcraft, and the sacred fire maintained in his honor was tended as a divine gift to civilization. Practitioners working with him find him a deity of creative craftsmanship, the transformation of raw material into refined form, and the foundational structures that make communal life possible.",
     "historic_data": "Svarog is mentioned in the Ipatiev Chronicle (14th century, recording older material), where he is equated with the Greek Hephaestus. His name derives from a Proto-Slavic root meaning 'sky' (cognate with Sanskrit svarga), and his cult is attested across East and South Slavic traditions.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Svarog"
+    "wikipedia": "https://en.wikipedia.org/wiki/Svarog",
+    "practice": "open"
   },
   {
     "name": "Lada",
@@ -4842,7 +4971,8 @@
     },
     "description": "Lada is the Slavic goddess of love, beauty, and harmony, whose name — also used as an exclamation of joy — is embedded in Slavic folk songs celebrating spring, weddings, and the renewal of life after winter's passage. She governs the happiness of marriage and the sweetness of spring, and her arrival marks the season of growth and courtship following Marzanna's defeat. Practitioners working with her invoke her for love magic, harmonizing relationships, celebrating beauty, and welcoming the returning vitality of the warm season.",
     "historic_data": "Lada appears in Slavic folk songs, wedding rituals, and spring ceremonies across Polish, Russian, Czech, and South Slavic traditions. Some scholars debate whether she was a true deity or a personification of the ritual cry 'lada,' though her consistent presence across Slavic cultures suggests genuine cultic status.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lada_(mythology)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Lada_(mythology)",
+    "practice": "open"
   },
   {
     "name": "Rod",
@@ -4880,6 +5010,7 @@
     },
     "description": "Rod is one of the most ancient Slavic deities — a primordial creator god and divine ancestor who governs family lineage, the fate of newborns, and the ancestral life force that flows through kinship. He is accompanied by the Rozhanitsy (birth goddesses), and together they determine a child's destiny at the moment of birth. Practitioners working with him engage deeply with ancestral veneration, lineage healing, the fate woven at birth, and the spiritual responsibilities of family and clan.",
     "historic_data": "Rod is mentioned in several Eastern Orthodox Christian homilies against paganism (12th–13th century CE) warning Slavic Christians against making offerings to Rod and the Rozhanitsy, indicating the persistence of his cult well into the Christianisation period. He is considered by some scholars to be an earlier, supreme creator deity predating the Kievan Rus pantheon.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Rod_(Slavic_religion)"
+    "wikipedia": "https://en.wikipedia.org/wiki/Rod_(Slavic_religion)",
+    "practice": "open"
   }
 ]
