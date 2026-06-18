@@ -612,6 +612,13 @@ function RecipesSection({ onHerbClick }) {
 
 // ── Main page ──────────────────────────────────────────────────────────────────
 
+// ── Practice notes by pantheon ────────────────────────────────────────────────
+
+const PRACTICE_NOTES = {
+  Yoruba: 'Traditional Orisha worship through Candomblé, Santería/Lucumí, and Ifá requires initiation into a lineage tradition. These are living practices of West African and African diaspora communities — approach with respect for that lineage.',
+  Nahuatl: 'Traditional Aztec/Mexica ceremonies and spiritual practices are tied to Indigenous Mesoamerican communities. Many Native practitioners consider core ritual elements and sacred knowledge closed to outside participation.',
+}
+
 // ── Entity Guide Card ─────────────────────────────────────────────────────────
 
 function EntityGuideCard({ entity, workingWith, onToggle }) {
@@ -640,6 +647,10 @@ function EntityGuideCard({ entity, workingWith, onToggle }) {
           {workingWith ? '★ Working With' : '☆ Working With'}
         </button>
       </div>
+
+      {PRACTICE_NOTES[entity.pantheon] && (
+        <p className="entity-practice-note">{PRACTICE_NOTES[entity.pantheon]}</p>
+      )}
 
       {entity.epithets?.length > 0 && (
         <p className="entity-epithets">{entity.epithets.join(' · ')}</p>

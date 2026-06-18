@@ -1967,3 +1967,15 @@
   color: #d97706;
   border: 1px solid rgba(217, 119, 6, 0.35);
 }
+
+.entity-practice-note {
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--text);
+  opacity: 0.65;
+  margin: 8px 0 4px;
+  padding: 8px 10px;
+  border-left: 2px solid #d97706;
+  background: rgba(217, 119, 6, 0.06);
+  border-radius: 0 4px 4px 0;
+}
