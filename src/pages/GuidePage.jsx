@@ -679,6 +679,13 @@ function EntityGuideCard({ entity, workingWith, onToggle }) {
         </p>
       )}
 
+      {entity.syncretic_with?.length > 0 && (
+        <div className="entity-syncretic">
+          <span className="entity-syncretic-label">Commonly syncretized with:</span>
+          <span className="entity-syncretic-list">{entity.syncretic_with.join(' · ')}</span>
+        </div>
+      )}
+
       {entity.wikipedia && (
         <a className="herb-wiki-link" href={entity.wikipedia} target="_blank" rel="noreferrer">
           Wikipedia ↗

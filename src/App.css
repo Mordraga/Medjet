@@ -1947,6 +1947,25 @@
   margin: 6px 0 0;
 }
 
+.entity-syncretic {
+  font-size: 12px;
+  line-height: 1.55;
+  margin: 8px 0 0;
+}
+
+.entity-syncretic-label {
+  font-weight: 600;
+  color: var(--text);
+  opacity: 0.7;
+  margin-right: 4px;
+}
+
+.entity-syncretic-list {
+  color: var(--text);
+  opacity: 0.6;
+  font-style: italic;
+}
+
 .entity-practice-badge {
   font-size: 10px;
   font-weight: 700;
