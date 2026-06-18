@@ -425,11 +425,11 @@
     "wikipedia": "https://en.wikipedia.org/wiki/Set_(deity)",
     "practice": "open",
     "syncretic_with": [
-      "Typhon (Greek — most direct identification)",
-      "Baal Hadad (Canaanite — storm god merger, New Kingdom Egypt)",
-      "Sutekh-Baal (deliberate Canaanite-Egyptian syncretic form)",
-      "Zeus (Greek — storm/sky god parallel during Hellenistic period)",
-      "Cronus (Greek — chaotic elder god parallel, some traditions)"
+      "Typhon (Greek)",
+      "Baal Hadad (Canaanite)",
+      "Sutekh-Baal (Canaanite/Egyptian syncretic form)",
+      "Zeus (Greek)",
+      "Cronus (Greek)"
     ]
   },
   {
@@ -5832,5 +5832,387 @@
       "Prometheus (Greek, light-bringer parallel)",
       "The Morning Star / Venus (astronomical identification)"
     ]
+  },
+  {
+    "name": "Astarte",
+    "epithets": [
+      "Queen of Heaven",
+      "Lady of the Sea",
+      "She Who Treads on the Sea",
+      "Warrior Goddess"
+    ],
+    "pantheon": "Canaanite",
+    "culture": "Canaanite/Phoenician",
+    "period": "c. 2000 BCE – 400 CE",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "love",
+      "war",
+      "fertility",
+      "the sea",
+      "the morning and evening star",
+      "hunting",
+      "sovereignty"
+    ],
+    "symbols": [
+      "eight-pointed star",
+      "lion",
+      "sphinx",
+      "crescent moon",
+      "dove",
+      "horse"
+    ],
+    "associations": {
+      "element": "Water",
+      "planet": "Venus"
+    },
+    "description": "Astarte is the great Canaanite and Phoenician goddess of love, war, and the celestial sphere — the evening and morning star made divine. She is simultaneously a goddess of fierce warfare and deep sensual love, a combination that made her beloved across the ancient Mediterranean world. Patron deity of the Phoenician city of Sidon, she was worshipped from Canaan to Cyprus, Egypt, and eventually Greece and Rome under different names.",
+    "historic_data": "Attested in Ugaritic texts (c. 1400 BCE) and extensively in Phoenician inscriptions. Heavily worshipped in Egypt during the New Kingdom as a foreign deity. Her cult at Sidon is referenced in 1 Kings 11:5. She is the most widely exported Canaanite deity.",
+    "syncretic_with": [
+      "Aphrodite (Greek — most direct identification)",
+      "Venus (Roman)",
+      "Inanna/Ishtar (Mesopotamian — same essential deity)",
+      "Isis (Kemetic, in some traditions)"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Astarte",
+    "practice": "open"
+  },
+  {
+    "name": "Baal Hadad",
+    "epithets": [
+      "Lord of Heaven",
+      "Rider of Clouds",
+      "He Who Mounts the Clouds",
+      "Mightiest of Warriors"
+    ],
+    "pantheon": "Canaanite",
+    "culture": "Canaanite/Phoenician",
+    "period": "c. 2000 BCE – 400 CE",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "storms",
+      "rain",
+      "thunder",
+      "fertility",
+      "agriculture",
+      "war",
+      "sovereignty"
+    ],
+    "symbols": [
+      "thunderbolt",
+      "club",
+      "bull",
+      "lightning spear",
+      "horned helmet"
+    ],
+    "associations": {
+      "element": "Air",
+      "planet": "Jupiter"
+    },
+    "description": "Baal Hadad is the great storm god and king of the Canaanite pantheon — the bringer of rain who makes the earth fertile and the warrior who conquers death itself. The Baal Cycle from Ugarit records his epic battles against Yam (the sea) and Mot (death), establishing him as the living lord of the cosmos. His conflicts with Yahweh's prophets in the Hebrew Bible reflect his dominance across Canaan.",
+    "historic_data": "Primary source is the Ugaritic Baal Cycle (c. 1400–1200 BCE) discovered at Ras Shamra, Syria. Referenced repeatedly in the Hebrew Bible as the rival deity Israel was warned against worshipping. His cult was dominant across Canaan and Phoenicia for centuries.",
+    "syncretic_with": [
+      "Zeus (Greek)",
+      "Jupiter (Roman)",
+      "Set/Sutekh-Baal (Kemetic)",
+      "Hadad (Aramean — same deity, regional name)",
+      "Adad (Mesopotamian — storm god parallel)"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Baal",
+    "practice": "open"
+  },
+  {
+    "name": "El",
+    "epithets": [
+      "Father of Gods and Men",
+      "Bull El",
+      "Creator of Creatures",
+      "The Ancient One",
+      "Kindly El"
+    ],
+    "pantheon": "Canaanite",
+    "culture": "Canaanite/Phoenician",
+    "period": "c. 2500 BCE – 400 CE",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "creation",
+      "wisdom",
+      "the cosmos",
+      "fatherhood",
+      "sovereignty",
+      "time",
+      "the sea"
+    ],
+    "symbols": [
+      "bull",
+      "staff",
+      "aged man with beard",
+      "tent by the waters",
+      "horned crown"
+    ],
+    "associations": {
+      "element": "Water",
+      "planet": "Saturn"
+    },
+    "description": "El is the supreme father god of the Canaanite pantheon — ancient, wise, and enthroned at the source of the two rivers at the edge of the cosmos. He presides over the divine council and holds ultimate authority, though Baal is his more active storm-wielding son. His name simply means 'god' in Semitic languages and became the root word for deity across the entire Abrahamic world.",
+    "historic_data": "Attested in Ugaritic texts (c. 1400 BCE) and across ancient Semitic inscriptions. His name is embedded in Hebrew Elohim, the Arabic Allah, and countless place names (Bethel, Israel). Directly ancestral to the God of the Hebrew Bible.",
+    "syncretic_with": [
+      "Cronus (Greek — aged father of gods parallel)",
+      "Saturn (Roman)",
+      "Yahweh (Hebrew Bible — partial identification in earliest texts)"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/El_(deity)",
+    "practice": "open"
+  },
+  {
+    "name": "Asherah",
+    "epithets": [
+      "Lady of the Sea",
+      "Mother of the Gods",
+      "She Who Walks on the Sea",
+      "Progenitrix of the Gods"
+    ],
+    "pantheon": "Canaanite",
+    "culture": "Canaanite/Phoenician",
+    "period": "c. 2500 BCE – 400 CE",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "the sea",
+      "motherhood",
+      "fertility",
+      "trees",
+      "creation",
+      "the divine council"
+    ],
+    "symbols": [
+      "sacred tree (asherah pole)",
+      "lioness",
+      "serpent",
+      "sea",
+      "dove"
+    ],
+    "consort": "El",
+    "associations": {
+      "element": "Water",
+      "planet": "Moon"
+    },
+    "description": "Asherah is the great mother goddess and consort of El — she who births the seventy gods and tends the divine council. Her sacred tree (the asherah pole) stood in Israelite temples until the Deuteronomic reform; archaeological evidence suggests she was worshipped alongside Yahweh for centuries. She is one of the most significant deities to be systematically suppressed and forgotten in Western religious history.",
+    "historic_data": "Attested in Ugaritic texts (c. 1400 BCE) as El's consort and mother of the gods. Referenced over forty times in the Hebrew Bible, usually as something forbidden. Inscriptions at Kuntillet Ajrud (c. 800 BCE) reference 'Yahweh and his Asherah.'",
+    "syncretic_with": [
+      "Athirat (Ugaritic — same deity, older name)",
+      "Aphrodite (Greek, in some traditions)",
+      "Mary (Christian, mother goddess parallel in some scholarship)"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Asherah",
+    "practice": "open"
+  },
+  {
+    "name": "Anat",
+    "epithets": [
+      "Virgin Warrior",
+      "Mistress of the Sky",
+      "Lady of the Heights",
+      "Destroyer of Nations"
+    ],
+    "pantheon": "Canaanite",
+    "culture": "Canaanite/Phoenician",
+    "period": "c. 2000 BCE – 400 CE",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "war",
+      "hunting",
+      "victory",
+      "death",
+      "fertility",
+      "Baal's champion"
+    ],
+    "symbols": [
+      "shield",
+      "spear",
+      "severed heads",
+      "wings",
+      "lion"
+    ],
+    "associations": {
+      "element": "Fire",
+      "planet": "Mars"
+    },
+    "description": "Anat is the fiercest warrior in the Canaanite pantheon — she wades through battle up to her knees in blood, her laughter punctuated by the clash of weapons. She is Baal's devoted sister and champion, the deity who descends to battle Mot to resurrect him. A goddess of contradictions: described as virgin yet deeply associated with fertility, a destroyer who nurtures what she loves.",
+    "historic_data": "Extensively attested in the Ugaritic Baal Cycle (c. 1400 BCE). Worshipped in Egypt during the New Kingdom alongside Astarte. The city of Beth-Anath in Canaan bore her name. Referenced in Judges 5:6 and Judges 3:31.",
+    "syncretic_with": [
+      "Athena (Greek — war/warrior goddess parallel)",
+      "Sekhmet (Kemetic — fierce warrior goddess, merged in Egypt)",
+      "Neith (Kemetic — hunting/war parallel)"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Anat",
+    "practice": "open"
+  },
+  {
+    "name": "Mot",
+    "epithets": [
+      "Lord of Death",
+      "Beloved of El",
+      "Son of El",
+      "He of the Hollow Throat"
+    ],
+    "pantheon": "Canaanite",
+    "culture": "Canaanite/Phoenician",
+    "period": "c. 2000 BCE – 400 CE",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "death",
+      "the underworld",
+      "drought",
+      "the dead",
+      "sterility",
+      "the dry season"
+    ],
+    "symbols": [
+      "gaping maw",
+      "dry earth",
+      "the underworld pit",
+      "grain (paradoxically)"
+    ],
+    "associations": {
+      "element": "Earth",
+      "planet": "Saturn"
+    },
+    "description": "Mot is death personified — his throat opens wide enough to swallow the world, and when Baal descends into his gullet the earth turns barren and the rains cease. He rules the underworld realm of Sheol and is the inevitable end of all living things. His annual defeat by Anat and the resurrection of Baal encodes the seasonal cycle of drought and rain in mythological form.",
+    "historic_data": "Central figure in the Ugaritic Baal Cycle (c. 1400 BCE). The Hebrew word mot (מות) simply means 'death,' demonstrating how deeply this deity's name became embedded in Semitic vocabulary.",
+    "syncretic_with": [
+      "Hades (Greek)",
+      "Hel (Norse)",
+      "Ereshkigal (Mesopotamian)",
+      "Pluto (Roman)"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Mot_(god)",
+    "practice": "open"
+  },
+  {
+    "name": "Melqart",
+    "epithets": [
+      "King of the City",
+      "Lord of Tyre",
+      "Phoenician Heracles",
+      "Lord of the Underworld"
+    ],
+    "pantheon": "Canaanite",
+    "culture": "Phoenician",
+    "period": "c. 1000 BCE – 200 CE",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "the city",
+      "colonization",
+      "the sea",
+      "strength",
+      "death and resurrection",
+      "the sun"
+    ],
+    "symbols": [
+      "club",
+      "lion skin",
+      "fire",
+      "ship"
+    ],
+    "associations": {
+      "element": "Fire",
+      "planet": "Sun"
+    },
+    "description": "Melqart is the patron deity of Tyre — a god of the city, seafaring, and Phoenician colonial expansion who underwent an annual egersis (awakening/resurrection). He embodies the Phoenician spirit of ambitious expansion across the Mediterranean. Where Phoenician traders went, his cult followed — from Tyre to Carthage to Spain. The Greeks saw him immediately as Heracles.",
+    "historic_data": "Primary deity of Tyre from at least the 10th century BCE. His temple at Tyre is referenced in 1 Kings. His cult reached Carthage, Malta, and Gades (Cádiz, Spain). Referenced in the Hebrew Bible as the Baal of Tyre.",
+    "syncretic_with": [
+      "Heracles (Greek — explicit ancient identification)",
+      "Hercules (Roman)",
+      "Baal (Canaanite, as Baal of Tyre)"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Melqart",
+    "practice": "open"
+  },
+  {
+    "name": "Eshmun",
+    "epithets": [
+      "Lord of Healing",
+      "Eighth One",
+      "The Living One",
+      "Phoenician Asclepius"
+    ],
+    "pantheon": "Canaanite",
+    "culture": "Phoenician",
+    "period": "c. 800 BCE – 400 CE",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "healing",
+      "medicine",
+      "youth",
+      "renewal",
+      "life force",
+      "the health of cities"
+    ],
+    "symbols": [
+      "serpent staff",
+      "youth",
+      "spring water",
+      "sacred grove"
+    ],
+    "associations": {
+      "element": "Water",
+      "planet": "Mercury"
+    },
+    "description": "Eshmun is the Phoenician god of healing — a beautiful youth associated with the renewal of life and the restoration of health. Patron deity of Sidon alongside Astarte, his temple at Bustan esh-Sheikh was a major healing sanctuary. Like many healing deities he embodies the paradox of death and renewal, having died and been restored to divine life.",
+    "historic_data": "Attested in Phoenician inscriptions from the 7th century BCE onward. Major healing sanctuary at Bustan esh-Sheikh near Sidon, excavated in the 20th century. The Greeks immediately identified him with Asclepius.",
+    "syncretic_with": [
+      "Asclepius (Greek — explicit ancient identification)",
+      "Raphael (Abrahamic, healing parallel)"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Eshmun",
+    "practice": "open"
+  },
+  {
+    "name": "Dagon",
+    "epithets": [
+      "Lord of Grain",
+      "Father of Baal",
+      "Lord of Ashdod",
+      "Great God"
+    ],
+    "pantheon": "Canaanite",
+    "culture": "Canaanite/Phoenician",
+    "period": "c. 2500 BCE – 200 CE",
+    "type": "deity",
+    "prominence": "major",
+    "domain": [
+      "grain",
+      "agriculture",
+      "earth",
+      "fertility",
+      "storms",
+      "the underworld"
+    ],
+    "symbols": [
+      "grain sheaf",
+      "fish (later iconography)",
+      "earth"
+    ],
+    "associations": {
+      "element": "Earth",
+      "planet": "Jupiter"
+    },
+    "description": "Dagon is one of the oldest and most widely worshipped deities of the ancient Semitic world — a grain god who predates the Ugaritic texts by centuries. Father of Baal in the Canaanite pantheon, he represents the fertile earth and agricultural abundance. His later association with fish (Dagon meaning 'fish' in Hebrew) is likely a folk etymology; his origins are firmly in grain and earth.",
+    "historic_data": "Attested from c. 2500 BCE in Mesopotamian and Eblaite texts. Major temples at Ashdod and Gaza in Canaan, referenced in the Hebrew Bible (Judges 16:23, 1 Samuel 5). His name appears in place names across the Levant.",
+    "syncretic_with": [
+      "Enlil (Mesopotamian — grain/agriculture parallel)",
+      "Poseidon (Greek — erroneously via folk etymology)",
+      "Ceres (Roman)"
+    ],
+    "wikipedia": "https://en.wikipedia.org/wiki/Dagon",
+    "practice": "open"
   }
 ]
