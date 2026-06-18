@@ -26,7 +26,7 @@ function DeityList() {
       {deities.length === 0 && (
         <p className="empty-state">No deities recorded yet.</p>
       )}
-      {deities.map(deity => (
+      {[...deities].reverse().map(deity => (
         <DeityCard
           key={deity.id}
           deity={deity}

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import EntryList from '../EntryList'
 import DeityList from '../DeityList'
 import SpellList from '../SpellList'
@@ -10,7 +11,8 @@ const SECTIONS = [
 ]
 
 function JournalPage() {
-  const [section, setSection] = useState('journal')
+  const location = useLocation()
+  const [section, setSection] = useState(location.state?.section ?? 'journal')
 
   return (
     <div className="page">

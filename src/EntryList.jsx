@@ -22,7 +22,7 @@ function EntryList() {
       {entries.length === 0 && (
         <p className="empty-state">No entries yet. Start writing.</p>
       )}
-      {entries.map(entry => (
+      {[...entries].reverse().map(entry => (
         <EntryCard
           key={entry.id}
           entry={entry}

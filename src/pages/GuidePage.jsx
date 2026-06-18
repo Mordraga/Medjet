@@ -1,12 +1,16 @@
-import { useState, useEffect, useRef, useMemo } from 'react'
+import { useState, useEffect, useRef, useMemo, useCallback } from 'react'
 import herbs from '../data/herbs.json'
 import astrology from '../data/astrology.json'
 import alchemy from '../data/alchemy.json'
 import crystals from '../data/crystals.json'
 import mushrooms from '../data/mushrooms.json'
 import recipes from '../data/recipes.json'
+import entitiesData from '../data/entities.json'
+import FilterPills from '../FilterPills'
+import { useEntityWorkingWith } from '../hooks/useEntityWorkingWith'
 
 const CATEGORIES = [
+  { id: 'entities',   label: 'Entities',   mode: 'entities' },
   { id: 'herbs',      label: 'Herbs',      mode: 'track',   refillLabel: 'Refill' },
   { id: 'crystals',   label: 'Crystals',   mode: 'track',   refillLabel: 'Source' },
   { id: 'mushrooms',  label: 'Mushrooms',  mode: 'track',   refillLabel: 'Refill' },
@@ -84,6 +88,53 @@ function RestrictedGate({ onAcknowledge }) {
           Understood — this is reference only
         </button>
       </div>
+    </div>
+  )
+}
+
+// ── Search Combobox (replaces native datalist — avoids Android transparency/keyboard bugs) ──
+
+function SearchCombobox({ options, onSelect, placeholder }) {
+  const [text, setText] = useState('')
+  const [open, setOpen] = useState(false)
+
+  const filtered = useMemo(
+    () => text.length > 0
+      ? options.filter(o => o.toLowerCase().includes(text.toLowerCase())).slice(0, 8)
+      : [],
+    [text, options]
+  )
+
+  function select(name) {
+    onSelect(name)
+    setText('')
+    setOpen(false)
+  }
+
+  return (
+    <div className="combobox">
+      <input
+        className="guide-search"
+        type="text"
+        value={text}
+        placeholder={placeholder}
+        onChange={e => { setText(e.target.value); setOpen(true) }}
+        onFocus={() => text && setOpen(true)}
+        onBlur={() => setTimeout(() => setOpen(false), 150)}
+      />
+      {open && filtered.length > 0 && (
+        <div className="combobox-list">
+          {filtered.map(name => (
+            <button
+              key={name}
+              className="combobox-item"
+              onMouseDown={e => { e.preventDefault(); select(name) }}
+            >
+              {name}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   )
 }
@@ -211,6 +262,45 @@ function HerbModal({ herb, inv, setStatus, onRefill, onClose }) {
             {herb.safety && (
               <div className="guide-safety">⚠ {herb.safety}</div>
             )}
+
+            {herb.folk_names?.length > 0 && (
+              <div className="herb-extra-field">
+                <div className="card-field-label">Folk Names</div>
+                <div className="card-field-value">{herb.folk_names.join(', ')}</div>
+              </div>
+            )}
+
+            {herb.nativity && (
+              <div className="herb-extra-field">
+                <div className="card-field-label">Native To</div>
+                <div className="card-field-value">{herb.nativity}</div>
+              </div>
+            )}
+
+            {herb.medical_use && (
+              <div className="herb-extra-field">
+                <div className="card-field-label">Medical Use</div>
+                <div className="card-field-value">{herb.medical_use}</div>
+              </div>
+            )}
+
+            {herb.historic_use && (
+              <div className="herb-extra-field">
+                <div className="card-field-label">Historic Use</div>
+                <div className="card-field-value">{herb.historic_use}</div>
+              </div>
+            )}
+
+            {herb.wikipedia && (
+              <a
+                className="herb-wiki-link"
+                href={herb.wikipedia}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Wikipedia ↗
+              </a>
+            )}
           </div>
 
           <div className="guide-status-row">
@@ -303,6 +393,45 @@ function TrackSection({ entries, index, onPrev, onNext, inv, setStatus, onRefill
 
             {entry.safety && (
               <div className="guide-safety">⚠ {entry.safety}</div>
+            )}
+
+            {entry.folk_names?.length > 0 && (
+              <div className="herb-extra-field">
+                <div className="card-field-label">Folk Names</div>
+                <div className="card-field-value">{entry.folk_names.join(', ')}</div>
+              </div>
+            )}
+
+            {entry.nativity && (
+              <div className="herb-extra-field">
+                <div className="card-field-label">Native To</div>
+                <div className="card-field-value">{entry.nativity}</div>
+              </div>
+            )}
+
+            {entry.medical_use && (
+              <div className="herb-extra-field">
+                <div className="card-field-label">Medical Use</div>
+                <div className="card-field-value">{entry.medical_use}</div>
+              </div>
+            )}
+
+            {entry.historic_use && (
+              <div className="herb-extra-field">
+                <div className="card-field-label">Historic Use</div>
+                <div className="card-field-value">{entry.historic_use}</div>
+              </div>
+            )}
+
+            {entry.wikipedia && (
+              <a
+                className="herb-wiki-link"
+                href={entry.wikipedia}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Wikipedia ↗
+              </a>
             )}
           </div>
 
@@ -483,9 +612,132 @@ function RecipesSection({ onHerbClick }) {
 
 // ── Main page ──────────────────────────────────────────────────────────────────
 
+// ── Entity Guide Card ─────────────────────────────────────────────────────────
+
+function EntityGuideCard({ entity, workingWith, onToggle }) {
+  return (
+    <div id={entryId(entity.name)} className="card entity-guide-card">
+      <div className="entity-guide-top">
+        <div className="entity-guide-title-block">
+          <h3 className="entity-guide-name">{entity.name}</h3>
+          <div className="entity-guide-meta-row">
+            <span className="entity-pantheon-badge">{entity.pantheon}</span>
+            <span className="entity-type-chip entity-type-chip--{entity.type}">{entity.type}</span>
+            {entity.prominence === 'major' && (
+              <span className="entity-prominence-chip">Major</span>
+            )}
+          </div>
+        </div>
+        <button
+          className={`entity-working-with-btn${workingWith ? ' active' : ''}`}
+          onClick={onToggle}
+        >
+          {workingWith ? '★ Working With' : '☆ Working With'}
+        </button>
+      </div>
+
+      {entity.epithets?.length > 0 && (
+        <p className="entity-epithets">{entity.epithets.join(' · ')}</p>
+      )}
+
+      {entity.domain?.length > 0 && (
+        <div className="entity-domains">
+          {entity.domain.map(d => (
+            <span key={d} className="entity-domain-tag">{d}</span>
+          ))}
+        </div>
+      )}
+
+      {entity.description && (
+        <p className="entity-description">{entity.description}</p>
+      )}
+
+      {entity.historic_data && (
+        <p className="entity-historic">{entity.historic_data}</p>
+      )}
+
+      {entity.associations && (entity.associations.element || entity.associations.planet) && (
+        <p className="entity-associations">
+          {[entity.associations.element, entity.associations.planet].filter(Boolean).join(' · ')}
+        </p>
+      )}
+
+      {entity.wikipedia && (
+        <a className="herb-wiki-link" href={entity.wikipedia} target="_blank" rel="noreferrer">
+          Wikipedia ↗
+        </a>
+      )}
+    </div>
+  )
+}
+
+// ── Entity Section ────────────────────────────────────────────────────────────
+
+function EntitySection({ entities, isWorkingWith, onToggle }) {
+  const [filterWorkingWith, setFilterWorkingWith] = useState(false)
+  const [filterType,        setFilterType]        = useState(null)
+  const [filterProminence,  setFilterProminence]  = useState(null)
+  const [filterPantheon,    setFilterPantheon]    = useState(null)
+
+  const pantheons = useMemo(
+    () => [...new Set(entities.map(e => e.pantheon))].sort(),
+    [entities]
+  )
+
+  const filtered = useMemo(() => entities.filter(e => {
+    if (filterWorkingWith && !isWorkingWith(e.name)) return false
+    if (filterType       && e.type       !== filterType)       return false
+    if (filterProminence && e.prominence !== filterProminence) return false
+    if (filterPantheon   && e.pantheon   !== filterPantheon)   return false
+    return true
+  }), [entities, filterWorkingWith, filterType, filterProminence, filterPantheon, isWorkingWith])
+
+  return (
+    <div className="entity-section">
+      <div className="entity-filter-working-with">
+        <button
+          className={`filter-pill${filterWorkingWith ? ' active' : ''}`}
+          onClick={() => setFilterWorkingWith(v => !v)}
+        >
+          ★ Working With
+        </button>
+      </div>
+
+      <FilterPills
+        options={['deity', 'spirit', 'mythological', 'ancestor']}
+        active={filterType}
+        onChange={setFilterType}
+      />
+      <FilterPills
+        options={['major', 'minor']}
+        active={filterProminence}
+        onChange={setFilterProminence}
+      />
+      <FilterPills
+        options={pantheons}
+        active={filterPantheon}
+        onChange={setFilterPantheon}
+        scrollable
+      />
+
+      {filtered.length === 0 ? (
+        <p className="empty-state">No entities match the current filters.</p>
+      ) : (
+        filtered.map(entity => (
+          <EntityGuideCard
+            key={entity.name}
+            entity={entity}
+            workingWith={isWorkingWith(entity.name)}
+            onToggle={() => onToggle(entity)}
+          />
+        ))
+      )}
+    </div>
+  )
+}
+
 function GuidePage() {
   const [category, setCategory] = useState('herbs')
-  const [search, setSearch]     = useState('')
   const [trackIndex, setTrackIndex] = useState(0)
   const [modalHerb, setModalHerb]   = useState(null)
   const [refillItem, setRefillItem] = useState(null) // { name, sellers }
@@ -493,24 +745,30 @@ function GuidePage() {
   const [crystalInv,  setCrystalStatus]  = useInventory('guide-crystals')
   const [mushroomInv, setMushroomStatus] = useInventory('guide-mushrooms')
 
+  const { isWorkingWith, toggle: toggleWorkingWith } = useEntityWorkingWith()
+
   const catMeta      = CATEGORIES.find(c => c.id === category)
   const isTrack      = catMeta.mode === 'track'
+  const isEntities   = catMeta.mode === 'entities'
   const trackEntries = useMemo(() => getTrackEntries(category), [category])
   const refNames     = useMemo(() => getRefNames(category), [category])
-  const searchNames  = isTrack ? trackEntries.map(e => e.name) : refNames
+  const searchNames  = useMemo(() => {
+    if (isTrack)    return trackEntries.map(e => e.name)
+    if (isEntities) return entitiesData.map(e => e.name)
+    return refNames
+  }, [isTrack, isEntities, trackEntries, refNames])
 
-  useEffect(() => { setTrackIndex(0); setSearch('') }, [category])
+  useEffect(() => { setTrackIndex(0) }, [category])
 
-  function handleSearch(val) {
-    setSearch(val)
+  const handleSearch = useCallback((val) => {
     if (isTrack) {
       const idx = trackEntries.findIndex(e => e.name.toLowerCase() === val.toLowerCase())
-      if (idx !== -1) { setTrackIndex(idx); setSearch('') }
+      if (idx !== -1) setTrackIndex(idx)
     } else {
-      const match = refNames.find(n => n.toLowerCase() === val.toLowerCase())
-      if (match) { scrollToEntry(match); setSearch('') }
+      const match = searchNames.find(n => n.toLowerCase() === val.toLowerCase())
+      if (match) scrollToEntry(match)
     }
-  }
+  }, [isTrack, trackEntries, searchNames])
 
   function handleRefill(name) { setRefillItem({ name, sellers: SELLERS[category] ?? SELLERS.herbs }) }
 
@@ -518,7 +776,7 @@ function GuidePage() {
   const setStatus = category === 'herbs' ? setHerbStatus : category === 'crystals' ? setCrystalStatus : setMushroomStatus
 
   return (
-    <div className={`page${isTrack ? ' page--locked' : ''}`}>
+    <div className={`page${isTrack ? ' page--locked' : ''}`} style={isEntities ? { paddingBottom: 80 } : {}}>
       <div className="page-header">
         <h2>Field Guide</h2>
       </div>
@@ -533,18 +791,11 @@ function GuidePage() {
           {CATEGORIES.map(c => <option key={c.id} value={c.id}>{c.label}</option>)}
         </select>
 
-        <input
-          className="guide-search"
-          type="text"
-          list="guide-datalist"
+        <SearchCombobox
+          options={searchNames}
+          onSelect={handleSearch}
           placeholder="Jump to…"
-          value={search}
-          onChange={e => handleSearch(e.target.value)}
-          onFocus={e => e.target.select()}
         />
-        <datalist id="guide-datalist">
-          {searchNames.map(n => <option key={n} value={n} />)}
-        </datalist>
       </div>
 
       {isTrack && (
@@ -560,6 +811,14 @@ function GuidePage() {
             refillLabel={catMeta.refillLabel ?? 'Refill'}
           />
         </div>
+      )}
+
+      {isEntities && (
+        <EntitySection
+          entities={entitiesData}
+          isWorkingWith={isWorkingWith}
+          onToggle={toggleWorkingWith}
+        />
       )}
 
       {catMeta.mode === 'ref' && category === 'astrology' && <AstrologySection />}

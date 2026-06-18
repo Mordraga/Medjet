@@ -1,7 +1,8 @@
 function TarotReadingCard({ reading, onDelete }) {
   return (
     <div className="card">
-      <h3>{reading.spreadLabel} — {reading.time}</h3>
+      <h3>{reading.question || reading.spreadLabel}</h3>
+      <p className="card-meta">{reading.spreadLabel} · {reading.time}</p>
       <div className="tarot-history-cards">
         {reading.cards.map((card, idx) => (
           <div key={idx} className="tarot-history-card-row">

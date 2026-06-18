@@ -1,291 +1,507 @@
 [
   {
     "name": "Angelica",
+    "latin": "Angelica archangelica",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["protection", "exorcism", "healing", "visions"],
     "description": "A powerful guardian herb burned or carried for protection against malevolent forces. Sprinkle the root around the home to ward off negativity.",
-    "safety": "Avoid during pregnancy. Photosensitizing."
+    "safety": "Avoid during pregnancy. Photosensitizing.",
+    "folk_names": ["Holy Ghost Root", "Garden Angelica", "Wild Celery", "Archangel Root"],
+    "nativity": "Northern Europe, Greenland, Central Asia",
+    "medical_use": "Carminative and digestive antispasmodic. Used in European herbal medicine for indigestion, gas, and loss of appetite.",
+    "historic_use": "Used in Scandinavian folk medicine since the Viking era. Medieval Europeans chewed the root to ward off plague. Charlemagne grew it in his imperial gardens.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Angelica_archangelica"
   },
   {
     "name": "Basil",
+    "latin": "Ocimum basilicum",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["love", "prosperity", "protection", "success", "exorcism"],
     "description": "A staple of prosperity and love magic, basil is placed in cash registers or wallets to attract money and carried to bring harmony in relationships.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Sweet Basil", "Witches' Herb", "St. Joseph's Wort", "Great Basil"],
+    "nativity": "South Asia, Southeast Asia (native to India)",
+    "medical_use": "Anti-inflammatory and antibacterial. Used in Ayurveda for respiratory infections, stress, and digestive complaints. Eugenol content gives mild analgesic properties.",
+    "historic_use": "Sacred to Vishnu in Hinduism; the holy basil (tulsi) variety is worshipped. In ancient Greece it symbolised mourning; in Italy, love. Used in Roman and medieval European medicine.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basil"
   },
   {
     "name": "Bay Laurel",
+    "latin": "Laurus nobilis",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["protection", "psychic power", "success", "purification", "prophecy"],
     "description": "The laurel of ancient oracles. Write wishes on bay leaves and burn them to send desires to the divine. Used widely for prophetic dreams.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Sweet Bay", "True Laurel", "Grecian Laurel", "Roman Laurel"],
+    "nativity": "Mediterranean region",
+    "medical_use": "Carminative, mild analgesic, and antibacterial. Used in Mediterranean folk medicine for joint pain, digestive disorders, and as a topical anti-inflammatory.",
+    "historic_use": "Sacred to Apollo. The Pythia at Delphi burned bay leaves for prophetic visions. Ancient Greek and Roman victors were crowned with laurel wreaths — hence 'poet laureate' and 'baccalaureate'.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laurus_nobilis"
   },
   {
     "name": "Calendula",
+    "latin": "Calendula officinalis",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["protection", "psychic power", "dreams", "legal matters", "consecration"],
     "description": "Strewn beneath the bed to bring prophetic dreams or placed in garlands for protection. Known to strengthen psychic sight when placed around candles.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Pot Marigold", "Marybud", "Golde", "Summer's Bride"],
+    "nativity": "Southern Europe, Western Asia",
+    "medical_use": "Anti-inflammatory, antiseptic, and vulnerary. Widely used in wound-healing creams and lotions. Clinically studied for dermatitis, wound repair, and oral mucositis from cancer treatment.",
+    "historic_use": "Cultivated in medieval monastery gardens across Europe. Roman cooks added petals to stews and salads. Egyptians prized it as a rejuvenating herb. Dedicated to the Virgin Mary in Christian tradition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Calendula_officinalis"
   },
   {
     "name": "Catnip",
+    "latin": "Nepeta cataria",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["love", "beauty", "happiness", "familiar magic", "friendship"],
     "description": "Used in love sachets and to attract a familiar spirit. Catnip is also grown near the home to draw good luck and foster joyful energy.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Catmint", "Nip", "Catswort", "Field Balm"],
+    "nativity": "Europe, Central Asia",
+    "medical_use": "Mild sedative and carminative. Used in European and American folk medicine for childhood fevers, colic, and anxiety. Mild diaphoretic (promotes sweating).",
+    "historic_use": "Cultivated in medieval monastery herb gardens. American frontier settlers used it as a children's fever and colic remedy. Nepetalactone — the compound cats respond to — also repels insects.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catnip"
   },
   {
     "name": "Cedar",
+    "latin": "Cedrus spp. / Thuja spp.",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["protection", "purification", "prosperity", "healing", "longevity"],
     "description": "A sacred tree of strength and purification burned to cleanse spaces and offer prayers. Cedar chips are placed in chests to protect valuables.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Red Cedar", "White Cedar", "Arbor Vitae", "Tree of Life"],
+    "nativity": "Lebanon, Western Himalayas; Red cedar native to North America",
+    "medical_use": "Antimicrobial and expectorant. Eastern red cedar was used by Indigenous North Americans for respiratory illness. Cedar oil used topically as an antiseptic and insect repellent.",
+    "historic_use": "Cedar of Lebanon was used to build Solomon's Temple and the palaces of ancient Mesopotamia. Sacred to Enlil in Sumeria. Indigenous peoples of the Pacific Northwest consider it a relative, not a resource.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cedrus"
   },
   {
     "name": "Chamomile",
+    "latin": "Matricaria chamomilla",
     "element": "Water",
     "planet": "Sun",
     "magical_uses": ["calm", "luck", "prosperity", "love", "sleep", "purification"],
     "description": "Wash hands in chamomile tea before gambling or games of chance to attract luck. A cup before bed invites restful sleep and pleasant dreams.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["German Chamomile", "Mayweed", "Earth Apple", "Scented Mayweed"],
+    "nativity": "Europe, Western Asia; widely naturalised worldwide",
+    "medical_use": "Anti-inflammatory, antispasmodic, and mild sedative. One of the most studied medicinal herbs. Used clinically for anxiety, insomnia, IBS, and infantile colic. Apigenin binds to GABA receptors.",
+    "historic_use": "Listed in the Ebers Papyrus (1550 BCE) for treating fever. Sacred to Ra in Egypt. Included in the Anglo-Saxon Nine Herbs Charm. One of the most widely used medicinal plants in medieval European medicine.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Matricaria_chamomilla"
   },
   {
     "name": "Cinnamon",
+    "latin": "Cinnamomum verum",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["prosperity", "love", "success", "healing", "power", "spirituality"],
     "description": "One of the most potent magical spices for raising the vibration of a working. Burned as incense to attract money and accelerate any spell.",
-    "safety": "Cinnamon bark oil is a strong irritant. Use with care on skin."
+    "safety": "Cinnamon bark oil is a strong irritant. Use with care on skin.",
+    "folk_names": ["Ceylon Cinnamon", "Sweet Cinnamon", "True Cinnamon", "Dalchini"],
+    "nativity": "Sri Lanka (Ceylon), South India",
+    "medical_use": "Studied for blood sugar regulation in type 2 diabetes. Antimicrobial and anti-inflammatory. Cinnamaldehyde has demonstrated activity against bacterial and fungal infections.",
+    "historic_use": "One of the earliest traded spices in recorded history. Used in ancient Egyptian embalming. Mentioned in the Song of Solomon. The quest for cinnamon and other spices directly drove European maritime exploration in the 15th–16th centuries.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cinnamon"
   },
   {
     "name": "Clove",
+    "latin": "Syzygium aromaticum",
     "element": "Fire",
     "planet": "Jupiter",
     "magical_uses": ["protection", "love", "exorcism", "memory", "prosperity"],
     "description": "Burned to stop others from speaking ill of you and carried as a charm for friendship. Whole cloves are added to sachets to drive out hostile forces.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Caryophyllus", "Lavang", "Ding Xiang"],
+    "nativity": "Maluku Islands (Spice Islands), Indonesia",
+    "medical_use": "Analgesic and antimicrobial. Eugenol is an active component used in dental anaesthesia and toothache remedies. Antifungal and antibacterial properties well documented.",
+    "historic_use": "Archaeological finds date clove use to 1721 BCE in Syria. The Spice Islands were the sole source for centuries, driving fierce European colonial competition. Indonesian kretek cigarettes blend cloves with tobacco.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Clove"
   },
   {
     "name": "Dandelion",
+    "latin": "Taraxacum officinale",
     "element": "Air",
     "planet": "Jupiter",
     "magical_uses": ["divination", "wishes", "spirit work", "healing", "psychic power"],
     "description": "Blowing dandelion seeds carries wishes and messages to the spirit world. A tea of the root drunk before divination is said to enhance the gift of sight.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Lion's Tooth", "Priest's Crown", "Fairy Clock", "Blowball", "Pissabed"],
+    "nativity": "Eurasia; now cosmopolitan worldwide",
+    "medical_use": "Mild diuretic and liver tonic. Rich in vitamins A, C, and K. Roasted root used as a caffeine-free coffee substitute. Studied for anti-inflammatory and antioxidant properties.",
+    "historic_use": "Used medicinally in Chinese medicine for over 1,000 years. Arab physicians in the 10th century CE described it. European settlers introduced it intentionally to the Americas as a food and medicine crop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taraxacum_officinale"
   },
   {
     "name": "Dragon's Blood",
+    "latin": "Dracaena draco / Daemonorops draco",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["protection", "power", "banishing", "love", "amplification"],
     "description": "A resin from the Dracaena palm that amplifies the power of any working it is added to. Burned alone for protection or combined with other resins to increase their potency.",
-    "safety": "Highly flammable. Use caution on charcoal."
+    "safety": "Highly flammable. Use caution on charcoal.",
+    "folk_names": ["Sangre de Drago", "Blood of the Dragon", "Draconis Resina"],
+    "nativity": "Canary Islands (Dracaena draco); Southeast Asia and Sumatra (Daemonorops draco)",
+    "medical_use": "Used in traditional medicine as an astringent for wound healing and stopping bleeding. Latin American sangre de drago (Croton lechleri) is used similarly for gastrointestinal complaints and wound care.",
+    "historic_use": "Prized in ancient Rome and medieval Europe as a pigment, varnish, and medicine. Used in ancient Canarian culture by the Guanche people. Arab traders supplied it to European apothecaries from the 1st century CE onward.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dragon%27s_blood"
   },
   {
     "name": "Elder",
+    "latin": "Sambucus nigra",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["protection", "healing", "transition", "banishing", "prosperity"],
     "description": "The Elder Mother is a spirit who must be asked permission before harvesting. Used in rites of transition, healing, and warding off evil.",
-    "safety": "Raw berries, bark, leaves and roots are toxic. Use only ripe cooked berries or dried flowers."
+    "safety": "Raw berries, bark, leaves and roots are toxic. Use only ripe cooked berries or dried flowers.",
+    "folk_names": ["Elderberry", "Bore Tree", "Lady Elder", "Hylder", "Bour Tree"],
+    "nativity": "Europe, Western Asia, North Africa",
+    "medical_use": "Elderberry syrup and extracts are widely used for immune support. Antiviral properties demonstrated in studies. Elderflower is a traditional diaphoretic used for colds and flu.",
+    "historic_use": "Hippocrates called it his 'medicine chest'. The Elder Mother — Hyldemor in Danish, Frau Holle in German tradition — was a spirit requiring ritual permission before harvesting. Sacred in Slavic, Norse, and British folk tradition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sambucus_nigra"
   },
   {
     "name": "Frankincense",
+    "latin": "Boswellia sacra",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["purification", "protection", "spirituality", "meditation", "consecration"],
     "description": "A resin burned since antiquity to sanctify sacred space, drive away negativity, and lift consciousness toward the divine. Excellent for consecrating tools.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Olibanum", "Luban", "Boswellia", "Sacred Frankincense"],
+    "nativity": "Oman, Yemen, Somalia, Ethiopia",
+    "medical_use": "Boswellic acids are anti-inflammatory and studied for arthritis, Crohn's disease, and asthma. Used in Ayurveda as shallaki for joint conditions. Neuroprotective properties under investigation.",
+    "historic_use": "Traded for over 5,000 years; one of the most valuable commodities of the ancient world. Used continuously in Egyptian and Babylonian temples. Mentioned over 50 times in the Bible. One of the three gifts of the Magi.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frankincense"
   },
   {
     "name": "Ginger",
+    "latin": "Zingiber officinale",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["love", "success", "power", "healing", "money"],
     "description": "A fiery root that speeds up and sharpens any spell it is added to. Carried to attract adventure and adventure in love, or used in money workings.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Gingiberis", "African Ginger", "Adrak", "Black Ginger"],
+    "nativity": "Southeast Asia; likely originating in the Indian subcontinent",
+    "medical_use": "Anti-nausea, anti-inflammatory, and carminative. Clinically demonstrated efficacy for morning sickness and chemotherapy-induced nausea. Gingerols and shogaols inhibit prostaglandin synthesis, providing anti-inflammatory effects.",
+    "historic_use": "One of the earliest traded spices; mentioned in Chinese texts over 2,500 years ago. Used in Ayurvedic medicine as a universal medicine (vishwabhesaj). Arab traders controlled the ginger trade for centuries before European maritime routes were opened.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ginger"
   },
   {
     "name": "Hawthorn",
+    "latin": "Crataegus monogyna / C. laevigata",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["protection", "love", "fertility", "fairy contact", "cleansing"],
     "description": "A threshold tree — a gateway between worlds and a home for the fae. Berries are used in love charms and branches hung over doors for protection.",
-    "safety": "Seeds contain cyanogenic compounds; do not eat. Has significant heart-medicine interactions."
+    "safety": "Seeds contain cyanogenic compounds; do not eat. Has significant heart-medicine interactions.",
+    "folk_names": ["May Tree", "Whitethorn", "Quickthorn", "Thornapple", "Bread and Cheese Tree"],
+    "nativity": "Europe, northwestern Africa, western Asia",
+    "medical_use": "Well-studied cardiovascular herb. Hawthorn berry extracts are used in European phytomedicine for mild heart failure and angina. Oligomeric proanthocyanidins improve coronary circulation and have antioxidant effects.",
+    "historic_use": "The May blossom was central to Beltane celebrations across Celtic Europe. In Irish tradition, lone hawthorns growing on hilltops are fairy trees and must never be felled. Used in ancient Greek wedding ceremonies as a symbol of hope.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Crataegus_monogyna"
   },
   {
     "name": "Hyssop",
+    "latin": "Hyssopus officinalis",
     "element": "Fire",
     "planet": "Jupiter",
     "magical_uses": ["purification", "protection", "forgiveness", "consecration", "healing"],
     "description": "One of the most ancient purifying herbs. Sprinkle hyssop-infused water through a space or over a person to cleanse guilt, grief, and spiritual contamination.",
-    "safety": "Avoid in pregnancy and epilepsy. Essential oil is toxic."
+    "safety": "Avoid in pregnancy and epilepsy. Essential oil is toxic.",
+    "folk_names": ["Holy Herb", "Ysop", "Azob"],
+    "nativity": "Southern Europe, Middle East, Central Asia",
+    "medical_use": "Expectorant and antispasmodic. Used in European herbal medicine for bronchitis, coughs, and respiratory catarrh. Contains pinocamphone and isopinocamphone, which have demonstrated antimicrobial activity.",
+    "historic_use": "Mentioned in the Old Testament (Psalm 51) for ritual purification: 'Purge me with hyssop, and I shall be clean.' Used in ancient Hebrew rites to sprinkle the blood of the Passover lamb. Included in medieval European herbal pharmacopoeias.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hyssopus_officinalis"
   },
   {
     "name": "Juniper",
+    "latin": "Juniperus communis",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["protection", "purification", "love", "exorcism", "healing"],
     "description": "Burned to drive out negative entities and disease. Juniper berries are strung and hung as protective charms or added to sachets for love.",
-    "safety": "Avoid therapeutic use in pregnancy and kidney disease. Berries are safe culinary use."
+    "safety": "Avoid therapeutic use in pregnancy and kidney disease. Berries are safe culinary use.",
+    "folk_names": ["Common Juniper", "Gin Berry", "Hackmatack", "Horse Savin"],
+    "nativity": "Circumpolar; widespread across Europe, Asia, and North America",
+    "medical_use": "Diuretic, antiseptic, and carminative. Berries used in European herbal medicine for urinary tract infections and digestive complaints. Active component terpinen-4-ol has demonstrated antibacterial properties.",
+    "historic_use": "Burned in Tibetan and Native American purification rites. Ancient Egyptians burned it in temple fumigation. The primary flavoring agent in gin — the English word derives from French genièvre (juniper). Used as a fumigant during plague in medieval Europe.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Juniperus_communis"
   },
   {
     "name": "Lavender",
+    "latin": "Lavandula angustifolia",
     "element": "Air",
     "planet": "Mercury",
     "magical_uses": ["calm", "love", "sleep", "purification", "healing", "psychic power"],
     "description": "Among the most versatile magical herbs in any tradition. Used to invite peaceful sleep, soothe anxiety, attract love, and purify the aura.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Elf Leaf", "Nard", "Spike", "Spikenard"],
+    "nativity": "Mediterranean region, Middle East, India",
+    "medical_use": "Anxiolytic and mild sedative. Lavender oil (Silexan) is clinically proven effective for generalised anxiety disorder. Used for insomnia, headaches, and minor burns and skin irritation.",
+    "historic_use": "The name derives from Latin lavare — to wash. Romans perfumed bathwater and bed linen with it. Used in medieval European hospitals to combat infection. Strewn on floors as a disinfectant and insect repellent.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lavandula"
   },
   {
     "name": "Lemon Balm",
+    "latin": "Melissa officinalis",
     "element": "Water",
     "planet": "Moon",
     "magical_uses": ["love", "healing", "success", "psychic ability", "calm"],
     "description": "A gentle herb of the Moon that uplifts the spirit and soothes grief. Used in healing magic and spells for new love, and to enhance lunar workings.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Melissa", "Bee Balm", "Sweet Balm", "Heart's Delight", "Honey Plant"],
+    "nativity": "Mediterranean region, Central Asia",
+    "medical_use": "Mild anxiolytic, antispasmodic, and antiviral. Clinically studied for anxiety, insomnia, and agitation in dementia. Rosmarinic acid inhibits COMT, extending the calming effect of catecholamines. Antiviral against herpes simplex.",
+    "historic_use": "The genus name Melissa is Greek for honeybee — bees were said to cluster on it. Avicenna praised it in the Canon of Medicine for lifting the spirits and strengthening the heart. Carmelite water, a 14th-century remedy for nerves and headaches, was distilled from lemon balm.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Melissa_officinalis"
   },
   {
     "name": "Mint",
+    "latin": "Mentha spicata / Mentha x piperita",
     "element": "Fire",
     "planet": "Mercury",
     "magical_uses": ["purification", "healing", "love", "psychic ability", "prosperity", "travel"],
     "description": "Placed in the wallet to draw money or rubbed on cash before spending. Mint tea is consumed to open psychic channels and freshen spiritual energy.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Common Mint", "Garden Mint", "Our Lady's Mint", "Mentha"],
+    "nativity": "Europe, Middle East, Central Asia",
+    "medical_use": "Antispasmodic, carminative, and analgesic. Peppermint oil used clinically for IBS, tension headaches (topical), and nausea. Menthol is a widely used active ingredient in analgesic products.",
+    "historic_use": "Found dried in ancient Egyptian tombs. Romans used it to flavour wine and cleanse banquet tables. In Greek myth, the nymph Minthe was transformed into the plant by Persephone. Pliny listed 41 medicinal uses.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mentha"
   },
   {
     "name": "Mugwort",
+    "latin": "Artemisia vulgaris",
     "element": "Earth",
     "planet": "Moon",
     "magical_uses": ["dreams", "divination", "astral travel", "psychic power", "protection"],
     "description": "The witch's herb par excellence — placed under the pillow for vivid dreams, burned before scrying, and carried to strengthen all psychic work.",
-    "safety": "Avoid during pregnancy. May cause allergic reactions in those sensitive to ragweed."
+    "safety": "Avoid during pregnancy. May cause allergic reactions in those sensitive to ragweed.",
+    "folk_names": ["Felon Herb", "Sailor's Tobacco", "Moxa", "Cronewort", "St. John's Plant"],
+    "nativity": "Eurasia, North Africa; naturalised in North America",
+    "medical_use": "Central to moxibustion in Traditional Chinese Medicine, where burning moxa cones on acupoints treats pain and cold conditions. Mild uterine stimulant used to regulate menstruation in European herbal medicine.",
+    "historic_use": "One of the Nine Sacred Herbs of Anglo-Saxon tradition. Roman soldiers placed it in their sandals to prevent fatigue on marches. Used in the ancient Chinese texts over 2,000 years old. Central to the Japanese Obon festival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Artemisia_vulgaris"
   },
   {
     "name": "Myrrh",
+    "latin": "Commiphora myrrha",
     "element": "Water",
     "planet": "Moon",
     "magical_uses": ["purification", "healing", "protection", "spirituality", "meditation"],
     "description": "A sacred resin burned for consecration, healing, and contacting the ancestors. Often combined with frankincense to create a deeply purifying incense.",
-    "safety": "Avoid in pregnancy. Do not use medicinally with blood thinners."
+    "safety": "Avoid in pregnancy. Do not use medicinally with blood thinners.",
+    "folk_names": ["Karan", "Gum Myrrh", "Bola", "Common Myrrh"],
+    "nativity": "Eastern Africa (Somalia, Ethiopia), Arabian Peninsula",
+    "medical_use": "Antimicrobial, anti-inflammatory, and vulnerary. Used in Egyptian and Ayurvedic medicine for wound healing, oral infections, and as a gargle for sore throats. Sesquiterpenes have demonstrated analgesic and anti-inflammatory properties.",
+    "historic_use": "One of the most valuable commodities of the ancient world — used continuously in Egyptian embalming and temple rites for over 4,000 years. One of the gifts of the Magi. Used in Jewish temple incense (ketoret) and mentioned throughout the Song of Solomon. Arab traders monopolized the supply for centuries.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Myrrh"
   },
   {
     "name": "Nettle",
+    "latin": "Urtica dioica",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["protection", "healing", "exorcism", "courage", "hex breaking"],
     "description": "A fierce protective herb — scattered about a space to drive out unwanted spirits or stuffed in a poppet to turn back a hex.",
-    "safety": "Wear gloves when handling fresh plant. Cook or dry thoroughly before consuming."
+    "safety": "Wear gloves when handling fresh plant. Cook or dry thoroughly before consuming.",
+    "folk_names": ["Stinging Nettle", "Common Nettle", "Devil's Leaf", "Burn Weed"],
+    "nativity": "Europe, Asia; now cosmopolitan worldwide",
+    "medical_use": "Anti-inflammatory and nutritive. High in iron, calcium, and vitamins A and C. Clinically studied for benign prostatic hyperplasia and allergic rhinitis. Root extracts used for prostate health in European phytomedicine.",
+    "historic_use": "One of the most ancient European food and fiber plants — nettle cloth predates linen in northern Europe. Roman soldiers urticated (flogged) their limbs with nettles in cold climates to restore circulation. Listed as a food and medicine in medieval herbals across Europe.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Urtica_dioica"
   },
   {
     "name": "Patchouli",
+    "latin": "Pogostemon cablin",
     "element": "Earth",
     "planet": "Saturn",
     "magical_uses": ["money", "fertility", "love", "growth", "grounding", "lust"],
     "description": "A deeply earthy scent that anchors workings in the physical plane. Used in money drawing, fertility magic, and to ground spiritual energy into tangible results.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Pucha-Pat", "Patchleaf", "Kablin Pogostemon"],
+    "nativity": "Tropical Asia; native to the Philippines and Malaysia",
+    "medical_use": "Antiseptic, antifungal, and anti-inflammatory. Used in traditional Chinese and Ayurvedic medicine for skin conditions including eczema, acne, and dermatitis. The essential oil is studied for its antimicrobial properties.",
+    "historic_use": "Used in Southeast Asia to scent textiles, particularly silk and shawls exported to Europe. Victorian-era consumers associated the smell with genuine Indian Kashmir shawls; counterfeit goods lacked the scent. Became iconic in 1960s counterculture as a signature scent of the hippie movement.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pogostemon_cablin"
   },
   {
     "name": "Rose",
+    "latin": "Rosa spp.",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["love", "healing", "divination", "luck", "protection", "psychic power"],
     "description": "The supreme flower of Venus — petals are scattered in love baths, rosehips carried for luck, and rosewater used to consecrate tools and altars.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Red Rose", "Briar Rose", "Our Lady's Rose", "Apothecary's Rose"],
+    "nativity": "Asia; cultivated worldwide for over 5,000 years",
+    "medical_use": "Rosehip tea is exceptionally high in vitamin C. Rosewater used as mild anti-inflammatory for skin and eyes. Rose oil in aromatherapy studied for reducing depression and anxiety.",
+    "historic_use": "Sacred to Aphrodite and Venus; to the Virgin Mary in Christianity. Sub rosa ('under the rose') meant secrecy. Cleopatra reportedly filled a reception room knee-deep in rose petals. Cultivated since at least 3000 BCE.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rose"
   },
   {
     "name": "Rosemary",
+    "latin": "Salvia rosmarinus",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["memory", "protection", "purification", "love", "healing", "fidelity"],
     "description": "Where rosemary grows, the woman rules the house — it is placed under pillows for memory, burned for purification, and used in healing sachets.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Dew of the Sea", "Compass Weed", "Polar Plant", "Guardrobe"],
+    "nativity": "Mediterranean region",
+    "medical_use": "Antioxidant and anti-inflammatory. Rosmarinic acid has demonstrated antimicrobial properties. Studies suggest rosemary aroma improves working memory and alertness. Used traditionally for headaches and hair loss.",
+    "historic_use": "Used in ancient Greek and Roman funeral rites as a memory herb. Shakespeare's Ophelia says 'there's rosemary, that's for remembrance.' Burned in sick rooms during medieval plague outbreaks as a fumigant.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Salvia_rosmarinus"
   },
   {
     "name": "Rue",
+    "latin": "Ruta graveolens",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["protection", "banishing", "hex breaking", "mental clarity", "exorcism"],
     "description": "A sharp and fierce protective herb — worn as a charm against the evil eye or added to purification baths to remove psychic attacks and curses.",
-    "safety": "Photosensitizing — avoid sun after skin contact. Toxic in large doses. Avoid in pregnancy."
+    "safety": "Photosensitizing — avoid sun after skin contact. Toxic in large doses. Avoid in pregnancy.",
+    "folk_names": ["Herb of Grace", "Garden Rue", "Countryman's Treacle", "Herb-of-Repentance"],
+    "nativity": "Balkan Peninsula, southwestern Asia; widely naturalised in Mediterranean region",
+    "medical_use": "Antispasmodic and emmenagogue. Used in traditional European medicine for eye complaints, rheumatism, and as an abortifacient. Contains rutin, a bioflavonoid used to strengthen capillaries. Not recommended for internal use due to toxicity.",
+    "historic_use": "One of the most important magical and medicinal herbs of classical antiquity — praised by Pliny and Dioscorides. Shakespeare's Ophelia and the gardener in Richard II both reference it as the 'herb of grace.' In Italian folk tradition the cimaruta (sprig of rue) charm is the pre-eminent amulet against the evil eye (malocchio).",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ruta_graveolens"
   },
   {
     "name": "Sage",
+    "latin": "Salvia officinalis",
     "element": "Air",
     "planet": "Jupiter",
     "magical_uses": ["purification", "wisdom", "healing", "protection", "longevity"],
     "description": "Burned to cleanse a space of stagnant or negative energy before ritual work. Also used in wisdom spells and to promote clear thinking.",
-    "safety": "White sage is an over-harvested plant. Consider growing your own or using ethically sourced alternatives."
+    "safety": "White sage is an over-harvested plant. Consider growing your own or using ethically sourced alternatives.",
+    "folk_names": ["Garden Sage", "Common Sage", "Sawge", "Red Sage"],
+    "nativity": "Mediterranean region",
+    "medical_use": "Antimicrobial, astringent, and antihidrotic. Clinically studied for reducing menopausal hot flashes and excessive sweating. Used for sore throats and oral infections. Mild cognitive enhancer studied for Alzheimer's prevention.",
+    "historic_use": "The name Salvia derives from Latin salvare — to save or heal. Romans considered it a sacred herb. Medieval saying: 'Cur moriatur homo cui Salvia crescit in horto?' (Why should a man die who grows sage in his garden?)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Salvia_officinalis"
   },
   {
     "name": "Sandalwood",
+    "latin": "Santalum album",
     "element": "Water",
     "planet": "Moon",
     "magical_uses": ["protection", "purification", "healing", "spirituality", "meditation", "wishes"],
     "description": "A sacred wood burned to aid meditation, raise vibrations, and carry wishes to the spirit world. One of the most universal sacred scents.",
-    "safety": "True sandalwood is endangered — use sustainably sourced material."
+    "safety": "True sandalwood is endangered — use sustainably sourced material.",
+    "folk_names": ["White Sandalwood", "Indian Sandalwood", "Chandan", "Shrikanda"],
+    "nativity": "South India (Karnataka, Tamil Nadu); also East Timor and Pacific islands",
+    "medical_use": "Antiseptic, anti-inflammatory, and mild sedative. Sandalwood oil used in Ayurveda for urinary tract infections and skin inflammation. Alpha-santalol demonstrates antimicrobial properties and is studied for skin conditions including acne.",
+    "historic_use": "Used continuously in Hindu and Buddhist temple ritual for over 4,000 years — the paste applied to deities and burned before shrines. One of the principal ingredients in Indian Ayurvedic preparations. The trade in Indian sandalwood was controlled by the Mysore royal family for centuries.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Santalum_album"
   },
   {
     "name": "St. John's Wort",
+    "latin": "Hypericum perforatum",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["protection", "strength", "love", "divination", "banishing"],
     "description": "Hung above doors and windows at midsummer to ward away evil spirits and harmful magic. A solar herb for courage and clarity.",
-    "safety": "Significant drug interactions — can reduce effectiveness of many medications including contraceptives. Photosensitizing."
+    "safety": "Significant drug interactions — can reduce effectiveness of many medications including contraceptives. Photosensitizing.",
+    "folk_names": ["Tipton's Weed", "Chase-Devil", "Klamath Weed", "Rosin Rose"],
+    "nativity": "Europe, western Asia, North Africa; naturalised worldwide",
+    "medical_use": "Antidepressant. Multiple meta-analyses show efficacy comparable to standard antidepressants for mild to moderate depression. Hypericin and hyperforin are the primary active compounds. Induces CYP450 enzymes — significant interactions with many drugs.",
+    "historic_use": "Harvested on St. John's Day (midsummer, June 24) in European folk tradition and hung above doors to ward off evil. Used in ancient Greek medicine by Hippocrates and Dioscorides. The red oil extracted from the flowers was called the 'blood of St. John' and used for wounds.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hypericum_perforatum"
   },
   {
     "name": "Sweetgrass",
+    "latin": "Hierochloe odorata",
     "element": "Air",
     "planet": "Venus",
     "magical_uses": ["spirit calling", "purification", "kindness", "peace", "attraction"],
     "description": "Braided and burned to invite benevolent spirits and ancestors. Unlike sage it attracts positive energy rather than driving out negative energy.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Holy Grass", "Vanilla Grass", "Manna Grass", "Bison Grass"],
+    "nativity": "Northern North America, northern Eurasia (circumpolar distribution)",
+    "medical_use": "Used in Indigenous North American medicine as a smoke treatment for coughs and colds, and as a topical wash for skin conditions. Coumarin compounds give the grass its characteristic sweet scent.",
+    "historic_use": "One of the most sacred plants in many Plains and Woodland Indigenous traditions, representing the hair of Mother Earth. Central to smudging ceremonies across numerous nations. Braided sweetgrass is offered to elders and used in basket weaving traditions. In European tradition (Poland), used to flavor Żubrówka vodka.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hierochloe_odorata"
   },
   {
     "name": "Thyme",
+    "latin": "Thymus vulgaris",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["purification", "courage", "psychic ability", "healing", "love", "sleep"],
     "description": "Worn by warriors for courage and burned by healers for purification — thyme placed under the pillow brings restful sleep and visions of a future lover.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Garden Thyme", "Common Thyme", "Serpolet", "Mother of Thyme"],
+    "nativity": "Southern Europe, Mediterranean region",
+    "medical_use": "Antispasmodic and expectorant. Thymol is an active component of many modern antiseptic mouthwashes and household disinfectants. Clinically used for bronchitis and upper respiratory infections in European phytomedicine.",
+    "historic_use": "Ancient Egyptians used it in embalming. Greeks burned it in temple offerings. Roman soldiers bathed in thyme water for vigour before battle. Scottish Highlanders drank thyme tea for courage and to prevent nightmares.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thymus_vulgaris"
   },
   {
     "name": "Valerian",
+    "latin": "Valeriana officinalis",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["love", "sleep", "protection", "purification", "harmony"],
     "description": "Called 'all-heal' by the ancients — used in love sachets and placed in the home to prevent discord. A powerful herb for deep sleep and peace.",
-    "safety": "May cause drowsiness. Avoid with sedative medications."
+    "safety": "May cause drowsiness. Avoid with sedative medications.",
+    "folk_names": ["All-Heal", "Setwall", "Capon's Tail", "Heliotrope", "St. George's Herb"],
+    "nativity": "Europe, parts of Asia",
+    "medical_use": "Sedative and anxiolytic. Widely used for insomnia and anxiety in European herbal medicine. Multiple clinical trials have assessed its efficacy for sleep latency reduction, with mixed but generally positive results.",
+    "historic_use": "Hippocrates described its properties. Used in ancient Rome as a perfume. During WWI and WWII it was widely used to treat shell shock and anxiety in soldiers. The strong smell attracts cats similarly to catnip.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Valeriana_officinalis"
   },
   {
     "name": "Vervain",
+    "latin": "Verbena officinalis",
     "element": "Earth",
     "planet": "Venus",
     "magical_uses": ["protection", "purification", "love", "healing", "sleep", "inspiration"],
     "description": "A sacred herb of the druids and the Romans — gathered at midsummer and used to consecrate altars, anoint tools, and bless the space of working.",
-    "safety": "Avoid in pregnancy."
+    "safety": "Avoid in pregnancy.",
+    "folk_names": ["Holy Herb", "Herb of Grace", "Enchanter's Plant", "Juno's Tears", "Herba Sacra"],
+    "nativity": "Europe, North Africa, western Asia",
+    "medical_use": "Nervine, mild antispasmodic, and diaphoretic. Used in European herbal medicine for nervous exhaustion, depression, and anxiety. Mild bitter tonic; used for liver and digestive complaints in traditional medicine.",
+    "historic_use": "Called herba sacra (sacred herb) by the Romans, used to purify temples and altars. Druids gathered it with the same reverence as mistletoe — at night, when the dog star rose, with iron tools forbidden. Listed as one of the three most sacred Druidic plants alongside mistletoe and water mint.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Verbena_officinalis"
   },
   {
     "name": "Wormwood",
+    "latin": "Artemisia absinthium",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["psychic power", "protection", "divination", "spirit contact", "binding"],
     "description": "Burned to summon spirits and enhance scrying. Wormwood is placed in sachets to protect travelers and carried to call upon the spirits of the dead.",
-    "safety": "Toxic in large amounts — use only in small quantities for incense. Avoid in pregnancy. Contains thujone."
+    "safety": "Toxic in large amounts — use only in small quantities for incense. Avoid in pregnancy. Contains thujone.",
+    "folk_names": ["Absinthe", "Green Ginger", "Mingwort", "Old Woman"],
+    "nativity": "Eurasia, North Africa; naturalised in North America",
+    "medical_use": "Bitter tonic, antiparasitic, and digestive stimulant. Historically used to expel intestinal worms (hence the name). Thujone is a GABA antagonist and convulsant in high doses. Used in very small amounts in digestive bitters formulas.",
+    "historic_use": "The primary flavoring herb of absinthe — the notorious 'green fairy' drink of 19th-century Parisian bohemian culture, favored by Verlaine, Baudelaire, Van Gogh, and Wilde. Associated with visions and madness; banned in France 1915–2011. Used as a worm expellant since ancient Egypt.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Artemisia_absinthium"
   },
   {
     "name": "Yarrow",
+    "latin": "Achillea millefolium",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["courage", "love", "psychic ability", "healing", "divination", "hex breaking"],
     "description": "The ancient wound-herb of Achilles — held in the hand to banish fear, used in divination (classic I Ching), and carried in the wedding bouquet for love.",
-    "safety": "May cause allergic reactions in those sensitive to aster family plants."
+    "safety": "May cause allergic reactions in those sensitive to aster family plants.",
+    "folk_names": ["Milfoil", "Wound Wort", "Soldier's Herb", "Nosebleed Plant", "Devil's Nettle"],
+    "nativity": "Temperate regions of the Northern Hemisphere; cosmopolitan",
+    "medical_use": "Hemostatic, anti-inflammatory, and antispasmodic. Used in Western and Chinese herbal medicine for wounds, fevers, and heavy menstruation. Topical astringent for nosebleeds and minor cuts.",
+    "historic_use": "Named for Achilles, who used it to stanch his soldiers' wounds. Yarrow pollen was found in a 60,000-year-old Neanderthal burial at Shanidar Cave in Iraq — among the earliest evidence of intentional plant use by humans. Classic stalks used for I Ching divination.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Achillea_millefolium"
   },
   {
     "name": "Belladonna",
@@ -295,7 +511,12 @@
     "magical_uses": ["trance", "visions", "underworld", "hex work", "death magic", "flying ointment", "banishing"],
     "description": "Named for Atropos — she of the three Fates who cuts the thread of life. One of the central herbs of the European witchcraft tradition, used in flying ointments to induce visionary trance states. Renaissance women used diluted preparations to dilate the pupils; bella donna means 'beautiful woman.'",
     "safety": "Safe for spell jars, sachets, and altar work. Do not ingest — all parts are toxic. Avoid prolonged skin contact with bruised plant matter or sap; gloves recommended when handling fresh material. Do not burn indoors. Keep away from children and animals.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Deadly Nightshade", "Devil's Cherries", "Naughty Man's Cherries", "Dwale"],
+    "nativity": "Central and southern Europe, western Asia, North Africa",
+    "medical_use": "Atropine (derived from belladonna) is an essential medicine on the WHO Model List. Used in medicine to dilate pupils for eye examination, treat bradycardia, reverse organophosphate poisoning, and as a pre-operative antispasmodic. Scopolamine (also from belladonna) is used for motion sickness and nausea patches.",
+    "historic_use": "Renaissance Italian women used diluted belladonna eye drops to dilate their pupils for cosmetic effect — hence 'bella donna' (beautiful woman). One of the witches' classic 'flying ointment' plants alongside henbane, datura, and mandrake. Associated with Hecate in Greek tradition. Macbeth's soldiers supposedly used it to drug the Danish army's wine during a truce.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atropa_belladonna"
   },
   {
     "name": "Hemlock",
@@ -305,7 +526,12 @@
     "magical_uses": ["binding", "cursing", "death rites", "underworld", "banishing", "hex work"],
     "description": "The poison of Socrates — used in Greek executions and deeply embedded in the darker currents of European folk magic. Associated with binding, endings, and the authority of Saturn over all living things. Not to be confused with the hemlock tree, which is unrelated.",
     "safety": "Safe for spell jars and sealed workings. Do not ingest under any circumstances — causes progressive paralysis and respiratory failure. Wash hands after handling; avoid touching eyes or mouth. Easily confused with wild carrot and parsley — identification must be certain before harvesting wild.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Poison Hemlock", "Spotted Hemlock", "Poison Parsley", "Devil's Porridge"],
+    "nativity": "Europe, North Africa, western Asia; widely naturalised in North America",
+    "medical_use": "No current medicinal use — too toxic for therapeutic application. Historically used in tiny doses as a sedative and for spastic conditions. Coniine (the principal alkaloid) was the first alkaloid to be synthesized in a laboratory. Strictly a historical reference only.",
+    "historic_use": "The state poison of ancient Athens — Socrates was executed with hemlock in 399 BCE. Plato's Phaedo describes the progressive numbness rising from the feet upward. Used by the Celts in poison-tipped arrows. Associated in European folk magic with Hecate and the darker traditions. Medieval herbalists described it cautiously; an Italian Renaissance poisoner's herb.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Conium_maculatum"
   },
   {
     "name": "Henbane",
@@ -315,7 +541,12 @@
     "magical_uses": ["trance", "flight", "underworld journeys", "divination", "weather working", "flying ointment"],
     "description": "A classic herb of the witch's garden — used alongside belladonna and datura in the legendary flying ointments of European witchcraft. The smoke was inhaled for oracular trance. Associated with Hecate, the underworld, and the crossing of boundaries between worlds.",
     "safety": "Safe for spell jars, sachets, and altar work. Do not ingest — causes delirium and potentially fatal respiratory depression. Wear gloves when handling significant quantities of fresh plant material. Historically many deaths from accidental consumption; keep well away from children and animals.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Black Henbane", "Stinking Nightshade", "Devil's Eye", "Hog's Bean"],
+    "nativity": "Europe, western Asia, North Africa; naturalised widely",
+    "medical_use": "Hyoscyamine and scopolamine from henbane have legitimate medical applications — used as antispasmodics, pre-operative sedatives, and in motion sickness patches. These are now derived from cultivated sources or synthesized. The raw plant is too unpredictably toxic for safe therapeutic use.",
+    "historic_use": "Seeds found at the Iron Age site of Danebury hillfort suggest ritual use in Britain over 2,000 years ago. Henbane seeds mixed with beer were the likely cause of mass intoxication events in medieval Europe. Used by the Pythia at Delphi (alongside bay laurel) as a potential oracular plant according to some classical sources. Hamlet's father was 'poisoned with hebenon' — scholars widely identify this as henbane.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hyoscyamus_niger"
   },
   {
     "name": "Datura",
@@ -325,7 +556,12 @@
     "magical_uses": ["trance", "visions", "shapeshifting", "Otherworld", "brujería", "dream magic", "hex breaking"],
     "description": "Called toloache in Mexican tradition and used in brujería, curanderismo, and the vision rites of numerous Indigenous peoples of the Americas. Among the most dangerous psychoactive plants on Earth — the line between a visionary dose and a lethal one is extremely thin. Associated with the dark moon, shapeshifting, and deep Otherworld travel.",
     "safety": "Safe for spell jars and sealed workings; do not burn. Do not ingest under any circumstances — alkaloid levels vary wildly between individual plants and deaths are common even among experienced users. Wash hands thoroughly after handling. This entry is for spiritual and historical reference only.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Jimsonweed", "Thornapple", "Devil's Trumpet", "Toloache", "Sacred Datura"],
+    "nativity": "Datura stramonium likely from Central America or Asia (disputed); D. inoxia from Mexico and southwestern North America",
+    "medical_use": "Scopolamine and atropine derived from Datura species have legitimate medical applications — now obtained from cultivated or synthetic sources. Datura was historically used in Ayurveda as an antispasmodic and anesthetic. The raw plant is far too variable and dangerous for any therapeutic use.",
+    "historic_use": "D. inoxia (toloache) was central to initiation ceremonies of the Chumash and other California peoples, as well as Mexican curanderismo and brujería. Carlos Castaneda controversially described its use (as 'devil's weed') in his Yaqui sorcery books. D. stramonium arrived in Jamestown, Virginia — colonists accidentally ingested it and the resulting mass delirium gave 'Jimsonweed' its name ('Jamestown weed').",
+    "wikipedia": "https://en.wikipedia.org/wiki/Datura_stramonium"
   },
   {
     "name": "Mandrake",
@@ -335,7 +571,12 @@
     "magical_uses": ["love", "fertility", "prosperity", "protection", "hex work", "poppet magic", "familiar spirit"],
     "description": "Perhaps the single most celebrated magical plant in the Western tradition. Its forked root resembles a human figure — it was harvested at midnight with elaborate ritual, said to scream on uprooting. Used as a familiar spirit, a poppet base, and in some of the most powerful love and protection workings in European folk magic.",
     "safety": "Safe for poppet work, spell jars, and altar use. Do not ingest — all parts contain tropane alkaloids. The berries are appealing but toxic. Avoid prolonged bare-skin contact with fresh root. Note: American mayapple (Podophyllum) is often sold as 'mandrake' and is a different plant entirely.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Satan's Apple", "Mandragora", "Gallows Man", "Love Apple", "Sorcerer's Root"],
+    "nativity": "Mediterranean region, Middle East",
+    "medical_use": "Historically used as an anesthetic — combined with wine for pre-surgical sedation in ancient and medieval medicine. Contains scopolamine, atropine, and hyoscyamine. Dioscorides described mandragoras wine for pain during surgery. No current clinical use due to extreme toxicity risk.",
+    "historic_use": "No plant has a richer magical history. Described by Theophrastus, Josephus, and Pliny with elaborate harvesting rituals. The Talmud and medieval Jewish sources describe the dudaim (mandrakes) Rachel bargained for from Leah to increase fertility (Genesis 30). Shakespeare's Romeo and Juliet, The Winter's Tale, and Othello all reference it. Prized in medieval Europe as a familiar spirit and love charm — the 'little man of the gallows,' said to grow beneath the feet of hanged men.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mandragora_officinarum"
   },
   {
     "name": "Wolfsbane",
@@ -345,7 +586,12 @@
     "magical_uses": ["protection against shapeshifters", "werewolf lore", "banishing", "cursing", "the hunt", "Hecate"],
     "description": "One of the most potent poisons in the European flora — used by hunters to tip arrows and deeply embedded in the lore of werewolves and shapeshifters. Associated with Hecate, who was said to have created it from the saliva of Cerberus. Used in protective and binding workings against those who work in animal forms.",
     "safety": "Safe for spell jars and sealed workings. Always wear gloves — aconitine absorbs through skin and is one of the most potent natural toxins known. Wash immediately after any contact. Do not burn or ingest. No antidote exists for poisoning. Widely considered the most dangerous plant in the British Isles.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Monkshood", "Aconite", "Blue Rocket", "Devil's Helmet", "Friar's Cap"],
+    "nativity": "Mountains of central and western Europe, from the Pyrenees through the Alps to the Carpathians",
+    "medical_use": "Aconitine is used in homeopathic preparations (Aconite) for acute fear, fever onset, and shock — at infinitesimal homeopathic dilutions only. Chinese aconite (Aconitum carmichaelii — fuzi) is used in Traditional Chinese Medicine after detoxification processing. The raw plant has no safe therapeutic use — aconitine is lethal in doses as small as 1–2 mg.",
+    "historic_use": "Called 'the queen of poisons' in antiquity. In Greek mythology, created by Hecate from the foam of Cerberus's mouth. Used by hunters across Eurasia to poison arrow and spear tips (hence 'wolfsbane'). Medea attempted to poison Theseus with it. Associated with werewolf transformation in European folklore — both the trigger and the cure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aconitum_napellus"
   },
   {
     "name": "Foxglove",
@@ -355,7 +601,12 @@
     "magical_uses": ["fairy magic", "glamour", "invisibility", "protection", "fairy contact", "healing"],
     "description": "The 'folk's glove' — fairy folk's glove. One of the most powerful fairy plants in British and Celtic tradition, associated with the Otherworld and the hidden folk. Worn or carried to attract fairy contact and to see through glamours. The spotted interior of the flowers is said to be fairy fingerprints.",
     "safety": "Safe for spell work and altar use. Do not ingest — cardiac glycosides cause fatal arrhythmia. Wash hands after handling. The leaves closely resemble comfrey; do not confuse when wildcrafting. Toxic to animals — keep clear of pets.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Folk's Glove", "Fairy Fingers", "Dead Men's Bells", "Witches' Gloves", "Fairy Thimbles"],
+    "nativity": "Western and central Europe, northwestern Africa",
+    "medical_use": "Digitoxin and digoxin (cardiac glycosides) derived from foxglove leaves are essential medicines for heart failure and atrial fibrillation. William Withering's 1785 Account of the Foxglove established cardiac medicine as a science. Digoxin remains on the WHO Model List of Essential Medicines. The therapeutic window is extremely narrow — the effective dose is close to the toxic dose.",
+    "historic_use": "William Withering discovered its cardiac use in 1775 after an elderly Shropshire woman cured his patient's dropsy (heart failure edema) with a secret herbal recipe — he identified foxglove as the active ingredient. Before Withering, it was used in Welsh folk medicine as a topical remedy for skin sores. The fairy lore — spots are fairy fingerprints, bending flowers marks the path of fairies — is widespread in British Isles tradition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Digitalis_purpurea"
   },
   {
     "name": "Peyote",
@@ -365,447 +616,782 @@
     "magical_uses": ["vision quest", "ancestor communion", "healing", "purification", "sacred ceremony", "divine communion"],
     "description": "A small spineless cactus sacred to dozens of Indigenous peoples of Mexico and the American Southwest for at least 5,000 years. The sacrament of the Native American Church. The Huichol (Wixáritari) make annual pilgrimages hundreds of miles to harvest it in the sacred land of Wirikuta. It is a living deity to those traditions, not merely a plant.",
     "safety": "Schedule I in the US except for enrolled members of federally recognized tribes using it in bona fide religious ceremony. Critically endangered due to overharvesting. Approaching this plant with anything less than profound respect for its living traditions is a serious ethical failure. This entry is for historical and spiritual reference only.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Peyotl", "Hikuri", "Divine Cactus", "Mescal Button"],
+    "nativity": "Chihuahuan Desert; southern Texas and northern Mexico",
+    "medical_use": "Mescaline (the primary alkaloid) is under current clinical investigation for treatment-resistant depression, PTSD, and addiction, following the broader psychedelic research renaissance. Historical research from the 1950s–60s showed promise for psychiatric treatment. All current use remains in research protocols due to Schedule I status.",
+    "historic_use": "Peyote use by Indigenous peoples of northern Mexico dates to at least 5,700 years based on archeological evidence from the Shumla Caves in Texas. The Native American Church, founded around 1890, incorporates peyote as its central sacrament and now has over 250,000 members across North America. The Wixáritari (Huichol) regard the annual pilgrimage to Wirikuta to harvest hikuri as among the most sacred acts a person can undertake.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peyote"
   },
   {
     "name": "Agrimony",
+    "latin": "Agrimonia eupatoria",
     "element": "Air",
     "planet": "Jupiter",
     "magical_uses": ["protection", "sleep", "hex reversal", "banishing nightmares", "warding"],
     "description": "A protective herb carried to guard against poisons and ill spirits. Placed under the pillow to bring nightmare-free sleep; used in witch bottles to return hexes to their sender.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Church Steeples", "Cocklebur", "Sticklewort", "Liverwort"],
+    "nativity": "Europe, western Asia, North Africa",
+    "medical_use": "Astringent, mild diuretic, and cholagogue. Used in European herbal medicine for diarrhea, sore throats (as a gargle), and liver conditions. The tannin content gives it astringent wound-healing properties.",
+    "historic_use": "Recorded in the Anglo-Saxon herbal Leechbook of Bald (10th century CE) as a remedy for wounds. Used in medieval England for 'ague' (malaria) and as a wound herb by surgeons. Dioscorides recommended it for liver, kidney, and snake bites.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Agrimonia_eupatoria"
   },
   {
     "name": "Alder",
+    "latin": "Alnus glutinosa",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["transition", "resurrection", "fairy lore", "weather working", "the Otherworld"],
     "description": "A threshold tree of the water's edge — between worlds. In Celtic tradition the alder is sacred to Bran, used in rites of transition, truth-telling, and weather working.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Black Alder", "Common Alder", "European Alder"],
+    "nativity": "Europe, southwestern Asia, North Africa",
+    "medical_use": "Astringent and febrifuge. Bark tinctures used in traditional European medicine for sore throats (gargle), skin inflammations, and as a topical astringent for wounds. Nitrogen-fixing roots improve soil fertility.",
+    "historic_use": "Sacred to the god Bran in Celtic mythology — his cauldron of resurrection is associated with the alder. In Irish Brehon law, felling an alder was one of the most serious offenses. Alder wood does not rot underwater; used for the pilings of Venice and other ancient structures built over water.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alnus_glutinosa"
   },
   {
     "name": "Ash",
+    "latin": "Fraxinus excelsior",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["protection", "healing", "sea magic", "divination", "the World Tree"],
     "description": "Yggdrasil — the World Tree of Norse tradition — is an ash. Burned in Yule logs, carved into runic staves, and used to bless newborns across Northern European tradition.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["European Ash", "Common Ash", "World Tree", "Venus of the Woods"],
+    "nativity": "Europe, southwestern Asia",
+    "medical_use": "Bark used as a febrifuge and mild laxative in European folk medicine. Leaves used as a diuretic and anti-inflammatory. Historically used as a quinine substitute for treating malaria.",
+    "historic_use": "Yggdrasil, the World Tree connecting the nine realms of Norse cosmology, is an ash. Odin hung for nine days upon it to gain the runes. In Irish mythology, three of the five sacred trees of Ireland were ashes. Welsh and Scandinavian newborns were given ash sap as their first drink.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fraxinus_excelsior"
   },
   {
     "name": "Benzoin",
+    "latin": "Styrax benzoin / Styrax tonkinensis",
     "element": "Air",
     "planet": "Sun",
     "magical_uses": ["purification", "prosperity", "astral work", "offering", "clarity"],
     "description": "A resin burned in Southeast Asian and Western traditions for purification and to uplift consciousness. Combined with frankincense it creates a powerful clarifying incense for meditation and astral work.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Gum Benzoin", "Siam Benzoin", "Benjamin Tree", "Luban Jawi"],
+    "nativity": "Sumatra, Thailand, Java (tropical Southeast Asia)",
+    "medical_use": "Antiseptic and expectorant. Compound tincture of benzoin (Friars' Balsam) is used as an inhalant for bronchitis and as a topical protectant for skin irritation. Benzoic acid is a preservative and antimicrobial agent.",
+    "historic_use": "Traded from Southeast Asia to the Arab world and Europe from at least the 15th century CE. Named luban jawi (incense of Java) in Arabic — 'jawi' was corrupted to 'benjui' in Portuguese and then 'benzoin' in English. Used in church incense across Southeast Asia and incorporated into Western perfumery and medicine.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Benzoin_resin"
   },
   {
     "name": "Birch",
+    "latin": "Betula pendula",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["new beginnings", "purification", "protection", "birth magic", "Imbolc"],
     "description": "The Lady of the Woods — the first tree to leaf in spring. Birch bundles swept spaces clean before ritual; birch bark was used for spirit writing and Imbolc working.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Silver Birch", "White Birch", "Lady of the Woods", "Weeping Birch"],
+    "nativity": "Europe, northern Asia; one of the most widespread trees in the Northern Hemisphere",
+    "medical_use": "Diuretic and anti-inflammatory. Birch leaf tea used in European herbal medicine for urinary tract infections, gout, and rheumatism. Birch sap tapped in spring as a nutritive tonic. Betulin from bark bark has demonstrated anti-inflammatory and antiviral properties.",
+    "historic_use": "The first letter of the Ogham alphabet is Beith (birch). In Celtic tradition birch is the tree of beginnings, used to bless the new year and newborns. In Siberian shamanism the birch is the World Tree and shamans ascend its notches to reach the upper worlds. Birch bark was used as paper across northern Eurasia — ancient Sanskrit and Russian manuscripts survive on it.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Betula_pendula"
   },
   {
     "name": "Black Cohosh",
+    "latin": "Actaea racemosa",
     "element": "Fire",
     "planet": "Pluto",
     "magical_uses": ["courage", "protection", "hex breaking", "spirit contact", "strength"],
     "description": "A North American woodland plant used by Indigenous nations in ceremony. Magically associated with drawing courage and breaking hexes; the dark root is carried as a protection charm.",
-    "safety": "Avoid in pregnancy and with liver conditions. Not for ingestion."
+    "safety": "Avoid in pregnancy and with liver conditions. Not for ingestion.",
+    "folk_names": ["Black Snakeroot", "Bugbane", "Squaw Root", "Rattle Root"],
+    "nativity": "Eastern North America (Appalachian Mountains, eastern woodlands)",
+    "medical_use": "Used for menopausal symptoms including hot flashes and night sweats. Multiple clinical trials support modest efficacy. Mechanism may involve serotonergic rather than oestrogenic pathways. Rare hepatotoxicity cases reported — use with caution.",
+    "historic_use": "Used by Algonquin, Cherokee, and Iroquois nations for menstrual and menopausal complaints, rheumatism, and as a ceremonial herb. Introduced to European settlers who adopted it widely. Became a major ingredient in 19th-century American patent medicines for 'female complaints.'",
+    "wikipedia": "https://en.wikipedia.org/wiki/Actaea_racemosa"
   },
   {
     "name": "Blackthorn",
+    "latin": "Prunus spinosa",
     "element": "Earth",
     "planet": "Saturn",
     "magical_uses": ["protection", "cursing", "dark magic", "Otherworld", "banishing", "fate"],
     "description": "The dark twin of the hawthorn — a tree of the waning year and the harsh face of fate. The thorns were used in binding, cursing, and protective workings in Celtic tradition; the sloes ripen only after the first frost.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Sloe", "Sloe Tree", "Wild Plum", "Wishing Thorn"],
+    "nativity": "Europe, western Asia, northwestern Africa",
+    "medical_use": "Astringent and mild laxative. Sloe berries used in European folk medicine for sore throats (gargle) and as a tonic. Flower tea used as a mild diuretic and laxative. The berries flavor sloe gin.",
+    "historic_use": "Used across Celtic and Germanic traditions as the tree of fate and hardship — in contrast to the hawthorn's association with Beltane and spring, the blackthorn rules the dark half of the year. The Irish shillelagh fighting stick was traditionally made from blackthorn. In Scottish folklore the Cailleach (winter hag) carries a blackthorn staff.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Prunus_spinosa"
   },
   {
     "name": "Borage",
+    "latin": "Borago officinalis",
     "element": "Air",
     "planet": "Jupiter",
     "magical_uses": ["courage", "psychic power", "joy", "clarity", "optimism"],
     "description": "Its old name is herb of gladness — floated in ritual drinks and carried to inspire courage before difficult endeavors. A Jupiterian herb that expands the spirit and clears the mind for true seeing.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Starflower", "Herb of Gladness", "Bugloss", "Cool Tankard"],
+    "nativity": "Mediterranean region; possibly native to Syria",
+    "medical_use": "Adrenal tonic and anti-inflammatory. Borage seed oil is exceptionally high in gamma-linolenic acid (GLA) — used for eczema, rheumatoid arthritis, and PMS. Leaves contain pyrrolizidine alkaloids; seed oil does not. Used as an adrenal restorative for stress and burnout.",
+    "historic_use": "The Roman naturalist Pliny wrote that borage in wine 'maketh men merry and joyful.' Gerard's Herbal (1597) states 'those of our time use the flowers in salads to exhilarate and make the mind glad.' The Welsh word for borage, llawenlys, means 'herb of gladness.' Floated in the 'cups' (traditional punch) at medieval feasts.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Borago_officinalis"
   },
   {
     "name": "Burdock",
+    "latin": "Arctium lappa",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["protection", "cleansing", "warding", "uncrossing", "healing"],
     "description": "The clinging bur root carries symbolic cleansing power — dragged around a property to gather and remove negativity. Added to uncrossing baths and protective sachets.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Greater Burdock", "Gobo", "Happy Major", "Beggar's Buttons"],
+    "nativity": "Eurasia; naturalised in North America and Australia",
+    "medical_use": "Alterative, diuretic, and mild hepatoprotective. Root (gobo) is a significant food vegetable in Japan and Korea. Used in Western and Chinese herbal medicine as a blood purifier for skin conditions including psoriasis and eczema. Inulin content supports beneficial gut bacteria.",
+    "historic_use": "Used in European and Chinese medicine for at least 2,000 years. Root was a staple food in medieval Europe during famine. The hooked burs famously inspired George de Mestral to invent Velcro in 1941. Used in traditional Iroquois and Ojibwe medicine for skin and rheumatic conditions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arctium_lappa"
   },
   {
     "name": "Camphor",
+    "latin": "Cinnamomum camphora",
     "element": "Water",
     "planet": "Moon",
     "magical_uses": ["purification", "divination", "dreams", "space clearing", "protection"],
     "description": "A powerfully cooling and clarifying scent burned to clear the mind before divination and purify ritual space. Camphor placed in a room creates a strong barrier against negative entities.",
-    "safety": "Do not ingest camphor oil — toxic. Use in ventilated spaces only."
+    "safety": "Do not ingest camphor oil — toxic. Use in ventilated spaces only.",
+    "folk_names": ["Camphor Tree", "Gum Camphor", "True Camphor", "Kapoor"],
+    "nativity": "East Asia (China, Japan, Taiwan); cultivated throughout tropical Asia",
+    "medical_use": "Topical analgesic, counter-irritant, and mild antiseptic. Used in mentholated rubs for muscle pain and respiratory congestion. Camphor is an FDA-approved topical analgesic. Internal use is toxic — even small doses can cause seizures.",
+    "historic_use": "One of the most important aromatics traded on the Silk Road. Arab physician Avicenna used it for fevers and plague. Marco Polo described Bornean camphor as more valuable than gold. Used in Chinese medicine for over 1,000 years. The scent is used in Hindu and Buddhist temple ritual across South and Southeast Asia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Camphor"
   },
   {
     "name": "Cardamom",
+    "latin": "Elettaria cardamomum",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["love", "lust", "clarity", "warmth", "attraction"],
     "description": "An aromatic spice burned and carried for love magic across the Middle East and South Asia — used to warm the heart and draw romantic attraction into sachets and offerings.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Green Cardamom", "True Cardamom", "Elaichi", "Ilachi"],
+    "nativity": "South India (Western Ghats); cultivated in Guatemala, Tanzania, and Sri Lanka",
+    "medical_use": "Carminative, digestive stimulant, and mild antispasmodic. Used in Ayurveda for indigestion, nausea, and bad breath. Studies suggest cardamom extract may lower blood pressure. Used to counter the addictive quality of chewing tobacco in South Asian traditions.",
+    "historic_use": "One of the oldest known spices — used in ancient Egyptian ritual and perfumery. Greeks and Romans imported it extensively from India. Arab traders carried it throughout the Islamic world; it remains a defining flavor of Arabic coffee (qahwa) and sweet rice dishes. Known as the 'Queen of Spices' in India.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cardamom"
   },
   {
     "name": "Copal",
+    "latin": "Bursera copallifera / Bursera spp.",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["purification", "Aztec offerings", "solar work", "space clearing", "spirit contact"],
     "description": "The sacred resin of Mesoamerica — burned continuously in Aztec and Maya temples as an offering to the sun and burned at Día de los Muertos altars to guide ancestors home.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["White Copal", "Sacred Copal", "Copalli", "Resina Copal"],
+    "nativity": "Mexico, Central America",
+    "medical_use": "Antiseptic and anti-inflammatory. Used in traditional Mesoamerican medicine for skin infections, joint pain, and respiratory complaints. The smoke has been used for fumigation and wound sterilization in indigenous medicine.",
+    "historic_use": "The Nahuatl word copalli simply means 'incense.' Burned in vast quantities in Aztec temples — the Chronicles of the Conquest describe smoke rising continuously from Tenochtitlan's Great Temple. Used in Maya ceremony for over 3,000 years. Remains central to Día de los Muertos altars and curanderismo practice throughout Mexico and Guatemala.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Copal"
   },
   {
     "name": "Cypress",
+    "latin": "Cupressus sempervirens",
     "element": "Earth",
     "planet": "Saturn",
     "magical_uses": ["death rites", "mourning", "longevity", "underworld", "transition", "protection"],
     "description": "The mourning tree of the Mediterranean — planted in cemeteries from Greece to Persia as a marker of the threshold between worlds. Burned to ease grief and guide the passage of the dead.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Italian Cypress", "Mediterranean Cypress", "Persian Cypress", "Graveyard Tree"],
+    "nativity": "Eastern Mediterranean, from Turkey through Iran",
+    "medical_use": "Astringent and venous tonic. Cypress essential oil and bark extracts used in European phytomedicine for varicose veins, haemorrhoids, and poor venous circulation. The essential oil is used in aromatherapy for respiratory conditions.",
+    "historic_use": "Sacred to Hades and Pluto — the mourning tree of antiquity. The Roman myth of Cyparissus explains its origin as a boy transformed into a cypress by Apollo after accidentally killing his beloved deer. Planted in cemeteries from ancient Greece through Islamic Persia. The sempervirens (ever-living) species name reflects its ancient association with immortality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cupressus_sempervirens"
   },
   {
     "name": "Damiana",
+    "latin": "Turnera diffusa",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["love", "lust", "psychic power", "visions", "passion"],
     "description": "A Mexican herb burned and smoked in love and lust workings for centuries. Mildly entheogenic — small amounts induce mild euphoria and heighten psychic sensitivity for divination.",
-    "safety": "Legal in most countries. May interact with diabetes medications. Use in moderation."
+    "safety": "Legal in most countries. May interact with diabetes medications. Use in moderation.",
+    "folk_names": ["Mexican Damiana", "Old Woman's Broom", "Herba de la Pastora"],
+    "nativity": "Mexico, Central America, Caribbean, South America",
+    "medical_use": "Mild aphrodisiac, anxiolytic, and antidepressant. Used in traditional Mexican and Caribbean medicine for sexual dysfunction, anxiety, and depression. Apigenin and arbutin are among the active compounds. Studies show modest adaptogenic effects.",
+    "historic_use": "Used as an aphrodisiac and tonic by the indigenous peoples of Mexico and the Yucatan Peninsula long before European contact. Early Spanish missionaries documented its use in love potions. The original margarita is said to have been made with damiana liqueur in Baja California; a damiana liqueur is still sold in Mexico in a bottle shaped like a pre-Columbian fertility goddess.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Turnera_diffusa"
   },
   {
     "name": "Dill",
+    "latin": "Anethum graveolens",
     "element": "Fire",
     "planet": "Mercury",
     "magical_uses": ["protection", "luck", "love", "money", "anti-hex"],
     "description": "Hung above doors in the Middle Ages to guard against witchcraft and ill-wishing. Seeds carried in sachets bring luck; fresh dill placed in the bath is said to make one irresistible.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Dill Weed", "Aneton", "Garden Dill", "Meeting Seed"],
+    "nativity": "Mediterranean region, southwestern Asia",
+    "medical_use": "Carminative, antispasmodic, and mild sedative. Dill water (gripe water) has been used for centuries to relieve infant colic. Carvone and limonene are the principal active compounds. Used in Ayurveda for digestive disorders and lactation support.",
+    "historic_use": "Found dried in ancient Egyptian tombs. Mentioned in the Ebers Papyrus (1550 BCE). Romans ate it at gladiatorial contests and burned it in celebration. 'Meeting seeds' — dill and fennel seeds chewed in church services during long sermons to suppress hunger and quiet growling stomachs, a practice recorded in Puritan New England.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anethum_graveolens"
   },
   {
     "name": "Eucalyptus",
+    "latin": "Eucalyptus globulus",
     "element": "Air",
     "planet": "Moon",
     "magical_uses": ["healing", "purification", "clarity", "protection", "breath magic"],
     "description": "A powerful Australian cleansing plant — branches hung in showers create healing steam; burned to clear confusion and bring healing energies into a space.",
-    "safety": "Eucalyptus oil is toxic if ingested. Keep away from cats and small animals."
+    "safety": "Eucalyptus oil is toxic if ingested. Keep away from cats and small animals.",
+    "folk_names": ["Blue Gum", "Tasmanian Blue Gum", "Fever Tree", "Stringy Bark Tree"],
+    "nativity": "Australia and Tasmania",
+    "medical_use": "Expectorant, decongestant, and antimicrobial. Cineole (eucalyptol) is the primary active compound and is an approved expectorant in many countries. Used in inhalants, throat lozenges, and chest rubs. Antifungal and antibacterial properties well documented.",
+    "historic_use": "Used medicinally by Aboriginal Australians for thousands of years — leaves applied to wounds, steam inhaled for fever and congestion. Introduced to Europe in the 19th century; planted extensively in Mediterranean countries to drain swamps and combat malaria (hence 'fever tree'). One of the fastest-growing trees on earth.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eucalyptus_globulus"
   },
   {
     "name": "Fern",
+    "latin": "Dryopteris filix-mas (Male Fern) / Pteridium aquilinum (Bracken)",
     "element": "Earth",
     "planet": "Mercury",
     "magical_uses": ["luck", "rain magic", "invisibility", "wealth", "fairy lore"],
     "description": "Fern seed — the invisible seed of a plant with no visible seeds — was said in European folk magic to confer invisibility on midsummer's eve. Grown near the home to draw luck.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Male Fern", "Bracken", "Brake Fern", "Lady Fern"],
+    "nativity": "Widespread across temperate Northern Hemisphere; bracken fern is nearly cosmopolitan",
+    "medical_use": "Male fern (Dryopteris filix-mas) root was historically used as a taenicide (tapeworm expellant) — a significant but toxic treatment requiring careful dosing. Bracken fronds (young fiddleheads) are eaten in Japan and Korea but contain carcinogenic compounds; regular consumption is not recommended.",
+    "historic_use": "Because ferns reproduce via invisible spores (not visible seeds or flowers), European folklore held that collecting 'fern seed' on midsummer's eve granted invisibility — Shakespeare references this in Henry IV. The fronds of bracken were used to thatch buildings and as bedding for livestock across medieval Europe.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dryopteris_filix-mas"
   },
   {
     "name": "Fig",
+    "latin": "Ficus carica",
     "element": "Fire",
     "planet": "Jupiter",
     "magical_uses": ["divination", "fertility", "wisdom", "abundance", "enlightenment"],
     "description": "Sacred to Dionysus and to the Buddha (enlightened beneath a fig tree). Figs represent abundance, wisdom, and the sweetness of divine revelation across Mediterranean and Asian traditions.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Common Fig", "Wild Fig", "Anjeer", "Badranjboya"],
+    "nativity": "Western Asia (Turkey, Syria); cultivated throughout the Mediterranean for at least 11,000 years",
+    "medical_use": "Nutritive, mild laxative, and demulcent. High in fiber, potassium, and calcium. Dried figs used in traditional medicine for constipation, respiratory complaints, and skin sores (as a poultice). Ficin enzymes have digestive and anti-inflammatory properties.",
+    "historic_use": "The common fig is one of the first plants cultivated by humans — domesticated remains found at Gilgal I in the Jordan Valley date to 9400 BCE, predating grain cultivation. Sacred to Dionysus (the fig was the first plant he brought from the underworld). The Bodhi tree under which the Buddha attained enlightenment is a sacred fig (Ficus religiosa). The founding of Rome is tied to the Ficus Ruminalis, the sacred fig under which Romulus and Remus were suckled.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ficus_carica"
   },
   {
     "name": "Galangal",
+    "latin": "Alpinia galanga",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["protection", "luck", "hex breaking", "legal matters", "court case magic"],
     "description": "A fiery Asian root used in Hoodoo court case magic — carried in a red flannel bag when facing legal troubles. Also called Low John the Conqueror; burned for protection and good fortune.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Greater Galangal", "Low John the Conqueror", "Laos Root", "Thai Ginger", "Chewing John"],
+    "nativity": "Southeast Asia (Indonesia, Thailand, Malaysia); cultivated across tropical Asia",
+    "medical_use": "Anti-inflammatory, antimicrobial, and digestive stimulant. Used across traditional Asian medicine systems for stomach complaints, nausea, and rheumatism. Galangin and other flavonoids have demonstrated antibacterial and antifungal activity.",
+    "historic_use": "Reached medieval Europe via Arab traders and was a prized spice in 11th–14th century European cuisine, appearing in records of Charlemagne's royal gardens. Described by Hildegard von Bingen as the 'spice of life' given by God. In American Hoodoo it became 'chewing John' — chewed and spit near a courthouse to win legal cases.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alpinia_galanga"
   },
   {
     "name": "Garlic",
+    "latin": "Allium sativum",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["protection", "exorcism", "anti-hex", "warding", "strength"],
     "description": "One of the most universally protective plants across all cultures — hung above doorways in Eastern Europe to ward off vampires and the evil eye; buried at crossroads to avert ill spirits.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Stinking Rose", "Poor Man's Treacle", "Devil's Posy", "Ajo"],
+    "nativity": "Central Asia (likely Kyrgyzstan/Tajikistan region); cultivated for at least 7,000 years",
+    "medical_use": "Antimicrobial, cardiovascular protective, and immunomodulatory. Allicin (formed when garlic is crushed) has broad-spectrum antimicrobial activity. Clinically studied for modest reduction in blood pressure and LDL cholesterol. Used extensively across traditional medicine systems worldwide.",
+    "historic_use": "Workers building the Egyptian pyramids were paid in garlic — ancient records indicate a strike over garlic rations. Found in Tutankhamun's tomb. Dioscorides prescribed it for over 60 conditions. It was the primary protective herb of medieval Europe and is central to vampire folklore from Romania to East Asia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Garlic"
   },
   {
     "name": "Heather",
+    "latin": "Calluna vulgaris",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["luck", "fairy contact", "rain working", "beauty", "romance", "protection"],
     "description": "White heather is the luckiest plant in Scottish tradition, said to grow only where fairies have trod. Carried for luck and to attract romance; burned in fairy contact workings on hillsides.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Ling", "Scots Heather", "Common Heather", "Broom"],
+    "nativity": "Scotland, Western Europe, Siberia; on acidic moorland and bogs",
+    "medical_use": "Diuretic and mild antiseptic. Used in Scottish and Scandinavian folk medicine for urinary tract infections and kidney stones as a tea. Arbutin content gives mild antiseptic properties in the urinary tract. Also used for gout and rheumatism.",
+    "historic_use": "The dominant plant of the Scottish and Irish highland moors. Used since Neolithic times to make heather ale — the 'Fraoch Ale' of Gaelic tradition. Heather thatch, bedding, brooms, and rope were staples of Scottish highland material culture. White heather has been a symbol of Highland luck since at least the time of Macbeth.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Calluna_vulgaris"
   },
   {
     "name": "Holly",
+    "latin": "Ilex aquifolium",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["protection", "luck", "dream magic", "Yule", "winter magic", "warding"],
     "description": "The sacred winter tree of the Celts — the Holly King rules the waning year. Hung at Yule for luck and protection, and placed near the bed for prophetic dreams of the new year.",
-    "safety": "Holly berries are toxic — keep away from children and animals."
+    "safety": "Holly berries are toxic — keep away from children and animals.",
+    "folk_names": ["English Holly", "Common Holly", "Christmas Holly", "Holm"],
+    "nativity": "Western and southern Europe, northwestern Africa, southwestern Asia",
+    "medical_use": "Leaves used as a febrifuge and diuretic in European folk medicine. South American species (Ilex paraguariensis — yerba mate) are used as stimulating beverages. Theobromine and caffeine are present in some Ilex species. Holly berries should not be used medicinally — they are emetic and purgative.",
+    "historic_use": "In the Celtic calendar the Holly King rules the dark half of the year in eternal battle with the Oak King. Romans sent holly boughs as gifts during Saturnalia — the tradition was absorbed into Christmas decoration. The early Christian church adopted holly as a symbol of Christ's crown of thorns. One of the key plants of Druidic ceremony.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ilex_aquifolium"
   },
   {
     "name": "Honeysuckle",
+    "latin": "Lonicera periclymenum",
     "element": "Earth",
     "planet": "Jupiter",
     "magical_uses": ["money", "psychic power", "protection", "memory", "happiness"],
     "description": "Crushed and rubbed on the forehead to heighten psychic ability. Twined around green candles to draw money; placed in sachets to keep out negative influences and preserve happy memories.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Woodbine", "European Honeysuckle", "Common Honeysuckle", "Goat's Leaf"],
+    "nativity": "Europe, North Africa",
+    "medical_use": "Antiviral, anti-inflammatory, and expectorant. European honeysuckle flowers used in folk medicine for coughs and fevers. Chinese honeysuckle (Lonicera japonica — jin yin hua) is extensively used in Traditional Chinese Medicine for heat-clearing and antiviral applications, including influenza.",
+    "historic_use": "The twisting climbing habit of honeysuckle around saplings was seen as a symbol of love — it was used in love knots and bouquets. Medieval herbalists prescribed it for asthma and urinary complaints. In Celtic mythology it represents the hidden sweetness within difficulty. The scent intensifies at night to attract moths for pollination.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lonicera_periclymenum"
   },
   {
     "name": "Horehound",
+    "latin": "Marrubium vulgare",
     "element": "Air",
     "planet": "Mercury",
     "magical_uses": ["protection", "healing", "mental clarity", "exorcism", "counter-magic"],
     "description": "An ancient herb of Hecate used to counter psychic attack and break enchantments. One of the oldest recorded magical and medicinal herbs — found dried in Egyptian tombs over 3,000 years old.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["White Horehound", "Houndsbane", "Eye of the Star", "Seed of Horus", "Bull's Blood"],
+    "nativity": "Mediterranean region, central Asia; widely naturalised worldwide",
+    "medical_use": "Expectorant, antispasmodic, and bitter tonic. One of the oldest cough remedies in Western medicine. Marrubiin relaxes bronchial smooth muscle. Approved in German Commission E as a cough treatment. Still used in horehound candy and throat lozenges.",
+    "historic_use": "The Ebers Papyrus (1550 BCE) lists it as a lung medicine. Used by the ancient Greeks and documented by Dioscorides, Pliny, and Galen. One of the bitter herbs of the Jewish Passover seder (maror) in some traditions. Used continuously in European pharmacy from antiquity through the 20th century.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marrubium_vulgare"
   },
   {
     "name": "Iris",
+    "latin": "Iris germanica / Iris pallida (orris root)",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["love", "purification", "wisdom", "divination", "the rainbow bridge"],
     "description": "Orris root — dried iris rhizome — is a classic fixative of love perfumery and a powerful tool for love divination. Named for the goddess of the rainbow who bridges worlds; used in sachets to attract love.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Orris Root", "Florentine Iris", "Blue Flag", "Fleur-de-Lis"],
+    "nativity": "Mediterranean region; cultivated in Italy (Tuscany) for orris root production since the 15th century",
+    "medical_use": "Orris root is primarily used as a perfume fixative rather than medicinally. Historically used as a mild diuretic and expectorant. The powdered root was used in dental powders. Iris versicolor (blue flag) root was used by Cherokee and Iroquois nations as an emetic and cathartic.",
+    "historic_use": "The fleur-de-lis — stylized iris flower — has been the symbol of French royalty since the 6th-century Frankish kings. Named for Iris, messenger goddess of the rainbow and bridge between mortal and divine worlds. Cultivated at scale in the Chianti hills of Tuscany for orris root; the dried root smells of violets and is essential to classical perfumery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iris_germanica"
   },
   {
     "name": "Ivy",
+    "latin": "Hedera helix",
     "element": "Water",
     "planet": "Saturn",
     "magical_uses": ["binding", "protection", "healing", "Otherworld", "persistence", "fidelity"],
     "description": "Sacred to Dionysus and associated with the inescapable creeping quality of Saturn. Carried by brides for fidelity; used in binding spells and to mark the sacred boundary of a working space.",
-    "safety": "Berries are toxic. Sap may cause skin irritation."
+    "safety": "Berries are toxic. Sap may cause skin irritation.",
+    "folk_names": ["Common Ivy", "English Ivy", "Gort", "Bindwood"],
+    "nativity": "Western and central Europe, northwestern Africa, southwestern Asia",
+    "medical_use": "Expectorant and antispasmodic. Ivy leaf extract (Hedera helix) is an approved expectorant in European phytomedicine for bronchitis and productive coughs — clinically studied and widely sold in Germany. The saponins relax bronchial smooth muscle.",
+    "historic_use": "Sacred to Dionysus — inn signs in ancient Greece and Rome featured ivy bushes to indicate wine was served (origin of 'the ivy bush'). The alternation of ivy and holly represented the eternal contest of the Holly and Oak Kings in Celtic tradition. Ivy was prohibited in early Christian churches as too Dionysian; later incorporated into Christmas greenery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hedera_helix"
   },
   {
     "name": "Jasmine",
+    "latin": "Jasminum officinale / Jasminum sambac",
     "element": "Water",
     "planet": "Moon",
     "magical_uses": ["love", "money", "prophetic dreams", "sensuality", "spiritual love"],
     "description": "An intensely feminine lunar scent used across Asia in love and spiritual workings. Jasmine flowers placed on the altar attract spiritual love; added to dream pillows for prophetic visions.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Common Jasmine", "Poet's Jasmine", "Arabian Jasmine", "Moonlight on the Grove"],
+    "nativity": "Western China, Himalayas; Arabian jasmine (J. sambac) from South Asia",
+    "medical_use": "Mild sedative and antidepressant in aromatherapy. Jasmine absolute used in high-end perfumery as a heart note. Studies show inhaling jasmine fragrance reduces anxiety and improves mood. Jasmine tea is made by scenting green tea with jasmine flowers — widely consumed in China for its calming properties.",
+    "historic_use": "Used in Indian temple offerings and bridal garlands for thousands of years. Jasmine sambac is the national flower of the Philippines (sampaguita) and Indonesia (melati putih). The scent of jasmine was described in ancient Sanskrit texts as one of the divine fragrances. Central to the love poetry of Persia and the Mughal court.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jasmine"
   },
   {
     "name": "Lotus",
+    "latin": "Nelumbo nucifera",
     "element": "Water",
     "planet": "Moon",
     "magical_uses": ["spiritual awakening", "purity", "divine connection", "meditation", "enlightenment"],
     "description": "The supreme sacred flower of Egypt, India, and Buddhist tradition — rising pure from muddy water, it symbolizes the soul's awakening and divine protection. Used in workings of elevation and spiritual connection.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Sacred Lotus", "Indian Lotus", "Bean of India", "Chinese Arrowroot"],
+    "nativity": "South Asia, Southeast Asia, Australia; cultivated throughout tropical and subtropical Asia",
+    "medical_use": "Nutritive and anti-inflammatory. Seeds, roots, and leaves are all edible in Asian cuisines. Leaf extracts studied for antioxidant and antihyperglycemic properties. Lotus seeds used in Traditional Chinese Medicine as a heart tonic and for insomnia. Nuciferine from lotus leaves is studied as a mild antipsychotic.",
+    "historic_use": "The lotus is perhaps the most sacred flower in the world. In ancient Egypt it represented the sun emerging from primordial waters — Ra rose from a lotus at the first dawn. In Hindu tradition the lotus is the seat of Brahma, Lakshmi, and Saraswati. The 'Om mani padme hum' mantra of Tibetan Buddhism translates as 'the jewel in the lotus.' The lotus has been in continuous sacred use for at least 5,000 years.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nelumbo_nucifera"
   },
   {
     "name": "Meadowsweet",
+    "latin": "Filipendula ulmaria",
     "element": "Air",
     "planet": "Jupiter",
     "magical_uses": ["love", "peace", "happiness", "divination", "Beltane"],
     "description": "One of the three most sacred herbs of the Druids alongside vervain and water mint. Strewn on floors for joy; used in love divination at midsummer. Its scent lightens the heaviest heart.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Queen of the Meadow", "Mead Wort", "Lady of the Meadow", "Bridewort"],
+    "nativity": "Europe, western Asia",
+    "medical_use": "Anti-inflammatory and analgesic. Contains salicylates — in 1897 Bayer's Felix Hoffmann derived acetylsalicylic acid (aspirin) partly from compounds found in meadowsweet (spiraeas). Used in folk medicine for headaches, fever, heartburn, and gastric ulcers.",
+    "historic_use": "One of the three most sacred Druidic herbs alongside vervain and water mint. Strewn on floors at Beltane and used to scent mead — the old English name 'mead wort' reflects this. The very word 'aspirin' derives from Spiraea ulmaria (old name for meadowsweet) — the 'a' from acetyl, 'spir' from Spiraea. Found preserved in a Bronze Age burial alongside other plants in Scotland.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Filipendula_ulmaria"
   },
   {
     "name": "Mistletoe",
+    "latin": "Viscum album",
     "element": "Air",
     "planet": "Sun",
     "magical_uses": ["protection", "fertility", "love", "healing", "Druid sacred", "luck"],
     "description": "The most sacred plant of the Druids — cut with a golden sickle, never allowed to touch the earth. Hung for Yule luck, carried against poisoning, and used in fertility rites. The plant that killed Baldur.",
-    "safety": "Berries are toxic. Do not ingest."
+    "safety": "Berries are toxic. Do not ingest.",
+    "folk_names": ["All-Heal", "Golden Bough", "Witch's Broom", "Thunderbesom", "Devil's Fuge"],
+    "nativity": "Europe, northwestern Africa, western Asia; a hemiparasitic plant on various host trees",
+    "medical_use": "Mistletoe extracts (Iscador, Helixor, Abnoba) are among the most studied complementary cancer treatments in Europe, especially in German-speaking countries. Used by anthroposophic physicians as adjuvant cancer therapy. Also studied for hypertension. Raw plant is toxic — only standardized extracts should be used medicinally.",
+    "historic_use": "Pliny the Elder described the Druidic ritual of cutting mistletoe from oak with a golden sickle on the sixth day of the moon with great ceremony, catching it in a white cloak. It was called 'all-heal' — a universal cure. The Norse god Baldur was killed by a mistletoe dart. The Christmas kissing tradition comes from a Norse myth of reconciliation under mistletoe after Baldur's death.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Viscum_album"
   },
   {
     "name": "Motherwort",
+    "latin": "Leonurus cardiaca",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["female mysteries", "protection", "counter-magic", "courage", "mother magic"],
     "description": "The herb of the mother — used in workings of female empowerment, protection of children, and countering magic directed at the family. Carried to bring inner strength and calm the anxious heart.",
-    "safety": "Avoid in pregnancy and with heart medications. Uterine stimulant."
+    "safety": "Avoid in pregnancy and with heart medications. Uterine stimulant.",
+    "folk_names": ["Lion's Ear", "Lion's Tail", "Throw-Wort", "Roman Motherwort"],
+    "nativity": "Central Asia, southeastern Europe; naturalised widely in temperate regions",
+    "medical_use": "Cardiotonic, uterine stimulant, and nervine. Used in European and Chinese herbal medicine for palpitations, anxiety, and menstrual regulation. Leonurine is studied for effects on cardiac muscle. Approved in Germany for nervous heart conditions and menstrual disorders.",
+    "historic_use": "The genus name Leonurus (lion heart) and species name cardiaca (of the heart) reflect its ancient reputation as a heart herb. Used in medieval Europe for palpitations and uterine health. Traditionally given to women after childbirth. In 17th-century herbalist Nicholas Culpeper assigned it to Venus and praised it for 'making mothers joyful and settling their wombs.'",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leonurus_cardiaca"
   },
   {
     "name": "Mullein",
+    "latin": "Verbascum thapsus",
     "element": "Fire",
     "planet": "Saturn",
     "magical_uses": ["courage", "divination", "protection", "banishing", "hedge-riding", "spirit calling"],
     "description": "The torchplant — its flower stalks were dipped in tallow and lit in ancient rites. Used in scrying and hedge-riding; the dried leaves are smoked in divination practices across multiple traditions.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Great Mullein", "Torchplant", "Candlewick Plant", "Hag's Taper", "Graveyard Dust"],
+    "nativity": "Europe, northern Africa, western and central Asia",
+    "medical_use": "Expectorant and demulcent. One of the most widely used respiratory herbs in Western folk medicine. Leaf tea and tinctures used for bronchitis, coughs, and asthma. Mullein oil in olive oil used topically for ear infections. Studies show anti-inflammatory and antiviral properties.",
+    "historic_use": "Used since antiquity as a lamp wick — wicks were made from the woolly leaves and flower stalks dipped in tallow. Dioscorides prescribed it for lung diseases and toothache. Native Americans adopted it for respiratory conditions and smoked the leaves ceremonially after contact with European settlers introduced the plant. The 'graveyard dust' of Hoodoo.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Verbascum_thapsus"
   },
   {
     "name": "Myrtle",
+    "latin": "Myrtus communis",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["love", "marriage", "fertility", "youth", "prosperity", "peace"],
     "description": "Sacred to Aphrodite — worn by brides since antiquity and used in workings of love and marriage. Myrtle carried in the wedding bouquet ensures fidelity; grown near the home it brings lasting peace.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Common Myrtle", "True Myrtle", "Roman Myrtle", "Bridal Myrtle"],
+    "nativity": "Mediterranean region, Middle East, North Africa",
+    "medical_use": "Antiseptic, antispasmodic, and expectorant. Myrtle essential oil used in European phytomedicine for respiratory conditions and sinusitis. Myrtle leaves used in traditional medicine of North Africa and Middle East for urinary tract infections, diabetes management, and as an astringent.",
+    "historic_use": "Sacred to Aphrodite and Venus — according to myth she hid behind a myrtle bush emerging from the sea. Central to Greek and Roman wedding ceremonies; Roman brides wore myrtle wreaths. The wedding bouquet tradition of British royalty includes a sprig from the myrtle planted at Osborne House by Queen Victoria's mother. Used continuously in Jewish Sukkot ceremonies (one of the four species).",
+    "wikipedia": "https://en.wikipedia.org/wiki/Myrtus_communis"
   },
   {
     "name": "Nutmeg",
+    "latin": "Myristica fragrans",
     "element": "Fire",
     "planet": "Jupiter",
     "magical_uses": ["luck", "money", "fidelity", "health", "psychic power", "travel"],
     "description": "Whole nutmegs carried in the pocket bring luck in gambling; half a nutmeg worn as a pendant attracts a faithful lover. Used in travel sachets and added to prosperity workings to multiply results.",
-    "safety": "Toxic in large amounts — use culinary quantities for magical work, never medicinal doses."
+    "safety": "Toxic in large amounts — use culinary quantities for magical work, never medicinal doses.",
+    "folk_names": ["Nux Myristica", "Mace (the aril)", "Muskateller", "Jaiphal"],
+    "nativity": "Banda Islands (Maluku/Spice Islands), Indonesia",
+    "medical_use": "Carminative, digestive stimulant, and mild analgesic. Used in Ayurveda for digestive disorders, insomnia (in small doses), and diarrhea. Myristicin is the principal compound — hallucinogenic and toxic in large doses. Nutmeg oil used topically for rheumatic pain.",
+    "historic_use": "The Banda Islands were the world's sole source of nutmeg until the 17th century — which made them one of the most fiercely contested pieces of land in history. The Dutch VOC committed the Banda massacre (1621) to seize the monopoly, killing most of the 15,000-strong population. Nutmeg was so valuable in medieval Europe that it was used to pay rent and given as costly gifts.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nutmeg"
   },
   {
     "name": "Oak",
+    "latin": "Quercus robur",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["strength", "protection", "wisdom", "healing", "money", "Druid sacred"],
     "description": "The king of the forest and the sacred tree of the Druids, Jupiter, Thor, and Zeus alike. Acorns are carried for long life and fertility; oak bark burned for strength and endurance in any working.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["English Oak", "Pedunculate Oak", "Common Oak", "Duir"],
+    "nativity": "Europe, Asia Minor; one of the most ecologically dominant trees of the Northern Hemisphere",
+    "medical_use": "Astringent and anti-inflammatory. Oak bark is an approved European phytomedicine for inflammatory skin conditions, hemorrhoids, and mild diarrhea. Tannins are the primary active compounds. Oak galls (caused by wasps) were historically used as powerful astringents in wound care.",
+    "historic_use": "Druid literally means 'oak-knower' (from Celtic *dru-wid — oak wisdom). Sacred to Zeus (Dodona), Jupiter, Thor, and the Dagda. The oak and the mistletoe together formed the center of Druidic ceremony. English warships, the Royal Navy's maritime dominance, and the nation's forests were inseparably linked — 'Heart of Oak' became Britain's naval anthem. Acorns were a staple food across Eurasia for millennia before grain agriculture.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Quercus_robur"
   },
   {
     "name": "Orange Peel",
+    "latin": "Citrus sinensis",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["love", "luck", "money", "joy", "solar work", "happiness"],
     "description": "Dried orange peel added to love sachets and prosperity workings, or burned to bring solar energy and joy into the home. Combined with cinnamon for powerful money-drawing magic.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Sweet Orange", "China Orange", "Navel Orange", "Blood Orange"],
+    "nativity": "Southern China, northeast India; hybrid of pomelo and mandarin",
+    "medical_use": "Rich in vitamin C and bioflavonoids. Orange peel contains d-limonene, studied for antifungal, antibacterial, and potential anticancer properties. Dried peel (chen pi) is used in Traditional Chinese Medicine for digestive complaints and phlegm conditions. Neroli oil (from the blossom) is used in aromatherapy for anxiety.",
+    "historic_use": "Sweet oranges reached the Arab world via trade with China around the 10th century CE and Europe via Arab traders and the Crusades. The word 'orange' derives from Sanskrit nāranga through Persian and Arabic. Oranges were luxury gifts — giving oranges studded with cloves (pomanders) was a Christmas gift tradition in Elizabethan England. The orange groves of Andalusia were planted by the Moors.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Orange_(fruit)"
   },
   {
     "name": "Peony",
+    "latin": "Paeonia officinalis / Paeonia lactiflora",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["protection", "healing", "exorcism", "luck", "fairy warding"],
     "description": "A peony root kept in the home wards against evil spirits and the evil eye. Chinese tradition considers the peony the king of flowers, associated with high honor, nobility, and good fortune.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Common Peony", "Chinese Peony", "Shao Yao", "King of Flowers"],
+    "nativity": "Southern Europe (P. officinalis); China (P. lactiflora)",
+    "medical_use": "White peony root (bai shao) is one of the most important herbs in Traditional Chinese Medicine — used for liver conditions, menstrual irregularity, and muscle spasms. Paeoniflorin is anti-inflammatory and antispasmodic. Extensively studied in Japan and China for autoimmune and inflammatory conditions.",
+    "historic_use": "Named for Paeon, physician to the Olympian gods, who healed Ares and Hades with it. Theophrastus described elaborate harvest rituals requiring a woodpecker. Planted in medieval monastery gardens as a protective herb against demons and nightmares. The peony has been the symbol of prosperity in Chinese court culture for over 1,500 years; it is now the unofficial national flower of China.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paeonia_officinalis"
   },
   {
     "name": "Black Pepper",
+    "latin": "Piper nigrum",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["protection", "banishing", "exorcism", "binding", "warding"],
     "description": "A fierce protective spice — sprinkled in doorways to ward off unwanted visitors and thrown at the heels of someone who has wronged you to send them away permanently.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Common Pepper", "Black Peppercorn", "Kali Mirch", "Yavanapriya"],
+    "nativity": "Kerala, southwestern India (Malabar Coast)",
+    "medical_use": "Carminative, stimulant, and bioavailability enhancer. Piperine significantly increases absorption of other nutrients and drugs (including curcumin and certain medications). Used in Ayurveda as a primary digestive herb. Demonstrates antimicrobial and antioxidant properties.",
+    "historic_use": "Called 'black gold' — the single most traded spice in history and a key driver of the Age of Exploration. Attila the Hun demanded 3,000 pounds of pepper as part of Rome's ransom in 408 CE. Pepper was used as currency in medieval Europe. The Sanskrit epithet yavanapriya ('beloved of the Greeks') reflects how eagerly Greek and Roman traders sought it. The search for a direct sea route to the pepper coast of India led Columbus to the Americas.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_pepper"
   },
   {
     "name": "Pine",
+    "latin": "Pinus sylvestris",
     "element": "Air",
     "planet": "Mars",
     "magical_uses": ["healing", "protection", "purification", "money", "longevity"],
     "description": "Pine resin and needles burned to purify and protect. Associated with longevity in Asian traditions and resilience in Celtic lore. Pine cones are ancient fertility charms and symbols of regeneration.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Scots Pine", "Forest Pine", "Deal Pine", "Pychts"],
+    "nativity": "Northern Eurasia, from Scotland to Siberia; the most widespread pine species in the world",
+    "medical_use": "Expectorant, antimicrobial, and anti-inflammatory. Pine needle tea is high in vitamin C — used by Indigenous peoples and early European explorers to prevent scurvy. Pine resin (turpentine) applied topically as a rubefacient for rheumatism. Pine bark extract (Pycnogenol) studied for antioxidant and cardiovascular effects.",
+    "historic_use": "The pine was sacred to Attis and Cybele — pine trees were carried in procession and decorated in Roman rites of spring. Japan's most sacred Shinto shrine (Ise) is marked by ancient hinoki cypress and pine. In Celtic tradition the Scots pine is one of the chieftain trees of the Ogham forest. The resinous pine torch (pinea) lit the way through the dark in antiquity; pine shaped early civilization more than almost any other tree.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pinus_sylvestris"
   },
   {
     "name": "Pomegranate",
+    "latin": "Punica granatum",
     "element": "Fire",
     "planet": "Pluto",
     "magical_uses": ["divination", "fertility", "underworld work", "wishes", "death and rebirth"],
     "description": "The fruit of Persephone — eating six seeds bound her to the underworld for half the year. Used in workings of death and rebirth, ancestor communication, and fertility. Count the seeds for divination.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Granate Apple", "Punic Apple", "Seeded Apple", "Carthage Apple"],
+    "nativity": "Iran, Afghanistan, northern India; cultivated throughout the Mediterranean for at least 5,000 years",
+    "medical_use": "Antioxidant, anti-inflammatory, and cardioprotective. Pomegranate juice is among the most studied fruits for cardiovascular health — studies show reduction in blood pressure and LDL oxidation. Punicalagins are potent polyphenols. Pomegranate peel extract has demonstrated broad-spectrum antimicrobial activity.",
+    "historic_use": "One of the seven species of the biblical Land of Israel. Pomegranates decorated the pillars of Solomon's Temple and the hem of the high priest's robe. The name 'Punic apple' reflects Roman association with Carthage (Punica). At the heart of the Eleusinian Mysteries — the myth of Persephone eating pomegranate seeds in the underworld explained the seasons. Depicted in Egyptian tomb art from at least 1500 BCE.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pomegranate"
   },
   {
     "name": "Poppy",
+    "latin": "Papaver somniferum / Papaver rhoeas",
     "element": "Water",
     "planet": "Moon",
     "magical_uses": ["sleep", "dreams", "fertility", "love", "money", "memory of the dead", "Otherworld"],
     "description": "Sacred to Hypnos and Demeter — a flower of forgetting and of the harvest. Poppy seeds are added to sleep sachets and scattered to confuse those who wish you harm. Red poppies honor the war dead; white poppies honor all ancestors.",
-    "safety": "Opium poppy (Papaver somniferum) is legal to grow ornamentally in most US states. Extracting opium is federally illegal."
+    "safety": "Opium poppy (Papaver somniferum) is legal to grow ornamentally in most US states. Extracting opium is federally illegal.",
+    "folk_names": ["Opium Poppy", "Corn Poppy", "Flanders Poppy", "Sleep Flower"],
+    "nativity": "Eastern Mediterranean, Middle East (P. somniferum); temperate Europe and Asia (P. rhoeas)",
+    "medical_use": "Opium poppy latex contains morphine and codeine — the basis of modern opioid pharmaceuticals. Morphine remains the gold standard for severe pain relief in modern medicine. Poppy seed oil is used in cooking. The corn poppy has minimal medicinal use.",
+    "historic_use": "Evidence of opium poppy cultivation dates to Neolithic Lake Dwellers (Switzerland, c. 3400 BCE). The Sumerians called it hul gil — 'plant of joy.' Egyptians and Greeks used it for pain relief and ritual. The entire 19th-century Opium Wars between Britain and China were fought over the East India Company's opium trade. The red poppy became the symbol of WWI remembrance after John McCrae's poem 'In Flanders Fields' (1915).",
+    "wikipedia": "https://en.wikipedia.org/wiki/Papaver_somniferum"
   },
   {
     "name": "Red Clover",
+    "latin": "Trifolium pratense",
     "element": "Air",
     "planet": "Mercury",
     "magical_uses": ["luck", "love", "protection", "fidelity", "money"],
     "description": "Four-leaf clovers are the supreme luck charm of European folk tradition. Three-leaf clovers were sacred to the Celts as symbols of the threefold goddess. Used in love sachets and carried to ensure fidelity.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Common Clover", "Trefoil", "Cow Clover", "Meadow Clover"],
+    "nativity": "Europe, western Asia, northwest Africa",
+    "medical_use": "Isoflavone-rich herb studied for menopausal symptom relief, particularly hot flashes. Phytoestrogenic compounds (formononetin, biochanin A) provide mild hormonal modulation. Red clover extracts (Promensil) are clinically evaluated for bone density support in postmenopausal women.",
+    "historic_use": "Clover was the emblem of the Celtic Brehon law protecting triads. The trefoil was adopted by St. Patrick to explain the Christian Trinity to the Irish. In European folk tradition, the four-leaf clover offers protection against witchcraft — the Victorians made a national pastime of searching for them in fields. Red clover is one of the most important agricultural forage plants, responsible for fixing nitrogen in pastures.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trifolium_pratense"
   },
   {
     "name": "Rowan",
+    "latin": "Sorbus aucuparia",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["protection", "psychic power", "healing", "fairy warding", "divination"],
     "description": "The strongest protective tree in Celtic and Norse tradition — rowan crosses bound with red thread ward witchcraft and ill spirits. Rowan berries are sacred to Brighid and used in workings of foresight.",
-    "safety": "Raw berries are mildly toxic. Cook before consuming."
+    "safety": "Raw berries are mildly toxic. Cook before consuming.",
+    "folk_names": ["Mountain Ash", "Quickbeam", "Witchwood", "Thor's Helper", "Delight of the Eye"],
+    "nativity": "Europe, western Asia; tolerates colder climates than most trees",
+    "medical_use": "Rowan berries are high in vitamin C and mild sorbic acid (named for the tree). Cooked berries used in jams and wines in Scandinavian and British folk medicine for vitamin C supplementation. Bark was used as a mild astringent and febrifuge. Raw berries cause gastrointestinal distress.",
+    "historic_use": "In Scottish and Irish folk magic, a cross of rowan bound with red thread is the most potent charm against witchcraft and the evil eye — placed above doorways on May Day. Sacred to Thor — lightning protection. In Norse mythology Yggdrasil is variously described as ash or rowan. The Druids burned it in ritual fires for divination. In Welsh tradition (Cad Goddeu — Battle of the Trees), the rowan is listed among the warrior trees.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sorbus_aucuparia"
   },
   {
     "name": "Saffron",
+    "latin": "Crocus sativus",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["love", "healing", "happiness", "psychic power", "wind raising"],
     "description": "The most valuable spice in the world — sacred to Hecate, Apollo, and the divine feminine across cultures. Burned to raise the wind, used in love potions, and worn to strengthen psychic sight.",
-    "safety": "Very large quantities are toxic. Use culinary amounts in magical work."
+    "safety": "Very large quantities are toxic. Use culinary amounts in magical work.",
+    "folk_names": ["Red Gold", "Autumn Crocus", "Crocus", "Karcom"],
+    "nativity": "Likely originated in Greece or Southwest Asia; now primarily cultivated in Iran, Spain, and Kashmir",
+    "medical_use": "Antidepressant, antioxidant, and antiemetic. Multiple clinical trials demonstrate efficacy for mild to moderate depression comparable to SSRIs. Studied for PMS, Alzheimer's disease, and age-related macular degeneration. Crocin and safranal are the primary active compounds.",
+    "historic_use": "Saffron has been cultivated for over 3,500 years — Minoan frescoes at Akrotiri (c. 1600 BCE) show women harvesting it for a goddess. Used to dye the robes of Buddhist monks and the bridal veils of ancient Greece. The most expensive spice by weight — it takes 150,000 flowers (450 hours of hand labor) to produce one kilogram. Alexander the Great bathed in it and credited it with healing his wounds.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saffron"
   },
   {
     "name": "Solomon's Seal",
+    "latin": "Polygonatum multiflorum / P. odoratum",
     "element": "Water",
     "planet": "Saturn",
     "magical_uses": ["wisdom", "protection", "binding", "cleansing", "sealing workings"],
     "description": "The root used to seal and bind magical workings — carried for protection or used to consecrate ritual tools. King Solomon's seal and signature are said to be written in the root's markings.",
-    "safety": "Berries are mildly toxic. Do not confuse with false Solomon's Seal when wildcrafting."
+    "safety": "Berries are mildly toxic. Do not confuse with false Solomon's Seal when wildcrafting.",
+    "folk_names": ["David's Harp", "Lady's Seal", "Sealroot", "Sow's Teats"],
+    "nativity": "Europe, temperate Asia",
+    "medical_use": "Demulcent and anti-inflammatory. Root preparations used in traditional European and Chinese medicine for tendon and joint injuries, bruises, and respiratory dryness. Polygonatum odoratum (jade bamboo / yu zhu) is a major Chinese herb for Yin deficiency conditions including dry cough and thirst.",
+    "historic_use": "The circular scars left where each year's stem falls from the rhizome were said to resemble the Seal of Solomon. Dioscorides and Gerard both described it as a remedy for broken bones and bruises. Long used in Chinese medicine as a longevity and Yin-nourishing tonic. The 'seal' markings gave rise to the belief that the root could seal and bind workings of magic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Polygonatum"
   },
   {
     "name": "Star Anise",
+    "latin": "Illicium verum",
     "element": "Air",
     "planet": "Jupiter",
     "magical_uses": ["luck", "psychic power", "purification", "truth", "protection"],
     "description": "The eight-pointed pods are burned before divination to sharpen psychic sight. Hung in the four directions to purify a space; carried as luck charms in Asian and Hoodoo traditions alike.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Chinese Star Anise", "Badian Anise", "Eight-Horned Anise", "Anis Étoilé"],
+    "nativity": "Southwestern China, northeastern Vietnam",
+    "medical_use": "Carminative, antimicrobial, and expectorant. Shikimic acid extracted from star anise is the primary precursor used to synthesize oseltamivir (Tamiflu), the leading antiviral medication for influenza. Anethole gives antimicrobial properties. Used in Chinese medicine for abdominal cold pain and digestive complaints.",
+    "historic_use": "Used in Chinese cooking and medicine for over 3,000 years. Reached Europe via the Silk Road in the late 16th century. Became a key flavoring of European anise-flavored liqueurs (Pernod, pastis, ouzo, sambuca). The global importance of star anise increased dramatically when it became the industrial source of shikimic acid for Tamiflu production in the early 2000s.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Illicium_verum"
   },
   {
     "name": "Tobacco",
+    "latin": "Nicotiana tabacum / Nicotiana rustica",
     "element": "Fire",
     "planet": "Mars",
     "magical_uses": ["spirit offerings", "ancestor work", "purification", "sacred ceremony", "prayer"],
     "description": "The most sacred plant to many Indigenous peoples of the Americas — offered at altars, carried as prayer bundles, and used to open communication with ancestors and spirits. In many traditions, offering tobacco is the proper way to ask something of the earth, an elder, or a spirit.",
-    "safety": "Deeply sacred to Indigenous traditions — approach with respect. Not for casual use."
+    "safety": "Deeply sacred to Indigenous traditions — approach with respect. Not for casual use.",
+    "folk_names": ["Common Tobacco", "Indian Tobacco", "Sacred Tobacco", "Mapacho (N. rustica)"],
+    "nativity": "South America; N. tabacum from Bolivia/Argentina region, N. rustica from Andes/Mexico",
+    "medical_use": "Not medicinal in the conventional sense. Nicotine has been studied for cognitive enhancement and Parkinson's disease. N. rustica (mapacho) is used in Amazonian shamanic practice and is a component of rapé (ritual snuff). Commercial tobacco's well-established health risks are severe and extensively documented.",
+    "historic_use": "Archaeological evidence dates tobacco use in the Americas to at least 3,500 years ago. The sacred pipe (chanupa) of Plains peoples is among the most holy objects in Indigenous North America. Columbus encountered tobacco being smoked in Cuba in 1492. Within a century it had spread globally. N. rustica (the wild-crafted ceremonial tobacco of Amazonia and Mesoamerica) is far stronger than commercial tobacco and used in shamanic healing traditions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nicotiana_tabacum"
   },
   {
     "name": "Turmeric",
+    "latin": "Curcuma longa",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["purification", "prosperity", "strength", "solar work", "blessing"],
     "description": "A sacred golden spice used in Hindu ritual — smeared on the body before ceremony and offered to the deities. In folk magic it is used to attract wealth and strengthen all solar workings.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Indian Saffron", "Golden Root", "Haldi", "Haridra"],
+    "nativity": "South Asia (likely southern India or Southeast Asia)",
+    "medical_use": "Anti-inflammatory, antioxidant, and hepatoprotective. Curcumin is the primary active compound — extensively studied for inflammatory conditions, metabolic syndrome, and neuroprotection. Bioavailability is poor without piperine (black pepper). Used in Ayurveda for joint conditions, liver disease, skin disorders, and wound healing.",
+    "historic_use": "Used in Hindu ritual for at least 4,000 years — turmeric paste is applied to the bride and groom before weddings (haldi ceremony) to bless, purify, and beautify. Among the sacred herbs of the Vedas. The yellow-gold color associates it with solar deities. Marco Polo compared it to saffron. It has been used continuously in South Asian cooking and medicine for longer than most spices have been recorded.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Turmeric"
   },
   {
     "name": "Vetiver",
+    "latin": "Chrysopogon zizanioides",
     "element": "Earth",
     "planet": "Venus",
     "magical_uses": ["love", "luck", "money", "hex breaking", "grounding", "anti-theft"],
     "description": "A deeply earthy grass root used in Hoodoo and New Orleans tradition for luck in money and love. Added to mojo bags and floor washes to draw prosperity and protect against theft and misfortune.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Khus", "Khas-Khas", "Oil Grass", "Cuscus Grass"],
+    "nativity": "South Asia (India); widely cultivated in tropical regions worldwide",
+    "medical_use": "Sedative and anxiolytic in aromatherapy. Vetiver essential oil is used in Ayurveda for cooling inflammatory conditions (it is a 'cooling' herb in Ayurvedic terms), anxiety, insomnia, and skin conditions. Used as a root mat cooler — vetiver screens soaked in water cool air as a pre-electricity air conditioner across South Asia.",
+    "historic_use": "Called khus in Hindi — woven into screens and fans for centuries in India as a cooling fragrance in summer heat. One of the most valued perfumery base notes in Western perfumery — its deep, smoky, earthy scent fixes other fragrances and has been used in men's colognes since the 19th century. In Haiti and the American South, vetiver root entered Hoodoo as a luck and protection herb.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chrysopogon_zizanioides"
   },
   {
     "name": "Violet",
+    "latin": "Viola odorata",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["love", "luck", "protection", "wishes", "healing", "fairies"],
     "description": "Combined with lavender in a potent love sachet. Violets are fairy flowers — planted in the garden to invite fairy presence and tucked into charm bags to grant wishes and bring gentle healing.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Sweet Violet", "English Violet", "Common Violet", "Heart's Ease"],
+    "nativity": "Europe, Asia; widely cultivated worldwide",
+    "medical_use": "Expectorant, demulcent, and mild anti-inflammatory. Violet leaf tea and syrup used in traditional European medicine for coughs, bronchitis, and sore throats. Violet contains mucilages, salicylates, and rutin. Violet flowers are also edible and high in vitamin C.",
+    "historic_use": "Athens adopted the violet as its emblem — festivals were held when violets bloomed. Napoleon chose it as his emblem after exile: supporters would ask 'do you like violets?' as a secret recognition phrase; his return was announced as 'la violette a reparu.' Napoleon famously requested violets be planted on Josephine's grave and reportedly died with violets from her garden in a locket. Sacred to Aphrodite, Persephone, and Io (Zeus transformed her into a cow and created violets for her to eat).",
+    "wikipedia": "https://en.wikipedia.org/wiki/Viola_odorata"
   },
   {
     "name": "White Willow",
+    "latin": "Salix alba",
     "element": "Water",
     "planet": "Moon",
     "magical_uses": ["healing", "love", "moon magic", "protection", "grief work", "divination"],
     "description": "A tree of the Moon and deep water — associated with Hecate, Cerridwen, and all moon goddesses. Willow wands serve lunar workings; the bark is placed in sachets for healing rites and grief work.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["White Willow", "European Willow", "Cricket Bat Willow", "Witches' Aspirin"],
+    "nativity": "Central and southern Europe, central Asia",
+    "medical_use": "Analgesic and anti-inflammatory. Salicin in willow bark is converted to salicylic acid in the body — this provided the template for aspirin (acetylsalicylic acid). Clinically studied for lower back pain and osteoarthritis. Gentler on the stomach than aspirin due to slower conversion rate.",
+    "historic_use": "Hippocrates wrote of using willow bark and leaves for pain and fever. Used for 2,400 years across Greek, Roman, and Islamic medicine. In 1763, Rev. Edward Stone formally reported its efficacy to the Royal Society, which led directly to the isolation of salicin in 1828 and the synthesis of aspirin in 1899. Sacred to Hecate, Persephone, and Cerridwen across Greek, Roman, and Celtic traditions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Salix_alba"
   },
   {
     "name": "Witch Hazel",
+    "latin": "Hamamelis virginiana",
     "element": "Fire",
     "planet": "Sun",
     "magical_uses": ["protection", "healing", "divination", "warding", "clarity"],
     "description": "The classic dowsing rod of American folk magic — forked witch hazel branches were used to find water and buried treasure. Burned to reveal hidden things and protect against spirits that steal energy.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["American Witch Hazel", "Snapping Hazel", "Spotted Alder", "Winterbloom"],
+    "nativity": "Eastern North America",
+    "medical_use": "Astringent and anti-inflammatory. Witch hazel distillate is one of the most widely sold OTC skincare ingredients in the United States — used for hemorrhoids, bruises, minor skin irritation, and as an aftershave. Hamamelidotannin and gallic acid are primary active compounds. Applied topically for varicose veins in European phytomedicine.",
+    "historic_use": "Used by numerous Indigenous North American peoples — including the Lenape, Cherokee, and Iroquois — for skin inflammation, sore muscles, and eye complaints. Introduced to European settlers who adopted it widely. Witch hazel water (produced by steam distillation) became a household staple by the 19th century. The 'witch' in its name may come from Middle English wiche — flexible, bendable — reflecting its use as a dowsing rod.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hamamelis_virginiana"
   },
   {
     "name": "Wood Betony",
+    "latin": "Betonica officinalis (syn. Stachys betonica)",
     "element": "Earth",
     "planet": "Jupiter",
     "magical_uses": ["protection", "purification", "warding", "healing", "nightmares"],
     "description": "An ancient protective herb — the Romans counted its virtues against 47 diseases. Planted in churchyards to protect the dead; scattered around the home to create a barrier against negative spirits.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Bishop's Wort", "Lousewort", "Purple Betony", "Woundwort"],
+    "nativity": "Europe, western Asia; found in dry woodland and hedgerows",
+    "medical_use": "Nervine, mild astringent, and digestive bitter. Used in European herbal medicine for headaches, anxiety, and nervous exhaustion. Betaine and stachydrine are active compounds. Used as a bitter digestive tonic and mild anxiolytic in modern Western herbal practice.",
+    "historic_use": "The Roman physician Antonius Musa (physician to Augustus Caesar) wrote an entire treatise on betony listing 47 conditions it could treat. A Roman proverb advised 'sell your coat and buy betony.' Planted in churchyards across medieval England to protect the dead and ward off evil spirits. Geoffrey of Monmouth listed it among the herbs of Merlin.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Betonica_officinalis"
   },
   {
     "name": "Ylang Ylang",
+    "latin": "Cananga odorata",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["love", "peace", "confidence", "attraction", "sensuality"],
     "description": "The tropical flower of seduction — in Philippine tradition scattered on the beds of newlyweds. Used in love oil blends and beauty magic; the intensely sweet scent calms anxiety and invites sensual connection.",
-    "safety": null
+    "safety": null,
+    "folk_names": ["Flower of Flowers", "Ilang-Ilang", "Perfume Tree", "Macassar Oil Plant"],
+    "nativity": "Philippines, Indonesia, Malaysia; tropical Asia",
+    "medical_use": "Anxiolytic and mild antihypertensive. Ylang ylang essential oil inhalation demonstrated reduction in blood pressure and heart rate in clinical studies. Used in aromatherapy for anxiety, depression, and sexual dysfunction. Applied topically in hair oils for scalp conditions.",
+    "historic_use": "The name ylang ylang derives from Filipino ilang meaning 'wilderness' — the flower of the wilderness. Scattered on the marriage bed in Philippine and Indonesian tradition. Macassar oil — a 19th-century European men's hair pomade — was made from ylang ylang-infused coconut oil from the Macassar region of Sulawesi. The flowers are used to make flower garlands for greeting honored guests across Southeast Asia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cananga_odorata"
   },
   {
     "name": "Coltsfoot",
+    "latin": "Tussilago farfara",
     "element": "Water",
     "planet": "Venus",
     "magical_uses": ["visions", "love", "peace", "tranquility", "psychic opening"],
     "description": "One of the earliest herbs to bloom in spring — burned in divination workings to open psychic channels and used in love sachets. A traditional lung herb of healers; the hoof-shaped leaf gives the plant its name.",
-    "safety": "Contains pyrrolizidine alkaloids — toxic to the liver in large doses. For spell jars and sachets only. Do not ingest or smoke regularly."
+    "safety": "Contains pyrrolizidine alkaloids — toxic to the liver in large doses. For spell jars and sachets only. Do not ingest or smoke regularly.",
+    "folk_names": ["Coughwort", "Foal's Foot", "Ass's Foot", "Horsehoof", "Fieldhove"],
+    "nativity": "Europe, Asia; naturalised in North America",
+    "medical_use": "Expectorant and antispasmodic. One of the oldest recorded cough remedies in European medicine. Mucilages soothe irritated mucous membranes. Now largely restricted due to pyrrolizidine alkaloid content — tussilagine and isotussilagine are hepatotoxic with chronic use. PA-free preparations available in Germany.",
+    "historic_use": "The genus name Tussilago means 'cough dispeller' in Latin. French apothecary signs traditionally depicted a coltsfoot leaf as the symbol of their trade. Used continuously from ancient Greece through the 19th century as the primary herb for coughs and bronchitis. One of the first flowers of spring — its yellow flowers appear before the leaves, earning it the name 'son before the father' in some European traditions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tussilago_farfara"
   },
   {
     "name": "Blue Lotus",
@@ -815,7 +1401,12 @@
     "magical_uses": ["visions", "Ancient Egyptian rites", "lucid dreaming", "divine love", "trance"],
     "description": "The sacred flower of ancient Egypt — depicted in countless tomb paintings as an offering to the gods. Associated with Ra, Osiris, and Nefertem the god of the blue lotus. Consumed in ritual wine for divine communion and to induce visionary states.",
     "safety": "Safe for spell jars, sachets, and altar work. Legal in the US though used as a mild psychoactive entheogen. Do not combine with depressants, SSRIs, or MAOIs.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Egyptian Blue Lotus", "Blue Water Lily", "Sacred Blue Lily", "Egyptian Lotus"],
+    "nativity": "Egypt, East Africa; widely cultivated in India and Southeast Asia",
+    "medical_use": "Mild psychoactive — nuciferine and aporphine alkaloids act on dopamine and serotonin receptors. Used in traditional Egyptian and Ayurvedic medicine as a mild sedative, aphrodisiac, and anxiolytic. Studied for anti-inflammatory and antihyperglycemic properties. Classed as a novel psychoactive substance in some jurisdictions.",
+    "historic_use": "The Blue Lotus is perhaps the most depicted plant in ancient Egyptian art — shown in tomb paintings at Luxor, Karnak, and Amarna from at least 1500 BCE. Nefertem, god of the lotus, emerged from the primordial waters holding a lotus. Scenes on papyri and tomb walls show figures holding lotus flowers to their noses — interpreted as ritual inhalation for visionary purposes. Mixed into wine for Dionysian-style ecstatic ritual.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nymphaea_caerulea"
   },
   {
     "name": "Kava Kava",
@@ -825,7 +1416,12 @@
     "magical_uses": ["peace", "spirit contact", "trance", "binding", "ancestor communion"],
     "description": "The ceremonial drink of the Pacific Islands — kava ceremonies mark every important occasion in Fiji, Tonga, and Vanuatu. The root is pounded to extract a mildly psychoactive drink that induces calm, social connection, and at high doses mild visionary states.",
     "safety": "Safe for spell jars and altar work. Legal in the US. May cause liver damage with heavy or chronic use. Avoid with alcohol and liver medications. Approach the sacred use of kava with respect for the cultures it comes from.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Awa", "Yaqona", "Sakau", "Intoxicating Pepper"],
+    "nativity": "Western Pacific Islands; cultivated throughout Polynesia, Melanesia, and Micronesia",
+    "medical_use": "Anxiolytic and mild sedative. Kavalactones are the active compounds. Multiple clinical trials demonstrate efficacy for generalized anxiety disorder comparable to benzodiazepines without tolerance or dependence risk. Rare hepatotoxicity cases reported with concentrated extracts — traditional water-based preparations appear safer. Approved for anxiety in German Commission E.",
+    "historic_use": "Kava has been cultivated and used ceremonially in the Pacific for over 3,000 years. In Fiji (yaqona), Tonga, Samoa, and Vanuatu, kava ceremonies are the foundation of diplomacy, community gathering, and spiritual practice — no significant event occurs without it. Captain Cook documented kava ceremonies in 1768. The German Commission E approved kava extracts for anxiety in 1990; this was suspended in 2002 over hepatotoxicity concerns and later partially reversed.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kava"
   },
   {
     "name": "Pennyroyal",
@@ -835,7 +1431,12 @@
     "magical_uses": ["protection", "female mysteries", "hex protection", "safe travel", "clarity"],
     "description": "A fierce little mint with a long history in female magic — used to protect against hostile spirits, clear the mind, and mark rites of passage. Hung in the home to drive away fleas and spirits alike.",
     "safety": "Safe for closed spell jars and sachets. A powerful uterine stimulant — do not ingest; causes miscarriage and liver failure in even moderate doses. Pennyroyal essential oil has killed adults. Keep sealed and away from pregnant practitioners.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["European Pennyroyal", "Pudding Grass", "Lurk-in-the-Ditch", "Mosquito Plant"],
+    "nativity": "Europe, North Africa, Middle East",
+    "medical_use": "Historically used as an emmenagogue and abortifacient — the primary reason for its 'restricted' status. Pulegone is the toxic compound responsible for both the uterine-stimulating and hepatotoxic effects. No current safe medicinal use. The essential oil is lethal in doses as small as 10 ml.",
+    "historic_use": "Used as an emmenagogue (to stimulate menstruation) and abortifacient since ancient Greek and Roman times — Dioscorides, Pliny, and Soranus all describe this use. Steeped in controversy as one of the traditional herbs of 'female control.' Used as a flea repellent across medieval Europe (floors were strewn with it). The 1994 death of a Florida woman from pennyroyal essential oil led to renewed warnings.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mentha_pulegium"
   },
   {
     "name": "Tansy",
@@ -845,7 +1446,12 @@
     "magical_uses": ["immortality magic", "purification", "warding", "longevity", "death rites"],
     "description": "An ancient herb of immortality — rubbed on the body of the dead in medieval tradition to preserve them and ward off insects. Used in burial rites, immortality workings, and as a bitter Passover herb in some traditions.",
     "safety": "Safe for closed spell jars and sealed altar work. Do not ingest — tansy oil is highly toxic, causing convulsions and liver damage. Contains thujone. Strong uterine stimulant; keep away from pregnant practitioners.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Common Tansy", "Golden Buttons", "Bitter Buttons", "Cow Bitter", "Parsley Fern"],
+    "nativity": "Europe and temperate Asia; naturalised in North America",
+    "medical_use": "No current safe medicinal use. Historically used as a vermifuge (worm expellant), emmenagogue, and abortifacient. Thujone and camphor are the primary toxic compounds. Used in very diluted preparations as a topical insect repellent historically.",
+    "historic_use": "In medieval Christian tradition, tansy cakes (tansy puddings) were eaten at Easter as a symbolic bitter herb recalling the Passover, and in some Sephardic Jewish communities tansy served as a Passover bitter herb. Bodies were packed in tansy to slow decomposition and repel insects — the Greek mythological figure Ganymede was made immortal by the gods using tansy. Cultivated in every medieval monastery garden across Europe.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tanacetum_vulgare"
   },
   {
     "name": "Bloodroot",
@@ -855,7 +1461,12 @@
     "magical_uses": ["protection", "love", "hex breaking", "cleansing", "uncrossing"],
     "description": "A North American woodland plant whose root bleeds vivid red-orange sap — used in Hoodoo tradition as a powerful love-drawing and uncrossing herb. The dried root is carried in a red flannel mojo bag or placed under the doorstep to bring love and ward hexes.",
     "safety": "Safe for spell jars, sealed sachets, and mojo bags. Do not ingest — toxic, causing vomiting and at high doses serious systemic harm. Avoid prolonged skin contact with fresh root sap.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Red Puccoon", "Indian Plant", "Tetterwort", "Coon Root", "Sweet Slumber"],
+    "nativity": "Eastern North America (Nova Scotia to Florida, west to the Great Plains)",
+    "medical_use": "Sanguinarine from bloodroot is used in dental products as an antimicrobial plaque inhibitor (Viadent mouthwash). Historically used by Indigenous peoples for skin conditions, warts, and as an escharotic (tissue-destroying) agent. The escharotic use is particularly dangerous — marketed as 'black salve' for skin cancer, it causes severe tissue destruction and is not a safe or approved cancer treatment.",
+    "historic_use": "Used by Algonquin, Cherokee, Iroquois, and many other Indigenous nations as a dye, face paint for ceremony and warfare, and as a medicine for respiratory conditions. The vivid red sap was used to dye baskets and textiles. In Hoodoo tradition it entered as a love-drawing root, planted near the home or carried in a mojo bag with partner's name to draw them close.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sanguinaria_canadensis"
   },
   {
     "name": "White Bryony",
@@ -865,7 +1476,12 @@
     "magical_uses": ["prosperity", "weather working", "poppet magic", "hex work", "binding"],
     "description": "The English mandrake — its forked root was used as a mandrake substitute in British folk magic and shaped into poppets. Associated with prosperity workings, weather magic, and binding spells.",
     "safety": "Safe for sealed poppet work and spell jars. Do not ingest — extremely toxic; as few as 40 berries have caused adult deaths. Wear gloves when handling the root. Do not burn.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["English Mandrake", "Wild Hop", "Wild Vine", "Lady's Seal", "Tamus"],
+    "nativity": "Europe, North Africa, southwestern Asia",
+    "medical_use": "No current medicinal use — too toxic. Cucurbitacins are the primary toxic compounds, causing severe gastrointestinal inflammation. Used homeopathically as Bryonia for joint pain, pleurisy, and constipation (at extreme dilutions only). The root was used as a drastic cathartic and emetic in medieval medicine.",
+    "historic_use": "Because true mandrake (Mandragora) did not grow in Britain, white bryony root was fashioned to resemble the human form and sold as 'English mandrake' by cunning folk and herb sellers from the medieval period onward. Gerard's Herbal (1597) explicitly condemns the deception. Associated with weather working and prosperity magic in British folk tradition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bryonia_dioica"
   },
   {
     "name": "Iboga",
@@ -875,6 +1491,11 @@
     "magical_uses": ["initiation", "vision quest", "ancestor contact", "death and rebirth", "Bwiti ceremony"],
     "description": "The sacrament of the Bwiti people of Gabon and Cameroon — consumed in massive initiatory doses over multi-day ceremonies to contact ancestors and undergo death-and-rebirth transformation. One of the most psychologically powerful visionary plants known, a true initiation sacrament in the deepest sense.",
     "safety": "Schedule I in the US and controlled in many countries. Legal in some countries for religious use. Iboga ceremonies carry real physical risk including cardiac events. This entry is for spiritual and cultural reference only.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Ibogaine Plant", "Black Bugbane", "Eboga"],
+    "nativity": "Equatorial West Africa (Gabon, Cameroon, Republic of Congo)",
+    "medical_use": "Ibogaine (the primary alkaloid) is under serious clinical investigation for treatment of opioid addiction and alcoholism. Studies show single-dose ibogaine can interrupt opioid withdrawal and reduce cravings for months. Cardiac risks (QT prolongation) require medical screening. Legal for addiction treatment in Canada, Mexico, New Zealand, and several other countries. Schedule I in the US.",
+    "historic_use": "The Bwiti religion of Gabon and Cameroon uses iboga in a multi-day initiation ceremony (Bwiti initiation) that is considered a death-and-rebirth experience — one undergoes a visionary journey to the land of the ancestors. This ceremony is both the most important event in a person's spiritual life and a community-binding rite. Knowledge of iboga was held for centuries within the Bwiti before its active compound, ibogaine, was isolated in 1901 and its addiction-interruption effects were discovered in the 1960s.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tabernanthe_iboga"
   }
 ]

@@ -7,7 +7,12 @@
     "magical_uses": ["immortality", "vitality", "wisdom", "protection", "spiritual ascension", "longevity"],
     "description": "Called Lingzhi — the 'mushroom of immortality' — in Taoist tradition, where it was reserved for emperors and immortals. Burned as incense in temples and used in longevity workings for thousands of years.",
     "safety": null,
-    "restricted": false
+    "restricted": false,
+    "folk_names": ["Lingzhi", "Mushroom of Immortality", "Ten-Thousand-Year Mushroom", "Varnished Conk"],
+    "nativity": "Widespread across temperate and tropical Asia; found in Europe and North America",
+    "medical_use": "Immunomodulatory, hepatoprotective, and adaptogenic. Polysaccharides (beta-glucans) and triterpenes are the primary active compounds. Extensively studied in Japan, China, and Korea for immune enhancement, cancer adjunct therapy, and liver conditions. Used in Traditional Chinese Medicine for over 2,000 years as a tonic for the shen (spirit).",
+    "historic_use": "Reishi is depicted in Chinese art, embroidery, and sculpture for over 4,000 years as a symbol of divine favor and immortality. It grows rarely in the wild — finding one was considered a sign of imperial blessing. Reserved for emperors in Chinese royal tradition. The Taoist concept of xian (immortality) was closely associated with lingzhi. Large-scale cultivation beginning in the 1970s made it widely available for the first time.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ganoderma_lucidum"
   },
   {
     "name": "Lion's Mane",
@@ -17,7 +22,12 @@
     "magical_uses": ["clarity", "focus", "memory", "creativity", "communication", "neural healing"],
     "description": "A mushroom of the mind — used by Buddhist monks to enhance meditation and focus. Associated with the enhancement of the faculties of thought, communication, and inner clarity.",
     "safety": null,
-    "restricted": false
+    "restricted": false,
+    "folk_names": ["Yamabushitake", "Monkey's Head", "Bear's Head", "Old Man's Beard", "Bearded Tooth"],
+    "nativity": "North America, Europe, and Asia; found on dead or dying hardwood trees",
+    "medical_use": "Neuroprotective and neuroregenerative. Hericenones and erinacines stimulate Nerve Growth Factor (NGF) synthesis — studied for dementia, Parkinson's disease, depression, and anxiety. Clinical trials show improvement in mild cognitive impairment. Used in Traditional Chinese Medicine for stomach and neurological conditions.",
+    "historic_use": "Used by Buddhist monks in China and Japan for centuries to enhance meditation focus and mental clarity — the yamabushi (mountain-dwelling Buddhist monks) used it as a tea before sitting. In Traditional Chinese Medicine it was prescribed for stomach, liver, and heart conditions. Only recently recognized in Western science for its remarkable nerve growth factor-stimulating properties.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hericium_erinaceus"
   },
   {
     "name": "Chaga",
@@ -27,7 +37,12 @@
     "magical_uses": ["protection", "strength", "endurance", "shadow work", "grounding", "resilience"],
     "description": "A parasitic fungus grown on birch trees, revered in Siberian shamanic tradition as a spirit of the forest. Associated with Saturn — slow, enduring, protective power drawn from deep roots.",
     "safety": null,
-    "restricted": false
+    "restricted": false,
+    "folk_names": ["Birch Conk", "Black Mass", "Clinker Polypore", "Cinder Conk"],
+    "nativity": "Northern forests of Russia, Siberia, Scandinavia, northern North America; parasitic on birch trees",
+    "medical_use": "Antioxidant, immunomodulatory, and anti-inflammatory. Among the highest ORAC (antioxidant) values of any natural food source. Betulinic acid (derived from the host birch) has demonstrated anticancer properties in laboratory studies. Used in Russia and Siberia as a folk remedy for cancer and digestive disorders for centuries; studied in Russian oncology from the 1950s onward.",
+    "historic_use": "The indigenous peoples of Siberia and the Russian Far East have used chaga as a tea and smoking herb for at least 400 years. First formally documented in Russian scientific literature in the 16th century. Aleksandr Solzhenitsyn's novel Cancer Ward (1967) prominently features chaga tea as a peasant cancer cure, which brought widespread attention to it in the West. Still widely drunk as a daily tea throughout Russia and Scandinavia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inonotus_obliquus"
   },
   {
     "name": "Turkey Tail",
@@ -37,7 +52,12 @@
     "magical_uses": ["healing", "adaptation", "forest connection", "immune strength", "cycles", "renewal"],
     "description": "One of the most widespread medicinal fungi in the world, growing on fallen wood as a symbol of transformation and new life from decay. Used in healing workings and rites of renewal.",
     "safety": null,
-    "restricted": false
+    "restricted": false,
+    "folk_names": ["Kawaratake", "Cloud Mushroom", "Yun Zhi", "Coriolus"],
+    "nativity": "Cosmopolitan; found on dead wood on every continent except Antarctica",
+    "medical_use": "Immunomodulatory and potential anticancer adjunct. Polysaccharide-K (PSK/Krestin) extracted from turkey tail is an approved cancer adjunct therapy in Japan — one of the best-selling cancer drugs in the world. PSP (polysaccharide peptide) is approved in China. Studied extensively for breast, colorectal, and gastric cancers. Also studied for HIV immune support.",
+    "historic_use": "Called yun zhi (cloud fungus) in Traditional Chinese Medicine — used for at least 2,000 years for lung conditions, liver health, and as a longevity tonic. Kawaratake in Japanese folk tradition is associated with good fortune. The modern medical story of turkey tail gained wide public attention when Paul Stamets's mother treated her stage 4 breast cancer with turkey tail alongside standard treatment — documented in a TED Talk and subsequent NIH-funded trial.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trametes_versicolor"
   },
   {
     "name": "Cordyceps",
@@ -47,7 +67,12 @@
     "magical_uses": ["vitality", "stamina", "will", "energy", "endurance", "warrior magic"],
     "description": "A parasitic fungus of fierce vitality — it overtakes its host and emerges transformed. Used in Tibetan folk medicine as a tonic of supreme endurance, associated with martial will and physical power.",
     "safety": null,
-    "restricted": false
+    "restricted": false,
+    "folk_names": ["Caterpillar Fungus", "Dong Chong Xia Cao", "Yartsa Gunbu", "Summer Grass Winter Worm"],
+    "nativity": "High-altitude grasslands of the Tibetan Plateau and Himalayas (wild C. sinensis); C. militaris cultivated worldwide",
+    "medical_use": "Adaptogenic, immune-modulating, and performance-enhancing. Adenosine and cordycepin are primary active compounds. Studied for improving VO2 max and athletic endurance, reducing fatigue, and supporting kidney and lung function in TCM. Used in Chinese medicine for centuries for kidney yang deficiency, impotence, and chronic lung conditions. Cultivated Cordyceps militaris is the primary commercial source.",
+    "historic_use": "Yartsa gunbu ('summer grass, winter worm' in Tibetan) is harvested annually on the Tibetan Plateau at altitudes over 3,500 m by thousands of rural Tibetan families — it remains their primary cash income source and one of the most expensive natural commodities by weight (exceeding gold in some years). First formally described in Chinese medical texts of the 15th century. Brought to international attention at the 1993 Chinese National Games when three female athletes attributed their record-breaking times to cordyceps.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ophiocordyceps_sinensis"
   },
   {
     "name": "Shiitake",
@@ -57,7 +82,12 @@
     "magical_uses": ["longevity", "prosperity", "nourishment", "grounding", "abundance"],
     "description": "Cultivated in East Asian tradition as a symbol of longevity and earthly abundance. Used in prosperity workings and as a sacred offering in ancestor rites.",
     "safety": null,
-    "restricted": false
+    "restricted": false,
+    "folk_names": ["Shitake", "Oak Mushroom", "Forest Mushroom", "Black Forest Mushroom", "Xiang Gu"],
+    "nativity": "East Asia; native to China, Japan, Korea, and adjacent regions; grows on dead hardwood",
+    "medical_use": "Immunomodulatory, cholesterol-lowering, and antiviral. Lentinan (a beta-glucan) is approved as an anticancer adjunct in Japan. AHCC (Active Hexose Correlated Compound) derived from shiitake is widely sold for immune support. Eritadenine lowers LDL cholesterol. Rich in B vitamins, zinc, and selenium. One of the most clinically studied culinary mushrooms.",
+    "historic_use": "Cultivated in China for over 1,000 years — the first written record dates to 1209 CE (Song Dynasty). Called xiang gu (fragrant mushroom) in Chinese. In Japanese tradition shiitake cultivation on oak logs (shii wood — hence 'shii-take') was a significant agricultural practice from at least the 14th century. Today the second most widely cultivated mushroom in the world. Used as a longevity food offering in Japanese and Chinese ancestor ceremonies.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lentinula_edodes"
   },
   {
     "name": "Oyster Mushroom",
@@ -67,7 +97,12 @@
     "magical_uses": ["growth", "adaptability", "gentleness", "healing", "new beginnings"],
     "description": "A gentle and forgiving mushroom that grows in seemingly inhospitable conditions — a symbol of adaptability and finding nourishment where others see only decay. Used in workings of gentle healing and new growth.",
     "safety": null,
-    "restricted": false
+    "restricted": false,
+    "folk_names": ["Common Oyster", "Pearl Oyster Mushroom", "Tree Oyster", "Hiratake"],
+    "nativity": "Temperate and subtropical forests worldwide; grows on dead and dying hardwood trees",
+    "medical_use": "Immunomodulatory, cholesterol-lowering, and anti-inflammatory. Beta-glucans modulate immune response. Statins (lovastatin) present in small amounts lower LDL cholesterol. Rich in protein, B vitamins, and ergothioneine (a potent antioxidant). Studied for anticancer properties. The most widely cultivated mushroom in the world by volume.",
+    "historic_use": "Used in traditional Chinese medicine and East Asian cuisine for centuries. The oyster mushroom gained prominence in the West primarily as a food crop — it is among the easiest mushrooms to cultivate at home and the first choice for small-scale mushroom farmers. Paul Stamets has championed its use in mycoremediation — oyster mushrooms can break down petroleum-contaminated soil and nerve gas precursors.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pleurotus_ostreatus"
   },
   {
     "name": "Fly Agaric",
@@ -77,7 +112,12 @@
     "magical_uses": ["visionary states", "Otherworld contact", "warrior trance", "Soma", "shamanic journey", "fairy lore"],
     "description": "Perhaps the world's most symbolically charged mushroom — linked to Norse berserker warriors, Siberian shamans, the Vedic Soma, and European fairy lore. Its red-and-white cap is the archetypal 'magic mushroom' of Western imagination. Used in shamanic cultures to journey between worlds and commune with spirits.",
     "safety": "Toxic when raw — contains ibotenic acid and muscimol. Causes intoxication, delirium, and in high doses serious harm. Legal in most US states but controlled in the UK, Australia, and elsewhere. This entry is for spiritual and historical reference only.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Fly Amanita", "Toadstool", "Soma (proposed)", "Berserk Mushroom", "Alice Mushroom"],
+    "nativity": "Northern temperate and boreal zones worldwide; forms mycorrhizal associations with birch, pine, and fir",
+    "medical_use": "Muscimol is a GABA-A receptor agonist. Ibotenic acid converts to muscimol on drying or in the body. No current approved medical use. Early Soviet research investigated muscimol for CNS applications. The traditional Siberian practice of drinking the urine of someone who had consumed the mushroom (which concentrates muscimol) is well documented.",
+    "historic_use": "Siberian shamans (particularly among Khanty, Evenki, and Koryak peoples) consumed fly agaric to enter shamanic trance — the shaman's red and white costume and flying reindeer of Christmas lore are proposed by some scholars to derive from these shamanic traditions. The hypothesis that Amanita muscaria is the Vedic Soma is argued by R. Gordon Wasson (1968) and remains debated. The red-and-white spotted mushroom of European fairy tales, greeting cards, and garden gnomes derives directly from this species.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amanita_muscaria"
   },
   {
     "name": "Psilocybe",
@@ -87,7 +127,12 @@
     "magical_uses": ["visionary states", "ego dissolution", "sacred rites", "healing", "divination", "ancestral contact"],
     "description": "Used for millennia in Mesoamerican spiritual practice — the Mazatec curandera María Sabina called them 'children' and used them in all-night healing veladas. The teonanácatl ('flesh of the gods') of Aztec tradition. Now the focus of clinical research into spiritual experience and healing of the psyche.",
     "safety": "Schedule I in the US and most countries. Decriminalized in several US cities and states; legal for religious use in limited contexts. Possession and use carry serious legal risk in most jurisdictions. This entry documents historical and spiritual significance only.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Magic Mushrooms", "Teonanácatl", "Shrooms", "Sacred Mushrooms", "Children (María Sabina)"],
+    "nativity": "Globally distributed; most species concentrated in Mexico, Central America, Pacific Northwest of North America, and Southeast Asia",
+    "medical_use": "Psilocybin has received FDA Breakthrough Therapy designation for treatment-resistant depression and major depressive disorder. Clinical trials at Johns Hopkins, NYU, and Imperial College London show profound and lasting antidepressant effects from one or two supervised sessions. Also studied for end-of-life anxiety, addiction (smoking cessation, alcohol use disorder), OCD, and PTSD. The clinical research renaissance since 2000 represents the most significant development in psychiatric pharmacology in decades.",
+    "historic_use": "Archaeological evidence from Tassili n'Ajjer cave paintings in Algeria (8000–9000 BCE) has been interpreted as depicting mushroom use. Aztec stone 'mushroom effigies' date to 1500–900 BCE. The Mazatec curandera María Sabina used psilocybe mushrooms in healing veladas (night ceremonies) in Oaxaca for decades before R. Gordon Wasson attended a ceremony in 1955 and published an account in Life magazine (1957), exposing the practice to the world and triggering massive cultural disruption. This led directly to Timothy Leary's experiments at Harvard and the 1960s psychedelic movement.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Psilocybe"
   },
   {
     "name": "San Pedro",
@@ -97,7 +142,12 @@
     "magical_uses": ["healing", "vision", "cleansing", "Pachamama connection", "divination", "protection"],
     "description": "A towering columnar cactus of the Andes — also not a mushroom — used in Andean healing ceremonies (curanderismo) for over 3,000 years. Called huachuma by traditional practitioners. The curandero uses it in all-night mesa ceremonies for healing, cleansing, and connection to Pachamama (Earth Mother) and the spirit world.",
     "safety": "The cactus itself is legal to grow in most countries as an ornamental plant. Extracted mescaline is Schedule I in the US. Ceremonial preparation carries legal risk depending on jurisdiction. This entry is for spiritual, historical, and cultural reference only.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Huachuma", "Saint Peter Cactus", "Aguacolla", "Gigantón"],
+    "nativity": "Andes Mountains of Peru, Ecuador, Bolivia, and adjacent regions; cultivated widely as an ornamental",
+    "medical_use": "Mescaline (the primary alkaloid) is under investigation for treatment-resistant depression and PTSD — parallel to research on psilocybin. Traditional Andean curanderismo uses it in highly structured ceremonial contexts for diagnosis and healing of spiritual and physical illness. No approved clinical application currently.",
+    "historic_use": "Artifacts depicting the San Pedro cactus from the Chavín culture of Peru date to 1300 BCE, and earlier possible depictions push the date further. The cactus is named for St. Peter — the saint who holds the keys to heaven — reflecting syncretic Catholic-Indigenous belief: the cactus is said to open all doors. Peruvian curanderos (healers) use the mesa ceremony (spreading sacred objects on a blanket) with huachuma as its center for healing, divination, and communing with spirits of place.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Echinopsis_pachanoi"
   },
   {
     "name": "Salvia Divinorum",
@@ -107,6 +157,11 @@
     "magical_uses": ["divination", "spirit communication", "the divine feminine", "visionary states", "short-form journey"],
     "description": "The 'diviner's sage' — used by the Mazatec people of Oaxaca for healing and divination. Unlike most visionary plants it produces an intensely brief experience. Traditional use involves chewing fresh leaves in darkness and silence, supervised by a curandera, to communicate with a spirit known as the Shepherdess.",
     "safety": "Legal in many US states but controlled in others (varies significantly by jurisdiction). Not federally scheduled in the US as of the last update to this data. Legal status changes frequently — verify locally. This entry is for historical and spiritual reference only.",
-    "restricted": true
+    "restricted": true,
+    "folk_names": ["Diviner's Sage", "Ska María Pastora", "Lady Salvia", "Hierba María"],
+    "nativity": "Cloud forests of the Sierra Mazateca, Oaxaca, Mexico; a very restricted wild range",
+    "medical_use": "Salvinorin A is the most potent naturally occurring hallucinogen known by weight — and uniquely acts as a kappa-opioid receptor agonist rather than a serotonergic mechanism. Studied for potential applications in depression, addiction, and as a tool in consciousness research. No approved clinical use. Because it does not act on serotonin receptors it is of particular scientific interest for understanding the mechanisms of dissociative experiences.",
+    "historic_use": "Used exclusively by the Mazatec people of Oaxaca for healing divination until the 1960s — its existence was unknown outside the region. R. Gordon Wasson and Albert Hofmann (discoverer of LSD) collected specimens in 1962 and brought it to scientific attention. Salvinorin A was isolated in 1982. The traditional Mazatec use involves a curandera supervised session in darkness with fresh leaves chewed slowly — the Shepherdess spirit is consulted about illness, missing persons, or spiritual matters. Commercial exploitation of salvia in the 2000s triggered widespread legislative restriction.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Salvia_divinorum"
   }
 ]

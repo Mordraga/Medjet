@@ -1,14 +1,23 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
   getMoonAge, getMoonPhaseInfo, getNextLunarEvent,
   getMoonSign, getSunSign, getPlanetaryDay
 } from '../utils/astro'
+
+const SOURCE_ROUTE = {
+  journal: { to: '/journal', state: { section: 'journal' } },
+  deity:   { to: '/journal', state: { section: 'deities' } },
+  spell:   { to: '/journal', state: { section: 'spells'  } },
+  tarot:   { to: '/tarot',   state: {} }
+}
 
 function readStorage(key) {
   try { return JSON.parse(localStorage.getItem(key)) ?? [] } catch { return [] }
 }
 
 function HomePage() {
+  const navigate = useNavigate()
   const now = new Date()
   const age = getMoonAge(now)
   const phase = getMoonPhaseInfo(age)
@@ -24,7 +33,7 @@ function HomePage() {
     const all = [
       ...readStorage('entries').map(e => ({ id: e.id, time: e.time, source: 'journal', title: e.title || 'Untitled' })),
       ...readStorage('deities').map(d => ({ id: d.id, time: d.time, source: 'deity',   title: d.name  || 'Unknown' })),
-      ...readStorage('tarot-readings').map(t => ({ id: t.id, time: t.time, source: 'tarot', title: `${t.spreadLabel} Reading` })),
+      ...readStorage('tarot-readings').map(t => ({ id: t.id, time: t.time, source: 'tarot', title: t.question || `${t.spreadLabel} Reading` })),
       ...readStorage('spells').map(s => ({ id: s.id, time: s.time, source: 'spell', title: s.name || 'Untitled Working' }))
     ]
     return all.sort((a, b) => b.id - a.id).slice(0, 5)
@@ -69,20 +78,27 @@ function HomePage() {
       </div>
 
       {/* Recent */}
-      <div className="glance-section-label">Recent</div>
+      <div className="glance-section-label glance-section-label--prominent">Recent</div>
       {recent.length === 0 ? (
         <p className="empty-state" style={{ padding: '20px 0', textAlign: 'left' }}>Nothing recorded yet.</p>
       ) : (
         <div className="card recent-list">
-          {recent.map(item => (
-            <div key={`${item.source}-${item.id}`} className="recent-entry">
-              <span className={`source-badge source-badge--${item.source}`}>
-                {sourceLabel[item.source]}
-              </span>
-              <span className="recent-entry-title">{item.title}</span>
-              <span className="recent-entry-time">{item.time}</span>
-            </div>
-          ))}
+          {recent.map(item => {
+            const route = SOURCE_ROUTE[item.source]
+            return (
+              <button
+                key={`${item.source}-${item.id}`}
+                className="recent-entry recent-entry--link"
+                onClick={() => navigate(route.to, { state: route.state })}
+              >
+                <span className={`source-badge source-badge--${item.source}`}>
+                  {sourceLabel[item.source]}
+                </span>
+                <span className="recent-entry-title">{item.title}</span>
+                <span className="recent-entry-chevron">›</span>
+              </button>
+            )
+          })}
         </div>
       )}
 

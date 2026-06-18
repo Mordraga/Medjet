@@ -1,11 +1,14 @@
 import ReadingScreen from './ReadingScreen'
 import ReadingCardEntry from './ReadingCardEntry'
 
-function ActiveReading({ spread, cards, reflection, onReflectionChange, onSave, onDiscard }) {
+function ActiveReading({ spread, question, cards, reflection, onReflectionChange, onSave, onDiscard }) {
   return (
     <div>
       <div className="tarot-reading-header">
-        <h2>{spread.label}</h2>
+        <div className="tarot-reading-header-text">
+          <h2>{question || spread.label}</h2>
+          {question && <p className="tarot-reading-spread-meta">{spread.label}</p>}
+        </div>
         <button className="btn btn-ghost" onClick={onDiscard}>Discard</button>
       </div>
 
