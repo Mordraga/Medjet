@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Candle Work",
+    "type": "folk",
+    "tradition": ["Hoodoo", "Wicca", "Folk Catholic", "General"],
+    "practice": "open",
+    "domain": ["intention", "manifestation", "focus", "correspondence"],
+    "description": "Candle magic uses flame as a focal point and vehicle for intention — color carries symbolic weight and the burning releases the working into the world. One of the most universally practiced forms of magic. Dressing, carving, and loading candles with herbs and petition papers adds layers of intention.",
+    "historic_data": "Candle magic in Western occultism was formalized through Hoodoo, folk Catholicism (novena candles), and 20th-century Wicca, though open flame as a ritual focus predates recorded history."
+  },
+  {
+    "name": "Spell Jar",
+    "type": "folk",
+    "tradition": ["Folk Magic", "Wicca", "Hoodoo", "Appalachian"],
+    "practice": "open",
+    "domain": ["containment", "protection", "long-term working", "binding"],
+    "description": "A spell jar seals a working inside a container — herbs, crystals, petition papers, and correspondences are layered and sealed with wax. The container holds the energy in perpetuity, making it ideal for sustained workings, protection, or anything requiring a slow-burn effect.",
+    "historic_data": "Witch bottles filled with protective materials are attested archaeologically in England from the 17th century. The modern spell jar tradition draws from Appalachian, Hoodoo, and Wiccan practice."
+  },
+  {
+    "name": "Sigil Work",
+    "type": "written",
+    "tradition": ["Chaos Magic", "Modern Occultism"],
+    "practice": "open",
+    "domain": ["intention", "subconscious", "manifestation", "desire"],
+    "description": "A sigil is a symbol created to encode a specific intention, charged, and then released — often destroyed or forgotten so the subconscious can work on it undirected. Highly personal, flexible, and requires no tools beyond pen and paper.",
+    "historic_data": "Formalized by Austin Osman Spare c. 1910–1930 and popularized by Peter Carroll's Liber Null & Psychonaut (1978). Now a cornerstone of Chaos Magic and secular witchcraft."
+  },
+  {
+    "name": "Charm Bag / Mojo Bag",
+    "type": "folk",
+    "tradition": ["Hoodoo", "Folk Magic", "Rootwork"],
+    "practice": "open",
+    "practice_note": "The mojo hand is a specific Hoodoo tradition rooted in African American folk magic. The practice of 'fixing' and 'feeding' a mojo bag comes from a living tradition with cultural weight. Use with respect.",
+    "domain": ["protection", "luck", "love", "prosperity", "portable working"],
+    "description": "A charm bag carries a working with the person — herbs, roots, crystals, tokens, and petition papers gathered in cloth and fed to keep the working active. Similar items exist across traditions worldwide (gris-gris, medicine bag, sachets).",
+    "historic_data": "The mojo bag is a cornerstone of Hoodoo and African American folk magic. Parallel portable charm traditions exist in virtually every culture globally."
+  },
+  {
+    "name": "Knot / Cord Magic",
+    "type": "sympathetic",
+    "tradition": ["Wicca", "Folk Magic", "Heathenry", "General"],
+    "practice": "open",
+    "domain": ["binding", "sealing", "releasing", "preservation"],
+    "description": "Knot magic ties intention into physical form — each knot seals a working, and undoing the knots releases the energy. Used for binding, protection, love, and the preservation of blessings. One of the oldest and most cross-culturally attested forms of magic.",
+    "historic_data": "Referenced in ancient Mesopotamian magic, Norse practice (Frigg's spindle), and extensively documented in European folk magic. The Witches' Ladder is a specific cord tradition attested in 19th-century England."
+  },
+  {
+    "name": "Poppet Work",
+    "type": "sympathetic",
+    "tradition": ["Hoodoo", "Wicca", "Folk Magic"],
+    "practice": "open",
+    "domain": ["sympathetic connection", "healing", "binding", "influence"],
+    "description": "A poppet represents a specific person through sympathetic magic — what is done to the poppet affects the person it represents. Not inherently malicious; healing poppets are as common as binding ones. Personal concerns (hair, cloth, name paper) strengthen the sympathetic link.",
+    "historic_data": "Attested from ancient Egypt and Mesopotamia through European witch trial records. 'Doll babies' are a specific Hoodoo form. Despite cultural association with harm, historical use is predominantly protective and healing."
+  },
+  {
+    "name": "Petition Paper",
+    "type": "written",
+    "tradition": ["Hoodoo", "Folk Catholic", "General"],
+    "practice": "open",
+    "domain": ["prayer", "intention", "manifestation", "direct appeal"],
+    "description": "A petition paper states an intention in writing and is then worked — burned, buried, sealed in a jar, or placed under a candle. Writing crystallizes intention and the paper serves as a physical anchor. Name papers, crossed names, and verses are common additions.",
+    "historic_data": "Writing petitions to deities and spirits is attested from ancient Egypt and Greece (defixiones, curse tablets). The Hoodoo petition paper tradition draws from African, European, and Native American folk magic that merged in the American South."
+  },
+  {
+    "name": "Oil Work / Anointing",
+    "type": "folk",
+    "tradition": ["Hoodoo", "Folk Catholic", "Wicca", "General"],
+    "practice": "open",
+    "domain": ["blessing", "protection", "attraction", "consecration", "dressing"],
+    "description": "Oils carry intention and are used to dress candles, anoint the body, feed mojo bags, and consecrate tools. Condition oils in Hoodoo are blended for specific purposes — money drawing, love, protection, court case — and the blending itself is an act of magic.",
+    "historic_data": "Anointing oil appears in the Hebrew Bible (Exodus 30) and across ancient Near Eastern ritual. Hoodoo condition oils have roots in African and European folk herb traditions; many formulas date to the early 20th century."
+  },
+  {
+    "name": "Smoke Cleansing",
+    "type": "folk",
+    "tradition": ["General", "Folk Magic", "Wicca", "Kemetic"],
+    "practice": "open",
+    "practice_note": "Smudging with white sage and sweetgrass is a closed ceremony specific to certain Native American nations and should not be appropriated. 'Smoke cleansing' with rosemary, mugwort, frankincense, or copal is a broadly open practice.",
+    "domain": ["cleansing", "purification", "space clearing", "blessing"],
+    "description": "Burning herbs, resins, or incense to cleanse and bless a space or person is one of the most universally attested magical practices. Frankincense, mugwort, rosemary, and copal each carry distinct traditional uses and energies.",
+    "historic_data": "Attested across ancient Egypt (kyphi resin blends), Mesopotamia, Greece, Rome, and virtually every culture globally. The specific smudging ceremony using white sage belongs to specific Native American nations."
+  },
+  {
+    "name": "Floor Wash / Bath Work",
+    "type": "folk",
+    "tradition": ["Hoodoo", "Conjure", "Folk Catholic"],
+    "practice": "open",
+    "practice_note": "Floor washes and spiritual baths are cornerstones of Hoodoo, rooted in African American folk magic. The specific formulas (Van Van, Chinese Wash, Uncrossing) belong to that living tradition.",
+    "domain": ["cleansing", "protection", "attraction", "reversal"],
+    "description": "Floor washes use herb and spiritual infusions to cleanse, protect, or attract — applied to floors and doorways. Spiritual baths cleanse the practitioner. Both root intention in the body and home as sacred space.",
+    "historic_data": "A cornerstone of Hoodoo and African American folk magic, with roots in West African, Native American, and European folk traditions. Common formulas include Chinese Wash, Van Van, and Uncrossing."
+  },
+  {
+    "name": "Ancestor Work",
+    "type": "spirit",
+    "tradition": ["Hoodoo", "Kemetic", "Vodou", "Candomblé", "Folk Catholic", "General"],
+    "practice": "open",
+    "domain": ["ancestral connection", "lineage healing", "guidance", "protection", "honor"],
+    "description": "Ancestor work honors and communicates with the spirits of the dead — blood ancestors, chosen ancestors, and the mighty dead of a tradition. One of the most cross-culturally universal spiritual practices in human history. A simple ancestor altar with offerings, photos, and water is the typical entry point.",
+    "historic_data": "Ancestor veneration is attested in every major ancient culture from Paleolithic Europe to the Shang Dynasty of China. It underlies Kemetic, Vodou, Candomblé, and Shinto practices, and was severed from most Western religious practice by Reformation-era theology."
+  },
+  {
+    "name": "Hedge Riding",
+    "type": "spirit",
+    "tradition": ["Hedge Witchcraft", "Heathenry", "Seiðr"],
+    "practice": "open",
+    "domain": ["spirit world travel", "vision", "spirit communication", "healing"],
+    "description": "Hedge riding is journeying in consciousness to the spirit world — crossing the 'hedge' between the living world and the realm of spirits, ancestors, and other beings. Typically entered through rhythmic drumming, breathwork, or trance states. A form of shamanic journeying reconstructed from Northern European folk sources.",
+    "historic_data": "Reconstructed from accounts of the völva (Norse seeress) and cunning folk across Northern European folk traditions. The term comes from Old English haegtesse (hedge-rider, later corrupted to 'hag'). Parallels to shamanic practice worldwide are frequently noted."
+  },
+  {
+    "name": "Rune Work",
+    "type": "written",
+    "tradition": ["Heathenry", "Norse"],
+    "practice": "open",
+    "domain": ["wisdom", "divination", "protection", "manifestation"],
+    "description": "Runes are not merely letters but sacred symbols each embodying a cosmic principle — carved, drawn, or visualized to invoke that force. Used for divination (casting), galdr (spoken runic magic), and staving (carved protective inscriptions). Deeply rooted in Heathen practice.",
+    "historic_data": "Attested from c. 150 CE in inscriptions across Northern Europe. The Elder Futhark (24 runes) is the oldest complete system. Odin's receipt of the runes through self-sacrifice on Yggdrasil is described in the Hávamál (Poetic Edda)."
+  },
+  {
+    "name": "Circle Casting",
+    "type": "ceremonial",
+    "tradition": ["Wicca", "Ceremonial Magic"],
+    "practice": "open",
+    "domain": ["sacred space", "protection", "energy containment", "ritual boundary"],
+    "description": "Circle casting consecrates and defines a sacred boundary — a protected ritual space between the worlds where magic is worked. In Wicca the circle is cast by calling the quarters (elemental directions), invoking guardians, and sealing the boundary before any working begins.",
+    "historic_data": "Drawing a protective circle appears in ancient Mesopotamian magical texts and the Greek Magical Papyri. Its current Wiccan form was codified through the Western ceremonial tradition and popularized by Gerald Gardner in the 1950s."
+  },
+  {
+    "name": "Drawing Down the Moon",
+    "type": "ceremonial",
+    "tradition": ["Wicca", "Dianic Wicca"],
+    "practice": "open",
+    "domain": ["embodiment", "deity work", "lunar magic", "divine connection"],
+    "description": "A Wiccan ritual in which a priestess invokes and embodies the Goddess — typically in her lunar aspect — allowing the divine to speak and work through a human vessel. One of the most spiritually significant practices in Wicca. The complementary Drawing Down the Sun invokes the God through a priest.",
+    "historic_data": "Formalized in Gardnerian Wicca c. 1950s. The phrase comes from ancient Greek and Roman accounts of witches calling the moon down from the sky. Documented across American Paganism by Margot Adler's 1979 book of the same name."
+  },
+  {
+    "name": "Binding",
+    "type": "sympathetic",
+    "tradition": ["Folk Magic", "Wicca", "Hoodoo", "General"],
+    "practice": "open",
+    "domain": ["restraint", "protection", "neutralization", "harm prevention"],
+    "description": "Binding magic restrains a person or force from taking harmful action — not punitive but preventative. Distinct from cursing; the intent is to stop harm rather than inflict it. Commonly worked with cord, black candles, poppets, or petition paper.",
+    "historic_data": "Binding spells (defixiones) are attested from ancient Greece and Rome inscribed on lead tablets. The practice appears across Hoodoo, European folk magic, and modern Wicca as a primary defensive technique."
+  },
+  {
+    "name": "Banishing",
+    "type": "ceremonial",
+    "tradition": ["Ceremonial Magic", "Wicca", "Chaos Magic", "General"],
+    "practice": "open",
+    "domain": ["clearing", "protection", "expulsion", "space cleansing"],
+    "description": "Banishing clears unwanted energies, entities, or influences from a person or space — distinct from binding (which restrains) and cursing (which attacks). The Lesser Banishing Ritual of the Pentagram (LBRP) is the most widely known ceremonial form; simpler folk versions use smoke, salt, and spoken words.",
+    "historic_data": "The LBRP was formalized by the Hermetic Order of the Golden Dawn in the late 19th century and is foundational in Western ceremonial magic. Folk banishing with salt, herbs, and iron is attested across European, African, and Indigenous American traditions."
+  },
+  {
+    "name": "Crystal Work",
+    "type": "folk",
+    "tradition": ["New Age", "Wicca", "Folk Magic"],
+    "practice": "open",
+    "domain": ["energy", "focus", "protection", "healing", "amplification"],
+    "description": "Crystals and stones are used as tools and focal points — each carrying perceived energetic properties corresponding to specific intentions. Used in grids, carried as talismans, placed on altars, and used to charge water. The correspondence system is largely modern and draws from multiple folk traditions.",
+    "historic_data": "The use of gemstones for protective and magical purposes is attested from ancient Mesopotamia, Egypt, and India. The modern crystal healing tradition was formalized primarily through New Age movements of the 1970s–80s."
+  }
+]

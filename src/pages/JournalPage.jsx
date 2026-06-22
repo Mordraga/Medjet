@@ -3,11 +3,15 @@ import { useLocation } from 'react-router-dom'
 import EntryList from '../EntryList'
 import DeityList from '../DeityList'
 import SpellList from '../SpellList'
+import DivinationList from '../DivinationList'
+import OfferingList from '../OfferingList'
 
 const SECTIONS = [
-  { id: 'journal', label: 'Journal' },
-  { id: 'deities', label: 'Deities' },
-  { id: 'spells',  label: 'Spells'  }
+  { id: 'journal',    label: 'Log'        },
+  { id: 'deities',    label: 'Deities'    },
+  { id: 'spells',     label: 'Spells'     },
+  { id: 'divination', label: 'Divination' },
+  { id: 'offerings',  label: 'Offerings'  },
 ]
 
 function JournalPage() {
@@ -28,9 +32,11 @@ function JournalPage() {
         ))}
       </div>
 
-      {section === 'journal' && <EntryList />}
-      {section === 'deities' && <DeityList />}
-      {section === 'spells'  && <SpellList />}
+      {section === 'journal'    && <EntryList />}
+      {section === 'deities'    && <DeityList />}
+      {section === 'spells'     && <SpellList />}
+      {section === 'divination' && <DivinationList />}
+      {section === 'offerings'  && <OfferingList />}
     </div>
   )
 }

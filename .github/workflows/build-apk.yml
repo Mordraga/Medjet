@@ -64,6 +64,8 @@ jobs:
 
       - name: Build web assets
         run: npm run build
+        env:
+          VITE_APP_VERSION: ${{ steps.version.outputs.tag }}
 
       - name: Sync Capacitor
         run: npx cap sync android
@@ -80,7 +82,12 @@ jobs:
 
       - name: Build debug APK
         working-directory: android
-        run: ./gradlew assembleDebug --no-daemon
+        run: |
+          VERSION="${{ steps.version.outputs.tag }}"
+          VERSION_CLEAN="${VERSION#v}"
+          ./gradlew assembleDebug --no-daemon \
+            -PversionName="${VERSION_CLEAN}" \
+            -PversionCode=${{ github.run_number }}
 
       - name: Rename debug APK
         if: steps.version.outputs.tag != ''

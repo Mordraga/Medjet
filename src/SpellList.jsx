@@ -47,6 +47,14 @@ function SpellCard({ spell, onUpdate, onDelete, autoEdit }) {
         {SPELL_TYPES.map(t => <option key={t} value={t}>{TYPE_LABELS[t]}</option>)}
       </select>
 
+      <label className="spell-label">Practice Type</label>
+      <input
+        className="spell-input"
+        value={draft.practice_type ?? ''}
+        onChange={e => set('practice_type', e.target.value)}
+        placeholder="e.g. Candle Work, Sigil Work…"
+      />
+
       <label className="spell-label">Intention</label>
       <input
         className="spell-input"
@@ -96,9 +104,14 @@ function SpellCard({ spell, onUpdate, onDelete, autoEdit }) {
       <div className="card spell-card">
         <div className="spell-header">
           <div className="spell-header-left">
-            <span className={`spell-type-badge spell-type-badge--${spell.type}`}>
-              {TYPE_LABELS[spell.type] ?? spell.type}
-            </span>
+            <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
+              <span className={`spell-type-badge spell-type-badge--${spell.type}`}>
+                {TYPE_LABELS[spell.type] ?? spell.type}
+              </span>
+              {spell.practice_type && (
+                <span className="spell-practice-type-tag">{spell.practice_type}</span>
+              )}
+            </div>
             <h3 className="spell-name">{spell.name}</h3>
           </div>
           <span className="spell-time">{spell.time}</span>

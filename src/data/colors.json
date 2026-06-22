@@ -1,0 +1,100 @@
+[
+  {
+    "name": "White",
+    "hex": "#f0f0ee",
+    "associations": ["Moon", "Spirit"],
+    "keywords": ["purity", "protection", "truth", "new beginnings", "cleansing", "healing", "spirit contact"],
+    "description": "The universal substitute — white can replace any color in a working when nothing else is available. Associated with the full moon, spirit communication, and drawing truth to light. Burns clean in all directions."
+  },
+  {
+    "name": "Black",
+    "hex": "#1c1c1c",
+    "associations": ["Saturn"],
+    "keywords": ["banishing", "binding", "protection", "absorbing negativity", "shadow work", "the void"],
+    "description": "Not evil — absorptive. Black banishes, binds, and soaks up negative energy rather than projecting harm. Used in Saturn workings, reversals, uncrossing, and shadow work. The void that devours what no longer serves."
+  },
+  {
+    "name": "Red",
+    "hex": "#dc2626",
+    "associations": ["Mars", "Fire"],
+    "keywords": ["passion", "lust", "courage", "action", "vitality", "strength", "fast results"],
+    "description": "The color of blood and Mars-fire. Used for passion, desire, courage, and aggressive workings. Speeds things up. Also useful when a working needs decisive, forceful energy to break through resistance."
+  },
+  {
+    "name": "Orange",
+    "hex": "#ea580c",
+    "associations": ["Sun", "Mercury"],
+    "keywords": ["success", "opportunity", "confidence", "justice", "career", "encouragement", "court case"],
+    "description": "Solar and mercurial — orange speeds results and attracts opportunity. Used heavily in court case work, career success, and breaking through blockages. Sits between the passion of red and the intellect of yellow."
+  },
+  {
+    "name": "Yellow",
+    "hex": "#ca8a04",
+    "associations": ["Mercury", "Air", "Sun"],
+    "keywords": ["communication", "intellect", "clarity", "creativity", "study", "travel", "persuasion"],
+    "description": "The color of mental clarity and Mercury's domain. Good for spells involving writing, learning, persuasion, and clear thinking. Also used for joy and solar brightness when gold isn't available."
+  },
+  {
+    "name": "Green",
+    "hex": "#16a34a",
+    "associations": ["Venus", "Earth"],
+    "keywords": ["prosperity", "abundance", "fertility", "growth", "healing", "luck", "money", "nature"],
+    "description": "The color of growing things and Venus's earthly face. Most commonly used for prosperity, money drawing, fertility, and healing. Plant magic, herbal workings, and earth connections all call for green."
+  },
+  {
+    "name": "Blue",
+    "hex": "#2563eb",
+    "associations": ["Jupiter", "Water"],
+    "keywords": ["peace", "healing", "calm", "truth", "protection", "justice", "spirituality"],
+    "description": "Cooling and expansive — light blue brings tranquility and healing; royal blue carries Jupiter's blessings in legal and expansive workings. Good for workings around truth, protection, and emotional calm."
+  },
+  {
+    "name": "Purple",
+    "hex": "#7c3aed",
+    "associations": ["Jupiter", "Moon"],
+    "keywords": ["psychic ability", "spiritual power", "wisdom", "royalty", "divination", "third eye", "spirit"],
+    "description": "The color of spiritual authority and psychic opening. Used for divination work, contacting spirit guides, developing intuition, and ancestor connection. Also Jupiter in his most expansive, wisdom-granting aspect."
+  },
+  {
+    "name": "Pink",
+    "hex": "#db2777",
+    "associations": ["Venus"],
+    "keywords": ["love", "friendship", "compassion", "self-love", "romance", "emotional healing", "sweetening"],
+    "description": "The softer face of Venus — pink draws affectionate love without red's raw desire. Better for self-love, friendship, sweetening soured relationships, and gentle attraction. Less command, more invitation."
+  },
+  {
+    "name": "Brown",
+    "hex": "#78350f",
+    "associations": ["Earth", "Saturn"],
+    "keywords": ["grounding", "stability", "home", "animals", "practical matters", "slow working"],
+    "description": "Earthing and stabilizing. Brown grounds scattered energy and is used in home protection, animal healing, and workings that need a slow, solid, patient foundation. Good for practical matters and material security."
+  },
+  {
+    "name": "Gold",
+    "hex": "#b45309",
+    "associations": ["Sun"],
+    "keywords": ["wealth", "success", "abundance", "solar energy", "confidence", "achievement", "recognition"],
+    "description": "Solar gold — the color of accomplishment and divine solar power. Used for wealth, success, recognition, and workings aligned with peak solar energy. More prestige and authority than orange; more abundance than yellow."
+  },
+  {
+    "name": "Silver",
+    "hex": "#64748b",
+    "associations": ["Moon"],
+    "keywords": ["lunar energy", "psychic ability", "intuition", "reflection", "dreams", "divination"],
+    "description": "The moon's color — silver amplifies psychic work, lunar magic, and intuitive connection. Used on esbats, for dream work, and for connection to moon deities. Reflects and reveals rather than projecting."
+  },
+  {
+    "name": "Gray",
+    "hex": "#6b7280",
+    "associations": ["Moon", "Saturn"],
+    "keywords": ["neutrality", "balance", "invisibility", "cancellation", "liminal", "neither-nor"],
+    "description": "The color of the threshold. Gray neutralizes situations, creates a shield of energetic invisibility, or cancels out an existing working. Useful for unclear situations where you need balance before anything else."
+  },
+  {
+    "name": "Indigo",
+    "hex": "#3730a3",
+    "associations": ["Saturn", "Moon"],
+    "keywords": ["deep psychic work", "hidden knowledge", "karma", "past lives", "akasha", "Saturn"],
+    "description": "The deep blue of midnight and the hidden mind. Used for accessing concealed knowledge, past life work, deep trance meditation, and Saturn's more mystical face. Deeper and more occult than purple."
+  }
+]

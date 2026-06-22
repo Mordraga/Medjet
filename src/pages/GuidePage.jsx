@@ -6,11 +6,22 @@ import crystals from '../data/crystals.json'
 import mushrooms from '../data/mushrooms.json'
 import recipes from '../data/recipes.json'
 import entitiesData from '../data/entities.json'
+import magicData from '../data/magic.json'
+import glossaryData from '../data/glossary.json'
+import colorsData from '../data/colors.json'
 import FilterPills from '../FilterPills'
+import Modal from '../Modal'
 import { useEntityWorkingWith } from '../hooks/useEntityWorkingWith'
+import { useEntityList } from '../hooks/useEntityList'
+import { createEntity } from '../utils'
+import { getMoonAge, getMoonPhaseInfo, getPlanetaryHours } from '../utils/astro'
 
 const CATEGORIES = [
   { id: 'entities',   label: 'Entities',   mode: 'entities' },
+  { id: 'magic',      label: 'Magic',      mode: 'magic'    },
+  { id: 'glossary',        label: 'Glossary',   mode: 'glossary'  },
+  { id: 'colors',          label: 'Colors',     mode: 'colors'    },
+  { id: 'planetary-hours', label: 'P. Hours',   mode: 'planetary' },
   { id: 'herbs',      label: 'Herbs',      mode: 'track',   refillLabel: 'Refill' },
   { id: 'crystals',   label: 'Crystals',   mode: 'track',   refillLabel: 'Source' },
   { id: 'mushrooms',  label: 'Mushrooms',  mode: 'track',   refillLabel: 'Refill' },
@@ -767,6 +778,382 @@ function EntitySection({ entities, isWorkingWith, onToggle }) {
   )
 }
 
+// ── Colors ────────────────────────────────────────────────────────────────────
+
+function ColorsSection() {
+  return (
+    <div>
+      {colorsData.map(c => (
+        <div key={c.name} id={entryId(c.name)} className="card color-ref-card">
+          <div className="color-ref-header">
+            <span className="color-swatch" style={{ background: c.hex }} />
+            <h3 className="color-ref-name">{c.name}</h3>
+            <div className="color-ref-assoc">
+              {c.associations.map(a => <span key={a} className="entity-domain-tag">{a}</span>)}
+            </div>
+          </div>
+          <div className="guide-keywords" style={{ marginTop: 6 }}>
+            {c.keywords.map(k => <span key={k} className="guide-keyword">{k}</span>)}
+          </div>
+          {c.description && <p className="guide-card-desc" style={{ marginTop: 8 }}>{c.description}</p>}
+        </div>
+      ))}
+    </div>
+  )
+}
+
+// ── Planetary Hours ───────────────────────────────────────────────────────────
+
+function fmtHourTime(d) {
+  return d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
+}
+
+function PlanetaryHoursSection() {
+  const [loc, setLoc]       = useState(() => { try { return JSON.parse(localStorage.getItem('guide-location')) } catch { return null } })
+  const [loading, setLoading] = useState(false)
+  const [error, setError]     = useState(null)
+
+  const now = new Date()
+  const result = useMemo(() => loc ? getPlanetaryHours(now, loc.lat, loc.lon) : null, [loc])
+  const currentHour = result?.hours.find(h => now >= h.start && now < h.end) ?? null
+
+  function detect() {
+    if (!navigator.geolocation) { setError('Geolocation not available on this device.'); return }
+    setLoading(true); setError(null)
+    navigator.geolocation.getCurrentPosition(
+      pos => {
+        const l = { lat: pos.coords.latitude, lon: pos.coords.longitude }
+        localStorage.setItem('guide-location', JSON.stringify(l))
+        setLoc(l)
+        setLoading(false)
+      },
+      () => { setError('Location access denied. Check your device settings.'); setLoading(false) },
+      { timeout: 10000 }
+    )
+  }
+
+  if (!loc) {
+    return (
+      <div className="planetary-gate">
+        <p className="planetary-gate-msg">
+          Planetary hours require your location to calculate today's sunrise and sunset.
+          Your location is stored only on your device.
+        </p>
+        <button className="btn btn-primary" onClick={detect} disabled={loading}>
+          {loading ? 'Detecting…' : 'Use My Location'}
+        </button>
+        {error && <p className="planetary-error">{error}</p>}
+      </div>
+    )
+  }
+
+  if (!result) return <p className="empty-state">Unable to calculate hours for this location.</p>
+
+  return (
+    <div className="planetary-section">
+      <div className="planetary-meta-row">
+        <span>Sunrise {fmtHourTime(result.sunrise)}</span>
+        <span>·</span>
+        <span>Sunset {fmtHourTime(result.sunset)}</span>
+      </div>
+
+      {currentHour ? (
+        <div className="card planetary-now-card">
+          <div className="planetary-now-label">Current Hour</div>
+          <div className="planetary-now-body">
+            <span className="planetary-now-symbol">{currentHour.symbol}</span>
+            <div>
+              <div className="planetary-now-planet">Hour of {currentHour.planet}</div>
+              <div className="planetary-now-time">{fmtHourTime(currentHour.start)} – {fmtHourTime(currentHour.end)}</div>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <p className="entity-historic" style={{ marginBottom: 8 }}>
+          No planetary hour calculated for this moment — check night hours below.
+        </p>
+      )}
+
+      <div className="planetary-list">
+        {result.hours.map((h, i) => (
+          <div
+            key={i}
+            className={`planetary-row${h === currentHour ? ' planetary-row--current' : ''}`}
+          >
+            <span className="planetary-row-period">{h.period === 'day' ? '☀' : '☽'} {h.num}</span>
+            <span className="planetary-row-symbol">{h.symbol}</span>
+            <span className="planetary-row-planet">{h.planet}</span>
+            <span className="planetary-row-time">{fmtHourTime(h.start)}</span>
+          </div>
+        ))}
+      </div>
+
+      <button
+        className="btn btn-ghost"
+        style={{ marginTop: 12, fontSize: 12 }}
+        onClick={() => { localStorage.removeItem('guide-location'); setLoc(null) }}
+      >
+        Change Location
+      </button>
+    </div>
+  )
+}
+
+// ── Glossary ──────────────────────────────────────────────────────────────────
+
+const GLOSSARY_CATEGORY_LABELS = {
+  practice:   'Practice',
+  history:    'History',
+  cosmology:  'Cosmology',
+  tradition:  'Tradition',
+}
+
+const GLOSSARY_CAT_COLORS = {
+  practice:   { bg: 'rgba(139,92,246,0.1)',  color: '#7c3aed', border: 'rgba(139,92,246,0.3)'  },
+  history:    { bg: 'rgba(217,119,6,0.1)',   color: '#b45309', border: 'rgba(217,119,6,0.3)'   },
+  cosmology:  { bg: 'rgba(8,145,178,0.1)',   color: '#0e7490', border: 'rgba(8,145,178,0.3)'   },
+  tradition:  { bg: 'rgba(22,163,74,0.1)',   color: '#15803d', border: 'rgba(22,163,74,0.3)'   },
+}
+
+function GlossaryCard({ entry }) {
+  const cc = GLOSSARY_CAT_COLORS[entry.category] ?? GLOSSARY_CAT_COLORS.practice
+  return (
+    <div id={entryId(entry.term)} className="card entity-guide-card">
+      <div className="entity-guide-top">
+        <div className="entity-guide-title-block">
+          <h3 className="entity-guide-name">{entry.term}</h3>
+          <div className="entity-guide-meta-row">
+            <span
+              className="magic-type-chip"
+              style={{ background: cc.bg, color: cc.color, border: `1px solid ${cc.border}` }}
+            >
+              {GLOSSARY_CATEGORY_LABELS[entry.category] ?? entry.category}
+            </span>
+            {entry.tradition?.map(t => (
+              <span key={t} className="entity-domain-tag">{t}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+      <p className="entity-description">{entry.short}</p>
+      {entry.detail && <p className="entity-historic">{entry.detail}</p>}
+      {entry.related?.length > 0 && (
+        <div className="entity-syncretic">
+          <span className="entity-syncretic-label">See also:</span>
+          <span className="entity-syncretic-list">{entry.related.join(' · ')}</span>
+        </div>
+      )}
+    </div>
+  )
+}
+
+function GlossarySection() {
+  const [filterCat, setFilterCat] = useState(null)
+
+  const filtered = useMemo(
+    () => filterCat ? glossaryData.filter(e => e.category === filterCat) : glossaryData,
+    [filterCat]
+  )
+
+  return (
+    <div className="entity-section">
+      <FilterPills
+        options={['practice', 'history', 'cosmology', 'tradition']}
+        active={filterCat}
+        onChange={setFilterCat}
+      />
+      {filtered.map(entry => (
+        <GlossaryCard key={entry.term} entry={entry} />
+      ))}
+    </div>
+  )
+}
+
+// ── Magic Guide ───────────────────────────────────────────────────────────────
+
+function currentMoonPhaseName() {
+  return getMoonPhaseInfo(getMoonAge()).name
+}
+
+const MAGIC_TYPE_COLORS = {
+  folk:        { bg: 'rgba(22,163,74,0.1)',    color: '#15803d', border: 'rgba(22,163,74,0.3)'    },
+  sympathetic: { bg: 'rgba(217,119,6,0.1)',    color: '#b45309', border: 'rgba(217,119,6,0.3)'    },
+  written:     { bg: 'rgba(139,92,246,0.1)',   color: '#7c3aed', border: 'rgba(139,92,246,0.3)'   },
+  spirit:      { bg: 'rgba(99,102,241,0.1)',   color: '#4338ca', border: 'rgba(99,102,241,0.3)'   },
+  ceremonial:  { bg: 'rgba(8,145,178,0.1)',    color: '#0e7490', border: 'rgba(8,145,178,0.3)'    },
+}
+
+function QuickSpellModal({ magic, onSave, onClose }) {
+  const [name, setName]           = useState(`${magic.name} Working`)
+  const [intention, setIntention] = useState('')
+  const [moonPhase, setMoonPhase] = useState(currentMoonPhaseName)
+
+  function handleSave() {
+    onSave({ name, intention, moonPhase, practiceType: magic.name })
+    onClose()
+  }
+
+  const tc = MAGIC_TYPE_COLORS[magic.type] ?? MAGIC_TYPE_COLORS.folk
+
+  return (
+    <Modal
+      title={`Quick Spell — ${magic.name}`}
+      onClose={onClose}
+      footer={
+        <>
+          <button className="btn btn-ghost" onClick={onClose}>Cancel</button>
+          <button className="btn btn-primary" onClick={handleSave} disabled={!name.trim()}>
+            Add to Journal
+          </button>
+        </>
+      }
+    >
+      <div className="spell-form">
+        <div className="quick-spell-prefill">
+          <span className="spell-label" style={{ margin: 0 }}>Practice Type</span>
+          <span
+            className="magic-type-chip"
+            style={{ background: tc.bg, color: tc.color, border: `1px solid ${tc.border}` }}
+          >
+            {magic.name}
+          </span>
+        </div>
+
+        <label className="spell-label">Name</label>
+        <input
+          className="spell-input"
+          value={name}
+          onChange={e => setName(e.target.value)}
+        />
+
+        <label className="spell-label">Intention</label>
+        <input
+          className="spell-input"
+          value={intention}
+          onChange={e => setIntention(e.target.value)}
+          placeholder="What is the purpose of this working?"
+        />
+
+        <label className="spell-label">Moon Phase</label>
+        <input
+          className="spell-input"
+          value={moonPhase}
+          onChange={e => setMoonPhase(e.target.value)}
+        />
+
+        <p className="quick-spell-hint">
+          Ingredients, method, and outcome can be added from your journal.
+        </p>
+      </div>
+    </Modal>
+  )
+}
+
+function MagicGuideCard({ magic, onQuickSpell }) {
+  const tc = MAGIC_TYPE_COLORS[magic.type] ?? MAGIC_TYPE_COLORS.folk
+  return (
+    <div id={entryId(magic.name)} className="card entity-guide-card">
+      <div className="entity-guide-top">
+        <div className="entity-guide-title-block">
+          <h3 className="entity-guide-name">{magic.name}</h3>
+          <div className="entity-guide-meta-row">
+            <span
+              className="magic-type-chip"
+              style={{ background: tc.bg, color: tc.color, border: `1px solid ${tc.border}` }}
+            >
+              {magic.type}
+            </span>
+            {magic.practice && (
+              <span className={`entity-practice-badge entity-practice-badge--${magic.practice}`}>
+                {magic.practice === 'open' ? 'Open' : 'Closed'}
+              </span>
+            )}
+          </div>
+        </div>
+        <button className="entity-working-with-btn" onClick={() => onQuickSpell(magic)}>
+          + Quick Spell
+        </button>
+      </div>
+
+      {magic.practice_note && (
+        <p className="entity-practice-note">{magic.practice_note}</p>
+      )}
+
+      {magic.tradition?.length > 0 && (
+        <div className="entity-domains">
+          {magic.tradition.map(t => (
+            <span key={t} className="entity-domain-tag">{t}</span>
+          ))}
+        </div>
+      )}
+
+      {magic.description && (
+        <p className="entity-description">{magic.description}</p>
+      )}
+
+      {magic.historic_data && (
+        <p className="entity-historic">{magic.historic_data}</p>
+      )}
+    </div>
+  )
+}
+
+function MagicSection({ addSpell }) {
+  const [filterType,     setFilterType]     = useState(null)
+  const [filterPractice, setFilterPractice] = useState(null)
+  const [quickSpell,     setQuickSpell]     = useState(null)
+
+  const filtered = useMemo(() => magicData.filter(m => {
+    if (filterType     && m.type     !== filterType)     return false
+    if (filterPractice && m.practice !== filterPractice) return false
+    return true
+  }), [filterType, filterPractice])
+
+  function handleSave({ name, intention, moonPhase, practiceType }) {
+    addSpell(createEntity({
+      name,
+      type:          'spell',
+      practice_type: practiceType,
+      intention,
+      moon_phase:    moonPhase,
+      ingredients:   '',
+      method:        '',
+      outcome:       ''
+    }))
+  }
+
+  return (
+    <div className="entity-section">
+      <FilterPills
+        options={['folk', 'sympathetic', 'written', 'spirit', 'ceremonial']}
+        active={filterType}
+        onChange={setFilterType}
+      />
+      <FilterPills
+        options={['open', 'closed']}
+        active={filterPractice}
+        onChange={setFilterPractice}
+      />
+
+      {filtered.length === 0 ? (
+        <p className="empty-state">No practices match the current filters.</p>
+      ) : (
+        filtered.map(magic => (
+          <MagicGuideCard key={magic.name} magic={magic} onQuickSpell={setQuickSpell} />
+        ))
+      )}
+
+      {quickSpell && (
+        <QuickSpellModal
+          magic={quickSpell}
+          onSave={handleSave}
+          onClose={() => setQuickSpell(null)}
+        />
+      )}
+    </div>
+  )
+}
+
 function GuidePage() {
   const [category, setCategory] = useState('herbs')
   const [trackIndex, setTrackIndex] = useState(0)
@@ -777,17 +1164,25 @@ function GuidePage() {
   const [mushroomInv, setMushroomStatus] = useInventory('guide-mushrooms')
 
   const { isWorkingWith, toggle: toggleWorkingWith } = useEntityWorkingWith()
+  const [, addSpell] = useEntityList('spells')
 
   const catMeta      = CATEGORIES.find(c => c.id === category)
   const isTrack      = catMeta.mode === 'track'
   const isEntities   = catMeta.mode === 'entities'
+  const isMagic      = catMeta.mode === 'magic'
+  const isGlossary   = catMeta.mode === 'glossary'
+  const isColors     = catMeta.mode === 'colors'
+  const isPlanetary  = catMeta.mode === 'planetary'
   const trackEntries = useMemo(() => getTrackEntries(category), [category])
   const refNames     = useMemo(() => getRefNames(category), [category])
   const searchNames  = useMemo(() => {
     if (isTrack)    return trackEntries.map(e => e.name)
     if (isEntities) return entitiesData.map(e => e.name)
+    if (isMagic)    return magicData.map(m => m.name)
+    if (isGlossary) return glossaryData.map(g => g.term)
+    if (isColors)   return colorsData.map(c => c.name)
     return refNames
-  }, [isTrack, isEntities, trackEntries, refNames])
+  }, [isTrack, isEntities, isMagic, isGlossary, isColors, trackEntries, refNames])
 
   useEffect(() => { setTrackIndex(0) }, [category])
 
@@ -807,7 +1202,7 @@ function GuidePage() {
   const setStatus = category === 'herbs' ? setHerbStatus : category === 'crystals' ? setCrystalStatus : setMushroomStatus
 
   return (
-    <div className={`page${isTrack ? ' page--locked' : ''}`} style={isEntities ? { paddingBottom: 80 } : {}}>
+    <div className={`page${isTrack ? ' page--locked' : ''}`} style={(isEntities || isMagic) ? { paddingBottom: 80 } : {}}>
       <div className="page-header">
         <h2>Field Guide</h2>
       </div>
@@ -851,6 +1246,11 @@ function GuidePage() {
           onToggle={toggleWorkingWith}
         />
       )}
+
+      {isMagic    && <MagicSection addSpell={addSpell} />}
+      {isGlossary   && <GlossarySection />}
+      {isColors     && <ColorsSection />}
+      {isPlanetary  && <PlanetaryHoursSection />}
 
       {catMeta.mode === 'ref' && category === 'astrology' && <AstrologySection />}
       {catMeta.mode === 'ref' && category === 'alchemy'   && <AlchemySection />}

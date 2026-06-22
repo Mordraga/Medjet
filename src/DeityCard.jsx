@@ -3,6 +3,10 @@ import EditForm from './EditForm'
 import Modal from './Modal'
 import { deityFields } from './FieldConfigs'
 
+function fmt(val) {
+  return Array.isArray(val) ? val.join(', ') : val
+}
+
 function DeityCard({ deity, onUpdate, onDelete, autoEdit = false }) {
   const [modalOpen, setModalOpen] = useState(autoEdit)
   const [form, setForm] = useState({ ...deity })
@@ -28,7 +32,7 @@ function DeityCard({ deity, onUpdate, onDelete, autoEdit = false }) {
         {deity.domain && (
           <div className="card-field">
             <div className="card-field-label">Domain</div>
-            <div className="card-field-value">{deity.domain}</div>
+            <div className="card-field-value">{fmt(deity.domain)}</div>
           </div>
         )}
         {deity.description && (
@@ -40,7 +44,7 @@ function DeityCard({ deity, onUpdate, onDelete, autoEdit = false }) {
         {deity.symbols && (
           <div className="card-field">
             <div className="card-field-label">Symbols</div>
-            <div className="card-field-value">{deity.symbols}</div>
+            <div className="card-field-value">{fmt(deity.symbols)}</div>
           </div>
         )}
         {deity.notes && (

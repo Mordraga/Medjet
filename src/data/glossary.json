@@ -1,0 +1,214 @@
+[
+  {
+    "term": "Book of Shadows",
+    "category": "practice",
+    "short": "A witch's personal magical journal — spells, rituals, recipes, and reflections recorded for ongoing practice.",
+    "detail": "Popularized by Gerald Gardner in Gardnerian Wicca (1950s), though personal magical notebooks predate this. There is no single correct format — some are highly structured grimoires, others loose collections. Often abbreviated BoS.",
+    "tradition": ["Wicca", "General"]
+  },
+  {
+    "term": "Grimoire",
+    "category": "practice",
+    "short": "A book of magical instruction — spells, correspondences, rituals, and spirit lists — often treated as authoritative reference.",
+    "detail": "From Old French 'grammaire' (grammar, a book of learning). Historical grimoires (Key of Solomon, Grand Grimoire, Picatrix) were often attributed to ancient figures for authority. The modern distinction: a grimoire is a reference text, a Book of Shadows is a personal working journal.",
+    "tradition": ["Ceremonial Magic", "General"]
+  },
+  {
+    "term": "Correspondences",
+    "category": "practice",
+    "short": "The system of symbolic links between things — herbs, colors, planets, days, stones, and intentions — used to build spells and rituals.",
+    "detail": "Rooted in the Hermetic principle 'As above, so below' — everything in the universe mirrors everything else. A candle's color, an herb's properties, and a planetary hour all 'correspond' to an intention and can be layered together to amplify it. Modern correspondence tables draw from Kabbalah, astrology, folk herbalism, and Wicca."
+  },
+  {
+    "term": "Intention",
+    "category": "practice",
+    "short": "The focused purpose or desired outcome that animates a magical working.",
+    "detail": "Intention is considered the primary engine of magic across most traditions — the spell, ritual, or tool is the vehicle, but the clarity and sincerity of intention drives it. Often written out explicitly in petition papers or stated aloud during a working."
+  },
+  {
+    "term": "UPG",
+    "category": "practice",
+    "short": "Unverified Personal Gnosis — spiritual knowledge or experience received directly by a practitioner, not found in historical sources.",
+    "detail": "Common in Heathenry and polytheist communities. UPG is valid personal spiritual experience but distinguished from historically attested lore to keep the two from being conflated. SPG (Shared Personal Gnosis) means the same experience was independently reported by multiple people without prior communication."
+  },
+  {
+    "term": "Syncretic / Syncretism",
+    "category": "history",
+    "short": "The blending of beliefs, practices, or deities from different traditions into a unified or hybrid form.",
+    "detail": "Common across the ancient world — the Roman practice of Interpretatio Romana assigned Roman names to foreign gods; Greco-Egyptian religion produced Serapis. Modern syncretic traditions include Vodou (Dahomean / Catholic / Indigenous American), Candomblé, Umbanda, and Hoodoo. Syncretism is descriptive, not pejorative.",
+    "related": ["Interpretatio Romana", "Reconstructionism"]
+  },
+  {
+    "term": "Interpretatio Romana",
+    "category": "history",
+    "short": "The Roman practice of mapping foreign deities onto Roman equivalents — Mercury = Hermes = Woden.",
+    "detail": "Described by Tacitus in Germania. Romans encountering Gaulish, Germanic, or Egyptian gods would identify them with the nearest Roman equivalent and often worship them under either name. A major driver of ancient religious syncretism. The reverse — reading Roman names onto native gods — can obscure the original deity's distinct character.",
+    "related": ["Syncretic / Syncretism"]
+  },
+  {
+    "term": "Reconstructionism",
+    "category": "history",
+    "short": "The practice of reviving an ancient religion using historical sources, archaeology, and scholarly methods.",
+    "detail": "Reconstructionist paths include Heathenry (Norse/Germanic), Hellenism (Greek), Kemetic Orthodoxy (Egyptian), Celtic Reconstructionism, and others. Distinguished from eclecticism by prioritizing historical accuracy over convenience. Often abbreviated 'Recon.' Tensions exist between strict historical fidelity and the reality that no living lineage survived intact.",
+    "related": ["UPG"]
+  },
+  {
+    "term": "Closed Practice",
+    "category": "practice",
+    "short": "A living spiritual tradition whose ceremonies, initiations, or sacred knowledge require lineage, community membership, or formal invitation to access.",
+    "detail": "Closed does not mean morally heavier or more powerful — it means a living community with lineage holders controls access to protect the tradition's integrity and meaning. Examples: Ifá/Orisha initiation (Yoruba), Nahuatl ceremony, certain Native American rites. The distinction matters because appropriating closed practices can harm the communities who hold them.",
+    "related": ["Open Practice"]
+  },
+  {
+    "term": "Open Practice",
+    "category": "practice",
+    "short": "Magical or spiritual practice that is broadly accessible — either because it is historically extinct (no gatekeeping community remains) or has been deliberately shared.",
+    "detail": "Most Western occultism, Wicca, and reconstructed traditions (Heathenry, Hellenism, Kemetic) are considered open because either no surviving lineage community exists to gate access, or the tradition's teachers have actively published it. Open does not mean shallow or without responsibility.",
+    "related": ["Closed Practice"]
+  },
+  {
+    "term": "Initiation",
+    "category": "practice",
+    "short": "A formal ritual or process of entry into a tradition, lineage, or spiritual level — marking a threshold crossing.",
+    "detail": "In closed traditions (Ifá, Wiccan covens, ceremonial lodges), initiation grants access to specific knowledge, rites, or spiritual authority. In open or solitary practice, self-initiation is common. Initiatory traditions often hold that certain knowledge can only be transmitted in person, through the rite itself."
+  },
+  {
+    "term": "Animism",
+    "category": "cosmology",
+    "short": "The worldview that everything — animals, plants, rivers, stones, places — possesses a spirit or living essence.",
+    "detail": "Considered the oldest human religious worldview, attested across cultures from Paleolithic Europe to Indigenous traditions worldwide. Contrasted with the Western materialist view that only humans (or nothing) have inner life. Undergirds most shamanic, folk, and polytheist traditions."
+  },
+  {
+    "term": "Pantheon",
+    "category": "cosmology",
+    "short": "The full collection of gods recognized by a specific culture or tradition.",
+    "detail": "From Greek 'pan' (all) + 'theos' (god). Refers both to the set of deities (the Greek pantheon, the Norse pantheon) and sometimes to a temple housing them all (the Pantheon in Rome). Within a pantheon, deities have defined relationships, hierarchies, and domains."
+  },
+  {
+    "term": "Chthonic",
+    "category": "cosmology",
+    "short": "Of or relating to the earth, underworld, or spirits of the dead — literally 'under the earth.'",
+    "detail": "From Greek 'khthonos' (earth). Chthonic deities and spirits are associated with the underworld, death, fertility, and the deep earth — distinct from Olympian (celestial) deities. Examples: Hades, Hecate (in her chthonic aspect), Persephone, Anubis, the Lares. Chthonic ritual often involves libations poured into the ground rather than offered upward."
+  },
+  {
+    "term": "Liminal",
+    "category": "cosmology",
+    "short": "Threshold states — times, places, or conditions that exist between categories and are considered magically potent.",
+    "detail": "From Latin 'limen' (threshold). Liminal times: dawn/dusk, midnight, solstices, Samhain. Liminal places: crossroads, shorelines, doorways, caves, fog. Liminal states: sleep, fever, grief, rites of passage. The in-between is considered thin — boundaries between worlds are weaker, making communication with spirits and effective magic more accessible."
+  },
+  {
+    "term": "Psychopomp",
+    "category": "cosmology",
+    "short": "A deity or spirit whose role is to guide the souls of the dead to the afterlife.",
+    "detail": "From Greek 'psyche' (soul) + 'pompos' (guide). Examples: Hermes (Greek), Anubis (Kemetic), Charon (Greek), the Valkyries (Norse), Santa Muerte (folk Catholic). Psychopomps are distinct from gods of death who rule the underworld — they are escorts, not rulers."
+  },
+  {
+    "term": "Duat",
+    "category": "tradition",
+    "short": "The Egyptian underworld or realm of the dead — a vast, layered spiritual geography through which the soul travels after death.",
+    "detail": "Also spelled Tuat or Dwat. The Duat is described extensively in the Amduat, Book of Gates, and Book of the Dead. It is not simply a place of judgment but a full cosmological realm — the sun itself travels through the Duat each night to be reborn at dawn. The weighing of the heart before Osiris and Anubis occurs in the Hall of Two Truths within the Duat.",
+    "tradition": ["Kemetic"]
+  },
+  {
+    "term": "Ma'at",
+    "category": "tradition",
+    "short": "The Kemetic principle of cosmic truth, justice, balance, and right order — personified as a goddess.",
+    "detail": "Ma'at (also Maat) is both an abstract principle and a goddess depicted with an ostrich feather on her head. The feather of Ma'at is weighed against the heart of the deceased to determine if they lived in right relationship with the world. 'Isfet' is Ma'at's opposite — chaos, injustice, and disorder. Living by Ma'at means acting ethically, honestly, and in balance.",
+    "tradition": ["Kemetic"]
+  },
+  {
+    "term": "Awen",
+    "category": "tradition",
+    "short": "The flowing spirit of inspiration and creative force in Celtic/Druidic tradition — the divine spark of poetry, art, and wisdom.",
+    "detail": "The symbol /|\\ represents Awen. The concept appears in Welsh mythology, notably in the tale of Ceridwen's cauldron, from which three drops of Awen bestow prophetic inspiration. In modern Druidry it is invoked as a core spiritual concept — the flowing of divine inspiration through the practitioner.",
+    "tradition": ["Celtic", "Druidry"]
+  },
+  {
+    "term": "Seiðr",
+    "category": "tradition",
+    "short": "Norse shamanic magic involving divination, spirit contact, and fate-working — associated with Freyja and Odin.",
+    "detail": "Pronounced 'SAY-thr.' Practiced by the völva (seeress/shaman), who entered trance states, journeyed to the spirit world, and delivered prophecy. Odin learned seiðr from Freyja. It carried a social stigma (ergi, unmanliness) when practiced by men, though Odin did so anyway. Modern Heathen reconstructionists practice seiðr as oracular seiðr and hedge riding.",
+    "tradition": ["Norse", "Heathenry"]
+  },
+  {
+    "term": "Wyrd",
+    "category": "tradition",
+    "short": "The Norse concept of fate as a woven, interconnected web — not fixed destiny but the accumulated result of all past actions.",
+    "detail": "Literally 'that which has turned' (from the root 'weorthan,' to become). The Norns weave the threads of wyrd at the Well of Urðr. Unlike Greek moira (fixed fate), wyrd is relational — every action you take weaves into the web and affects others. The modern English word 'weird' comes from this root, retaining its sense of fate and the uncanny.",
+    "tradition": ["Norse", "Heathenry"]
+  },
+  {
+    "term": "Orisha",
+    "category": "tradition",
+    "short": "Divine spirits in the Yoruba and African diaspora traditions (Candomblé, Santería, Ifá) — each governing a specific domain of nature and human experience.",
+    "detail": "The Orishas are intermediaries between Olodumare (the Supreme Being) and humanity. Each Orisha has specific colors, numbers, foods, rhythms, and domains — Shango governs thunder and justice, Yemoja governs water and motherhood, Eshu/Elegba governs crossroads and communication. Proper engagement with the Orishas requires initiation into an appropriate lineage.",
+    "tradition": ["Yoruba", "Candomblé", "Santería"]
+  },
+  {
+    "term": "Asé",
+    "category": "tradition",
+    "short": "The divine power and life force present in all things — the energy that makes prayers, offerings, and ritual effective in Yoruba tradition.",
+    "detail": "Pronounced 'ah-SHAY.' Asé flows through living things, sacred objects, offerings, and ritual action. Practitioners build and direct asé through correct practice, relationship with the Orishas, and community. Often translated as 'power' or 'so be it' — spoken as an affirmation after prayer, the way 'amen' functions.",
+    "tradition": ["Yoruba", "Candomblé", "Santería"]
+  },
+  {
+    "term": "Annwn",
+    "category": "tradition",
+    "short": "The Welsh Otherworld — a realm of abundance, beauty, and magic that exists alongside the mortal world rather than beneath it.",
+    "detail": "Pronounced 'AH-noon.' In Welsh mythology Annwn is ruled by Arawn (or later Gwyn ap Nudd). It is not a place of punishment but of beauty, feasting, and magical animals. It bleeds into the mortal world at liminal times like Samhain, and heroes (Pwyll, Arthur) sometimes venture there. Equivalent in spirit to the Irish Tír na nÓg or Tír Tairngire.",
+    "tradition": ["Celtic"]
+  },
+  {
+    "term": "Samhain",
+    "category": "tradition",
+    "short": "Celtic festival marking the end of harvest and beginning of winter — the thinning of the veil between the living and the dead.",
+    "detail": "Pronounced 'SAH-win' (not 'sam-hayn'). One of the four Gaelic seasonal festivals (alongside Imbolc, Beltane, and Lughnasadh). Celebrated approximately October 31–November 1. The dead were believed to walk more freely; places were set at tables for ancestors, and bonfires lit to guide and ward spirits. The ancestor of the modern Halloween.",
+    "tradition": ["Celtic", "Wicca"]
+  },
+  {
+    "term": "Sympathetic Magic",
+    "category": "practice",
+    "short": "Magic that works through the principle that like affects like — representations, images, and linked objects affect their counterparts in reality.",
+    "detail": "Described by anthropologist James George Frazer in The Golden Bough (1890). Two laws: Law of Similarity (the image or representation is the thing — burning a photo affects the person) and Law of Contagion (objects once in contact remain connected — hair and personal items carry the subject's essence). Poppets, knot magic, and name papers all operate on these principles.",
+    "related": ["Poppet Work", "Knot / Cord Magic"]
+  },
+  {
+    "term": "Baneful Magic",
+    "category": "practice",
+    "short": "Magic intended to harm, curse, bind, or cause misfortune to another person.",
+    "detail": "A broad category covering curses, hexes, jinxes, and crossing. The ethics are debated across traditions — some hold a strict harm-none ethic, others consider defensive or retributive workings justified. Historically, baneful magic was practiced alongside protective magic by the same practitioners (cunning folk, rootworkers). The distinction between binding (preventing harm) and cursing (inflicting harm) matters ethically.",
+    "related": ["Binding", "Sympathetic Magic"]
+  },
+  {
+    "term": "Deosil / Widdershins",
+    "category": "practice",
+    "short": "Deosil (clockwise) is the direction of building and invoking; widdershins (counter-clockwise) is the direction of banishing and undoing.",
+    "detail": "Deosil (also deasil) follows the sun's apparent path across the sky — used to cast circles, build energy, and invoke. Widdershins reverses it — used to close circles, banish, and unwind workings. The distinction appears primarily in Wiccan and Western ceremonial contexts; not all traditions use this directional symbolism."
+  },
+  {
+    "term": "Drawing Down",
+    "category": "practice",
+    "short": "The invocation of a deity into a human vessel — the practitioner becomes a channel or avatar for the divine to speak and act through.",
+    "detail": "Associated primarily with Wicca (Drawing Down the Moon / Sun) but the concept of deity embodiment or 'horsing' appears across Vodou (possession by Lwa), Candomblé (mounting by Orishas), and Shinto (kami embodiment). The depth of experience ranges from mild inspiration to full trance possession depending on tradition and practitioner.",
+    "related": ["Drawing Down the Moon", "Orisha"]
+  },
+  {
+    "term": "Hedge Witch",
+    "category": "tradition",
+    "short": "A solitary witch or wise person who works at the boundaries between worlds — the living and the dead, the mundane and the spiritual.",
+    "detail": "The term comes from Old English 'haegtesse' (one who rides the hedge — the boundary between worlds). Historically applied to cunning folk, herbalists, and village healers who worked outside established religious structures. Modern hedge witchcraft emphasizes spirit communication, hedge riding, herbalism, and solitary practice without coven or lineage."
+  },
+  {
+    "term": "Familiar",
+    "category": "tradition",
+    "short": "A spirit, often in animal form, that assists a witch in magical work — a spiritual companion and ally.",
+    "detail": "Prominently featured in English witch trial records, where familiars appeared as cats, dogs, toads, or imps. The concept spans traditions: animal spirit helpers in shamanic practice, spirit guides in modern witchcraft, and daemon companions in classical occultism. A physical pet can hold familiar energy but is distinct from the spirit entity itself."
+  },
+  {
+    "term": "The Sabbat",
+    "category": "practice",
+    "short": "The eight seasonal festivals of the Wiccan Wheel of the Year — four solar (solstices/equinoxes) and four fire festivals.",
+    "detail": "Solar: Yule (winter solstice), Ostara (spring equinox), Litha (summer solstice), Mabon (autumn equinox). Fire festivals: Samhain, Imbolc, Beltane, Lughnasadh. Formalized in modern Wicca by Gardner and Ross Nichols (c. 1950s), drawing from Irish/Scottish/Welsh seasonal festivals and some Germanic traditions. Individual festivals predate Wicca; the unified eight-festival wheel is largely modern.",
+    "tradition": ["Wicca"]
+  }
+]
