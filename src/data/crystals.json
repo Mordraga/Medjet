@@ -214,5 +214,14 @@
     "magical_uses": ["protection", "communication", "healing", "travel", "luck", "spiritual attunement"],
     "description": "One of the oldest protective talismans — worn by warriors, shamans, and rulers alike. Guards against harm, opens honest communication, and attunes the spirit.",
     "safety": "Avoid contact with oils, perfumes, and water as it is porous and can be damaged."
+  },
+  {
+    "name": "3-D Filament",
+    "element": "Mutable Earth",
+    "planet": "Mars",
+    "chakra": "Root",
+    "magical_uses": ["creativity", "innovation", "manifestation", "technology", "grounding", "protection"],
+    "description": "Modern plastic filament used in 3-D printing. Can be infused with intention and used as a medium for multiple magical applications, from creating talismans to manifesting ideas into physical form and even sigil work. It is a versatile material that can be shaped and molded to suit the practitioner's needs.",
+    "safety": "Ensure well ventilated space when working with heated filaments; avoid inhalation of fumes. Especially with ABS, PC and other plastics that can release toxic fumes when heated. Use gloves and protective eyewear when handling hot materials."
   }
 ]
